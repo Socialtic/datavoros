@@ -1,0 +1,54 @@
+site_name: Datávoros
+site_url: https://socialtic.github.io/datavoros
+site_description: Documentación del proyecto "Datávoros"
+
+nav:
+  - 'Herramientas para analizar una app':
+      - 'Instalación del laboratorio de análisis': '01-instalacion-laboratorio.md'
+      - 'Captura y análisis de tráfico de red': '02-captura-trafico-analisis.md'
+      - 'Mapeo de permisos y rastreadores': '03-permisos y trackers.md'
+      - 'Cómo bajar un archivo APK para analizarlo': 'docs/04-apk-download.md'
+      - 'Cómo instalar y utilizar MobSF':'05-instalacion-y-uso-de-mobfs.md'
+  - 'Plantila de aplicación': '00-plantilla-reporte.md'
+  - 'Aplicaciones analizadas':
+      - '9-1-1 Emergencias': '01-apps-de-seguridad/9-1-1emergencias'
+      - '911CDMX': '01-apps-de-seguridad/911CDMX'
+      - '911 MóvilBC': '01-apps-de-seguridad/911movilbc'
+      - 'Botón de Auxilio Jalisco': '01-apps-de-seguridad/boton_auxilio_jalisco'
+      - 'Mi Policía':'01-apps-de-seguridad/mi-policia'
+      - 'Mujeres Seguras': '01-apps-de-seguridad/mujeres-seguras'
+      - 'Seguridad Incluyente ahora Escudo Puebla': '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla'
+  - 'Listado de rastreadores y permisos'
+      - 'Listado de permisos y sus funciones': '99-listado-permisos.md'
+      - 'Listado de rastreadores': '99-listado-trackers.md'
+
+theme:
+  name: material
+  language: es
+  # logo: # logotipo del proyecto
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - search.highlight
+plugins:
+  - search:
+      separator: '[\s\-\.\_]'
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/socialtic
+    - icon: fontawesome/brands/github
+      link: https://github.com/socialtic/qttd
+    - icon: material/web
+      link: https://socialtic.org
