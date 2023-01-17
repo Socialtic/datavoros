@@ -70,7 +70,7 @@ Para poder hacer este doble análisis, lo primero que tenemos que configurar nue
     - Geolite2 ASN
     - GeoLite2 City 
     - GeoLite2 Country   
-![maxmind](./img/maxmind.png) 
+![maxmind](./capturas_de_pantalla/captura-de-trafico/maxmind.png) 
 
 - Después de descargarlos, crearemos un directorio en donde guardarlos. En este caso le llamaremos MaxMind. 
 
@@ -81,10 +81,10 @@ Para poder hacer este doble análisis, lo primero que tenemos que configurar nue
 Extraemos estas carpetas y las guardamos en la carpeta de MaxMind.     
 
 - Ahora abrimos Wireshark, y ahí nos vamos a *Edición* --> *Preferencias* --> *Name Resolution* --> *MaxMind Database Directories* y *Edit*
-![database](./img/wiresharkdatabse.png)
+![database](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse.png)
 
 - Damos click en el botón de **+**, luego **Browse** y seleccionamos cada una de las carpetas que copiamos en el paso anterior.
-![database2](./img/wiresharkdatabse2.png).
+![database2](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse2.png).
 
 - Cerramos Wireshark y lo reiniciamos. 
 
@@ -93,7 +93,7 @@ Lo que acabamos de hacer nos permitirá visualizar las direcciones IP del tráfi
 ### Análisis de los datos
 
 - Vamos a **Archivo** en Wireshark y seleccionamos el archivo de captura de la aplicación *nombredelapp.pcap*. Veremos una pantalla similar a la siguiente:
-![wireshark](./img/wireshark.png)
+![wireshark](./capturas_de_pantalla/captura-de-trafico/wireshark.png)
 
    - La columna **No.** indica el número de orden en el que el paquete de datos fue capturado. Se empieza, naturalmente, con el número 1. 
    - **Time** se  refiere al momento en el que fue capturado dicho paquete.
@@ -108,11 +108,11 @@ De todas esta información, lo que nos interesan son las columnas de **Source**,
 #### **Análisis HTTP**
 
 Analicemos primero la columna de **protocol**. Para hacer todo más sencillo, lo único que tenemos que hacer es escribir en la barra de búsqueda http y darle **enter**. Si hay conexiones con este protocolo, nos aparecerán en la parte de abajo, normalmente marcadas con el color verde. 
-![http](./img/http.png) 
+![http](./capturas_de_pantalla/captura-de-trafico/http.png) 
 Si uno selecciona alguno de los paquetes, en la parte de abajo de Wireshark, apacerán una serie de número y letras, y a lado, el contenido del paquete. 
-![seccionwireshark](./img/wiresharkseccion.png)
-No es lo más fácil de leer, pero con un poco de paciencia uno puede descubir los datos que están siendo mandados o recibidos. Ponemos aquí un ejemplo de una app que ya analizamos:
-![httpdatos](./img/httpdatos.png)
+![seccionwireshark](./capturas_de_pantalla/captura-de-trafico/wiresharkseccion.png)   
+No es lo más fácil de leer, pero con un poco de paciencia uno puede descubir los datos que están siendo mandados o recibidos. Ponemos aquí un ejemplo de una app que ya analizamos:   
+![httpdatos](./capturas_de_pantalla/captura-de-trafico/httpdatos.png)
 Como se ve, esta aplicación manda con el protoclo http datos de registro de la aplicación: Apellido Paterno, Apellido Materno, Email, Teléfono Fijo, etc. Esto, por supuesto, representa un problema mayúsculo de seguridad y de privacidad.
 
 Dejamos aquí, una explicación de algunos otros protocolos que se pueden encontrar muy seguido:
@@ -132,7 +132,7 @@ Ahora bien, para analizar las diferentes direcciones IP que hay en nuestro archi
 
 
 - Ir a *Estadísticas* --> *Puntos Finales* --> *IPv4*. 
-![endpoints](./img/endpoints.png)
+![endpoints](./capturas_de_pantalla/captura-de-trafico/endpoints.png)
 
 Esto abrirá una ventana donde aparecerán filtradas la lista de direcciones IP contactadas y, además, datos sobre ellas. (Para esto pusimos las bases de datos de MaxMind). Aquí una explicación de las diferentes columnas:
 
@@ -153,11 +153,11 @@ Es importante, cuando aparecen otras organizaciones, buscarlas en Internet para 
 
 
 Por ejemplo, [Akamai](https://www.akamai.com/es). Esta empresa, si bien proporciona productos de seguridad en la nube, es conocida por ser un [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos)  (Content Distribution Network). Esto es importante recalcarlo ya que las organizaciones involucradas en una aplicación no tienen siempre la misma función. Algunas almacenan nuestros datos, otras sólo son proveedoras de contenido, otras sirven para proporcionar seguridad, otras son [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio), etc. Es decir que, a la hora de analizar a dónde van nuestros datos, también tenemos que saber quién los tiene, porque eso nos puede indicar qué hacen con ellos. Aparecerán también, como en nuestro ejemplo, otras que no nos interesan. 
-![endpoints2](./img/endpoints2.png) 
+![endpoints2](./capturas_de_pantalla/captura-de-trafico/endpoints2.png) 
 Canonical Group Limited, por ejemplo, que es la empresa dueña de Ubuntu, de tal manera que nuestra aplicación no se está contactando con ellos, sino nuestro sistema operativo. AdGuard Software Limited. Ese es el DNS que elegimos para nuestra configuración de WireGuard. La dirección IP, que nosotros configuramos es como dicho, 94.140.14.14. Además, en este ejemplo, aparece Uninet S.A de C.V. Si nuestro proveedor de Internet es Telmex, esta empresa pudiera estar relacionada con nuestra IP pública. Para corroborar eso, basta acceder a esta [página](https://www.whatsmyip.org/) que nos dirá cuál es nuestra IP. Si las direcciones no corresponden, entonces es probable que nuestra aplicación contacte a Uninet.
 
 Por último, podemos hacer un mapa para poder visualizar todo de manera más esqumática. Para ello hay que hacer click en **Map** y luego en **Open in Browser** y tendremos algo similar a esto:
-![mapa](./img/mapbien.png)
+![mapa](./capturas_de_pantalla/captura-de-trafico/mapbien.png)
 
 Aquí concluimos nuestro tutorial de análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. 
 
