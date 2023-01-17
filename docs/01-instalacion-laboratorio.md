@@ -1,8 +1,8 @@
 # Instalación de laboratorio
 
-En esta primera sección crearemos el laboratorio de análisis de aplicaciones móviles. El diagrama que seguiremos será el siguiente:
+En esta primera sección crearemos el laboratorio de análisis de aplicaciones móviles. El diagrama que seguiremos será el siguiente, con la diferencia que usaremos Wireguard en vez de OpenVPN:
 
-![diagrama](./img/diagrama.png)
+![diagrama](./capturas_de_pantalla/instalacion-laboratorio/diagrama.png)
 
 Lo que haremos será lo siguiente:
 - Instalar un servidor de máquinas virtuales
@@ -36,14 +36,14 @@ Si bien se puede utilizar VMWare en Linux y VirtualBox en Windows, en nuestras p
     
     Es importante usar este comando siempre antes de instalar un programa nuevo. El comando *sudo* nos otorga privilegios temporales de administrador. En linux, por seguridad, hay comandos (acciones) que no se pueden ejecutar con los permisos que tiene un usuario corriente.
     
-    ![multiverse_y_update](./img/multiverse-y-update.png)
+    ![multiverse_y_update](./capturas_de_pantalla/instalacion-laboratorio/multiverse-y-update.png)
     - Con el siguiente comando instalaremos VirtualBox:
     ```
     $ sudo apt install virtualbox
     ```
     Este comando descargará los paquetes necesarios de instalación y ejecutará todos los procesos necesarios. En algún momento preguntará si se quiere continuar con la instalación. Dar enter o escribir Y. 
 
-    ![continuar](./img/continuar.png) 
+    ![continuar](./capturas_de_pantalla/instalacion-laboratorio/continuar.png) 
 
     Una vez realizada la instalación, para ejecutar VirtualBox, se puede poner el siguiente comando en la consola. 
     ~~~
@@ -58,7 +58,7 @@ Si bien se puede utilizar VMWare en Linux y VirtualBox en Windows, en nuestras p
 Nos hemos decantado por utilizar VMWare en Windows porque hemos encontrado varios problemas con VirtualBox. 
 - Descargar el archivo ejectuable desde este [enlace](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW&productId=1039&rPId=85399).
 
-    ![descarga](./img/descargaVMWare.png)
+    ![descarga](./capturas_de_pantalla/instalacion-laboratorio/descargaVMWare.png)
 - Ir a la carpeta de descargas y dar doble click al archivo. Seguir las instrucciones de instalación.
 
 ## Creación de la máquina virtual
@@ -75,26 +75,26 @@ Dejamos aquí el [link](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-o
 
 
 - Alternativamente, se puede descargar un disco virtual desde este [link](https://www.osboxes.org/ubuntu/) (Recomendamos descargar la versión 20.04.4, ya que la nueva, 22.04, tiene varios problemas todavía). Está la opción tanto para VirtualBox, como para VMWare.
-    ![osboxes](./img/downloadosboxes.png) Lo que uno descarga aquí es básicamente el disco duro de una máquina virtual con la instalación ya hecha y configurada de Ubuntu. Como ya está instalado Ubuntu,   
+    ![osboxes](./capturas_de_pantalla/instalacion-laboratorio/downloadosboxes.png) Lo que uno descarga aquí es básicamente el disco duro de una máquina virtual con la instalación ya hecha y configurada de Ubuntu. Como ya está instalado Ubuntu,   
     -  el nombre de usuario (*username*) es: **osboxes**
     -  y el password es: **osboxes.org**    
 - Descargar disco duro VDI del link anterior. El archivo está en formato .7z. Extraer con [Winrar](https://www.rarlab.com/download.htm) o [7zip](https://www.7-zip.org/). Si usted está en Linux, no hace falta instalar ninguno de estos dos programas. 
 - Abrir VirtualBox y dar click en **Nueva** 
-![importar disco virtual](./img/nuevamaquina.png)
-- Configurar la nueva máquina virtual. Ponerle un nombre; elegir la carpeta donde se guardará; elegir el tipo de sistema operativo: **Linux**; elegir versión de sistema operativo: **Ubuntu (64-bit)** y dar click en **Next**. 
-![configurar_máquina](./img/configurarnuevamaquina.png)
+![importar disco virtual](./capturas_de_pantalla/instalacion-laboratorio/nuevamaquina.png)   
+
+- Configurar la nueva máquina virtual. Ponerle un nombre; elegir la carpeta donde se guardará; elegir el tipo de sistema operativo: **Linux**; elegir versión de sistema operativo: **Ubuntu (64-bit)** y dar click en **Next**.    
+![configurar_máquina](./capturas_de_pantalla/instalacion-laboratorio/configurarnuevamaquina.png)   
 *La visualización entre Linux y Windows puede cambiar un poco, pero es esencialmente la misma*. 
-- Elegir la cantidad de memoria RAM de la nueva máquina. Nosotros sugerimos 2GB si la computadora en la cual usted está trabajando tiene al menos 8GB de RAM. Si tiene menos, dejar 1GB, si tiene más poner 4GB. Dar click en **Next**.
-    ![RAM](./img/2gbram.png) 
+- Elegir la cantidad de memoria RAM de la nueva máquina. Nosotros sugerimos 2GB si la computadora en la cual usted está trabajando tiene al menos 8GB de RAM. Si tiene menos, dejar 1GB, si tiene más poner 4GB. Dar click en **Next**.   
+    ![RAM](./capturas_de_pantalla/instalacion-laboratorio/2gbram.png) 
 - Seleccionar la opción **Usar un archivo de disco duro virtual existente** y dar click en la carpeta para abrir el explorador de archivos.
-    ![discodurovirtual](./img/discodurovirtual.png)
+    ![discodurovirtual](./capturas_de_pantalla/instalacion-laboratorio/discodurovirtual.png)
 - Dar click en **Añadir** y seleccionar el archivo que bajamos en el paso número 1.
-    ![anadirdisco](./img/anadirdisco.png) 
-    
+    ![anadirdisco](./capturas_de_pantalla/instalacion-laboratorio/anadirdisco.png) 
 - Dar click en **Crear** y luego dar click en **Iniciar** con nuestra máquina virtual seleccionada del lado izquierdo. 
-![iniciar](./img/iniciarmaquina.png)
+![iniciar](./capturas_de_pantalla/instalacion-laboratorio/iniciarmaquina.png)
 Puede tardar un poco, pero al final se verá la pantalla de bienvenida de Ubuntu.
- ![bienvenidaubuntu](./img/ubuntuwelcome.png)
+ ![bienvenidaubuntu](./capturas_de_pantalla/instalacion-laboratorio/ubuntuwelcome.png)
 
 
 ### *Configuración gráfica y de red de la máquina virtual*
@@ -102,7 +102,7 @@ Puede tardar un poco, pero al final se verá la pantalla de bienvenida de Ubuntu
 
 Ya sea que hayamos instalado Ubuntu desde cero o hayamos utilizado una imagen de Osboxes, estaremos corriendo Ubuntu en una máquina virtual. Antes de continuar tenemos que apagar la máquina para configurar el acceso a la red de la misma. Ir a:
 **Archivo -> Cerrar -> Apagar la máquina**.
-![apagarmaquina](./img/turnoffmachine.png)
+![apagarmaquina](./capturas_de_pantalla/instalacion-laboratorio/turnoffmachine.png)
 Hay tres opciones:    
 - **Guardar estado de la máquina**: esta opción cierra la máquina virtual pero mantiene el estado en el cual se encuentra, de tal manera que al volver iniciar la máquina, ésta estará prendida y con los programas corriendo.
 - **Enviar señal de apagado**: esto es equivalente a apagar la computadora como normalmente lo hacemos.
@@ -110,14 +110,14 @@ Hay tres opciones:
 
 Por comodidad apagaremos la máquina con la última opción, ya que la segunda tarda un poco más de tiempo. Como vamos a modificar la configuración de la máquina, es necesaria apagarla por completo.
 - Ir a configuración:
-![configuracion](./img/configuracion.png)
+![configuracion](./capturas_de_pantalla/instalacion-laboratorio/configuracion.png)
 - Ir a sistema y luego procesador. Poner que tenga dos núcleos de procesamiento.  
-![procesador](./img/procesador.png)
+![procesador](./capturas_de_pantalla/instalacion-laboratorio/procesador.png)
 - Ir a pantalla y poner 128MB de video. Si se tiene una tarjeta dedicada de video, se recomienda activar la casilla de **Aceleración**.
-![video](./img/video.png)   
+![video](./capturas_de_pantalla/instalacion-laboratorio/video.png)   
 
 - Ir a **Red** -> **Adaptador 1** -> **Conectado a:** y seleccionar **Adaptador Puente**. esto permite que la máquina virtual forme parte de la red local.
-![red](./img/redvbox.png)
+![red](./capturas_de_pantalla/instalacion-laboratorio/redvbox.png)
 - Dar **Aceptar** y luego **Iniciar** otra vez la máquina virtual. La máquina debería correr de manera más fluida y estar conectada a nuestra red local.  
 
 ### **Creación de una máquina virtual con Ubuntu en VMWare**
@@ -126,28 +126,28 @@ El proceso es muy similar al de VirtualBox que detallamos con anterioridad.
 - Bajar imagen de disco de [Ubuntu](https://releases.ubuntu.com/20.04.4/)
 
 - Abrir VMWare y dar click en **Create a New Virtual Machine**
-![crear nueva maquina](./img/vmnuevamaquina.png)
+![crear nueva maquina](./capturas_de_pantalla/instalacion-laboratorio/vmnuevamaquina.png)
 
 - Seleccionar **Installer disc image (iso)** y luego dar click en **Browse** y seleccionar la imagen que se bajó en el paso anterior. Dar click en **Next**
-![instalar](./img/installubuntu.png) 
+![instalar](./capturas_de_pantalla/instalacion-laboratorio/installubuntu.png) 
 
 VMWare tiene una función que se llama *Easy Install*. Esta función permite que, si el sistema operativo de la máquina que se quiere crear está soportado, se instale todo de manera más sencilla y se configure de manera automática. En este caso, Ubuntu está soportado, así que simplemente hay que seguir las instrucciones
 
 - Rellenar los campos de **Full Name** (no tiene que ser el real); **username**; **Password** y **Confirm** (volver a introducir el password) y dar click en **Next**.
-![rellenardatos](./img/rellenar.png)
+![rellenardatos](./capturas_de_pantalla/instalacion-laboratorio/rellenar.png)
 
 - Poner el nombre de la máquina virtual y seleccionar dónde se guardará en el disco duro. Dar click en **Next**.
-![nombre](./img/nombreybrowse.png)
+![nombre](./capturas_de_pantalla/instalacion-laboratorio/nombreybrowse.png)
 
 - Seleccionar tamaño del disco. Recomendamos, por instrucciones de Ubuntu, que sea mínimo 25GB. Dar click en **Next**.
-![tamañodisco](./img/tamanodisco.png).
+![tamañodisco](./capturas_de_pantalla/instalacion-laboratorio/tamanodisco.png).
 - En la siguiente imagen dar click en **Finish**.
 - Aparecerá el siguiente mensaje. Dar click en **OK**
 ~~~
 You are running this virtual machine [...]
 ~~~ 
 - Después de esto, se instalará Ubuntu de manera automática. Puede tardar bastante tiempo. Al finalizar este proceso, nos recibirá la pantalla de bienvenida de Ubuntu. Dar click en el usuario y rellenar el password que seleccionamos. 
-![bienvenidaubuntuvm](./img/bienvenidaubuntuvmware.png)
+![bienvenidaubuntuvm](./capturas_de_pantalla/instalacion-laboratorio/bienvenidaubuntuvmware.png)
 - Ahora podemos expandir la ventana de la máquina virtual y aceptar o modificar las diferentes recomendaciones que nos hace Ubuntu.    
 *No haremos un tutorial de cómo importar una imagen de disco de OSBoxes ya que el procedimiento de instalación es bastante sencillo, pero dejamos aquí un [link](https://www.osboxes.org/guide/)*.
 
@@ -157,14 +157,14 @@ You are running this virtual machine [...]
 - Apagamos la máquina virtual. Para ello vamos a **Player** -> **Power** -> **Shut Down Guest** y aceptamos el diálogo que nos aparece.
 
 - Iniciamos VMWare de nuevo. Y vamos a editar configuración de la máquina virtual. Recordar siempre seleccionar del lado izquierdo la máquina. 
-![configurar](./img/configuracionvmware.png)
+![configurar](./capturas_de_pantalla/instalacion-laboratorio/configuracionvmware.png)
 
 - Vamos a **Network Adpater** y seleccionamos, bajo **Network Connection**, la opción de **Bridged**, luego le damos **OK**.
-![network](./img/networkvmware.png)
+![network](./capturas_de_pantalla/instalacion-laboratorio/networkvmware.png)
 Hacemos esto para que nuestra máquina se conecte a nuestra red como si fuera otro dispositivo más. Si escogemos la opción de NAT, entonces pondrá a nuestra máquina virtual en una subred de nuestra máquina física, lo cual complica las cosas.  
 
-- Volvemos a iniciar la máquina y nos aparecerá una advertencia nueva:
-![warning](./img/warning.png)
+- Volvemos a iniciar la máquina y nos aparecerá una advertencia nueva:   
+![warning](./capturas_de_pantalla/instalacion-laboratorio/warning.png)   
 Le damos **Aceptar** y dentro de poco se iniciará nuestra máquina virtual como antes. 
 
 - De ahora en adelante, para apagarla, lo mejor es simplemente ir a **Player** -> **Power** -> **Suspend**. La razón de haberla apagado por completo antes es porque si uno no hace eso, no se pueden modificar las configuraciones de la máquina virtual. 
@@ -178,22 +178,22 @@ Por motivos de facilidad, instalaremos WireGuard a través de un *script* (una s
 Antes de instalar WireGuard en el Ubuntu de nuestra máquina virtual, tenemos que instalarlo en nuestro celular Android. 
  
 - Entramos a la PlayStore, ponemos WireGuard en la barra de búsqueda y le damos **Instalar**. 
-![playstore](./img/WireguardPlaystore.jpg)
+![playstore](./capturas_de_pantalla/instalacion-laboratorio/WireguardPlaystore.jpg)
 
 - Cuando finalice, le damos **Abrir**.
  
 - Nos aparece la siguiente pantalla. Por lo mientras, dejamos el celular ahí. 
-![idle](./img/idlewireguard.jpg)
+![idle](./capturas_de_pantalla/instalacion-laboratorio/idlewireguard.jpg)
 
 - Ir a la terminal de Ubuntu (Todo lo que sigue se hace dentro la máquina virtual). Para esto, dar click en el recuadro de la esquina inferior izquierda y luego en el ícono de la terminal.
-![consola](./img/ubuntuterminal.png)
+![consola](./capturas_de_pantalla/instalacion-laboratorio/ubuntuterminal.png)
 
 - En la terminal escribir el siguiente comando:
 ~~~
 ip a
 ~~~
 Este comando nos muestra información sobre las conexiones de red de nuestra máquina virtual, y sobre las interfaces desde las que se hacen estas conexiones. Una interfaz de red es el nombre que le asigna Ubuntu al dispositivo por el cual nos estamos conectando a internet o a una red local. Puede ser una interfaz virtual (como en nuestra máquina virtual) o física, nuestra tarjeta de red WIFI o Ethernet. En este caso veremos dos interfaces:
-![interfaces de red](./img/interfaces.png)
+![interfaces de red](./capturas_de_pantalla/instalacion-laboratorio/interfaces.png)
 La primera no nos interesa, pero la segunda (ens33) es la manera en la cual nuestra máquina virtual tiene acceso a internet. En la imagen, además, está subrayada la ip local. Una ip local es una dirección de red que se le asigna a todos los dispositivos conectados al módem de nuestra casa. Nuestra computadora tiene una, y nuestra máquina virtual, otra diferente. Nuestro celular, si está conectado a nuestro WiFi, tiene otra. Digamos que estas direcciones ip locales son la manera de nombrar a nuestros diferentes dispositivos. **Hay que tomar nota del nombre de la segunda interfaz (en este caso es: ens33) y de nuestra ip local (en este caso es: 192.168.37.133). El nombre de la interfaz y la ip local puede variar.
 
 - Una vez anotado lo anterior, ponemos este comando en la terminal:
@@ -295,9 +295,9 @@ Client's WireGuard IPv6: fd42:42:42::2
 Recomendamos dejar la dirección sugerida y dar **enter**.
 
 - Ahora nos aparecerá un código QR en la pantalla. (Si no se ve completo, expandir la terminal).
-![qr](./img/qr.png)
+![qr](./capturas_de_pantalla/instalacion-laboratorio/qr.png)
     - Agarrar el celular y dar click en el signo de + y luego en **Escanear desde código QR**. 
-    ![escanear](./img/escanear.jpg)
+    ![escanear](./capturas_de_pantalla/instalacion-laboratorio/escanear.jpg)
 
     - Aceptar el permiso de Fotos y Videos
     - Rellenar nombre (puede ser el que sea)
@@ -319,7 +319,7 @@ sudo apt install wireshark
 ~~~
 Como ya sabemos, esto instalará el programa de Wireshark.
 A la mitad de la instalación nos preguntará lo siguiente:
-![superuser](./img/superuser.png)
+![superuser](./capturas_de_pantalla/instalacion-laboratorio/superuser.png)
 Nosotros sugerimos la configuración estándar y darle no.
 
 
