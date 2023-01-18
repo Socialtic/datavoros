@@ -4,24 +4,24 @@ site_description: Documentación del proyecto "Datávoros"
 
 nav:
   - Home: 'index.md'
-  - 'Tutoriales para analizar una app':
+  - Tutoriales para analizar una app:
       - 'Instalación del laboratorio de análisis': '01-instalacion-laboratorio.md'
       - 'Captura y análisis de tráfico de red': '02-captura-trafico-analisis.md'
       - 'Mapeo de permisos y rastreadores': '03-permisos y trackers.md'
       - 'Cómo bajar un archivo APK para analizarlo': '04-apk-download.md'
-      - 'Cómo instalar y utilizar MobSF':'05-instalacion-y-uso-de-mobfs.md'
-  - 'Plantila de aplicación': '00-plantilla-reporte.md'
-  - 'Aplicaciones analizadas':
-      - '9-1-1 Emergencias': '01-apps-de-seguridad/9-1-1Emergencias'
-      - '911CDMX': '01-apps-de-seguridad/911CDMX'
-      - '911 MóvilBC': '01-apps-de-seguridad/911MovilBC'
-      - 'Botón de Auxilio Jalisco': '01-apps-de-seguridad/boton_auxilio_jalisco'
-      - 'Mi Policía':'01-apps-de-seguridad/mi-policia'
-      - 'Mujeres Seguras': '01-apps-de-seguridad/mujeres-seguras'
-      - 'Seguridad Incluyente ahora Escudo Puebla': '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla'
-  - 'Listado de rastreadores y permisos'
-      - 'Listado de permisos y sus funciones': '99-listado-permisos.md'
-      - 'Listado de rastreadores': '99-listado-trackers.md'
+      - 'Cómo instalar y utilizar MobSF': '05-instalacion-y-uso-de-mobfs.md'
+  - Plantila de aplicación: '00-plantilla-reporte.md'
+  - Aplicaciones analizadas:
+      - 9 1 1 Emergencias: 911emergencias.md
+      - 911CDMX: '01-apps-de-seguridad/911cdmx.md'
+      - 911 MóvilBC: 01-apps-de-seguridad/911MovilBC
+      - Botón de Auxilio Jalisco: 01-apps-de-seguridad/boton_auxilio_jalisco
+      - Mi Policía: 01-apps-de-seguridad/mi-policia
+      - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras'
+      - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla'
+  - Listado de rastreadores y permisos:
+      - 'Permisos': '99-listado-permisos.md'
+      - 'Trackers': '99-listado-trackers.md'
   - Acerca de: 'Acerca-de.md'
 
 theme:
@@ -43,6 +43,9 @@ theme:
         name: Switch to light mode
   features:
     - search.highlight
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.indexes
 plugins:
   - search:
       separator: '[\s\-\.\_]'
