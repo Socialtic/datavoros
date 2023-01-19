@@ -1,4 +1,4 @@
-site_name: Datávoros
+site_name: Datávoros 
 site_url: https://socialtic.github.io/datavoros
 site_description: Documentación del proyecto "Datávoros"
 
@@ -12,13 +12,13 @@ nav:
       - 'Cómo instalar y utilizar MobSF': '05-instalacion-y-uso-de-mobfs.md'
   - Plantila de aplicación: '00-plantilla-reporte.md'
   - Aplicaciones analizadas:
-      - 9 1 1 Emergencias: 911emergencias.md
-      - 911CDMX: '01-apps-de-seguridad/911cdmx.md'
-      - 911 MóvilBC: 01-apps-de-seguridad/911MovilBC
-      - Botón de Auxilio Jalisco: 01-apps-de-seguridad/boton_auxilio_jalisco
-      - Mi Policía: 01-apps-de-seguridad/mi-policia
-      - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras'
-      - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla'
+      - 9 1 1 Emergencias: '01-apps-de-seguridad/9-1-1Emergencias/911emergencias.md'
+      - 911CDMX: '01-apps-de-seguridad/911CDMX/911cdmx.md'
+      - 911 MóvilBC: '01-apps-de-seguridad/911MovilBC/911movilbc.md'
+      - Botón de Auxilio Jalisco: '01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco.md'
+      - Mi Policía: '01-apps-de-seguridad/mi-policia/mi-policia.md'
+      - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras/mujeres-seguras.md'
+      - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla.md'
   - Listado de rastreadores y permisos:
       - 'Permisos': '99-listado-permisos.md'
       - 'Trackers': '99-listado-trackers.md'
@@ -27,25 +27,25 @@ nav:
 theme:
   name: material
   language: es
-  # logo: # logotipo del proyecto
+  logo: img/icono.svg
   palette:
-    - media: "(prefers-color-scheme: light)"
+    - media: "(prefers-color-scheme: dark)"
       scheme: default
-      primary: teal
+      primary: black
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
+      primary: black
       toggle:
         icon: material/weather-night
         name: Switch to light mode
   features:
     - search.highlight
-    #- navigation.tabs
-    #- navigation.tabs.sticky
-    #- navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
 plugins:
   - search:
       separator: '[\s\-\.\_]'
@@ -57,3 +57,9 @@ extra:
       link: https://github.com/socialtic/qttd
     - icon: material/web
       link: https://socialtic.org
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
