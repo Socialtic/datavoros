@@ -12,13 +12,29 @@ nav:
       - 'Cómo instalar y utilizar MobSF': '05-instalacion-y-uso-de-mobfs.md'
   - Plantila de aplicación: '00-plantilla-reporte.md'
   - Aplicaciones analizadas:
-      - 9 1 1 Emergencias: '01-apps-de-seguridad/9-1-1Emergencias/911emergencias.md'
-      - 911CDMX: '01-apps-de-seguridad/911CDMX/911cdmx.md'
-      - 911 MóvilBC: '01-apps-de-seguridad/911MovilBC/911movilbc.md'
-      - Botón de Auxilio Jalisco: '01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco.md'
-      - Mi Policía: '01-apps-de-seguridad/mi-policia/mi-policia.md'
-      - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras/mujeres-seguras.md'
-      - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla.md'
+    - Aplicaciones de seguridad:
+
+        - 9 1 1 Emergencias: '01-apps-de-seguridad/9-1-1Emergencias/911emergencias.md'
+        - 911CDMX: '01-apps-de-seguridad/911CDMX/911cdmx.md'
+        - 911 MóvilBC: '01-apps-de-seguridad/911MovilBC/911movilbc.md'
+        - Botón de Auxilio Jalisco: '01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco.md'
+        -  Mi Policía: '01-apps-de-seguridad/mi-policia/mi-policia.md'
+        - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras/mujeres-seguras.md'
+        - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla.md'
+   # - Aplicaciones de Video:
+       # - B612: 'aaa'   
+       # - Canvas: 'bbb'
+       # - Sticker.ly: 'ccc'
+       # - Picsart: 'ddd'
+       # - Sweet Selfie Camera Editor: 'eee'
+   # - Aplicaciones de Montadeudas:
+       # - Cashbox: 'aaa'
+       # - Creditolana: 'bbb'
+       # - iFectivo: 'ccc'
+       # - Okredito: 'ddd'
+       # - Superapoyo: 'eee'
+       # - Tala: 'fff'
+
   - Listado de rastreadores y permisos:
       - 'Permisos': '99-listado-permisos.md'
       - 'Trackers': '99-listado-trackers.md'
