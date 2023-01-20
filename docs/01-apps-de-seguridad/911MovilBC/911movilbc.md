@@ -309,7 +309,7 @@ Número de teléfono
    - Dirección (aunque no existe esta función)
    - Si el número desde el que se mandó la alerta pertenece a una empresa de seguridad privada.
    - Número de incidente
-- :no_entry_sign: La página [www.seguridad.gob.mx](www.seguridad.gob.mx), en la cual están las funciones de "Estadísticas", "Desaparición de menores" y "Qué hacer", a veces está cifrada con HTTPS, y a veces no
+- :no_entry_sign: La página [www.seguridad.gob.mx](www.seguridadbc.gob.mx), en la cual están las funciones de "Estadísticas", "Desaparición de menores" y "Qué hacer", a veces está cifrada con HTTPS, y a veces no
 
 *Las secciones marcadas con :no_entry_sign: son secciones que ya no aplican porque cambiaron en una versión más reciente. Las mantenemos por objetividad en la documentación*
 
