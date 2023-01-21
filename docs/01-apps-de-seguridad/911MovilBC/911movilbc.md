@@ -309,7 +309,7 @@ Número de teléfono
    - Dirección (aunque no existe esta función)
    - Si el número desde el que se mandó la alerta pertenece a una empresa de seguridad privada.
    - Número de incidente
-- :no_entry_sign: La página [www.seguridad.gob.mx](www.seguridadbc.gob.mx), en la cual están las funciones de "Estadísticas", "Desaparición de menores" y "Qué hacer", a veces está cifrada con HTTPS, y a veces no
+- :no_entry_sign: La página [www.seguridadbc.gob.mx](https://www.seguridadbc.gob.mx/), en la cual están las funciones de "Estadísticas", "Desaparición de menores" y "Qué hacer", a veces está cifrada con HTTPS, y a veces no
 
 *Las secciones marcadas con :no_entry_sign: son secciones que ya no aplican porque cambiaron en una versión más reciente. Las mantenemos por objetividad en la documentación*
 
@@ -356,7 +356,7 @@ Número de teléfono
 ### Funciones específicas de la aplicación
 
 - Tiene una función de activar el perfil de Seguridad Privada cuando el número registrado sea de un empresa de Seguridad Privada.
-- La función "Estadísticas" remite a la página [www.seguridadbc.gob.mx/ExtorsionTelefonica/engano.php](www.seguridadbc.gob.mx/ExtorsionTelefonica/engano.php) donde se pueden revisar los números denunciados por extorsión, las zonas de donde provienen y otros datos.
+- La función "Estadísticas" remite a la página [www.seguridadbc.gob.mx/ExtorsionTelefonica/engano.php](https://www.seguridadbc.gob.mx/ExtorsionTelefonica/engano.php) donde se pueden revisar los números denunciados por extorsión, las zonas de donde provienen y otros datos.
 - Función "Menores desaparecidos" permite el acceso a la base datos de menores desaparecidos en sus categorías de Alerta Amber, Regionales, Nacionales y casos resueltos.
 - La función "Qué hacer" remite a una serie de guías de la página de la Secretaria de Seguridad Ciudadana.
 

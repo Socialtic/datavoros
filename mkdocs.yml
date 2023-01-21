@@ -38,7 +38,7 @@ nav:
   - Listado de rastreadores y permisos:
       - 'Permisos': '99-listado-permisos.md'
       - 'Trackers': '99-listado-trackers.md'
-  - Acerca de: 'Acerca-de.md'
+  - Contribuye: 'contribuye.md'
 
 theme:
   name: material
