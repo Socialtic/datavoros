@@ -58,7 +58,7 @@ Si bien se puede utilizar VMWare en Linux y VirtualBox en Windows, en nuestras p
 Nos hemos decantado por utilizar VMWare en Windows porque hemos encontrado varios problemas con VirtualBox. 
 - Descargar el archivo ejectuable desde este [enlace](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW&productId=1039&rPId=85399).
 
-    ![descarga](./capturas_de_pantalla/instalacion-laboratorio/descargaVMWare.png)
+![descarga](./capturas_de_pantalla/instalacion-laboratorio/descargaVMWare.png)
 - Ir a la carpeta de descargas y dar doble click al archivo. Seguir las instrucciones de instalación.
 
 ## Creación de la máquina virtual
