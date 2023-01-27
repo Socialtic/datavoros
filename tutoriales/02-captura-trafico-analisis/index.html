@@ -1,0 +1,1200 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación del proyecto "Datávoros"">
+      
+      
+      
+        <link rel="canonical" href="https://socialtic.github.io/datavoros/tutoriales/02-captura-trafico-analisis/">
+      
+      
+        <link rel="prev" href="../01-instalacion-laboratorio/">
+      
+      
+        <link rel="next" href="../03-permisos%20y%20trackers/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Captura y análisis de tráfico de red - Datávoros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#captura-y-analisis-del-trafico-de-red-de-cualquier-aplicacion-en-android" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Datávoros" class="md-header__button md-logo" aria-label="Datávoros" data-md-component="logo">
+      
+  <img src="../../img/icono.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Datávoros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Captura y análisis de tráfico de red
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../inicio/" class="md-tabs__link md-tabs__link--active">
+        Tutoriales para analizar una app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../plantilla-reporte/" class="md-tabs__link">
+      Plantilla de aplicación
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../aplicaciones/" class="md-tabs__link">
+        Aplicaciones analizadas
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../trackers-permisos/inicio/" class="md-tabs__link">
+        Listado de rastreadores y permisos
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../contribuye/" class="md-tabs__link">
+      Contribuye
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Datávoros" class="md-nav__button md-logo" aria-label="Datávoros" data-md-component="logo">
+      
+  <img src="../../img/icono.svg" alt="logo">
+
+    </a>
+    Datávoros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="true">
+          Tutoriales para analizar una app
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tutoriales para analizar una app" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Tutoriales para analizar una app
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inicio/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-instalacion-laboratorio/" class="md-nav__link">
+        Instalación del laboratorio de análisis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Captura y análisis de tráfico de red
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Captura y análisis de tráfico de red
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#otros-requerimientos" class="md-nav__link">
+    Otros requerimientos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#captura-de-datos" class="md-nav__link">
+    Captura de datos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-del-trafico-de-red" class="md-nav__link">
+    Análisis del tráfico de red
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis del tráfico de red">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-wireshark" class="md-nav__link">
+    Configuración de Wireshark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-de-los-datos" class="md-nav__link">
+    Análisis de los datos
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis de los datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-http" class="md-nav__link">
+    Análisis HTTP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-direcciones-ip" class="md-nav__link">
+    Análisis direcciones IP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-permisos%20y%20trackers/" class="md-nav__link">
+        Mapeo de permisos y rastreadores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-apk-download/" class="md-nav__link">
+        Cómo bajar un archivo APK para analizarlo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-instalacion-y-uso-de-mobfs/" class="md-nav__link">
+        Cómo instalar y utilizar MobSF
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plantilla-reporte/" class="md-nav__link">
+        Plantilla de aplicación
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          Aplicaciones analizadas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aplicaciones analizadas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Aplicaciones analizadas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aplicaciones/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" tabindex="0" aria-expanded="false">
+          Aplicaciones de seguridad
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aplicaciones de seguridad" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Aplicaciones de seguridad
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/9-1-1Emergencias/911emergencias/" class="md-nav__link">
+        9 1 1 Emergencias
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/911CDMX/911cdmx/" class="md-nav__link">
+        911CDMX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/911MovilBC/911movilbc/" class="md-nav__link">
+        911 MóvilBC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco/" class="md-nav__link">
+        Botón de Auxilio Jalisco
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/mi-policia/mi-policia/" class="md-nav__link">
+        Mi Policía
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/mujeres-seguras/mujeres-seguras/" class="md-nav__link">
+        Mujeres Seguras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla/" class="md-nav__link">
+        Seguridad Incluyente ahora Escudo Puebla
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="false">
+          Listado de rastreadores y permisos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Listado de rastreadores y permisos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Listado de rastreadores y permisos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/inicio/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/99-listado-permisos/" class="md-nav__link">
+        Permisos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/99-listado-trackers/" class="md-nav__link">
+        Rastreadores
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuye/" class="md-nav__link">
+        Contribuye
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#otros-requerimientos" class="md-nav__link">
+    Otros requerimientos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#captura-de-datos" class="md-nav__link">
+    Captura de datos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analisis-del-trafico-de-red" class="md-nav__link">
+    Análisis del tráfico de red
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis del tráfico de red">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-wireshark" class="md-nav__link">
+    Configuración de Wireshark
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-de-los-datos" class="md-nav__link">
+    Análisis de los datos
+  </a>
+  
+    <nav class="md-nav" aria-label="Análisis de los datos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-http" class="md-nav__link">
+    Análisis HTTP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analisis-direcciones-ip" class="md-nav__link">
+    Análisis direcciones IP
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="captura-y-analisis-del-trafico-de-red-de-cualquier-aplicacion-en-android">Captura y análisis del tráfico de red de cualquier aplicación en Android</h1>
+<p>En esta sección mostraremos cómo capturar los paquetes de red de un celular desde una máquina virtual para luego analizarlos. Los prerrequisitos son:
+   - Cliente de WireGuard instalado en el celular y configurado. 
+   - Máquina virtual con el servidor VPN WireGuard instalado.
+   - El cliente y el servidor deben estár los dos en la misma red local.</p>
+<p>La idea es conectar el teléfono a nuestra red privada virtual (VPN) y en esa red correr otro programa que se llama Tshark, que nos permitirá capturar el tráfico de red (los datos que envía y recibe nuestro teléfono) para luego poder analizarlos con Wireshark.</p>
+<p>Como última nota, Tshark es la versión de línea de comandos de Wireshark. Utilizamos este programa porque resulta más rápido y cómodo para la captura de paquetes.</p>
+<h2 id="otros-requerimientos">Otros requerimientos</h2>
+<p>Android es un sistema operativo de Google utilizado en teléfonos y tabletas. La versión que normalmente viene de fábrica en los dispositivos, es una versión modificada de la versión original,  y está hecha por el fabricante del dispositivo físico (Samsung, Motorla, LG, Nokia, etc.) y ulteriormente modificada por nuestro proveedor de servicio de telefonía móvil. Se supone que Android es <em>Open-Source</em> (código abierto), lo que quiere decir que cualquiera puede tener acceso al código de Android y modificarlo a su gusto. </p>
+<p>Hay varias comunidades de desarrolladores que han modificado las versiones de Android para hacerlas más privadas, más seguras, más rápidas, más ligeras, con otro tipo de funcionalidades y muchas cosas más. Entre ellas, una de las más conocidas y utilizadas es <a href="https://lineageos.org/">LineageOS</a>. Soporta varias marcas y modelos de dispositivos y es gratis. Como es bastante utilizada, hay muchos foros donde uno puede encontrar soluciones si uno se encuentra con problemas. </p>
+<p>Para las pruebas de las aplicaciones, nosotros hemos utilizado un celular que justamente tiene esta versión de Android instalada. Sin embargo, no es tan sencillo instalarla e implica borrar todos los datos del teléfono, además de que existe el riesgo (mínimo) de <em>romper</em> nuestro celular y dejarlo inutilizable. Idealmente, las pruebas del tráfico de aplicaciones deberían hacerse con un celular que tenga LineageOS, esto, por la simple razón de que es una versión de Android desprovista de muchísimas de las funciones y aplicaciones que el fabricante, nuestro proveedor de telefonía y el propio Google agregan a nuestros celulares. De esto resulta que la captura del tráfico de red es más limpia y es más fácil controlar qué aplicaciones se están conectando a Internet. </p>
+<p>Sin embargo entendemos que tener un celular con LineageOS no siempre es factible o lo más sencillo. En este sentido, otra solución puede ser desinstalar la mayoría de apps presentes en el celular e <a href="https://support.google.com/android/answer/2521768?hl=es">inhabilitar</a> las que no se pueden desinstalar. También entendemos que esto sea un probelma, así que nuestra tercera opción es sencillamente quitarle a todas las apps el permiso de acceso a internet. Dejamos aquí una <a href="https://www.digitalcitizen.life/how-block-internet-access-specific-apps-android/">guía</a> para hacerlo cuando se tiene Android 10. Dejamos aquí una <a href="https://krispitech.com/how-to-prevent-android-apps-from-sending-and-receiving-data-in-background/">guía</a> para Android 11. A partir de Android 12, esta opción de deshabilitar el acceso a Internet fue eliminada (o no la pudimos encontrar), y ahora sólo queda el acceso a datos en segundo plano. Esta opción también nos puede ser de utilidad, ya que, al eliminar este permiso, sólo la app que esté abierta se conectará a Internet. Ojo! Es importante, al hacerlo, marcar a cuáles apps se les quitó este permiso, para poder volver a dárselos. Hay muchas apps que necesitan acceder a datos en segundo plano para proporcionar ciertas funcionalidades, por ejemplo, Outlook o Gmail o Whatsapp, para avisar al usuario si tiene algún nuevo mensaje.<br />
+Para quitar este permiso, ir a <strong>Configuración</strong> (el ícono con la rueda de engrane); <strong>Apps</strong>, dar click en la app deseada, luego <strong>Wi-Fi y datos móviles</strong> y eliminar el permiso de <strong>Datos en segundo plano</strong>.</p>
+<h2 id="captura-de-datos">Captura de datos</h2>
+<ul>
+<li>Instalar la aplicación que se quiere analizar</li>
+<li>Cerrar todas las aplicaciones que están corriendo</li>
+<li>Activar WireGuard</li>
+<li>En la máquina virtual, en la consola, inicializar el programa Tshark. Para esto, el comando es:</li>
+</ul>
+<p><code>sudo tshark -i enp0s3 -w /tmp/nombredelapp.pcap</code>
+El modificador -i, le dice a Tshark a qué interfaz (i viene de <em>interface</em>) conectarse. La que nos interesa siempre va a tener el prefijo "en", ya que esto hace referencia a Ethernet, que es la manera en la cual nuestra máquina virtual se conecta a nuestra red local. Los nombres más comunes son enp0s3 y ens33.  El modificador -w (write) le indica a Tshark dónde guardar el tráfico de red capturado. Aquí utilizamos la carpeta tmp (temporal) para evitar problemas con los permisos de escritura de Linux. Poner el nombre que se quiera al archivo, sugerimos el nombre de la aplicación, y poner la extensión del archivo en .pcap (que es la extensión de los archivos que puede abrir Wireshark).</p>
+<ul>
+<li>Abrir la aplicación que queremos analizar. Si todo está bien, veremos algo similar a esto en nuestra pantalla:</li>
+</ul>
+<p>El número de hasta abajo irá aumentando. Estos son los paquetes de datos que estamos capturando. </p>
+<ul>
+<li>
+<p>Explorar la aplicación e intentar utilizar todas sus funciones. Esto es importante para poder saber a todos los servidores a los que se conecta. </p>
+</li>
+<li>
+<p>Después de explorar la aplicación, cerrarla en el celular y en la consola apretar la tecla <strong>ctrl + c</strong>. Esto manda la señal al programa de Tshark de detenerse.</p>
+</li>
+<li>
+<p>Si estamos contentos con nuestro archivo, es decir, si no hubo mayores problemas en la captura, podemos moverlo a nuestro directorio de documentos en la máquina virtual. Es importante guardar este archivo incluso después del análisis, para tenerlo como referencia. Para hacer esto hay que poner el siguiente comando</p>
+</li>
+</ul>
+<p>sudo chmod 777 /tmp/nombredelapp.pcap</p>
+<p>Este comando modifica (como habíamos hecho en el tutorial anterior) los permisos del archivo, de tal manera que lo podamos mover de lugar. No es la solución más elegante, pero para este tutorial nos sirve. </p>
+<ul>
+<li>Una vez cambiados los permisos, podemos escribir este comando:</li>
+</ul>
+<pre><code>mv /tmp/nombredelapp.pcap /home/seguridad/Documentos
+</code></pre>
+<p><em>seguridad</em> es el nombre de usuario que tenemos en nuestra instalación. </p>
+<h2 id="analisis-del-trafico-de-red">Análisis del tráfico de red</h2>
+<h3 id="configuracion-de-wireshark">Configuración de Wireshark</h3>
+<p><a href="https://es.wikipedia.org/wiki/Wireshark">Wireshark</a> es un programa que permite analizar el tráfico de red. El análisis de este tipo de tráfico se puede hacer para detectar problemas en la configuración de una red, detectar malware y otras tantas cosas. En nuestro caso, hay dos cosas que nos interesan de sobre manera: uno, saber qué conexiones hace nuestra aplicación con el protocolo <a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto">HTTP</a> (si las hay), y dos, conocer todos los servidores que contacta nuestra aplicación.</p>
+<p>Un protocolo de red son una serie de reglas que permite que dos servidores se puedan comunicar entre ellos. En la actualidad, la mayoría de la información en internet viaja gracias al protocolo HTTP. Este protocolo, en un inicio, no estaba cifrado, de tal manera que un agente mal intencionado podía acceder a esta información haciendo algo similar a lo que nosotros hacemos en nuestro análisis, poniendo un programa (en este caso Tshark) entre dos servidores y capturando la información. Como esto suponía un problema de seguridad mayúsculo (imaginemos, por ejemplo, que los datos que se están transfiriendo son los datos de una tarjeta de crédito), se inventó el protocolo HTTPS, que es sencillamente el protoclo HTTP pero cifrado. Gracias a esto, si un tercero captura nuestros datos, no puede saber qué hay en ellos. Es por esto que nos interesa saber si nuestra aplicación todavía manda datos sin cifrar, es decir en HTTP. Es un análisis básico de seguridad. </p>
+<p>Segundo, como nuestro análisis está enfocado a la privacidad, queremos conocer a qué servidores manda información nuestra aplicación.</p>
+<p>Para poder hacer este doble análisis, lo primero que tenemos que configurar nuestro programa Wireshark.</p>
+<ul>
+<li>
+<p>Lo primero que haremos será agregar una base de datos donde están registradas una gran cantidad de direcciones IP, a quién pertenece esta dirección y dónde se localiza en el mundo. En otras palabras, saber a quién pertece y dónde está cualquiera de los servidores que contacta nuestra aplicación. Para poder descaragar esta base de datos, lo primero que hay que es registrarse en esta <a href="https://www.maxmind.com/en/geolite2/signup?lang=en">página</a>.</p>
+</li>
+<li>
+<p>Una vez registrados, hay que descargar los siguientes archivos (que son las bases de datos en cuestión):</p>
+<ul>
+<li>Geolite2 ASN</li>
+<li>GeoLite2 City </li>
+<li>GeoLite2 Country <br />
+<img alt="maxmind" src="../capturas_de_pantalla/captura-de-trafico/maxmind.png" /> </li>
+</ul>
+</li>
+<li>
+<p>Después de descargarlos, crearemos un directorio en donde guardarlos. En este caso le llamaremos MaxMind. </p>
+</li>
+<li>
+<p>Vamos a la carpeta de descargas (o donde se hayan descargado estos archivos) y damos doble click. Veremos que adentro hay tres carpetas con un nombre similar a :</p>
+<ul>
+<li>GeoLite2-ASN_20220614</li>
+<li>GeoLite2-Country_20220614</li>
+<li>GeoLite2-City_20220614 <br />
+Extraemos estas carpetas y las guardamos en la carpeta de MaxMind.     </li>
+</ul>
+</li>
+<li>
+<p>Ahora abrimos Wireshark, y ahí nos vamos a <em>Edición</em> --&gt; <em>Preferencias</em> --&gt; <em>Name Resolution</em> --&gt; <em>MaxMind Database Directories</em> y <em>Edit</em>
+<img alt="database" src="../capturas_de_pantalla/captura-de-trafico/wiresharkdatabse.png" /></p>
+</li>
+<li>
+<p>Damos click en el botón de <strong>+</strong>, luego <strong>Browse</strong> y seleccionamos cada una de las carpetas que copiamos en el paso anterior.
+<img alt="database2" src="../capturas_de_pantalla/captura-de-trafico/wiresharkdatabse2.png" />.</p>
+</li>
+<li>
+<p>Cerramos Wireshark y lo reiniciamos. </p>
+</li>
+</ul>
+<p>Lo que acabamos de hacer nos permitirá visualizar las direcciones IP del tráfico de red que capturamos de una manera más cómoda y útil. </p>
+<h3 id="analisis-de-los-datos">Análisis de los datos</h3>
+<ul>
+<li>
+<p>Vamos a <strong>Archivo</strong> en Wireshark y seleccionamos el archivo de captura de la aplicación <em>nombredelapp.pcap</em>. Veremos una pantalla similar a la siguiente:
+<img alt="wireshark" src="../capturas_de_pantalla/captura-de-trafico/wireshark.png" /></p>
+</li>
+<li>
+<p>La columna <strong>No.</strong> indica el número de orden en el que el paquete de datos fue capturado. Se empieza, naturalmente, con el número 1. </p>
+</li>
+<li><strong>Time</strong> se  refiere al momento en el que fue capturado dicho paquete.</li>
+<li><strong>Source</strong> es el origen del paquete, es decir la dirección IP. Aquí aparecerá muchas veces nuestra dirección IP local, porque es desde donde mandamos datos, pero también aparecerán otras direcciones desde donde nos enviaron datos. Si uno le da click a la barra de <strong>Source</strong>, los paquetes son arreglados en función de su origen.</li>
+<li><strong>Destination</strong> se refiere al lugar a donde se envió un paquete.</li>
+<li><strong>Protocol</strong> hace referencia a los diferentes protocolos gracias a los cuales se enviaron y recibieron estos paquetes.</li>
+<li><strong>Length</strong> es la cantidad de bytes del paquete.</li>
+<li><strong>Info</strong> nos muestra mucha información respecto del paquete.</li>
+</ul>
+<p>De todas esta información, lo que nos interesan son las columnas de <strong>Source</strong>, de <strong>Destination</strong> y de <strong>Protocol</strong>.</p>
+<h4 id="analisis-http"><strong>Análisis HTTP</strong></h4>
+<p>Analicemos primero la columna de <strong>protocol</strong>. Para hacer todo más sencillo, lo único que tenemos que hacer es escribir en la barra de búsqueda http y darle <strong>enter</strong>. Si hay conexiones con este protocolo, nos aparecerán en la parte de abajo, normalmente marcadas con el color verde. 
+<img alt="http" src="../capturas_de_pantalla/captura-de-trafico/http.png" /> 
+Si uno selecciona alguno de los paquetes, en la parte de abajo de Wireshark, apacerán una serie de número y letras, y a lado, el contenido del paquete. 
+<img alt="seccionwireshark" src="../capturas_de_pantalla/captura-de-trafico/wiresharkseccion.png" /> <br />
+No es lo más fácil de leer, pero con un poco de paciencia uno puede descubir los datos que están siendo mandados o recibidos. Ponemos aquí un ejemplo de una app que ya analizamos: <br />
+<img alt="httpdatos" src="../capturas_de_pantalla/captura-de-trafico/httpdatos.png" />
+Como se ve, esta aplicación manda con el protoclo http datos de registro de la aplicación: Apellido Paterno, Apellido Materno, Email, Teléfono Fijo, etc. Esto, por supuesto, representa un problema mayúsculo de seguridad y de privacidad.</p>
+<p>Dejamos aquí, una explicación de algunos otros protocolos que se pueden encontrar muy seguido:</p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones">ARP</a> - Este protocolo sirve para identificar a qué aparato (router, computadora, celular, etc.) corresponde una cierta dirección IP local. En general, si nos fijamos en este protocolo, aparecerán los diferentes dispositivos que tenemos en nuestra red local y las diferentes direcciones IP locales. Estas direcciones, para el análisis que nos interesa, son superfluas. </li>
+<li>DNS - Este protocolo sirve para convertir los nombres de las direcciones IP a formatos legibles por seres humanos. El uso más frecuente y famoso es el de traducir una dirección IP a un nombre de dominio como www.google.com</li>
+<li><a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto">HTTP</a> - Este protocolo sirve para enviar datos entre diferentes direcciones IP. Es uno de los que nos interesa en términos de seguridad, ya que, al no estar cifrado, es muy suceptible a ser abusado, de tal manera que un actor malintencionado pueda acceder a información sensible y privada.</li>
+<li><a href="https://es.wikipedia.org/wiki/Protocolo_seguro_de_transferencia_de_hipertexto">HTTPS</a> - Es igual al protocolo anterior, pero está cifrado, de tal manera que los datos que se comparten entre diferentes direcciones IP viajan más seguros ya que es mucho más difícil acceder a ellos.</li>
+<li>OpenVPN - Este protocolo es el protocolo de comunicaciones de la Red Privada Virtual que estamos utilizando, WireGuard. En general aquí se encontrará la dirección IP local y nuestra dirección IP pública. La IP pública es la dirección asignada a nuestro módem. Es decir, como ya lo hemos dicho, cada dispositivo de nuestra casa tiene una dirección IP Local, pero todas se comunican al internet a través de una sola: la IP pública. Si se quieren publicar los datos capturados, recomendamos eliminar la IP pública de los mismos. Esto se puede hacer editando el paquete, proceso no muy sencillo, o simplemente reiniciando el Módem de la casa. Esto hará que nuestra IP pública sea distinta.</li>
+<li><a href="https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n">TCP</a> - Protocolo que está al nivel de la acpa de transporte en el modelo <a href="https://es.wikipedia.org/wiki/Modelo_OSI">OSI</a>. Gracias a este, otros protocolos, como HTTP, pueden funcionar. </li>
+<li>[TLS] (https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte) - Al igual que el TCP, se encuentra en la capa de transporte del modelo OSI. Es un protocolo criptográfico que permite establecer comunicaciones seguras. Probablemente aparezca en Wireshark como TLSv1.3, que hace referencia a la versión que se usa actualmente.</li>
+<li><a href="https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario">UDP</a> - Protocolo similar a TCP y que tiene la misma función. La diferencia radica en que TCP tienen integrado un método para revisar que los paquetes llegaron al lugar correcto y de forma correcta, mientras que UDP no. De esta manera, TCP es más fiable, pero más lento. Dependiendo del tipo de datos que se estén enviando uno u otro será más efectivo. </li>
+</ul>
+<h4 id="analisis-direcciones-ip"><strong>Análisis direcciones IP</strong></h4>
+<p>Ahora bien, para analizar las diferentes direcciones IP que hay en nuestro archivo, haremos lo siguiente:</p>
+<ul>
+<li>Ir a <em>Estadísticas</em> --&gt; <em>Puntos Finales</em> --&gt; <em>IPv4</em>. 
+<img alt="endpoints" src="../capturas_de_pantalla/captura-de-trafico/endpoints.png" /></li>
+</ul>
+<p>Esto abrirá una ventana donde aparecerán filtradas la lista de direcciones IP contactadas y, además, datos sobre ellas. (Para esto pusimos las bases de datos de MaxMind). Aquí una explicación de las diferentes columnas:</p>
+<ul>
+<li><strong>Address</strong>: dirección IP</li>
+<li><strong>Packets</strong>: número total de paquetes enviados y recibidos</li>
+<li><strong>Bytes</strong>: la cantidad de información enviada y recibida</li>
+<li><strong>Tx Packets</strong>: número de paquetes enviados desde esa IP</li>
+<li><strong>Tx Bytes</strong>: cantidad de datos enviados desde esa dirección IP</li>
+<li><strong>Rx Packets</strong>: número paquetes recibidos por esa dirección IP</li>
+<li><strong>Rx Bytes</strong>: cantidad de datos recibidos por esa IP</li>
+<li><strong>Country</strong>: país donde está localizada la dirección IP</li>
+<li><strong>City</strong>: ciudad donde está localizada la dirección IP</li>
+<li><strong>AS Number</strong>: Número de sistema autónomo <a href="https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo">ASN</a> </li>
+<li><strong>AS Organization</strong>: Organización a la que pertenece esa dirección IP</li>
+</ul>
+<p>Para nuestros análisis, lo que más nos importa es la geolocalización de las direcciones IP, lo que nos dice a dónde están yendo nuestros datos y la organización a la que pertencen (Google, Facebook, Uninet, etc.). 
+Es importante, cuando aparecen otras organizaciones, buscarlas en Internet para saber a qué se dedican. </p>
+<p>Por ejemplo, <a href="https://www.akamai.com/es">Akamai</a>. Esta empresa, si bien proporciona productos de seguridad en la nube, es conocida por ser un <a href="https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos">CDN</a>  (Content Distribution Network). Esto es importante recalcarlo ya que las organizaciones involucradas en una aplicación no tienen siempre la misma función. Algunas almacenan nuestros datos, otras sólo son proveedoras de contenido, otras sirven para proporcionar seguridad, otras son <a href="https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio">DNS</a>, etc. Es decir que, a la hora de analizar a dónde van nuestros datos, también tenemos que saber quién los tiene, porque eso nos puede indicar qué hacen con ellos. Aparecerán también, como en nuestro ejemplo, otras que no nos interesan. 
+<img alt="endpoints2" src="../capturas_de_pantalla/captura-de-trafico/endpoints2.png" /> 
+Canonical Group Limited, por ejemplo, que es la empresa dueña de Ubuntu, de tal manera que nuestra aplicación no se está contactando con ellos, sino nuestro sistema operativo. AdGuard Software Limited. Ese es el DNS que elegimos para nuestra configuración de WireGuard. La dirección IP, que nosotros configuramos es como dicho, 94.140.14.14. Además, en este ejemplo, aparece Uninet S.A de C.V. Si nuestro proveedor de Internet es Telmex, esta empresa pudiera estar relacionada con nuestra IP pública. Para corroborar eso, basta acceder a esta <a href="https://www.whatsmyip.org/">página</a> que nos dirá cuál es nuestra IP. Si las direcciones no corresponden, entonces es probable que nuestra aplicación contacte a Uninet.</p>
+<p>Por último, podemos hacer un mapa para poder visualizar todo de manera más esqumática. Para ello hay que hacer click en <strong>Map</strong> y luego en <strong>Open in Browser</strong> y tendremos algo similar a esto:
+<img alt="mapa" src="../capturas_de_pantalla/captura-de-trafico/mapbien.png" /></p>
+<p>Aquí concluimos nuestro tutorial de análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. </p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/socialtic" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/socialtic/qttd" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://socialtic.org" target="_blank" rel="noopener" title="socialtic.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>

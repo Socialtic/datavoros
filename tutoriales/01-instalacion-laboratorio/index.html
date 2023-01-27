@@ -1,0 +1,1415 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación del proyecto "Datávoros"">
+      
+      
+      
+        <link rel="canonical" href="https://socialtic.github.io/datavoros/tutoriales/01-instalacion-laboratorio/">
+      
+      
+        <link rel="prev" href="../inicio/">
+      
+      
+        <link rel="next" href="../02-captura-trafico-analisis/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Instalación del laboratorio de análisis - Datávoros</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#instalacion-de-laboratorio" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Datávoros" class="md-header__button md-logo" aria-label="Datávoros" data-md-component="logo">
+      
+  <img src="../../img/icono.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Datávoros
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Instalación del laboratorio de análisis
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../inicio/" class="md-tabs__link md-tabs__link--active">
+        Tutoriales para analizar una app
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../plantilla-reporte/" class="md-tabs__link">
+      Plantilla de aplicación
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../aplicaciones/" class="md-tabs__link">
+        Aplicaciones analizadas
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../trackers-permisos/inicio/" class="md-tabs__link">
+        Listado de rastreadores y permisos
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../contribuye/" class="md-tabs__link">
+      Contribuye
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Datávoros" class="md-nav__button md-logo" aria-label="Datávoros" data-md-component="logo">
+      
+  <img src="../../img/icono.svg" alt="logo">
+
+    </a>
+    Datávoros
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="true">
+          Tutoriales para analizar una app
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tutoriales para analizar una app" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Tutoriales para analizar una app
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inicio/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Instalación del laboratorio de análisis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Instalación del laboratorio de análisis
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-virtualbox-y-vmware" class="md-nav__link">
+    Instalación de VirtualBox y VMWare
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación de VirtualBox y VMWare">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacion-de-virtualbox-en-ubuntu" class="md-nav__link">
+    Instalación de VirtualBox en Ubuntu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalacion-de-vmware-en-windows" class="md-nav__link">
+    Instalación de VMWare en Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-de-la-maquina-virtual" class="md-nav__link">
+    Creación de la máquina virtual
+  </a>
+  
+    <nav class="md-nav" aria-label="Creación de la máquina virtual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creacion-de-una-maquina-virtual-con-ubuntu-en-virtualbox" class="md-nav__link">
+    Creación de una máquina virtual con Ubuntu en VirtualBox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-grafica-y-de-red-de-la-maquina-virtual" class="md-nav__link">
+    Configuración gráfica y de red de la máquina virtual
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creacion-de-una-maquina-virtual-con-ubuntu-en-vmware" class="md-nav__link">
+    Creación de una máquina virtual con Ubuntu en VMWare
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-red-de-la-maquina-virtual" class="md-nav__link">
+    Configuración de red de la máquina virtual
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wireguard" class="md-nav__link">
+    Instalación de Wireguard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wireshark-y-tshark" class="md-nav__link">
+    Instalación de Wireshark y Tshark
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-captura-trafico-analisis/" class="md-nav__link">
+        Captura y análisis de tráfico de red
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-permisos%20y%20trackers/" class="md-nav__link">
+        Mapeo de permisos y rastreadores
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-apk-download/" class="md-nav__link">
+        Cómo bajar un archivo APK para analizarlo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-instalacion-y-uso-de-mobfs/" class="md-nav__link">
+        Cómo instalar y utilizar MobSF
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../plantilla-reporte/" class="md-nav__link">
+        Plantilla de aplicación
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
+          Aplicaciones analizadas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aplicaciones analizadas" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Aplicaciones analizadas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aplicaciones/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" tabindex="0" aria-expanded="false">
+          Aplicaciones de seguridad
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aplicaciones de seguridad" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Aplicaciones de seguridad
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/9-1-1Emergencias/911emergencias/" class="md-nav__link">
+        9 1 1 Emergencias
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/911CDMX/911cdmx/" class="md-nav__link">
+        911CDMX
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/911MovilBC/911movilbc/" class="md-nav__link">
+        911 MóvilBC
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco/" class="md-nav__link">
+        Botón de Auxilio Jalisco
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/mi-policia/mi-policia/" class="md-nav__link">
+        Mi Policía
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/mujeres-seguras/mujeres-seguras/" class="md-nav__link">
+        Mujeres Seguras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla/" class="md-nav__link">
+        Seguridad Incluyente ahora Escudo Puebla
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5" tabindex="0" aria-expanded="false">
+          Listado de rastreadores y permisos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Listado de rastreadores y permisos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Listado de rastreadores y permisos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/inicio/" class="md-nav__link">
+        Inicio
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/99-listado-permisos/" class="md-nav__link">
+        Permisos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../trackers-permisos/99-listado-trackers/" class="md-nav__link">
+        Rastreadores
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contribuye/" class="md-nav__link">
+        Contribuye
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-virtualbox-y-vmware" class="md-nav__link">
+    Instalación de VirtualBox y VMWare
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación de VirtualBox y VMWare">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacion-de-virtualbox-en-ubuntu" class="md-nav__link">
+    Instalación de VirtualBox en Ubuntu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalacion-de-vmware-en-windows" class="md-nav__link">
+    Instalación de VMWare en Windows
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creacion-de-la-maquina-virtual" class="md-nav__link">
+    Creación de la máquina virtual
+  </a>
+  
+    <nav class="md-nav" aria-label="Creación de la máquina virtual">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creacion-de-una-maquina-virtual-con-ubuntu-en-virtualbox" class="md-nav__link">
+    Creación de una máquina virtual con Ubuntu en VirtualBox
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-grafica-y-de-red-de-la-maquina-virtual" class="md-nav__link">
+    Configuración gráfica y de red de la máquina virtual
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creacion-de-una-maquina-virtual-con-ubuntu-en-vmware" class="md-nav__link">
+    Creación de una máquina virtual con Ubuntu en VMWare
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuracion-de-red-de-la-maquina-virtual" class="md-nav__link">
+    Configuración de red de la máquina virtual
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wireguard" class="md-nav__link">
+    Instalación de Wireguard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion-de-wireshark-y-tshark" class="md-nav__link">
+    Instalación de Wireshark y Tshark
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="instalacion-de-laboratorio">Instalación de laboratorio</h1>
+<p>En esta primera sección crearemos el laboratorio de análisis de aplicaciones móviles. El diagrama que seguiremos será el siguiente, con la diferencia que usaremos Wireguard en vez de OpenVPN:</p>
+<p><img alt="diagrama" src="../capturas_de_pantalla/instalacion-laboratorio/diagrama.png" /></p>
+<p>Lo que haremos será lo siguiente:
+- Instalar un servidor de máquinas virtuales
+- Crear una máquina virtual con Ubuntu instalado
+- Instalar Wireguard en nuestro teléfono
+- Instalar WireGuard en Ubuntu
+- Instalar Wireshark y Tshark</p>
+<h2 id="instalacion-de-virtualbox-y-vmware">Instalación de VirtualBox y VMWare</h2>
+<p>Lo primero que tenemos que hacer es instalar el software necesario para poder crear una máquina virtual. Una máquina virtual es, sencillamente, una computadora dentro de otra computadora. Esto nos permite, por ejemplo, correr el sistema operativo Linux en Windows (o viceversa) y, además, agrega una serie de beneficios de seguridad. </p>
+<p>Es la manera más sencilla de construir nuestro laboratorio de análisis sin tener que modificar la instalación de nuestro sistema operativo principal y además permite hacerlo en MacOS, Windows o Linux. Debemos notar que en este tutorial nos enfocaremos en Windows y Linux.</p>
+<p>Para poder crear una máquina virtual, se pueden usar varios programas, aquí recomendamos el uso de VirtualBox para Linux y de VMWare para Windows. (Para MacOs existe VMWare Fusion y Parallels). Los dos son gratuitos, aunque VMWare tiene una versión de paga. </p>
+<p>Si bien se puede utilizar VMWare en Linux y VirtualBox en Windows, en nuestras pruebas, lo que más nos fucnionó, por cuestiones de velocidad y fluidez fue, como lo dijimos arriba, VirtualBox para Linux y VMWare para Windows.</p>
+<h3 id="instalacion-de-virtualbox-en-ubuntu"><strong>Instalación de VirtualBox en Ubuntu</strong></h3>
+<ul>
+<li>
+<p>Para instalar virtualbox en Ubuntu (o cualquier sistema basado en Ubuntu como, Linux Mint, Linux Lite, Kubuntu, Lubuntu, etc.) ir a la consola y escribir: </p>
+<p><code>sudo add-apt-repository multiverse &amp;&amp; sudo apt-get update</code>
+El primer comando <em>add-apt-repository multiverse</em> activa el repositorio de programas <em>multiverse</em> en Ubuntu. Esto lo que hace es permitir que, desde ese repositorio, se instalen programas.   </p>
+<p>El segundo comando, <em>sudo apt update</em>, sirve para actualizar desde internet la información de los paquetes que se quieren instalar y las fuentes desde donde se van a instalar. Básicamente permite saber qué paquetes están desactualizados y evita que uno instale un paquete "viejo". </p>
+<p>Es importante usar este comando siempre antes de instalar un programa nuevo. El comando <em>sudo</em> nos otorga privilegios temporales de administrador. En linux, por seguridad, hay comandos (acciones) que no se pueden ejecutar con los permisos que tiene un usuario corriente.</p>
+<p><img alt="multiverse_y_update" src="../capturas_de_pantalla/instalacion-laboratorio/multiverse-y-update.png" />
+- Con el siguiente comando instalaremos VirtualBox:
+<code>$ sudo apt install virtualbox</code>
+Este comando descargará los paquetes necesarios de instalación y ejecutará todos los procesos necesarios. En algún momento preguntará si se quiere continuar con la instalación. Dar enter o escribir Y. </p>
+<p><img alt="continuar" src="../capturas_de_pantalla/instalacion-laboratorio/continuar.png" /> </p>
+<p>Una vez realizada la instalación, para ejecutar VirtualBox, se puede poner el siguiente comando en la consola. 
+~~~
+$ virtualbox
+~~~
+O simplemente se puede acceder al ícono de VirtualBox en la lista de programas y dar click.</p>
+<p>También se puede instalar VirtualBox desde la <em>Ubuntu Software App</em>.  </p>
+</li>
+</ul>
+<h3 id="instalacion-de-vmware-en-windows"><strong>Instalación de VMWare en Windows</strong></h3>
+<p>Nos hemos decantado por utilizar VMWare en Windows porque hemos encontrado varios problemas con VirtualBox. 
+- Descargar el archivo ejectuable desde este <a href="https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW&amp;productId=1039&amp;rPId=85399">enlace</a>.</p>
+<p><img alt="descarga" src="../capturas_de_pantalla/instalacion-laboratorio/descargaVMWare.png" />
+- Ir a la carpeta de descargas y dar doble click al archivo. Seguir las instrucciones de instalación.</p>
+<h2 id="creacion-de-la-maquina-virtual">Creación de la máquina virtual</h2>
+<h3 id="creacion-de-una-maquina-virtual-con-ubuntu-en-virtualbox"><strong>Creación de una máquina virtual con Ubuntu en VirtualBox</strong></h3>
+<p>Dejamos aquí el <a href="https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine">link</a> al tutorial proporcionado por Ubuntu. Este tutorial sirve tanto si se tiene Linux o Windows como sistema operativo base. <br />
+- En resumen hay que hacer lo siguiente: <br />
+    - Bajar una imagen de Ubuntu (recomendamos que sea la versión 20.04.4. La nueva versión, 22.04, tiene todavía varios problemas).
+    - Crear una máquina virtual
+    - Agregar la imagen de disco de Ubuntu
+    - Ejecutar la máquina virtual
+     - Instalar Ubuntu. Aquí el <a href="https://ubuntu.com/tutorials/install-ubuntu-desktop#4-boot-from-usb-flash-drive">link</a> al tutorial. Aunque en este tutorial dice que es a través de un USB, hay que seguir las instrucciones como se indican desde el punto número 4. </p>
+<ul>
+<li>Alternativamente, se puede descargar un disco virtual desde este <a href="https://www.osboxes.org/ubuntu/">link</a> (Recomendamos descargar la versión 20.04.4, ya que la nueva, 22.04, tiene varios problemas todavía). Está la opción tanto para VirtualBox, como para VMWare.
+    <img alt="osboxes" src="../capturas_de_pantalla/instalacion-laboratorio/downloadosboxes.png" /> Lo que uno descarga aquí es básicamente el disco duro de una máquina virtual con la instalación ya hecha y configurada de Ubuntu. Como ya está instalado Ubuntu,   <ul>
+<li>el nombre de usuario (<em>username</em>) es: <strong>osboxes</strong></li>
+<li>y el password es: <strong>osboxes.org</strong>    </li>
+</ul>
+</li>
+<li>Descargar disco duro VDI del link anterior. El archivo está en formato .7z. Extraer con <a href="https://www.rarlab.com/download.htm">Winrar</a> o <a href="https://www.7-zip.org/">7zip</a>. Si usted está en Linux, no hace falta instalar ninguno de estos dos programas. </li>
+<li>
+<p>Abrir VirtualBox y dar click en <strong>Nueva</strong> 
+<img alt="importar disco virtual" src="../capturas_de_pantalla/instalacion-laboratorio/nuevamaquina.png" />   </p>
+</li>
+<li>
+<p>Configurar la nueva máquina virtual. Ponerle un nombre; elegir la carpeta donde se guardará; elegir el tipo de sistema operativo: <strong>Linux</strong>; elegir versión de sistema operativo: <strong>Ubuntu (64-bit)</strong> y dar click en <strong>Next</strong>.  <br />
+<img alt="configurar_máquina" src="../capturas_de_pantalla/instalacion-laboratorio/configurarnuevamaquina.png" /> <br />
+<em>La visualización entre Linux y Windows puede cambiar un poco, pero es esencialmente la misma</em>. </p>
+</li>
+<li>Elegir la cantidad de memoria RAM de la nueva máquina. Nosotros sugerimos 2GB si la computadora en la cual usted está trabajando tiene al menos 8GB de RAM. Si tiene menos, dejar 1GB, si tiene más poner 4GB. Dar click en <strong>Next</strong>. <br />
+<img alt="RAM" src="../capturas_de_pantalla/instalacion-laboratorio/2gbram.png" /> </li>
+<li>Seleccionar la opción <strong>Usar un archivo de disco duro virtual existente</strong> y dar click en la carpeta para abrir el explorador de archivos.
+    <img alt="discodurovirtual" src="../capturas_de_pantalla/instalacion-laboratorio/discodurovirtual.png" /></li>
+<li>Dar click en <strong>Añadir</strong> y seleccionar el archivo que bajamos en el paso número 1.
+    <img alt="anadirdisco" src="../capturas_de_pantalla/instalacion-laboratorio/anadirdisco.png" /> </li>
+<li>Dar click en <strong>Crear</strong> y luego dar click en <strong>Iniciar</strong> con nuestra máquina virtual seleccionada del lado izquierdo. 
+<img alt="iniciar" src="../capturas_de_pantalla/instalacion-laboratorio/iniciarmaquina.png" />
+Puede tardar un poco, pero al final se verá la pantalla de bienvenida de Ubuntu.
+ <img alt="bienvenidaubuntu" src="../capturas_de_pantalla/instalacion-laboratorio/ubuntuwelcome.png" /></li>
+</ul>
+<h3 id="configuracion-grafica-y-de-red-de-la-maquina-virtual"><em>Configuración gráfica y de red de la máquina virtual</em></h3>
+<p>Ya sea que hayamos instalado Ubuntu desde cero o hayamos utilizado una imagen de Osboxes, estaremos corriendo Ubuntu en una máquina virtual. Antes de continuar tenemos que apagar la máquina para configurar el acceso a la red de la misma. Ir a:
+<strong>Archivo -&gt; Cerrar -&gt; Apagar la máquina</strong>.
+<img alt="apagarmaquina" src="../capturas_de_pantalla/instalacion-laboratorio/turnoffmachine.png" />
+Hay tres opciones:  <br />
+- <strong>Guardar estado de la máquina</strong>: esta opción cierra la máquina virtual pero mantiene el estado en el cual se encuentra, de tal manera que al volver iniciar la máquina, ésta estará prendida y con los programas corriendo.
+- <strong>Enviar señal de apagado</strong>: esto es equivalente a apagar la computadora como normalmente lo hacemos.
+- <strong>Apagar la máquina</strong>: esto es equivalente a apagarla como si dejáramos apretado el botón de apagado.</p>
+<p>Por comodidad apagaremos la máquina con la última opción, ya que la segunda tarda un poco más de tiempo. Como vamos a modificar la configuración de la máquina, es necesaria apagarla por completo.
+- Ir a configuración:
+<img alt="configuracion" src="../capturas_de_pantalla/instalacion-laboratorio/configuracion.png" />
+- Ir a sistema y luego procesador. Poner que tenga dos núcleos de procesamiento.<br />
+<img alt="procesador" src="../capturas_de_pantalla/instalacion-laboratorio/procesador.png" />
+- Ir a pantalla y poner 128MB de video. Si se tiene una tarjeta dedicada de video, se recomienda activar la casilla de <strong>Aceleración</strong>.
+<img alt="video" src="../capturas_de_pantalla/instalacion-laboratorio/video.png" />   </p>
+<ul>
+<li>Ir a <strong>Red</strong> -&gt; <strong>Adaptador 1</strong> -&gt; <strong>Conectado a:</strong> y seleccionar <strong>Adaptador Puente</strong>. esto permite que la máquina virtual forme parte de la red local.
+<img alt="red" src="../capturas_de_pantalla/instalacion-laboratorio/redvbox.png" /></li>
+<li>Dar <strong>Aceptar</strong> y luego <strong>Iniciar</strong> otra vez la máquina virtual. La máquina debería correr de manera más fluida y estar conectada a nuestra red local.  </li>
+</ul>
+<h3 id="creacion-de-una-maquina-virtual-con-ubuntu-en-vmware"><strong>Creación de una máquina virtual con Ubuntu en VMWare</strong></h3>
+<p>El proceso es muy similar al de VirtualBox que detallamos con anterioridad.</p>
+<ul>
+<li>
+<p>Bajar imagen de disco de <a href="https://releases.ubuntu.com/20.04.4/">Ubuntu</a></p>
+</li>
+<li>
+<p>Abrir VMWare y dar click en <strong>Create a New Virtual Machine</strong>
+<img alt="crear nueva maquina" src="../capturas_de_pantalla/instalacion-laboratorio/vmnuevamaquina.png" /></p>
+</li>
+<li>
+<p>Seleccionar <strong>Installer disc image (iso)</strong> y luego dar click en <strong>Browse</strong> y seleccionar la imagen que se bajó en el paso anterior. Dar click en <strong>Next</strong>
+<img alt="instalar" src="../capturas_de_pantalla/instalacion-laboratorio/installubuntu.png" /> </p>
+</li>
+</ul>
+<p>VMWare tiene una función que se llama <em>Easy Install</em>. Esta función permite que, si el sistema operativo de la máquina que se quiere crear está soportado, se instale todo de manera más sencilla y se configure de manera automática. En este caso, Ubuntu está soportado, así que simplemente hay que seguir las instrucciones</p>
+<ul>
+<li>
+<p>Rellenar los campos de <strong>Full Name</strong> (no tiene que ser el real); <strong>username</strong>; <strong>Password</strong> y <strong>Confirm</strong> (volver a introducir el password) y dar click en <strong>Next</strong>.
+<img alt="rellenardatos" src="../capturas_de_pantalla/instalacion-laboratorio/rellenar.png" /></p>
+</li>
+<li>
+<p>Poner el nombre de la máquina virtual y seleccionar dónde se guardará en el disco duro. Dar click en <strong>Next</strong>.
+<img alt="nombre" src="../capturas_de_pantalla/instalacion-laboratorio/nombreybrowse.png" /></p>
+</li>
+<li>
+<p>Seleccionar tamaño del disco. Recomendamos, por instrucciones de Ubuntu, que sea mínimo 25GB. Dar click en <strong>Next</strong>.
+<img alt="tamañodisco" src="../capturas_de_pantalla/instalacion-laboratorio/tamanodisco.png" />.</p>
+</li>
+<li>En la siguiente imagen dar click en <strong>Finish</strong>.</li>
+<li>Aparecerá el siguiente mensaje. Dar click en <strong>OK</strong></li>
+</ul>
+<pre><code>You are running this virtual machine [...]
+</code></pre>
+<ul>
+<li>Después de esto, se instalará Ubuntu de manera automática. Puede tardar bastante tiempo. Al finalizar este proceso, nos recibirá la pantalla de bienvenida de Ubuntu. Dar click en el usuario y rellenar el password que seleccionamos. 
+<img alt="bienvenidaubuntuvm" src="../capturas_de_pantalla/instalacion-laboratorio/bienvenidaubuntuvmware.png" /></li>
+<li>Ahora podemos expandir la ventana de la máquina virtual y aceptar o modificar las diferentes recomendaciones que nos hace Ubuntu.  <br />
+<em>No haremos un tutorial de cómo importar una imagen de disco de OSBoxes ya que el procedimiento de instalación es bastante sencillo, pero dejamos aquí un <a href="https://www.osboxes.org/guide/">link</a></em>.</li>
+</ul>
+<h3 id="configuracion-de-red-de-la-maquina-virtual"><em>Configuración de red de la máquina virtual</em></h3>
+<ul>
+<li>
+<p>Apagamos la máquina virtual. Para ello vamos a <strong>Player</strong> -&gt; <strong>Power</strong> -&gt; <strong>Shut Down Guest</strong> y aceptamos el diálogo que nos aparece.</p>
+</li>
+<li>
+<p>Iniciamos VMWare de nuevo. Y vamos a editar configuración de la máquina virtual. Recordar siempre seleccionar del lado izquierdo la máquina. 
+<img alt="configurar" src="../capturas_de_pantalla/instalacion-laboratorio/configuracionvmware.png" /></p>
+</li>
+<li>
+<p>Vamos a <strong>Network Adpater</strong> y seleccionamos, bajo <strong>Network Connection</strong>, la opción de <strong>Bridged</strong>, luego le damos <strong>OK</strong>.
+<img alt="network" src="../capturas_de_pantalla/instalacion-laboratorio/networkvmware.png" />
+Hacemos esto para que nuestra máquina se conecte a nuestra red como si fuera otro dispositivo más. Si escogemos la opción de NAT, entonces pondrá a nuestra máquina virtual en una subred de nuestra máquina física, lo cual complica las cosas.  </p>
+</li>
+<li>
+<p>Volvemos a iniciar la máquina y nos aparecerá una advertencia nueva: <br />
+<img alt="warning" src="../capturas_de_pantalla/instalacion-laboratorio/warning.png" /> <br />
+Le damos <strong>Aceptar</strong> y dentro de poco se iniciará nuestra máquina virtual como antes. </p>
+</li>
+<li>
+<p>De ahora en adelante, para apagarla, lo mejor es simplemente ir a <strong>Player</strong> -&gt; <strong>Power</strong> -&gt; <strong>Suspend</strong>. La razón de haberla apagado por completo antes es porque si uno no hace eso, no se pueden modificar las configuraciones de la máquina virtual. </p>
+</li>
+</ul>
+<h2 id="instalacion-de-wireguard">Instalación de Wireguard</h2>
+<p><a href="https://www.wireguard.com/">Wireguard</a> es un protocolo de red privada virtual (<a href="https://es.wikipedia.org/wiki/Red_privada_virtual">VPN</a>) y el código para poder ejecutar ese protocolo. Si bien es mucho más conocido <a href="https://openvpn.net/">OpenVPN</a>, nos hemos decidido por utilizar WireGuard porque es más sencillo de instalar y requiere menos modificaciones <em>post</em> instalación para utilizarse.</p>
+<p>Por motivos de facilidad, instalaremos WireGuard a través de un <em>script</em> (una serie de comando que se ejecutan de manera automática). Si bien no recomendamos ejecutar scripts desde internet por motivos de seguridad, hemos revisado el script que recomendamos y no tiene ningún código malicioso. En todo caso, si algún usuario quisiera hacerlo todo <em>a mano</em>, dejamos aquí un <a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04">link</a> con un tutorial.</p>
+<p>Antes de instalar WireGuard en el Ubuntu de nuestra máquina virtual, tenemos que instalarlo en nuestro celular Android. </p>
+<ul>
+<li>
+<p>Entramos a la PlayStore, ponemos WireGuard en la barra de búsqueda y le damos <strong>Instalar</strong>. 
+<img alt="playstore" src="../capturas_de_pantalla/instalacion-laboratorio/WireguardPlaystore.jpg" /></p>
+</li>
+<li>
+<p>Cuando finalice, le damos <strong>Abrir</strong>.</p>
+</li>
+<li>
+<p>Nos aparece la siguiente pantalla. Por lo mientras, dejamos el celular ahí. 
+<img alt="idle" src="../capturas_de_pantalla/instalacion-laboratorio/idlewireguard.jpg" /></p>
+</li>
+<li>
+<p>Ir a la terminal de Ubuntu (Todo lo que sigue se hace dentro la máquina virtual). Para esto, dar click en el recuadro de la esquina inferior izquierda y luego en el ícono de la terminal.
+<img alt="consola" src="../capturas_de_pantalla/instalacion-laboratorio/ubuntuterminal.png" /></p>
+</li>
+<li>
+<p>En la terminal escribir el siguiente comando:</p>
+</li>
+</ul>
+<pre><code>ip a
+</code></pre>
+<p>Este comando nos muestra información sobre las conexiones de red de nuestra máquina virtual, y sobre las interfaces desde las que se hacen estas conexiones. Una interfaz de red es el nombre que le asigna Ubuntu al dispositivo por el cual nos estamos conectando a internet o a una red local. Puede ser una interfaz virtual (como en nuestra máquina virtual) o física, nuestra tarjeta de red WIFI o Ethernet. En este caso veremos dos interfaces:
+<img alt="interfaces de red" src="../capturas_de_pantalla/instalacion-laboratorio/interfaces.png" />
+La primera no nos interesa, pero la segunda (ens33) es la manera en la cual nuestra máquina virtual tiene acceso a internet. En la imagen, además, está subrayada la ip local. Una ip local es una dirección de red que se le asigna a todos los dispositivos conectados al módem de nuestra casa. Nuestra computadora tiene una, y nuestra máquina virtual, otra diferente. Nuestro celular, si está conectado a nuestro WiFi, tiene otra. Digamos que estas direcciones ip locales son la manera de nombrar a nuestros diferentes dispositivos. **Hay que tomar nota del nombre de la segunda interfaz (en este caso es: ens33) y de nuestra ip local (en este caso es: 192.168.37.133). El nombre de la interfaz y la ip local puede variar.</p>
+<ul>
+<li>Una vez anotado lo anterior, ponemos este comando en la terminal:</li>
+</ul>
+<pre><code>sudo apt update &amp;&amp; sudo apt install git
+</code></pre>
+<p>El primer comando actualiza los repositorios  desde donde se instlan los programas, y el segundo comando instala el comando (programa) git. Este comando permite bajar desde github otros programas. Aquí lo utilizaremos para bajar el script de instalación de WireGuard.
+Cuando pida el password, poner el que se usa para iniciar sesión. Cuando pregunte si se quiere continuar, dar simplemente enter.</p>
+<ul>
+<li>Una vez instalado Git, procederemos a bajar el script. Lo hacemos con el siguiente comando. </li>
+</ul>
+<pre><code>git clone https://github.com/angristan/wireguard-install
+</code></pre>
+<p>Este comando clona (baja) el repositorio que se encuentra en la URL que escribirmos. </p>
+<ul>
+<li>Ahora entramos a la carpeta que acabamos de bajar.</li>
+</ul>
+<pre><code>cd wireguard-install
+</code></pre>
+<ul>
+<li>Adentro de esta carpeta, tenemos que hacer que el script que bajamos, tenga permisos para ejecutarse y así podamos correrlo. Esto en Linux se hace con el siguiente comando:</li>
+</ul>
+<pre><code>chmod +x wireguard-install.sh
+</code></pre>
+<p><a href="https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/">Aquí</a> se explican cómo funcionan los permisos. Lo que hicimos con este comando fue agregar al archivo el permiso de ejecución, este permiso en Linux es el "x". Por eso se pone +(agregar)x(permiso de ejecución).</p>
+<ul>
+<li>Ahora ejecutamos el script. Para hacerlo necesitamos ejecutarlo como administrador. De ahí que agreguemos el comando <em>sudo</em>. </li>
+</ul>
+<pre><code>sudo ./wireguard-install.sh
+</code></pre>
+<ul>
+<li>Lo primero que hace el script es avisarnos que nos hará una serie de preguntas de configuración. </li>
+</ul>
+<pre><code>IPv4 or IPv6 public address: 192.168.37.133
+</code></pre>
+<p>La dirección ip debería corresponder con la que anotamos anteriormente. Dar <strong>enter</strong>.</p>
+<ul>
+<li>Luego nos pregunta:</li>
+</ul>
+<pre><code>Public interface: ens33
+</code></pre>
+<p>Una vez más, el nombre de la interfaz debería coincidir con aquella que anotamos con anterioridad. Dar <strong>enter</strong>.</p>
+<ul>
+<li>Después nos pregunta el nombre que le queremos dar a la interfaz desde la cual se va a conectar WireGuard.</li>
+</ul>
+<pre><code>WireGuard interface name: wg0
+</code></pre>
+<p>Recomendamos dejar el nombre sugerido y dar <strong>enter</strong>.</p>
+<ul>
+<li>Luego nos pregunta la ip local que va a tener el servidor de WireGuard. Como ya vimos, cada interfaz de red, tiene su propia dirección ip.</li>
+</ul>
+<pre><code>Server's WireGuard IPv4: 10.66.66.1
+</code></pre>
+<p>Recomendamos dejar la dirección sugerida y dar <strong>enter</strong>.</p>
+<ul>
+<li>Actualmente existen dos tipos de direcciones ip. la Ip versión cuatro, y la Ip versión 6. Así que también se le tiene que asignar una dirección Ip versión 6 (IPv6) a nuestra interfaz.</li>
+</ul>
+<pre><code>Server's WireGuard IPv6: fd42:42:42::1
+</code></pre>
+<p>Recomendamos dejar la dirección sugerida y dar <strong>enter</strong>.</p>
+<ul>
+<li>Cada interfaz de red y sus direcciones Ip, pueden tener diferentes servicios corriendo en ellas. Se puede tener, por ejemplo, HTTPS (que es como accedemos a las páginas Web, y ese servicio corre en el puerto 8080), o IMAP, que es donde accedemos a nuestros correos (los puertos estándar son 993 o 143). Para identificar cada servicio que corre en una misma Ip, le asignamos un puerto. Como WireGuard es un servicio, hay que asignarle un puerto.</li>
+</ul>
+<pre><code>Server's WireGuard port [1-65535]: 49259
+</code></pre>
+<p>Recomendamos dejar el puerto sugerido y dar <strong>enter</strong>.</p>
+<ul>
+<li>Luego nos pregunta por el DNS (Domain Name System). Aquí hay una explicación por parte de uno de los más grandes a nivel mundial <a href="https://www.cloudflare.com/learning/dns/what-is-dns/">CloudFlare</a>.</li>
+</ul>
+<pre><code>First DNS resolver to use for the clients: 94.140.14.14
+</code></pre>
+<p>El servidor DNS que estamos configurando se llama AdGuard. Sugerimos dejarlo como está, pero es importante anotar la dirección Ip. Dar <strong>enter</strong>.</p>
+<ul>
+<li>Los servidores DNS tienen por lo general dos Ip's. </li>
+</ul>
+<pre><code>Second DNS resolver to use for the clients (optional): 94.140.15.15
+</code></pre>
+<p>Dar <strong>enter</strong> y volver a dar <strong>enter</strong>.</p>
+<ul>
+<li>Ahora nos preguntará por el nombre del cliente. Nosotros instalamos el servidor de WireGuard en nuestro Ubuntu, ahora vamos a configurar el cliente (nuestro celular) para que pueda conectarse al servidor.</li>
+</ul>
+<pre><code>Client name: socialtic
+</code></pre>
+<p>Se puede poner el nombre que uno quiera. Dar <strong>enter</strong>.</p>
+<ul>
+<li>El cliente tiene que tener una dirección Ip también.</li>
+</ul>
+<pre><code>Client's WireGuard IPv4: 10.66.66.2
+</code></pre>
+<p>Recomendamos dejar la dirección sugerida y dar <strong>enter</strong>.</p>
+<ul>
+<li>El cleintecliente también tiene que tener una dirección Ipv6.</li>
+</ul>
+<pre><code>Client's WireGuard IPv6: fd42:42:42::2
+</code></pre>
+<p>Recomendamos dejar la dirección sugerida y dar <strong>enter</strong>.</p>
+<ul>
+<li>
+<p>Ahora nos aparecerá un código QR en la pantalla. (Si no se ve completo, expandir la terminal).
+<img alt="qr" src="../capturas_de_pantalla/instalacion-laboratorio/qr.png" /></p>
+<ul>
+<li>
+<p>Agarrar el celular y dar click en el signo de + y luego en <strong>Escanear desde código QR</strong>. 
+<img alt="escanear" src="../capturas_de_pantalla/instalacion-laboratorio/escanear.jpg" /></p>
+</li>
+<li>
+<p>Aceptar el permiso de Fotos y Videos</p>
+</li>
+<li>Rellenar nombre (puede ser el que sea)</li>
+<li>Click en <strong>Crear Tunel</strong></li>
+<li>
+<p>Conectar apretando en el círculo.</p>
+</li>
+<li>
+<p>Aceptar la <strong>Solicitud de conexión</strong></p>
+</li>
+</ul>
+</li>
+</ul>
+<p>Listo, ya estamos conectados a nuestro servidor WireGuard. De ahora en adelante, todo el tráfico de red que mandemos y recibamos desde internet, pasará antes por nuestro servidor. Esto, por supuesto, nos permitirá capturarlo y analizarlo. </p>
+<h2 id="instalacion-de-wireshark-y-tshark">Instalación de Wireshark y Tshark</h2>
+<p>Ahora instalaremos dos programas. Uno se llama Wireshark. Es un programa que nos permitirá analizar el tráfico de red. El otro, Tshark, es como Wireshark, pero sin la interfaz gráfica. Utilizaremos el segundo para capturar el tráfico de red y el primero para analizarlo.
+Vamos otra vez a la terminal en nuestra máquina virtual.</p>
+<ul>
+<li>Ejecutar el siguiente comando:</li>
+</ul>
+<pre><code>sudo apt install wireshark
+</code></pre>
+<p>Como ya sabemos, esto instalará el programa de Wireshark.
+A la mitad de la instalación nos preguntará lo siguiente:
+<img alt="superuser" src="../capturas_de_pantalla/instalacion-laboratorio/superuser.png" />
+Nosotros sugerimos la configuración estándar y darle no.</p>
+<ul>
+<li>Una vez que termine la instalación (que también se puede hacer desde la Ubuntu Software App), ejecutar el siguiente comando para instalar Tshark.</li>
+</ul>
+<pre><code>sudo apt install tshark
+</code></pre>
+<p>¡Listo, ya terminamos de configurar nuestro laboratorio!</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/socialtic" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://github.com/socialtic/qttd" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+    
+    
+      
+      
+    
+    <a href="https://socialtic.org" target="_blank" rel="noopener" title="socialtic.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2 0-.68.06-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.923 7.923 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8.008 8.008 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.65 15.65 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.highlight", "navigation.tabs", "navigation.tabs.sticky", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>
