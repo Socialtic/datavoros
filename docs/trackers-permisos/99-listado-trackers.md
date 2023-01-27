@@ -1,6 +1,6 @@
 # Trackers
 
-Esta es una pequeña base de datos con todos los rastreadores que nos hemos encontrado hasta el momento en las aplicaciones analizadas. El objetivo de esto es poder tener una guía rápida de referencia que incluya el nombre del tracker, el tipo de tracker, la empresa a la que pertenece y los links tanto hacia la página del desarrollador como hacia la base de datos [ETIP](https://etip.exodus-privacy.eu.org/), proyecto de la ONG [Exodus Privacy](https://exodus-privacy.eu.org/en/) donde la comunidad ha registrado una cantidad enorme de trackers. En el link del nombre se redirige a la página de Exodus. En el link de la empresa a la página del desarrollador. 
+Esta es una pequeña base de datos con todos los rastreadores que nos hemos encontrado hasta el momento en las aplicaciones analizadas. El objetivo de esto es poder tener una guía rápida de referencia que incluya el nombre del tracker, el tipo de tracker, la empresa a la que pertenece y los links tanto hacia la página del desarrollador como hacia la base de datos [ETIP](https://etip.exodus-privacy.eu.org/). En el link del nombre se redirige a la página de Exodus. En el link de la empresa a la página del desarrollador. 
 
 Dejamos aquí un par de links que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
    

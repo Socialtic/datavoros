@@ -1,26 +1,27 @@
-site_name: Datávoros 
+site_name: Datávoros
 site_url: https://socialtic.github.io/datavoros
 site_description: Documentación del proyecto "Datávoros"
 
 nav:
   - Home: 'index.md'
   - Tutoriales para analizar una app:
-      - 'Instalación del laboratorio de análisis': '01-instalacion-laboratorio.md'
-      - 'Captura y análisis de tráfico de red': '02-captura-trafico-analisis.md'
-      - 'Mapeo de permisos y rastreadores': '03-permisos y trackers.md'
-      - 'Cómo bajar un archivo APK para analizarlo': '04-apk-download.md'
-      - 'Cómo instalar y utilizar MobSF': '05-instalacion-y-uso-de-mobfs.md'
-  - Plantila de aplicación: '00-plantilla-reporte.md'
-  - Aplicaciones analizadas:
+    - Inicio: 'tutoriales/inicio.md'  
+    - Instalación del laboratorio de análisis: 'tutoriales/01-instalacion-laboratorio.md'
+    - Captura y análisis de tráfico de red: 'tutoriales/02-captura-trafico-analisis.md'
+    - Mapeo de permisos y rastreadores: 'tutoriales/03-permisos y trackers.md'
+    - Cómo bajar un archivo APK para analizarlo: 'tutoriales/04-apk-download.md'
+    - Cómo instalar y utilizar MobSF: 'tutoriales/05-instalacion-y-uso-de-mobfs.md'
+  - Plantilla de aplicación: 'plantilla-reporte.md'
+  - Aplicaciones analizadas: 
+    - Inicio: 'aplicaciones.md'
     - Aplicaciones de seguridad:
-
-        - 9 1 1 Emergencias: '01-apps-de-seguridad/9-1-1Emergencias/911emergencias.md'
-        - 911CDMX: '01-apps-de-seguridad/911CDMX/911cdmx.md'
-        - 911 MóvilBC: '01-apps-de-seguridad/911MovilBC/911movilbc.md'
-        - Botón de Auxilio Jalisco: '01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco.md'
-        -  Mi Policía: '01-apps-de-seguridad/mi-policia/mi-policia.md'
-        - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras/mujeres-seguras.md'
-        - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla.md'
+      - 9 1 1 Emergencias: '01-apps-de-seguridad/9-1-1Emergencias/911emergencias.md'
+      - 911CDMX: '01-apps-de-seguridad/911CDMX/911cdmx.md'
+      - 911 MóvilBC: '01-apps-de-seguridad/911MovilBC/911movilbc.md'
+      - Botón de Auxilio Jalisco: '01-apps-de-seguridad/boton_auxilio_jalisco/boton-de-auxilio-jalisco.md'
+      - Mi Policía: '01-apps-de-seguridad/mi-policia/mi-policia.md'
+      - Mujeres Seguras: '01-apps-de-seguridad/mujeres-seguras/mujeres-seguras.md'
+      - Seguridad Incluyente ahora Escudo Puebla: '01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla.md'
    # - Aplicaciones de Video:
        # - B612: 'aaa'   
        # - Canvas: 'bbb'
@@ -36,8 +37,9 @@ nav:
        # - Tala: 'fff'
 
   - Listado de rastreadores y permisos:
-      - 'Permisos': '99-listado-permisos.md'
-      - 'Trackers': '99-listado-trackers.md'
+    - Inicio: 'trackers-permisos/inicio.md'
+    - Permisos: 'trackers-permisos/99-listado-permisos.md'
+    - Rastreadores: 'trackers-permisos/99-listado-trackers.md'
   - Contribuye: 'contribuye.md'
 
 theme:
