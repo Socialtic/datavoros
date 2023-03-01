@@ -134,18 +134,18 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311036/) de
 - ab-test.opayweb.com
 - whatsapp.com
 - megvii.com
-- varios dominios que terminan en moor.com
+- moor.com (y subdominios)
 - cscenter-mexico.i.o-kash.com
 - databyterangers.com.cn
 - onelink.me
-- log.sgsnssdk.com (y variantes)
+- log.sgsnssdk.com (y subdominios)
 - sgfp.tongdun.net
-- tobapplog.itobsnssdk.com (y variantes)
+- tobapplog.itobsnssdk.com (y subdominios)
 - twitter.com
 - qbox.me
 - tianxiadengcang.com
 - baidu.com
-- log.byteoversea.com (y variantes)
+- log.byteoversea.com (y subdominios)
 
 
 ## Permisos   
@@ -372,7 +372,7 @@ Almacenamiento
 
 
 ### Datos recopilados y uso según la Playstore
-
+**Esta tabla muestra los datos que, según la PlayStore recopila esta aplicación, y para qué se recopilan (su uso). Hay que recordar que estos campos en la PlayStore son llenados por los propios desarrolladores.**
 |Datos|Uso|
 |---|---|
 |Ubicación (opcional)|Fraude, seguridad y legislación|
@@ -493,4 +493,37 @@ Las razones de uso de estos datos son varias:
 - El aviso de privacidad es una copia del de otra app: iFectivo
 ## Conclusiones
 
-- No pudimos averiguar si la empresa a la que pertenece Okrédito (Administración Integral Sahe) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. Al mismo tiempo, el hecho de que usen servidores Huawei y servicios como Opay, que son chinos, nos da a entender que probablemente haya una relación con empresas chinas. Esto es relevante visto que varios arrestos que se han hecho sobre este tipo de apps, han involucrado ciudadanos de esa nacionalidad. 
+- No pudimos averiguar si la empresa a la que pertenece Okrédito (Administración Integral Sahe) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. La empresa no está registrada en Condusef. Esto ya debería hacernos dudar de la legitimidad de la misma. Al mismo tiempo, el hecho de que usen servidores Huawei y servicios como Opay, que son chinos, nos da a entender que probablemente haya una relación con empresas chinas. 
+
+- Si bien aquí aparece Megvii, en vez de Faceid.com como en la app iFectivo, es Megvii, la empresa, la que es dueña de faceid y proporciona tecnología de reconocimiento facial. 
+- Los dominios relacionados a esta aplicación que aparecen en el manifiesto son casi idénticos a los de la aplicación iFectivo. 
+
+|                              | iFectivo | Okredito |
+|------------------------------|----------|----------|
+| ab-test.opayweb.com          | x        | x        |
+| whatsapp.com                 | x        | x        |
+| megvii.com                   | x        | x        |
+| faceid.com                   | x        |          |
+| databyterangers.com.cn       | x        | x        |
+| cscenter-mexico.i.o-kash.com | x        | x        |
+| moor.com                     | x        | x        |
+| tobapplog.itobsnssdk.com     | x        | x        |
+| tianxiadengcang.com          | x        | x        |
+| qbox.me                      | x        | x        |
+| baidu.com                    | x        | x        |
+| log.byteoversea.com          | x        | x        |
+| log.sgsnssdk.com             |          | x        |
+| log.isnssdk.com              | x        |          |
+| onelink.me                   | x        | x        |
+| sgfp.tongdun.net             | x        | x        |
+| twitter.com                  |          | x        |
+
+- El aviso de privacidad es idéntico a la aplicación de ifectivo. Debido a esto y a la lista de dominios, suponemos que las mismas personas detrás de iFectivo están detrás de esta aplicación. Sabemos por [reportajes](https://politica.expansion.mx/cdmx/2022/08/17/la-cdmx-detiene-a-27-personas-relacionadas-con-23-aplicaciones-montadeudas) que sucede que una misma célula de estafadores manejara más de una aplicación. 
+- Para abonar al argumento anterior, los nombres de esta aplicación y de iFectivo son muy similares:
+    - **iFectivo:** com.loan.credit.branch.tala.fast.efectivo.mexico
+    - **Okredito:** com.loan.cash.credit.branch.tala.fast.lending.mexico
+- La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
+- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+- Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
+- Creemos que las aplicaciones de ifectivo, CreditoLana y esta, están hecha por las mismas personas debido a que, como se mencionó en los reportes de iFectivo y CreditoLana, esas dos aplicaciones están emparentadas.
+- En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás, Collection Center Media, no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.   

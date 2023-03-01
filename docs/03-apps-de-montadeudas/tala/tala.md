@@ -132,7 +132,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/309357/) de
 
 ## Empresas relacionadas con esta aplicación
 TALA Mobile, S.A.P.I. de C.V., S.O.F.O.M., E.N.R --> [Inventure Capital Corporation](https://www.bloomberg.com/profile/company/1277050D:US)   
-[LOkalise](https://lokalise.com/) --> "Traduce una app para proveer de experiencias locales al usuario   
+[Lokalise](https://lokalise.com/) --> "Traduce una app para proveer de experiencias locales al usuario   
 [Adjust](https://www.adjust.com/) --> [AppLovin](https://www.applovin.com/) - Analítica, Publicidad   
 [Braze](https://www.braze.com/) - Analítica, Publicidad   
 [Google](https://about.google/intl/ALL_mx/) --> [Alphabet](https://abc.xyz/)   
@@ -144,7 +144,7 @@ TALA Mobile, S.A.P.I. de C.V., S.O.F.O.M., E.N.R --> [Inventure Capital Corporat
 [Wordpress](https://wordpress.com/es/) - CMS --> [Auttomatic](https://automattic.com/)   
 [Microsoft](https://www.microsoft.com/es-mx/) - Data Storage y Analítica   
 [Fastly](https://www.fastly.com/es/) - CDN   
-[CloudFlare](https://www.cloudflare.com/] - CDN, Data Storage   
+[CloudFlare](https://www.cloudflare.com/) - CDN, Data Storage   
 [ProspectOne](https://prospectone.iohttps://prospectone.io/) - [jsdeliver](https://www.jsdelivr.com/) - Diseño de Software, Opensource CDN   
 [Cdnjs](https://cdnjs.com/about) - OpenSource CDN   
 [Embrace](https://embrace.io/) - Analítica   
@@ -155,16 +155,17 @@ TALA Mobile, S.A.P.I. de C.V., S.O.F.O.M., E.N.R --> [Inventure Capital Corporat
 - Sin nada que reportar
 
 ### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
-- atlas-antelope.com (35.164.145.38). Se encuentra en http y solicita: Versión Android, Tipo de red, Idioma.
+- atlas-antelope.com (35.164.145.38). Se encuentra en http y solicita: Versión Android, Tipo de red, Idioma. Pensando en que el dominio
+- https://app.coins.ph/
 - https://coins.ph/
 - https://prod-mx-api.inventureaccess.com 
 - https://prod.mx.atlas-antelope.com
 - https://www.openpay.mx/
-- https://www.eonbankph.com (Banca de Filipinas. Curiosamente dirige a servidores en Morelos México: 189.247.197.24)
-- https://www.consusef.gob.mx
+- https://www.eonbankph.com 
+- https://www.condusef.gob.mx
 - https://www.7-eleven.com.ph
 - https://www.vmoney.com
-- htpps://www.unionbankph.com
+- https://www.unionbankph.com
 - https://www.paynet.com.mx
 
 
@@ -440,7 +441,7 @@ Fotos/multimedia/archivos
 | 216.239.34.178  |                 89 | United States |                   |     15169 | GOOGLE                      | Firebase                        |
 
 - No pudimos identificar de quién es o para qué sirve el dominio data-emb-api.com. Según un usuario de [Reddit](https://www.reddit.com/r/pihole/comments/r9ztzd/what_is_dataembapicom_and_what_does_it_do/), es una herramienta de analítica relacionada con la empresa de analítica [Embrace](https://embrace.io/)
-- No pudimos identificar de quién es o para qué sirve el dominio prod.mx.atlas-antelope.com (Por la cantidad de paquetes enviados, probablemente pertence a Tala, pero es una suposición)
+- No pudimos identificar de quién es o para qué sirve el dominio prod.mx.atlas-antelope.com (Por la cantidad de paquetes enviados, probablemente pertence a Tala, pero es una suposición porque el dominio al día de hoy está registrado a través de domainsbyproxy.org )
 
 **Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
 
@@ -473,11 +474,11 @@ Fotos/multimedia/archivos
 ### Prácticas de seguridad
 
 - Los datos están encriptados en tránsito
-- Puedes solicitar que se borren tus datos
+- Puedes solicitar que se borren tus datos (no estamos seguros de esto)
 
 
 ### Datos recopilados y uso según la Política de privacidad
-
+**Esta tabla muestra los datos que, según la PlayStore recopila esta aplicación, y para qué se recopilan (su uso). Hay que recordar que estos campos en la PlayStore son llenados por los propios desarrolladores.**
 |Datos|
 |---|
 |Datos de contacto: número de teléfono celular, correo electrónico, domicilio personal|
@@ -534,9 +535,13 @@ Fotos/multimedia/archivos
 
 
 ### Notas importantes sobre seguridad y privacidad:
- - La aplicación permite confiar en los certificados instalados por el usuario.
+ - La aplicación permite confiar en los certificados instalados por el usuario, esto quiere decir que puede ser vulnerable a un ataque de hombre en el medio, ya que instalando un certificado malicioso, se podría acceder al tráfico de red sin que este esté cifrado.
 
 ## Conclusiones
 - El aviso de privacidad es excelente especificando con detalle los datos recolectados y su uso. Además explica los permisos que solicita y para qué se usan.
-- La infraestructura no tiene relación con China y es una empresa que trabaja a nivel global perteneciente a un fondo de inversiones que ofrece servicios financieros basados en data science.
-
+- La infraestructura no tiene relación con China y es una empresa que trabaja a nivel global perteneciente a un fondo de inversiones que ofrece servicios financieros basados en data science. Existen [versiones](https://consejociudadanomx.org/media/files/3/MontaDeudasReportadas/Noviembre%202022/08112022_Lista%20de%20apps.pdf) de esta aplicaciones para Kenya, Filipinas y la India
+- De todas las aplicaciones de montadeudas analizadas, esta es la única aplicación legítima de préstamo, aunque tiene muchas quejas, como se puede ver en esta [tabla](https://consejociudadanomx.org/media/files/3/MontaDeudasReportadas/Noviembre%202022/08112022_Lista%20de%20apps.pdf). 
+- Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario, y a los SMS y contactos son permisos de alto riesgo.
+- Los datos solicitados son acordes a los datos que se solicitan normalmente para solicitar un préstamo.
+- En conclusión, esta aplicación es legítima y está registrada en Condusef. Como no tenemos acceso a las denuncias no podemos saber si las denuncias incluyen hostigamiento y acoso; si el dinero no se transfirió o los intereses cobrados fueron desproporcionados y nunca se le notificó al deudor. De hecho, en su [página](https://talamobile.mx/2022/07/13/que-tan-confiable-es-la-app-de-prestamos-tala/) tienen una sección sobre apps fraudulentas. 
+- Inventure Access, la empresa madre de Tala, es un fondo de inversiones que desarrolla instrumentos financieros usando Data Science. En el caso de Tala la idea es ofrecer una aplicación que, sin la intervención de una persona, pueda perfilar a quien pide un préstamo para ver si su perfil cumple o no cumple con los requisitos. En este sentido, la privacidad del cliente queda expuesta por los trackers, los permisos que otorga y la información. Sin embargo dicha información queda en manos de una empresa internacional como está explicado en el aviso de privacidad. 

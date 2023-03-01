@@ -14,7 +14,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:**https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX
+- **Link de descarga:** https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 14/09/2022
 - **Versión:** 1.0.89
@@ -349,7 +349,7 @@ Cámara
 
 
 ### Datos recopilados y uso según la Playstore
-
+**Esta tabla muestra los datos que, según la PlayStore recopila esta aplicación, y para qué se recopilan (su uso). Hay que recordar que estos campos en la PlayStore son llenados por los propios desarrolladores.**
 |Datos|Uso|
 |---|---|
 |Ubicación aproximada y precisa (opcional)|Funcionalidad, Fraude, seguridad y legislación|
@@ -371,7 +371,7 @@ Cámara
 ### Prácticas de seguridad
 
 - Los datos están cifrados en tránsito
-- Puedes solicitar que tus datos sean borrados
+- Puedes solicitar que tus datos sean borrados (no sabemos si es cierto)
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -399,7 +399,7 @@ Cámara
 |Dirección del centro de trabajo|
 |Teléfono del centro de trabajo|
 |Fecha de ingreso al servicio|
-|CArgo dentro de la empresa/institución|
+|Cargo dentro de la empresa/institución|
 |Nombre del jefe directo|
 |Actividades productivas adicionales|
 |Experiencia profesional|
@@ -438,6 +438,11 @@ Las razones de uso de estos datos son varias:
 - Los datos enviados por esta aplicación están cifrados en tránsito. Aunque existe una IP, la 52.156.120.137 que se corresponde con el dominio de [sohu.com](https://en.wikipedia.org/wiki/Sohu) un proveedor de Internet chino. A esa dirección se manda la versión del sistema operativo del usuario, el modelo, la marca, el user agent y el número de compilación. 
 - No sabemos por qué no funcionó el análisis con Exodus Privacy.
 - El análisis mediante MobSF resultó curioso, en tanto que hay varios campos en los cuales no encontró información (incluídos trackers que nosotros detectamos en el manifiesto).
+
 ## Conclusiones
-- No pudimos averiguar si la empresa a la que pertenece SuperApoyo (TIK IN, S.A: de C.V.) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. 
+- No pudimos averiguar si la empresa a la que pertenece SuperApoyo (TIK IN, S.A: de C.V.) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. Además no está registrada en Condusef.
 - Asimismo vemos una vez más que parte de la infraestructura de la aplicación está relacionada con China, tanto por los servidores de Huawei como el contacto con Sohu.com. Asismismo, la página de [izatcloud.net](http://izatcloud.net/) que pertence a Qualcommm aparece con carcateres chinos.
+- La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes.
+- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+- Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS y contactos son permisos de alto riesgo.
+- En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás (TIK IN) no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.   

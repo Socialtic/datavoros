@@ -1,5 +1,7 @@
 # iFectivo
 
+**Esta aplicación parece estar zombie. Los dominios a la política de privacidad y a la página están caídos, aunque sigue presente en la PlayStore**
+
 ## Fecha de análisis
 
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 14/11/2022
@@ -14,7 +16,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:**https://play.google.com/store/apps/details?id=com.loan.cash.credit.branch.tala.fast.lending.mexico
+- **Link de descarga:**https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 25/09/2022
 - **Versión:** 1.6.2
@@ -114,16 +116,15 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311000/) de
 - faceid.com
 - databyterangers.com.cn
 - cscenter-mexico.i.o-kash.com
-- varios dominios que terminan en moor.com
-- tobapplog.itobsnssdk.com (y variantes)
+- moor.com (y subdominios)x
+- tobapplog.itobsnssdk.com (y subdominios)
 - tianxiadengcang.com
 - qbox.me
 - baidu.com
 - megvii.com
-- log.byteoversea.com (y variantes)
-- log.isnssdk.com (y variantes)
+- log.byteoversea.com (y subdominios)
+- log.isnssdk.com (y subdominios)
 - onelink.me
-
 
 ## Permisos   
 
@@ -343,6 +344,7 @@ Almacenamiento
 
 
 ### Datos recopilados y uso según la Playstore
+**Esta tabla muestra los datos que, según la PlayStore recopila esta aplicación, y para qué se recopilan (su uso). Hay que recordar que estos campos en la PlayStore son llenados por los propios desarrolladores.**
 
 |Datos|Uso|
 |---|---|
@@ -365,7 +367,7 @@ Almacenamiento
 ### Prácticas de seguridad
 
 - Los datos están cifrados en tránsito
-- Puedes solicitar que tus datos sean borrados
+- Puedes solicitar que tus datos sean borrados (aunque no nos consta)
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -461,10 +463,51 @@ Las razones de uso de estos datos son varias:
 
 
 ### Notas importantes sobre seguridad y privacidad:
- - Los datos enviados por esta aplicación están cifrados en tránsito
- - Existe un problema de seguridad en la medida en que no utiliza la tecnología SSL Pinning. Dicha tecnlogía implica que los certificados que permiten el cifrado en tránsito solamente sean certificados definidos por el desarrollador de la aplicación. En este caso, al no contar con esta tecnología, esta aplicación es vulnerable a un ataque MITM (Hombre en el medio), lo que podría suponer un peligro enorme para los usuarios, visto que los datos enviados son tantos y tan críticos.
+ - Los datos enviados por esta aplicación están cifrados en tránsito, es decir que se utiliza un certificado SSL.
+ - Existe un problema de seguridad en la medida en que no utiliza la tecnología SSL Pinning. Esta tecnología evita que los certificados SSL utilizados para cifrar los datos en tránsito no puedan ser suplantados por otros. Como no está implementada esta tecnología, la aplicación es vulnerable a un ataque MITM (Hombre en el medio), lo que podría suponer un peligro enorme para los usuarios, visto que los datos enviados son tantos y tan críticos.
 - El aviso de privacidad es una copia del aviso de otra app: Okrédito
+
 ## Conclusiones
 
-- No pudimos registrarnos en esta aplicación por un error de red. Esto limita nuestras posibilidades de análisis dinámico. Aun así, basta con el análisis técnico y de la política de privacidad para entender que recolectan absolutamente todos los datos importantes del usuario.
-- No pudimos averiguar si la empresa a la que pertenece iFectivo (Collection Center Media) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. Al mismo tiempo, el hecho de que usen servidores Huawei y servicios como Opay, que son chinos, nos da a entender que probablemente haya una relación con empresas chinas. Esto es relevante visto que varios arrestos que se han hecho sobre este tipo de apps, han involucrado ciudadanos de esa nacionalidad. 
+- No pudimos registrarnos en esta aplicación por un error de red. Esto limita nuestras posibilidades de análisis dinámico. Aun así, basta con el análisis técnico y de la política de privacidad para entender que recolectan absolutamente todos los datos relevantes del usuario para pedir un préstamo.
+- No pudimos averiguar si la empresa a la que pertenece iFectivo (Collection Center Media) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Sabemos que no está registrada en la Condusef, y esto ya debería hacernos dudar de la legitimidad de la misma. Al mismo tiempo, el hecho de que usen servidores Huawei y servicios como Opay, que son chinos, nos da a entender que probablemente haya una relación con empresas chinas.
+- La tecnología de reconocimiento facial que utilizan, faceid.com, es una empresa china Megvii), y otros dominios que están en el código son chinos también: 
+    - faceid.com
+    - databyterangers.com.cn
+    - tianxiadengcang.com
+    - baidu.com
+    - megvii.com
+    - log.byteoversea.com (y variantes) --> pertenece a TikTok
+- La mayoría de los dominios son idénticos a los de la aplicación Okredito:
+
+|                              | iFectivo | Okredito |
+|------------------------------|----------|----------|
+| ab-test.opayweb.com          | x        | x        |
+| whatsapp.com                 | x        | x        |
+| megvii.com                   | x        | x        |
+| faceid.com                   | x        |          |
+| databyterangers.com.cn       | x        | x        |
+| cscenter-mexico.i.o-kash.com | x        | x        |
+| moor.com                     | x        | x        |
+| tobapplog.itobsnssdk.com     | x        | x        |
+| tianxiadengcang.com          | x        | x        |
+| qbox.me                      | x        | x        |
+| baidu.com                    | x        | x        |
+| log.byteoversea.com          | x        | x        |
+| log.sgsnssdk.com             |          | x        |
+| log.isnssdk.com              | x        |          |
+| onelink.me                   | x        | x        |
+| sgfp.tongdun.net             | x        | x        |
+| twitter.com                  |          | x        |
+- Como el aviso de privacidad es idéntico al de Okredito, parece ser que sencillamente esta aplicación está emparentada y pertenece a las mismas personas que desarrollaron Okrédito. Por algunos [reportajes](https://politica.expansion.mx/cdmx/2022/08/17/la-cdmx-detiene-a-27-personas-relacionadas-con-23-aplicaciones-montadeudas) sabemos que una misma célula de personas manejan distintas aplicaciones.
+- Para abonar al argumento anterior, los nombres de esta aplicación y de Okredito son muy similares:
+    - **iFectivo:** com.loan.credit.branch.tala.fast.efectivo.mexico
+    - **Okredito:** com.loan.cash.credit.branch.tala.fast.lending.mexico 
+- Como está dicho en el reporte de CreditoLana, esa aplicación tiene indicios de estar altamente relacionada con esta.
+- La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
+- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+- Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
+- Creemos que las aplicaciones de Okredito, CreditoLana y esta, están hechas por las mismas personas debido a los indicios ya mencionados. 
+- En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás, Collection Center Media, no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.   
+
+
