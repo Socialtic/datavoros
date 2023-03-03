@@ -350,7 +350,7 @@ Cámara
 |Mensajes de texto|
 |IMEI|
 |Cámara|
-|Lista de contactos (dicen que se borran y filtran los datos personales de esos contactos|
+|Lista de contactos (dicen que se borran y filtran los datos personales de esos contactos)|
 |Información básica del teléfono móvil|
 
 
@@ -371,7 +371,6 @@ No se comparten
 - Los datos enviados por esta aplicación están cifrados en tránsito
 - En el aviso de privacidad se especifica que los datos se suben a dos servidores, aquellos de www.creditolanamx.com y https://api2.branch.io. Este último servidor pertenece al tracker de Branch y, hasta donde sabemos, esta empresa no proporciona servicios de guardado de datos. Esto nos hace dudar si, en efecto, le están vendiendo estos datos a esta empresa de analítica.
 - Leyendo el manifiesto de la aplicación, descubrimos que aparecen relaciones con otra app analizada aquí: [iFectivo](./captura_pantalla/creditolana%20ifectivo%202.png). En esta captura de pantalla se muestra una sección del manifiesto de la aplicación, ciertas actividades, tienen el nombre ifectivo.
-- El aviso de privacidad (sobre todo la primera parte) es muy similar al aviso de privacidad de las apps Okrédito y iFectivo.
 - El dominio creditolanamx.com está registrado a nombre de alguien en China. **Actualización: esto ya cambió, y ahora aparece en [Whois](./captura_pantalla/creditolanawhois.png) un registrante anónonimo de Gran Bretaña. En la página [Whoxy.com](https://www.whoxy.com/creditolanamx.com#history) se puede revisar quién era dueño de este dominio con anterioridad, aquí una captura de [pantalla](./captura_pantalla/creditolanawhoishistory.png).**
 
 ## Conclusiones
