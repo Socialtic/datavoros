@@ -24,7 +24,7 @@
 - **Firma:** Mexico Financial2
 - **Contacto:** ifectivo.developer@gmail.com
 - **Condiciones de uso y Política de privacidad:** https://www.ifectivo.mx/index/agreement
-    
+ / waybackmachine: https://web.archive.org/web/20220827223037/https://www.ifectivo.mx/index/agreement    
 - **Descripción en PlayStore:**
 ~~~
 About loans:

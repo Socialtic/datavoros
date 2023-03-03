@@ -21,7 +21,7 @@
 - **Desarrollador:** https://www.okredito.com/
 - **Firma:** Google.Inc
 - **Contacto:** hola@okredito.mx
-- **Condiciones de uso y Política de privacidad:** https://www.okredito.com/index/agreements
+- **Condiciones de uso y Política de privacidad:** https://www.okredito.com/index/agreements / Waybackmachine: https://web.archive.org/web/20220827230646/https://www.okredito.com/index/agreements
     
 - **Descripción en PlayStore:**
 ~~~
