@@ -10,8 +10,8 @@
     - [Mujeres Seguras](https://docs.datavoros.org/01-apps-de-seguridad/mujeres-seguras/mujeres-seguras/)
     - [Seguridad Incluyente/Escudo Puebla](https://docs.datavoros.org/01-apps-de-seguridad/seguridad-incluyente-escudo-puebla/seguridad-incluyente-escudo-puebla/)
 - **Aplicaciones de Montadeudas**:
-    - [Creditolana](https://docs.datavoros.org/03-apps-de-monatdeudas/creditolana/creditolana.md/)
-    - [iFectivo](https://docs.datavoros.org/03-apps-de-monatdeudas/ifectivo/ifectivo.md/)
-    - [Okredito](https://docs.datavoros.org/03-apps-de-monatdeudas/okredito/okredito.md/)
-    - [Superapoyo](https://docs.datavoros.org/03-apps-de-monatdeudas/superapoyo/superapoyo.md/)
-    - [Tala](https://docs.datavoros.org/03-apps-de-monatdeudas/tala/tala.md/)
+    - [Creditolana](https://docs.datavoros.org/03-apps-de-montadeudas/creditolana/creditolana.md/)
+    - [iFectivo](https://docs.datavoros.org/03-apps-de-montadeudas/ifectivo/ifectivo.md/)
+    - [Okredito](https://docs.datavoros.org/03-apps-de-montadeudas/okredito/okredito.md/)
+    - [Superapoyo](https://docs.datavoros.org/03-apps-de-montadeudas/superapoyo/superapoyo.md/)
+    - [Tala](https://docs.datavoros.org/03-apps-de-montadeudas/tala/tala.md/)
