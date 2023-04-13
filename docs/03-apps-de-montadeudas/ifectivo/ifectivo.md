@@ -16,7 +16,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:**https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico](https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 25/09/2022
 - **Versión:** 1.6.2
