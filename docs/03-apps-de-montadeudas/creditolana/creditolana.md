@@ -24,7 +24,8 @@
 - **Desarrollador:** [https://www.creditolanamx.com/](https://www.creditolanamx.com/)
 - **Firma:** Google.Inc
 - **Contacto:** cs@creditolanamx.com
-- **Condiciones de uso y Política de privacidad:** [https://www.creditolanamx.com/creditolanas/index.html](https://www.creditolanamx.com/creditolanas/index.html)
+- **Condiciones de uso y Política de privacidad:** [https://www.creditolanamx.com/creditolanas/index.html](https://www.creditolanamx.com/creditolanas/index.html)   
+Wayback Machine: [https://web.archive.org/web/20230000000000*/https://www.creditolanamx.com/creditolanas/index.html](https://web.archive.org/web/20230000000000*/https://www.creditolanamx.com/creditolanas/index.html)
     
 - **Descripción en PlayStore:**
 ~~~

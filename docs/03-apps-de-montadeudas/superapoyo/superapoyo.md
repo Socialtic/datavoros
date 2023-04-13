@@ -14,14 +14,15 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX](https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 14/09/2022
 - **Versión:** 1.0.89
-- **Desarrollador:** http://www.superapoyo.com/
+- **Desarrollador:** [http://www.superapoyo.com/](http://www.superapoyo.com/)
 - **Firma:** superapoyo
 - **Contacto:** servicio@superapoyo.com
-- **Condiciones de uso y Política de privacidad:** https://www.superapooyo.com/notice
+- **Condiciones de uso y Política de privacidad:** [https://www.superapooyo.com/notice](https://www.superapooyo.com/notice)   
+Wayback Machine: [https://web.archive.org/web/20230000000000*/https://www.superapooyo.com/notice](https://web.archive.org/web/20230000000000*/https://www.superapooyo.com/notice)
     
 - **Descripción en PlayStore:**
 ~~~

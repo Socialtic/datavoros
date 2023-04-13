@@ -14,14 +14,15 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.loan.cash.credit.branch.tala.fast.lending.mexico
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.loan.cash.credit.branch.tala.fast.lending.mexico](https://play.google.com/store/apps/details?id=com.loan.cash.credit.branch.tala.fast.lending.mexico)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 19/08/2022
 - **Versión:** 2.4.1
-- **Desarrollador:** https://www.okredito.com/
+- **Desarrollador:** [https://www.okredito.com/](https://www.okredito.com/)
 - **Firma:** Google.Inc
 - **Contacto:** hola@okredito.mx
-- **Condiciones de uso y Política de privacidad:** https://www.okredito.com/index/agreements / Waybackmachine: https://web.archive.org/web/20220827230646/https://www.okredito.com/index/agreements
+- **Condiciones de uso y Política de privacidad:** [https://www.okredito.com/index/agreements/](https://www.okredito.com/index/agreements/)    
+Wayback Machine: [https://web.archive.org/web/20220827230646/https://www.okredito.com/index/agreements](https://web.archive.org/web/20220827230646/https://www.okredito.com/index/agreements)
     
 - **Descripción en PlayStore:**
 ~~~
@@ -112,7 +113,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311036/) de
 - [Meta](https://about.facebook.com/ltam/meta/) --> Facebook
 - [Pangle](https://www.pangleglobal.com/) --> [TikTok](https://www.tiktok.com/) --> [ByteDance](https://www.bytedance.com/en/) - Publicidad
 - [Megvii](https://en.megvii.com/solutions/FaceID) --> Detección de rostro (FaceID) y de identificación (Usado para reconocer las identificaciones como la del INE)
-- [Moor](moor.com) - ¿Emails?
+- [Moor](http://moor.com) - ¿Emails?
 - [TongDun](https://www.tngdun.id) -->Toma de riesgos y decisiones
 - [Opay](https://opayweb.com/) --> [Opera Norway AS Group](https://en.wikipedia.org/wiki/Opera_(company)) --> [Kunlun](http://www1.kunlun.com/en/) -->  Pagos digitales
 - [Amazon](https://www.aboutamazon.com/) - Data Storage

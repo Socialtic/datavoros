@@ -14,14 +14,15 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=mx.com.tala
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=mx.com.tala](https://play.google.com/store/apps/details?id=mx.com.tala)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 03/10/2022
 - **Versión:** 7.122.0
 - **Desarrollador:** [Tala Mobile](https://talamobile.mx)
 - **Firma:** Inventure
 - **Contacto:** hola@talamobile.mx
-- **Condiciones de uso y Política de privacidad:** https://talamobile.mx/aviso-de-privacidad-mx/?bypass=true
+- **Condiciones de uso y Política de privacidad:** [https://talamobile.mx/aviso-de-privacidad-mx/?bypass=true](https://talamobile.mx/aviso-de-privacidad-mx/?bypass=true)   
+Wayback Machine: [https://web.archive.org/web/20230000000000*/https://talamobile.mx/aviso-de-privacidad-mx/?bypass=true](https://web.archive.org/web/20230000000000*/https://talamobile.mx/aviso-de-privacidad-mx/?bypass=true)
     
 - **Descripción en PlayStore:**
 ~~~

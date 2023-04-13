@@ -16,15 +16,16 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico](https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico)
+- **Link de descarga:**[https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico](https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 25/09/2022
 - **Versión:** 1.6.2
-- **Desarrollador:** https://www.ifectivo.mx/
+- **Desarrollador:** [https://www.ifectivo.mx/](https://www.ifectivo.mx/)
 - **Firma:** Mexico Financial2
 - **Contacto:** ifectivo.developer@gmail.com
-- **Condiciones de uso y Política de privacidad:** https://www.ifectivo.mx/index/agreement
- / waybackmachine: https://web.archive.org/web/20220827223037/https://www.ifectivo.mx/index/agreement    
+- **Condiciones de uso y Política de privacidad:** [https://www.ifectivo.mx/index/agreement](https://www.ifectivo.mx/index/agreement)   
+Wayback Machine: [https://web.archive.org/web/20220827223037/https://www.ifectivo.mx/index/agreement](https://web.archive.org/web/20220827223037/https://www.ifectivo.mx/index/agreement)
+    
 - **Descripción en PlayStore:**
 ~~~
 About loans:
@@ -97,7 +98,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311000/) de
 - [Pangle](https://www.pangleglobal.com/) --> [TikTok](https://www.tiktok.com/) --> [ByteDance](https://www.bytedance.com/en/) - Publicidad
 - [Opentelemetry](https://opentelemetry.io/) --> [CloudNative](https://www.cncf.io/) - Minado y procesamiento de datos
 - [Megvii](https://en.megvii.com/solutions/FaceID) --> Detección de rostro (FaceID) y de identificación (Usado para reconocer las identificaciones como la del INE)
-- [Moor](moor.com) - ¿Emails?
+- [Moor](http://moor.com) - ¿Emails?
 - [Opay](https://opayweb.com/) --> [Opera Norway AS Group](https://en.wikipedia.org/wiki/Opera_(company)) --> [Kunlun](http://www1.kunlun.com/en/) -->  Pagos digitales
 - [Huawei](https://www.huawei.com/en/) --> Data Storage
 - [Cloudflarenet](https://www.cloudflare.com/) --> CDN, Data Storage
