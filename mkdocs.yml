@@ -28,13 +28,12 @@ nav:
        # - Sticker.ly: 'ccc'
        # - Picsart: 'ddd'
        # - Sweet Selfie Camera Editor: 'eee'
-   # - Aplicaciones de Montadeudas:
-       # - Cashbox: 'aaa'
-       # - Creditolana: 'bbb'
-       # - iFectivo: 'ccc'
-       # - Okredito: 'ddd'
-       # - Superapoyo: 'eee'
-       # - Tala: 'fff'
+    - Aplicaciones de Montadeudas:
+       - Creditolana: '03-apps-de-montadeudas/creditolana/creditolana.md'
+       - iFectivo: '03-apps-de-montadeudas/ifectivo/ifectivo.md'
+       - Okredito: '03-apps-de-montadeudas/okredito/okredito.md'
+       - Superapoyo: '03-apps-de-montadeudas/superapoyo/superapoyo.md'
+       - Tala: '03-apps-de-montadeudas/tala/tala.md'
 
   - Listado de rastreadores y permisos:
     - Inicio: 'trackers-permisos/inicio.md'
