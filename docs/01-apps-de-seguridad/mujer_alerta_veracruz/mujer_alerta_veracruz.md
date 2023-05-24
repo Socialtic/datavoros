@@ -209,7 +209,7 @@ Información sobre la conexión WI-Fi
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
-[Mapa](./mapa.png)
+![Mapa](./mapa.png)
 
 
 ### Datos compartidos y uso según la Playstore:
