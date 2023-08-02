@@ -14,14 +14,14 @@
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos y video 
 - **Costo:** Freemium  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.canva.editor&gl=US
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.canva.editor&gl=US](https://play.google.com/store/apps/details?id=com.canva.editor&gl=US)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 01/11/2022
 - **Versión:** 2.190.0
 - **Desarrollador:** Canva
 - **Firma:** Canva
 - **Contacto:** android-app@canva.com
-- **Condiciones de uso y Política de privacidad:** https://www.canva.com/policies/privacy-policy/
+- **Condiciones de uso y Política de privacidad:** [https://www.canva.com/policies/privacy-policy/](https://www.canva.com/policies/privacy-policy/)
     
 - **Descripción en PlayStore:**
 ~~~
