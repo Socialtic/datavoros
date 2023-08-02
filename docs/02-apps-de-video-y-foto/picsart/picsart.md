@@ -14,14 +14,14 @@
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos, video y red social   
 - **Costo:** Freemium  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.picsart.studio
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.picsart.studio](https://play.google.com/store/apps/details?id=com.picsart.studio)
 - **Descargas:** 500M+
 - **Ultima fecha de actualización:** 03/11/2022
 - **Versión:** 20.9.4
 - **Desarrollador:** Picsart
 - **Firma:** sourc.io
 - **Contacto:** support@picsart.com
-- **Condiciones de uso y Política de privacidad:** https://picsart.com/privacy-policy
+- **Condiciones de uso y Política de privacidad:** [https://picsart.com/privacy-policy](https://picsart.com/privacy-policy)
     
 - **Descripción en PlayStore:**
 ~~~
@@ -126,7 +126,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/308249/) de
 - [SmartBear](https://smartbear.com/company/about-us/) --> Bugsnag
 - [Meta](https://about.facebook.com/ltam/meta/) --> Facebook
 - [Digital Turbine](https://www.digitalturbine.com/about/), [Appreciate](https://appreciate.mobi/)(DSP) --> [Fyber](https://www.fyber.com/fyber-marketplace/)
-- [Google] (https://about.google/intl/ALL_mx/) --> [Alphabet](https://abc.xyz/)
+- [Google](https://about.google/intl/ALL_mx/) --> [Alphabet](https://abc.xyz/)
 - [IAB Tech Lab](https://iabtechlab.com/) --> IAB OpenMeasurement
 - [Inmobi](https://www.inmobi.com/) - Publicidad
 - [VK](https://vk.company/en/company/about/) --> VKontakte. VK es además una [red social](https://vk.com/about) basada en Rusia. 
@@ -152,7 +152,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/308249/) de
 
 
 ### Provedores de servicios de terceros para pagos, identificación y redes sociales:
-- [Google] (https://about.google/intl/ALL_mx/) --> Alphabet
+- [Google](https://about.google/intl/ALL_mx/) --> Alphabet
 - [Youtube](https://about.youtube/) --> Alphabet
 - [Instagram](https://instagram.com) --> Meta
 - [Facebook](https://facebook.com) --> Meta
@@ -258,11 +258,11 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- :large_blue_circle: Acceso a Fotos y Multimedia 
-- :large_blue_circle: Acceso a tomar fotos y grabar video
-- :large_blue_circle: Acceso a contactos
+- :blue_circle: Acceso a Fotos y Multimedia 
+- :blue_circle: Acceso a tomar fotos y grabar video
+- :blue_circle: Acceso a contactos
 
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
@@ -350,7 +350,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 **Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
 
-- Hay dos dominios inteeresantes. inner-active.mobi (también inneractiveassets). Pareciera que estos pertenecen a un tracker, pero no sabemos a cuál. El otro dominio es onelink.me. Está registrado a través de [Godaddy](https://www.godaddy.com/es) y, por lo mismo, la empresa que lo registró es anónima. 
+- Hay dos dominios interesantes. inner-active.mobi (también inneractiveassets). Pareciera que estos pertenecen a un tracker, pero no sabemos a cuál. El otro dominio es onelink.me. Está registrado a través de [Godaddy](https://www.godaddy.com/es) y, por lo mismo, la empresa que lo registró es anónima. 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
@@ -449,7 +449,7 @@ Otros archivos de audio|Funciones de la app|
         - Facebook
     - :bangbang:Servicios de terceros para marketing o publicidad (léase trackers).
 
-    El ícono :bangbang: denota, lo que creemos que es algo importante a tomar en cuenta sobre la privacidad del usuario.
+    *El ícono :bangbang: denota, lo que creemos que es algo importante a tomar en cuenta sobre la privacidad del usuario.*
         
 
 
