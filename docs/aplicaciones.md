@@ -16,7 +16,7 @@
     - [Okredito](https://docs.datavoros.org/03-apps-de-montadeudas/okredito/okredito/)
     - [Superapoyo](https://docs.datavoros.org/03-apps-de-montadeudas/superapoyo/superapoyo/)
     - [Tala](https://docs.datavoros.org/03-apps-de-montadeudas/tala/tala/)
- - - **Aplicaciones de vídeo y foto**:
+ - **Aplicaciones de vídeo y foto**:
    - [B612](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/b612/B612)
    - [Canva](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/canva/canva)
    - [Picsart](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/picsart/picsart)
