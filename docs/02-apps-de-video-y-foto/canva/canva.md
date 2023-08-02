@@ -204,10 +204,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - :red_circle: Acceso a Fotos y Multimedia 
 - :red_circle: Acceso a tomar fotos y grabar video
-- :large_blue_circle: Grabar audio para videos
+- :blue_circle: Grabar audio para videos
 
-:red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
@@ -322,40 +322,40 @@ ID de usuario (opcional)|Funcionalidad de la aplicación|
 |:bangbang:Geolocalización a través de: dirección ip, terceros, terceros con los que se realizan pagos y cuando el usuario proporciona la ubicación de manera expedita.|Localizar usuarios y personalizar el contenido; obedecer las leyes locales; analítica; formas de uso de la aplicación: doméstica, educacional o empresarial (léase, saben si el usuario está en su casa, en la escuela o en el trabajo); mejorar publicidad y mejor estimar los impuestos.|
 |Contenido generado por el usuario en la aplicación|
 
-- El uso general que le dan a la información incluye:
-    - Proporcionar el servicio
-    - Mejorar el servicio a través del análisis de datos de uso y patrones demográficos.
-    - _Predictive analytics_: utilizan algoritmos que, a través del análisis del uso de la aplicación, pueden predecir el uso que le dará el usuario, de tal manera que es más fácil personalizar y mejorar el servicio para cada usuario. Al mismo tiempo, toda esta información "entrena" cada vez mejor al propio algoritmo, una suerte de círculo virtuoso. La información que usan y cómo la usan incluye:
-        - Etiquetar y detectar componenetes en las imágenes (ojos, fondos, etc.).
-        - Etiquetas generales (Persona con perro).
-        - Detectar contenido prohibido.
-        - Traducir pistas de audio.
-        - Predecir la mejor suscripción o producto para un usuario.
-        - Términos de búsqueda.
-        - Promover un mayor uso (_engagement_) de la aplicación.
-        - Publicidad.
-        - Felicidad del usuario. Datos que les son enviados a su equipo de felicidad del usuario para mejorar o solucionar problemas.
-        - Seguridad
+- El uso general que le dan a la información incluye:   
+    - Proporcionar el servicio   
+    - Mejorar el servicio a través del análisis de datos de uso y patrones demográficos.   
+    - _Predictive analytics_: utilizan algoritmos que, a través del análisis del uso de la aplicación, pueden predecir el uso que le dará el usuario, de tal manera que es más fácil personalizar y mejorar el servicio para cada usuario. Al mismo tiempo, toda esta información "entrena" cada vez mejor al propio algoritmo, una suerte de círculo virtuoso. La información que usan y cómo la usan incluye:   
+        - Etiquetar y detectar componenetes en las imágenes (ojos, fondos, etc.).   
+        - Etiquetas generales (Persona con perro).   
+        - Detectar contenido prohibido.   
+        - Traducir pistas de audio.   
+        - Predecir la mejor suscripción o producto para un usuario.   
+        - Términos de búsqueda.   
+        - Promover un mayor uso (_engagement_) de la aplicación.   
+        - Publicidad.   
+        - Felicidad del usuario. Datos que les son enviados a su equipo de felicidad del usuario para mejorar o solucionar problemas.      
+        - Seguridad.   
 
-Comparten la información del usuario con terceros sólo para poder brindar el servicio y sólo en la medida estrictamente necesaria. El servicio incluye:
-- Pagos
-- Atención al cliente
-- Email
-- Alojamiento de datos
-- Análisis de datos y _predictive analysis_
-- Etiquetamiento de datos
-- Seguridad
-- Publicidad y marketing
-- Registro de dominio 
-- Envío de productos físicos
-- Otros proveedores de servicios
-
-
+Comparten la información del usuario con terceros sólo para poder brindar el servicio y sólo en la medida estrictamente necesaria. El servicio incluye:   
+- Pagos   
+- Atención al cliente   
+- Email   
+- Alojamiento de datos   
+- Análisis de datos y _predictive analysis_   
+- Etiquetamiento de datos   
+- Seguridad   
+- Publicidad y marketing   
+- Registro de dominio     
+- Envío de productos físicos   
+- Otros proveedores de servicios   
 
 
-- Si el usuario no quiere que su información no se use para fines pubilicitarios, de marketing o perfilamiento, se puede mandar un email a privacy@canva.com
 
-*El ícono :bangbang: denota, lo que creemos que es algo importante a tomar en cuenta sobre la privacidad del usuario.*
+
+- Si el usuario no quiere que su información no se use para fines pubilicitarios, de marketing o perfilamiento, se puede mandar un email a privacy@canva.com   
+
+*El ícono :bangbang: denota, lo que creemos que es algo importante a tomar en cuenta sobre la privacidad del usuario.*   
         
 
 
