@@ -15,14 +15,14 @@
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos, creador de stickers, videos
 - **Costo:** Freemium 
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.cam001.selfie
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.cam001.selfie](https://play.google.com/store/apps/details?id=com.cam001.selfie)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 18/10/2022
 - **Versión:** 5.1.1493
 - **Desarrollador:** http://www.ufotosoft.com
 - **Firma:** Thundersoft
 - **Contacto:** support@ufotosoft.com
-- **Condiciones de uso y Política de privacidad:** http://res.ufotosoft.com/aboutus/src/selfie.policy.html
+- **Condiciones de uso y Política de privacidad:** [http://res.ufotosoft.com/aboutus/src/selfie.policy.html](http://res.ufotosoft.com/aboutus/src/selfie.policy.html)
     
 - **Descripción en PlayStore:**
 ~~~
@@ -216,8 +216,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :red_circle: Acceso a tomar fotos y grabar video
 - :red_circle: Grabar audio para videos
 
-:red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
@@ -405,15 +405,15 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Tienen una lista de los terceros con los que trabajan:
     - Plataformas de publicidad:
 
-    Admob https://www.google.co.uk/about/company/consenthelpstaging.html   
-    Facebook https://www.facebook.com/about/privacy/update
+    Admob [https://www.google.co.uk/about/company/consenthelpstaging.html](https://www.google.co.uk/about/company/consenthelpstaging.html)   
+    Facebook [https://www.facebook.com/about/privacy/update](https://www.google.co.uk/about/company/consenthelpstaging.html)
 
     - Plataformas de analítica:
 
-    Google Analytics https://www.google.com/analytics/terms/us.html/   
-    Firebase https://firebase.google.com/terms/   
-    Facebook https://www.facebook.com/full_data_use_policy/   
-    Flurry Analytics by Yahoo https://policies.oath.com/us/en/oath/privacy/products/developer/index.html   
+    Google Analytics [https://www.google.com/analytics/terms/us.html/](https://www.google.com/analytics/terms/us.html/)   
+    Firebase [https://firebase.google.com/terms/](https://firebase.google.com/terms/)   
+    Facebook [https://www.facebook.com/full_data_use_policy/](https://www.facebook.com/full_data_use_policy/)   
+    Flurry Analytics by Yahoo [https://policies.oath.com/us/en/oath/privacy/products/developer/index.html](https://policies.oath.com/us/en/oath/privacy/products/developer/index.html)   
 
 
 
