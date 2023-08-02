@@ -14,14 +14,14 @@
 ## Descripción de la aplicación
 - **Tipo:** Creador de stickers
 - **Costo:** Gratis  
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android
+- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android](https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 03/10/2022
 - **Versión:** 2.8.2
 - **Desarrollador:** SNOW,Inc. (Es parte de [SNOW Corporation](https://snowcorp.com/en/))
 - **Firma:** No está firmado o el certificado no cumple con las reglas de RFC
 - **Contacto:** support@sticker.ly
-- **Condiciones de uso y Política de privacidad:** https://www.notion.so/stickerlyapp/Sticker-ly-Privacy-Policy-c40b0b551f9c442aaaa74fcc202a22a8 (Hay que tener una cuenta en Notion para poder acceder)
+- **Condiciones de uso y Política de privacidad:** [https://www.notion.so/stickerlyapp/Sticker-ly-Privacy-Policy-c40b0b551f9c442aaaa74fcc202a22a8](https://www.notion.so/stickerlyapp/Sticker-ly-Privacy-Policy-c40b0b551f9c442aaaa74fcc202a22a8) (Hay que tener una cuenta en Notion para poder acceder)
     
 - **Descripción en PlayStore:**
 ~~~
@@ -89,7 +89,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/307153/) de
 - [Meta](https://about.facebook.com/ltam/meta/) --> Facebook
 - [Unity](https://unity.com/) --> Unity3ads - Publicidad
 - [Cloudflare](https://www.cloudflare.com/es-es/) - Data Storage
-- [Oribi](https://oribi.io) --> [Linkedin](https://www.linkedin.com/) --> [Microsoft](hhttps://www.microsoft.com/es-mx/about) - Marketing Analytics
+- [Oribi](https://oribi.io) --> [Linkedin](https://www.linkedin.com/) --> [Microsoft](https://www.microsoft.com/es-mx/about) - Marketing Analytics
 - [Amazon](https://www.aboutamazon.com/) - Data Storage, Publicidad --> Amazon Advertisemet
 - [Akamai](https://www.akamai.com/es) - CDN
 - [Fastly](https://www.fastly.com/es/) - CDN
@@ -177,8 +177,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 Ninguno
 
-:red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
