@@ -4,7 +4,7 @@
 
 - **Análisis estático (mediante Exodus Privacy):** 12 abril 2022    
 - **Análisis dinámico (mediante análisis de tráfico de red):** 12 abril 2022  
-- **Análisis posteriores:** 9 agosto 2022 / 17 octubre 2022  
+- **Análisis posteriores:** 9 agosto 2022 / 17 octubre 2022 / 23 octubre 2023
 
 ## Archivos analizados
 [apk versión 94](http://cloud.datavoros.org/index.php/s/23wJc5E9QcMoNXy)   
@@ -16,19 +16,23 @@
 [apk versión 96](http://cloud.datavoros.org/index.php/s/HW7YjLeYTPTjPmx)   
 [pcap versión 96](http://cloud.datavoros.org/index.php/s/FLTBnHWgyetSWiK)   
 
+[apk versión 105]
+[pcap versión 105]
+
 ## Descripción de la aplicación
 
 - **Tipo:** Aplicación de emergencia del estado de Jalisco   
 - **Costo:** Gratuito   
 - **Link:** [https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal](https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal)      
 - **Descargas:** 50,000+  
-- **Fecha de actualización:** 13 Enero 2022 / 16 Agosto 2022
-- **Versión:**  94 / 95 / 96
+- **Fecha de actualización:** 13 Enero 2022 / 16 Agosto 2022 / 2 octubre 2023
+- **Versión:**  94 / 95 / 96 /105
 - **Desarrollador:**  [https://c5jalisco.gob.mx/](https://c5jalisco.gob.mx/)  
 - **Firma:**  riskcorp@yahoo.com.mx
 - **Contacto:**  operativaceinco@gmail.com   
 - **Condiciones de uso y Política de privacidad:**  
   - [https://fge.jalisco.gob.mx/content/terminos-y-politicas-boton-de-panico](https://fge.jalisco.gob.mx/content/terminos-y-politicas-boton-de-panico)  
+  - **Wayback Machine**: [https://web.archive.org/web/20231023172144/https://fge.jalisco.gob.mx/content/terminos-y-politicas-boton-de-panico](https://web.archive.org/web/20231023172144/https://fge.jalisco.gob.mx/content/terminos-y-politicas-boton-de-panico)
 
 - **Descripción en PlayStore**
 ~~~
@@ -39,24 +43,27 @@ Comando, Control, Comunicaciones, y Cómputo del Estado de Jalisco (Escudo Urban
 La aplicación envía directamente la alerta al Escudo Urbano C5, en donde personal calificado recibe
 el caso y efectúa todos los pasos establecidos para dar curso a la situación y resolver el problema
 de manera rápida y efectiva.
-
-Recuerde en casos de emergencia se sugiere llamar a la línea 9-1-1. En caso que esto no sea posible,
+~~~
+~~Recuerde en casos de emergencia se sugiere llamar a la línea 9-1-1. En caso que esto no sea posible,
 esta aplicación surge como una vía alternativa de contacto con las autoridades para denunciar un
 caso de emergencia. Tan sólo presionando el botón de pánico sus datos previamente registrados en el
 sistema y su geolocalización son enviadas automáticamente al Escudo Urbano C5.
-Utiliza esta aplicación con responsabilidad.
-~~~       
+Utiliza esta aplicación con responsabilidad.~~       
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-- :no_entry_sign: [Google Admob](https://admob.google.com/home/)  
-- :no_entry_sign: [Google Analytics](https://marketingplatform.google.com/about/analytics/)   
-- :no_entry_sign: [Google Crashlytics](https://firebase.google.com/products/crashlytics/)   
-- :no_entry_sign: [Google Firebase Analytics](https://firebase.google.com/)   
-- :no_entry_sign: [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)
+- ~~[Google Admob](https://admob.google.com/home/)~~
+- ~~[Google Analytics](https://marketingplatform.google.com/about/analytics/)~~  
+- ~~[Google Crashlytics](https://firebase.google.com/products/crashlytics/)~~
+- ~~[Google Firebase Analytics](https://firebase.google.com/)~~
+- ~~[Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)~~
 
-** Desde la versión 95 ya no hay trackers**   
-Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/com.jpriskcorp.botonpanicoapp.jal/latest/).
+** Desde la versión 95 ya no hay rastreadores y se mantiene así hasta la versión 105**   
+Enlace a los reportes:    
+- Versión 94 [reporte](https://reports.exodus-privacy.eu.org/es/reports/249402/)   
+- Versión 95 [reporte](https://reports.exodus-privacy.eu.org/es/reports/280672/)    
+- Versión 96 [reporte](https://reports.exodus-privacy.eu.org/es/reports/301588/)   
+- Versión 105 [reporte](https://reports.exodus-privacy.eu.org/es/reports/394384/)   
 
 ## Empresas relacionadas con esta aplicación
 
@@ -183,8 +190,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Permisos solicitados durante el uso de la aplicación
 
 - 🔴 Acceso a Ubicación
-- 🔴 Acceso a Contactos 
-- 🔴 Acceso a Llamadas 
+- :large_blue_circle: Acceso a Contactos 
+- :large_blue_circle: Acceso a Llamadas 
 - 🔴 Acceso a Almacenamiento 
 - 🔴 Acceso a Estado del Teléfono 
 
@@ -194,17 +201,31 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos solicitados al usuario durante el uso
 
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- ⚪ Apellido Materno
-- 🔴 Correo electrónico
-- 🔴 Número de teléfono
-- 🔴 Número de contacto
-- ⚪ Dirección
-- ⚪ Riesgos o padecimientos
-- ⚪ Si se es sordo o no
-- ⚪ Tipo de usuario (Incluye: particular, transporte público, transporte privado, escuela, tienda de conveniencia, nave industrial, otro).
-- ⚪ Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior.
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :large_blue_circle: Apellido Materno
+- :red_circle: Correo electrónico
+- :red_circle: Número de teléfono
+- :red_circle: Número de contacto
+- :large_blure_circle: ~~Dirección~~
+- :large_blue_circle: Riesgos 
+- :large_blue_circle: Padecimientos
+- :large_blue_circle: ~~Si se es sordo o no~~
+- :large_blue_circle: Tipo de usuario ~~(Incluye: particular, transporte público, transporte privado, escuela, tienda de conveniencia, nave industrial, otro).~~
+- :large_blue_cirlce: ~~Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior.~~
+
+**Notas de la actualización 105**: 
+- Se pueden registrar dos tipos de personas usuarias, particulares y ganaderos. 
+- Se tiene que aceptar de manera directa los Términos de uso antes de poder registrarse
+- Se tiene que aceptar de manera directa el Aviso de privacidad antes de poder registrarse. Este es distinto dentro de la aplicación que el que aparece en la página de la PlayStore.
+- Se tiene que aceptar de manera directa la Carta de consentimiento tratamiento de datos personales sensibles y de terceros.
+- Ahora existe el campo "Riesgos" que es libre a rellenar por la persona usuaria separado del campo "Padecimientos" que incluye los siguientes:
+    - Ninguno
+    - Sordo(a)
+    - Mudo(a)
+    - Sordomudo(a)
+    - Otro
+- Ahora se pueden editar los datos de la cuenta y en estos se puede agregar tipo de usuario, que ahora es una campo libre y no un despegable de lista.
 
 🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 ⚪ Este ícono indica que estos datos son opcionales.
@@ -277,8 +298,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Conclusiones
 
-- :no_entry_sign: La cantidad de trackers presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica. 
-- :no_entry_sign: Como las llamadas al servidor de Coeficiente Comunicaciones no están cifradas, tenemos un serio problema de seguridad, ya que los datos de perfil del usuario, y las llamadas de emergencia hechas por los botones de pánico, están en texto plano. También nos hace preguntarnos si los datos de los usuarios en el servidor están cifrados.
+- :exlamation: ~~La cantidad de trackers presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica.~~
+- :exclamation: ~~Como las llamadas al servidor de Coeficiente Comunicaciones no están cifradas, tenemos un serio problema de seguridad, ya que los datos de perfil del usuario, y las llamadas de emergencia hechas por los botones de pánico, están en texto plano. También nos hace preguntarnos si los datos de los usuarios en el servidor están cifrados.~~
 - Nos queda la duda si, al darse un usuario de baja, los datos de dicho usuario se quedan o no almacenados. En todo caso, es la única aplicación analizada que hasta ahora tiene esa función.
 - La relación entre permisos y funciones es relativamente simétrica. Fuera de _maps_receive_ que ya no es un permiso necesario para Google maps desde la versión 3.1.59 de Google Services, nos queda la duda la utilidad del permiso _write_external_storage_
 
@@ -298,3 +319,21 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - Después de haberles mencionado el problema de seguridad sobre los datos no cifrados, actualizaron la aplicación a esta versión y ahora ya están cifrados. 
 - La función para darse de baja ya sirvió.
+
+## Adenda actualización 105
+
+- La aplicación manda un código de activación a la hora de registrarse al correo electrónico proporcionado. Si se pone mal, manda un mensaje de que hay problemas con la conexión a Internet.
+- El acceso al permiso de contactos es sólo necesario si se quieren agregar nuevos contactos además del necesario para el registro.
+- El acceso al permiso de  llamadas es sólo necesario si se quiere hacer una llamada directa a 911.
+- Pudimos darnos de baja del servicio. 
+- :exclamation: Esta aplicación dejará de funcionar el 2 de noviembre de 2023 y ahora hay una nueva [Botón de Auxilio Escudo Urbano](https://play.google.com/store/apps/details?id=com.c5.boton_auxilio_jalisco_flutter&hl=en_US) que la suplirá. En las aplicaciones analizadas del 25N se encuentra esta nueva aplicación. 
+- Las lamadas al servidor dns están cifradas.
+
+**Tabla de conexiones**
+| Dirección     | País          | Ciudad  | Número AS | Organización AS          | Rastreador o dominio contactado |
+|---------------|---------------|---------|-----------|--------------------------|---------------------------------|
+| 142.251.34.36 | United States | Queens  |     15169 | GOOGLE                   | www.google.com                  |
+| 142.251.34.46 | United States | Queens  |     15169 | GOOGLE                   | clients4.google.com             |
+| 177.240.2.242 | Mexico        | Zapopan |    262916 | Mega Cable, S.A. de C.V. | botondepanico.jalisco.gob.mx    |
+
+**Notas**: Originalmente la aplicación estaba guardada en los servidores de Coeficiente Comunicaciones, ahora es en Megacable. 
