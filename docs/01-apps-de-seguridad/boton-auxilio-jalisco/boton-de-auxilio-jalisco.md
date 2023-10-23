@@ -44,19 +44,19 @@ La aplicación envía directamente la alerta al Escudo Urbano C5, en donde perso
 el caso y efectúa todos los pasos establecidos para dar curso a la situación y resolver el problema
 de manera rápida y efectiva.
 ~~~
-~~Recuerde en casos de emergencia se sugiere llamar a la línea 9-1-1. En caso que esto no sea posible,
+*Recuerde en casos de emergencia se sugiere llamar a la línea 9-1-1. En caso que esto no sea posible,
 esta aplicación surge como una vía alternativa de contacto con las autoridades para denunciar un
 caso de emergencia. Tan sólo presionando el botón de pánico sus datos previamente registrados en el
 sistema y su geolocalización son enviadas automáticamente al Escudo Urbano C5.
-Utiliza esta aplicación con responsabilidad.~~       
+Utiliza esta aplicación con responsabilidad.* --> No disponible en versión 105       
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-- ~~[Google Admob](https://admob.google.com/home/)~~
-- ~~[Google Analytics](https://marketingplatform.google.com/about/analytics/)~~  
-- ~~[Google Crashlytics](https://firebase.google.com/products/crashlytics/)~~
-- ~~[Google Firebase Analytics](https://firebase.google.com/)~~
-- ~~[Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/)~~
+- [Google Admob](https://admob.google.com/home/) --> No disponible en versión 105
+- [Google Analytics](https://marketingplatform.google.com/about/analytics/) --> No disponible en versión 105
+- [Google Crashlytics](https://firebase.google.com/products/crashlytics/) --> No disponible en versión 105
+- [Google Firebase Analytics](https://firebase.google.com/) --> No disponible en versión 105
+- [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) --> No disponible en versión 105
 
 ** Desde la versión 95 ya no hay rastreadores y se mantiene así hasta la versión 105**   
 Enlace a los reportes:    
@@ -190,8 +190,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Permisos solicitados durante el uso de la aplicación
 
 - 🔴 Acceso a Ubicación
-- :large_blue_circle: Acceso a Contactos 
-- :large_blue_circle: Acceso a Llamadas 
+- :blue_circle: Acceso a Contactos 
+- :blue_circle: Acceso a Llamadas 
 - 🔴 Acceso a Almacenamiento 
 - 🔴 Acceso a Estado del Teléfono 
 
@@ -203,16 +203,16 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - :red_circle: Nombre
 - :red_circle: Apellido Paterno
-- :large_blue_circle: Apellido Materno
+- :blue_circle: Apellido Materno
 - :red_circle: Correo electrónico
 - :red_circle: Número de teléfono
 - :red_circle: Número de contacto
-- :large_blure_circle: ~~Dirección~~
-- :large_blue_circle: Riesgos 
-- :large_blue_circle: Padecimientos
-- :large_blue_circle: ~~Si se es sordo o no~~
-- :large_blue_circle: Tipo de usuario ~~(Incluye: particular, transporte público, transporte privado, escuela, tienda de conveniencia, nave industrial, otro).~~
-- :large_blue_cirlce: ~~Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior.~~
+- :blue_circle: Dirección --> No disponible en versión 105
+- :blue_circle: Riesgos 
+- :blue_circle: Padecimientos
+- :blue_circle: Si se es sordo o no --> No disponible en versión 105
+- :blue_circle: Tipo de usuario (Incluye: particular, transporte público, transporte privado, escuela, tienda de conveniencia, nave industrial, otro). --> No disponible en versión 105
+- :blue_cirlce: Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior. --> No disponible en versión 105
 
 **Notas de la actualización 105**: 
 - Se pueden registrar dos tipos de personas usuarias, particulares y ganaderos. 
@@ -298,8 +298,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Conclusiones
 
-- :exlamation: ~~La cantidad de trackers presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica.~~
-- :exclamation: ~~Como las llamadas al servidor de Coeficiente Comunicaciones no están cifradas, tenemos un serio problema de seguridad, ya que los datos de perfil del usuario, y las llamadas de emergencia hechas por los botones de pánico, están en texto plano. También nos hace preguntarnos si los datos de los usuarios en el servidor están cifrados.~~
+- :exlamation: La cantidad de trackers presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica. 
+- :exclamation: Como las llamadas al servidor de Coeficiente Comunicaciones no están cifradas, tenemos un serio problema de seguridad, ya que los datos de perfil del usuario, y las llamadas de emergencia hechas por los botones de pánico, están en texto plano. También nos hace preguntarnos si los datos de los usuarios en el servidor están cifrados.
 - Nos queda la duda si, al darse un usuario de baja, los datos de dicho usuario se quedan o no almacenados. En todo caso, es la única aplicación analizada que hasta ahora tiene esa función.
 - La relación entre permisos y funciones es relativamente simétrica. Fuera de _maps_receive_ que ya no es un permiso necesario para Google maps desde la versión 3.1.59 de Google Services, nos queda la duda la utilidad del permiso _write_external_storage_
 
