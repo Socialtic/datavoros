@@ -58,7 +58,7 @@ Utiliza esta aplicación con responsabilidad.* --> No disponible en versión 105
 - [Google Firebase Analytics](https://firebase.google.com/) --> No disponible en versión 105
 - [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) --> No disponible en versión 105
 
-** Desde la versión 95 ya no hay rastreadores y se mantiene así hasta la versión 105**   
+**Desde la versión 95 ya no hay rastreadores y se mantiene así hasta la versión 105**   
 Enlace a los reportes:    
 - Versión 94 [reporte](https://reports.exodus-privacy.eu.org/es/reports/249402/)   
 - Versión 95 [reporte](https://reports.exodus-privacy.eu.org/es/reports/280672/)    
@@ -189,13 +189,13 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- 🔴 Acceso a Ubicación
+- :red_circle: Acceso a Ubicación
 - :blue_circle: Acceso a Contactos 
 - :blue_circle: Acceso a Llamadas 
-- 🔴 Acceso a Almacenamiento 
-- 🔴 Acceso a Estado del Teléfono 
+- :red_circle: Acceso a Almacenamiento 
+- :red_circle: Acceso a Estado del Teléfono 
 
-🔴 Este ícono indica un permiso obligatorio
+:red_circle_ Este ícono indica un permiso obligatorio
 
 ## Datos
 
@@ -212,23 +212,23 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :blue_circle: Padecimientos
 - :blue_circle: Si se es sordo o no --> No disponible en versión 105
 - :blue_circle: Tipo de usuario (Incluye: particular, transporte público, transporte privado, escuela, tienda de conveniencia, nave industrial, otro). --> No disponible en versión 105
-- :blue_cirlce: Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior. --> No disponible en versión 105
+- :blue_circle: Puesto en caso de haber seleccionado alguna empresa en la pregunta anterior. --> No disponible en versión 105
 
 **Notas de la actualización 105**: 
-- Se pueden registrar dos tipos de personas usuarias, particulares y ganaderos. 
-- Se tiene que aceptar de manera directa los Términos de uso antes de poder registrarse
-- Se tiene que aceptar de manera directa el Aviso de privacidad antes de poder registrarse. Este es distinto dentro de la aplicación que el que aparece en la página de la PlayStore.
-- Se tiene que aceptar de manera directa la Carta de consentimiento tratamiento de datos personales sensibles y de terceros.
-- Ahora existe el campo "Riesgos" que es libre a rellenar por la persona usuaria separado del campo "Padecimientos" que incluye los siguientes:
-    - Ninguno
-    - Sordo(a)
-    - Mudo(a)
-    - Sordomudo(a)
-    - Otro
-- Ahora se pueden editar los datos de la cuenta y en estos se puede agregar tipo de usuario, que ahora es una campo libre y no un despegable de lista.
+- Se pueden registrar dos tipos de personas usuarias, particulares y ganaderos.   
+- Se tiene que aceptar de manera directa los Términos de uso antes de poder registrarse.   
+- Se tiene que aceptar de manera directa el Aviso de privacidad antes de poder registrarse. Este es distinto dentro de la aplicación que el que aparece en la página de la PlayStore.   
+- Se tiene que aceptar de manera directa la Carta de consentimiento tratamiento de datos personales sensibles y de terceros.   
+- Ahora existe el campo "Riesgos" que es libre a rellenar por la persona usuaria separado del campo "Padecimientos" que incluye los siguientes:      
+    - Ninguno   
+    - Sordo(a)   
+    - Mudo(a)   
+    - Sordomudo(a)   
+    - Otro   
+- Ahora se pueden editar los datos de la cuenta y en estos se puede agregar tipo de usuario, que ahora es una campo libre y no un despegable de lista.   
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
