@@ -77,11 +77,13 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/388372/) de
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-- https://api.weplan-app.com
-- https://instagramcom
-- https://ktor.io/
-- https://1link.io/
-- hhtps://linked.in/
+|Dominios|
+|---|
+|https://api.weplan-app.com|
+|https://instagramcom|
+|https://ktor.io/|
+|https://1link.io/|
+|https://linked.in/|
 
 
 
@@ -287,7 +289,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
-![mapa]()
+![mapa](./mapa.png)
 
 ### Datos compartidos y uso según la Playstore:
 

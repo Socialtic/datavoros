@@ -330,3 +330,16 @@ sudo apt install tshark
 ~~~
 
 ¡Listo, ya terminamos de configurar nuestro laboratorio!
+
+
+## **Configuración de Draeneg**
+
+[Draeneg](https://play.google.com/store/apps/details?id=com.orange.labs.draeneg) es una aplicación para Android desarrollada por los laboratorios de Orange (Telecom de Francia) que nos permite capturar el tráfico de red de una sola aplicación en nuestro celular y luego exportarlo a formato pcap (wireshark) o JSON. Esto quiere decir que es una solución mucho más sencilla a montar nuestro laboratorio como explicamos aquí arriba. Esto también quiere decir que podemos utilizarla en nuestro celular de uso diario para poder analizar aplicaciones sin tener que desinstalar otras aplicaciones con el fin de volver nuestro tráfico de red *más limpio*.
+- Entrar a la PlayStore e instalar Draeneg
+- Darle click en la sección Traffic
+
+- Darle click en la sección **All Applications**. Esto nos abrirá una ventana con las aplicaciones instaladas. Seleccionar la aplicación que queremos analizar.
+- Seleccionar **All transport protocols**
+- En la sección **Stop capturing traffic after...** ponerlo en cero.
+
+- Dar click a **Start capturing traffic**.

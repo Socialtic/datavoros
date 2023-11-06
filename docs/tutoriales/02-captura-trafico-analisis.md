@@ -161,6 +161,40 @@ Por último, podemos hacer un mapa para poder visualizar todo de manera más esq
 
 Aquí concluimos nuestro tutorial de análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. 
 
+#### **Análisis de registros DNS y SNI**
+
+El análisis anterior nos permite conocer, como explicado, los *endpoints* o puntos finales. Estas direcciones IP estarán asociadas a la empresa que es dueña del servidor donde se encuentra esa dirección IP. Por ello, muchos de los resultados siempre serán servidores de Google o de Amazon, por poner un ejemplo. Pero qué pasa si queremos conocer, por ejemplo, qué dominio en particular se contactó, es decir, esa IP corresponde con un servidor, pero ese servidor aloja distintos servicios. En otras palabras, quiero conocer qué servicio fue el que contactó la aplicación.   
+
+Para hacer esto, existen dos maneras. La primera es simplemente poniendo el filtro de búsqueda DNS en Wireshark. 
+![dns](./capturas_de_pantalla/dns-y-sni/dns1.png)    
+
+Esto nos permitirá detectar las llamadas que nuestra aplicación realizó a los servidores DNS. DNS quiere decir Domain System Name, en español, Nombre de dominio de sistema. En resumen es una suerte de *páginas amarillas* del internet que traducen un dominio como www.google.com a su dirección IP correspondiente y viceversa. Entonces cuando hacemos un filtrado de las llamadas DNS que hizo nuestra aplicación obtendremos una IP (Source) y una IP (Destination) que se corresponden con nuestra dirección local y nuestra VPN. Esas dos direcciones no nos interesan. Lo que nos interesa son los datos que están aparejados a cada llamada hecha. Como se ve en la captura de pantalla anterior, la información es bastante y puede parecer confusa. Sin entrar en demasiados temas técnicos, lo que queremos es encontrar el registro A (el nombre de un dominio) aparejado a una dirección IP en específico, en concreto la dirección IP que apareció en nuestra lista de *endpoints*. Para ello vamos a buscar la información de la siguiente manera:
+- Damos click a la lupa verde  
+
+![dns2](./capturas_de_pantalla/dns-y-sni/dns2.png)
+- Aparecerá una nueva línea de filtrado, ahí nos aseguramos que la primera diga **Listado de paquetes**, la segunda **Reducido & ampliado** y la tercera, debe de decir **Cadena**. En la cuarta sección agregamos la dirección IP (*endpoint*). Esto nos marcará una línea donde se encuentra esta dirección IP y, al inicio un dominio, en este caso, *api.revenuecat.com*. Este dominio es el que nos interesa. Esto quiere decir que en la dirección 34.231.212.93 que pertenece a X empresa de *hosting*, nuestra aplicación está contactando al servicio de *revenuecat.com* 
+
+![dns3](./capturas_de_pantalla/dns-y-sni/dns3.png)
+
+Ahora bien, las llamadas al servidor DNS pueden estar cifradas (de hecho, por buena práctica de seguridad y privacidad deberían estarlo), en cuyo caso cuando ponemos el filtro DNS, no nos aparecerá nada. Para solventar este conflicto, podemos recurrir al SNI (Server Name Information). Este es un campo que aparece en ciertos paquetes que se envían al inicio de las conexiones, en el llamada *handshake*. Sin entrara en detalles sobre qué es el *handshake*, lo que nos interesa es encontrar aquel registro en los paquetes donde se definió el dominio que se estaba contactando y la dirección IP.
+- Para hacer esto, lo primero que tenemos que hacer es poner el siguiente filtro en wireshark: ssl.handshake.extensions_server_name.
+Esto va a filtrar todos los paquetes involucrados en el *handshake*. Como vemos, aparece nuestra dirección IP de origen y esta vez, la IP de destino sí es la dirección de nuestros *endpoints*.    
+
+![dns4](./capturas_de_pantalla/dns-y-sni/dns4.png)
+- Seleccionamos el primer paquete
+- En la parte de abajo, expandimos el menú que dice **Transport Layer Security**
+- A su vez expandimo el menú que dice **TLSv1.3 Record Layer: Handshake Protocol: Cliente Hello**
+- Expandimo **Hanshake Protocl: Client Hello**
+- Ahora expandimos **Extension Server Name**
+- Y por último expandimos **Server Name Indication extension**   
+
+![dns5](./capturas_de_pantalla/dns-y-sni/dns5.png)
+
+- Por último daremos click con el botón derecho al campo **Server Name Indication Extension** y daremos click en **Aplicar como columna**. Esto nos generará una columna que se llama Server Name y que contiene el dominio contactado y la dirección IP del *endpoint*.   
+
+![dns6](./capturas_de_pantalla/dns-y-sni/dns6.png)
+
+Listo, con esta información ahora podemos saber que, por ejemplo, en un servidor de Amazon con una dirección IP x.x.x.x, está alojado el dominio ejemplo.com que se corresponde con el servicio X. Esto nos permite saber, por ejemplo, donde están alojados los rastreadores, o qué servicio en particular utiliza Google con una Ip particular. Asimismo, aparecerán muchas veces dominios de otros servicios que no conocíamos, pero que sí se utilizan dentro de la aplicación analizada. 
 
 
 
