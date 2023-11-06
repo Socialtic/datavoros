@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 16/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [bsafe.pcap](https://cloud.datavoros.org/index.php/s/HgBJXYZdQDSLQrS)
 - [bsafe.apk](https://cloud.datavoros.org/index.php/s/NYf4QJLsgCK7BAW)
+- [Capturas de panatlla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** De paga   
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 08/09/2023
 - **Versión:** 4.0.0
@@ -59,7 +60,7 @@ Pide a tus tutores que te sigan a casa con el seguimiento GPS en vivo Sígueme. 
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Branch](https://branch.io)|Analítica|
 |[Facebook Analytics](https://developers.facebook.com/docs/android)|Analítica|
@@ -83,7 +84,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/com.bipper.
 
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
  Nada que reportar
 
 ## Permisos   
@@ -142,7 +143,7 @@ _run at startup_
 _record audio_
 
 - REORDER_TASKS
-_rorder running apps_
+_reorder running apps_
 
 - VIBRATE
 _control vibration_
@@ -265,7 +266,7 @@ No se recopilan datos
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
 ### Datos recopilados y uso según la Política de privacidad
@@ -303,6 +304,6 @@ No se recopilan datos
 
 ## Conclusiones
 
-- Si bien no probamos la aplicación en su versión de pago, de tal manera que no pudimos probar la mayoría de sus funciones, simpldmente por los rastreadores presentes y la política de privacidad, podemos concluir que no es una aplicación que respete la privacidad de las personas usuarias. Los datos recolectados, probablemente son vendidos y/o utilizados para campañas de marketing y publicidad.
-- Los permisos solicitados son pocos con respecto a otras aplicaciones similares y son congruentes con las funcionalidades. Asimismolos datos solicitados también son congruentes con las funcionalidades de la aplicación.
+- Si bien no probamos la aplicación en su versión de pago, de tal manera que no pudimos probar la mayoría de sus funciones, simplemente por los rastreadores presentes y la política de privacidad, podemos concluir que no es una aplicación que respete la privacidad de las personas usuarias. Los datos recolectados, probablemente son vendidos y/o utilizados para campañas de marketing y publicidad.
+- Los permisos solicitados son pocos con respecto a otras aplicaciones similares y son congruentes con las funcionalidades. Asimismo los datos solicitados también son congruentes con las funcionalidades de la aplicación.
 

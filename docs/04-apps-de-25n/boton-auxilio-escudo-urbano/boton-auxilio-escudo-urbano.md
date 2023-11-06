@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 23/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [boton-auxilio-escudo-urbano.pcap](https://cloud.datavoros.org/index.php/s/LKDsyCAKqZq4pAK)
 - [boton-auxilio-escudo-urbano.apk](https://cloud.datavoros.org/index.php/s/XTgc9daoedPztdE)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Botón de pánico
 - **Costo:** Gratis
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.c5.boton_auxilio_jalisco_flutter](https://play.google.com/store/apps/details?id=com.c5.boton_auxilio_jalisco_flutter)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.c5.boton_auxilio_jalisco_flutter](https://play.google.com/store/apps/details?id=com.c5.boton_auxilio_jalisco_flutter)
 - **Descargas:** 1k+
 - **Ultima fecha de actualización:** 16/10/2023
 - **Versión:** 2.1.2
@@ -31,7 +32,7 @@ Esta nueva aplicación te permitirá generar alertas de ayuda con múltiples ind
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Google Firebase Analytics](https://firebase.google.com/)|Analítica|
 
@@ -45,7 +46,7 @@ Esta nueva aplicación te permitirá generar alertas de ayuda con múltiples ind
 - [Coeficiente Comunicaciones](https://coeficientemx.com/) - Almacenamiento de archivos
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreador
 
 - Nada que reportar
 
@@ -150,12 +151,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 |Datos|Uso|
 |---|---|
-|Ubicación precisa|Funciones de la app|
+|Ubicación precisa|Funciones de la aplicación|
 
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
 
@@ -163,10 +164,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 |Datos|
 |---|
-|**Información identificativa recolectada a través del botón de pánico**: Cale, número, cruces de calle, colonia, localidad, municipio, fecha y hora del reporte, nombre completo, tipo de eléfono, número de teléfono del reportante, sexo, edad, nacionalidad|
-|**Información sensible recolectada a través del botón de pánico**: Características fisiológicas, media afiliación, timbre de voz, padecimientos, incapacidades médicas, información de la vida sexual, geolocalización, coordenadas, ubiación de incidentes, referencia del lugar del incidente, asgos de personalidad.|
-|**Información del protocolo del incidente**: condición de la persona (viva o muerta), rol de la persona involucrada en el incidente, presencia de alcohol, droga, armas involucradas, placa de vehículos|
-|**Información recolectada a través de cámaras de videovigilancia**: imagen de personas en el espacio público y bienes inmuebles|
+|**Información identificativa recolectada a través del botón de pánico**: Calle, número, cruces de calle, colonia, localidad, municipio, fecha y hora del reporte, nombre completo, tipo de teléfono, número de teléfono del reportante, sexo, edad, nacionalidad|
+|**Información sensible recolectada a través del botón de pánico**: Características fisiológicas, media afiliación, timbre de voz, padecimientos, incapacidades médicas, información de la vida sexual, geolocalización, coordenadas, ubicación de incidentes, referencia del lugar del incidente, rasgos de personalidad.|
+|**Información del protocolo del incidente**: Condición de la persona (viva o muerta), rol de la persona involucrada en el incidente, presencia de alcohol, droga, armas involucradas, placa de vehículos|
+|**Información recolectada a través de cámaras de videovigilancia**: Imagen de personas en el espacio público y bienes inmuebles|
 
 
 
@@ -191,7 +192,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Notas importantes sobre seguridad y privacidad:
 
-- :exclamation:El link del aviso de privacidad de la Playstore redirige a un aviso de privacidad que es en realidad parte de la API de la aplicación. Lo que lo vuelve bastante ilegible.
+- :exclamation:El enlace del aviso de privacidad de la Playstore redirige a un aviso de privacidad que es en realidad parte de la API de la aplicación. Lo que lo vuelve bastante ilegible.
 - Además de los perfiles "Ciudadano", "Código Violeta" y "Perfil ganaderos", existe el perfil "Adultos Mayores" y el perfil "Personas con discapacidad auditiva". Estos últimos dos se activan automáticamente si se cumple el requerimiento en el registro.
 - En esta [página](https://c5jalisco.gob.mx/avisos-de-privacidad) se pueden encontrar los avisos de privacidad de varios servicios ofrecidos por el C5 Jalisco. Hay dos que corresponden a botón de pánico y no sabemos cuál corresponde a la aplicación analizada, de todos modos, son idénticos entre ellos. Cada uno tiene tres versiones del aviso de privacidad:
 1. [Aviso de privacidad corto](https://cloud.datavoros.org/index.php/s/p22GTkdR7w5kcfA)
@@ -203,14 +204,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - A diferencia de la versión pasada (Botón Auxilio Jalisco), esta aplicación no permite borrar la cuenta creada.
 - Es importante mencionar que esta aplicación es muy distintas a las demás analizadas para el 25N. Esta no permite el monitoreo entre pares, sino que es un botón de auxilio. 
 - En la PlayStore no se especifican los datos recolectados a la hora de generar una cuenta, ni tampoco los datos de analítica que se recaban a través del rastreador Firebase de Google. 
-- Si bien se puede solicitar que los datos borren según la PlayStore, dentro de la aplicación no encontramos esta función. 
-- En el aviso de privacidad no se menciona la recolección de información a través de rastreadores de terceros (Google)
+- Si bien se puede solicitar que los datos se borren según la PlayStore, dentro de la aplicación no encontramos esta función. 
+- En el aviso de privacidad no se menciona la recolección de información a través de rastreadores de terceros (Google).
 
 ## Conclusiones
 
 - La aplicación está plagada de pequeños errores o *bugs* que la hacen poco consistente para usarse como botón de pánico.
 - Tiene un rastreador de Google y esto no es mencionado nunca en el aviso de privacidad ni en la PlayStore, lo cual nos genera desconfianza.
 - La función de borrar la cuenta de la versión anterior de la aplicación nos parecía importante para salvaguardar la privacidad de las personas usuarias y decidieron eliminarla.
-- Los avisos de privacidad siguen siendo confusos y no hay links a ellos en la PlayStore.
+- Los avisos de privacidad siguen siendo confusos y no hay enlaces a ellos en la PlayStore.
 - Los permisos son congruentes con la funcionalidad de la aplicación, lo mismo que la información recabada.
-- Consideramos que es una mejor aplicación que Botón de Auxilio jalisco y apoyamos el avance y el desarrollo de estas tecnologías, pero todavía necesitan pulirla muchísimo para que pueda ser considerada una opción viable de seguridad. 
+- Consideramos que es una mejor aplicación que Botón de Auxilio Jalisco y apoyamos el avance y el desarrollo de estas tecnologías, pero todavía necesitan pulirla muchísimo para que pueda ser considerada una opción viable de seguridad. 

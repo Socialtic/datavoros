@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 11/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [isharing.pcap](https://cloud.datavoros.org/index.php/s/QE75dSeejewcbEA)
 - [isharing.apk](https://cloud.datavoros.org/index.php/s/qHYN35D4s8rmjyA)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US)
 - **Descargas:** 10M+
 - **Ultima fecha de actualización:** 15/10/2023
 - **Versión:** 11.12.1.4
@@ -44,7 +45,7 @@ Con iSharing puedes
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Appsflyer](https://www.appsflyer.com/)|Analítica|
 |[Didomi](https://www.didomi.io/)|Consentimiento de privacidad y analítica|
@@ -100,18 +101,20 @@ Además de Facebook y Google. Cuando la persona usuaria descarga esta aplicació
 - [Kakao](https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=en) --> [KakaoTalk](https://play.google.com/store/apps/details?id=com.kakao.talk&hl=es_MX&gl=US)
 - [LineCorp](https://linecorp.com/en/) -->  [LINE](https://line.me/en/) --> Naver Corporation
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreador
 
-- https://iabeurope.eu/
-- https://iabtcf.com/#/
-- https://iceportal.de/
-- https://itunes.apple.com
-- https://www.privacy-center.org/
-- https://www.imice.de/
-- https://pstatic.net --> Naver
-- https://www.youtube.com
-- https://www.zetetic.net
-- https://www.mobitexter.net
+|Dominios|
+|---|
+|https://iabeurope.eu/|
+|https://iabtcf.com/#/|
+|https://iceportal.de/|
+|https://itunes.apple.com|
+|https://www.privacy-center.org/|
+|https://www.imice.de/|
+|https://pstatic.net --> Naver|
+|https://www.youtube.com|
+|https://www.zetetic.net|
+|https://www.mobitexter.net|
 
 
 
@@ -403,14 +406,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos compartidos y uso según la Playstore:
 
-Es posible que se compartan datos con terceros de:
-    - Ubicación aproximada para funciones de la aplicación y publicidad o marketing
-    - Ubicación precisa para funciones de la aplicación y publicidad o marketing
-    - ID's de usuario para análisis y publicidad o marketing
-    - Interacciones con la aplicación para análisis
-    - Registro de fallos para análisis
-    - Diagnóstico para análisis
-    - ID's de dispositivo u otro tipo para análisis y publicidad o marketing
+Es posible que se compartan datos con terceros de:   
+    - Ubicación aproximada para funciones de la aplicación y publicidad o marketing   
+    - Ubicación precisa para funciones de la aplicación y publicidad o marketing   
+    - ID's de usuario para análisis y publicidad o marketing    
+    - Interacciones con la aplicación para análisis   
+    - Registro de fallos para análisis   
+    - Diagnóstico para análisis   
+    - ID's de dispositivo u otro tipo para análisis y publicidad o marketing   
 
 
 ### Datos recopilados y uso según la Playstore
@@ -430,7 +433,7 @@ Es posible que se compartan datos con terceros de:
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 - Compromiso con el cumplimiento de la Política de [Familias de Play](https://support.google.com/googleplay/android-developer/answer/9893335)
 
@@ -483,3 +486,4 @@ Es posible que se compartan datos con terceros de:
 
 - Esta aplicación, tiene la mayor cantidad de permisos de todas las aplicaciones analizadas. Si bien son congruentes con las funcionalidades, la realidad es que hay maneras de desarrollar aplicaciones menos intrusivas. Esta aplicación tiene acceso a casi todo dentro del teléfono. 
 - Si bien el Aviso de Privacidad lista las empresas con las que se comparten datos de las personas usuarias (una excelente práctica), nos gustaría que eso no pasara. La realidad es que los datos de las personas usuarias se comparten con demasiadas empresas y el uso de marketing y publicidad no es amigable con la privacidad.
+- 

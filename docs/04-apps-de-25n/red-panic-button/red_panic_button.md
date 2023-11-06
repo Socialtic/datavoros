@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 17/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [isharing.pcap](https://cloud.datavoros.org/index.php/s/T46HeCbbRmppwLm)
 - [isharing.apk](https://cloud.datavoros.org/index.php/s/dQXTA63R7nxfLTo)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US)
 - **Descargas:** 100k+
 - **Ultima fecha de actualización:** 30/08/2023
 - **Versión:** 4.0.8
@@ -32,7 +33,7 @@
 ** Obtener todas las funciones utilizando la tienda Botón Pánico Rojo**
 ** Destacado como Deal SmartApps del Día **
 
-Cuando usted está en dificultad pulse el botón rojo de pánico! Sólo tienes que establecer un número de pánico y el teléfono envía un SMS que contiene un link a Google Maps con el GPS fino o GSM ordinario basado coordenadas.
+Cuando usted está en dificultad pulse el botón rojo de pánico! Sólo tienes que establecer un número de pánico y el teléfono envía un SMS que contiene un enlace a Google Maps con el GPS fino o GSM ordinario basado coordenadas.
 
 Funciones gratuitas:
 -Enviar SMS pánico
@@ -52,7 +53,7 @@ Funciones pagadas:
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Facebook Login](https://developers.facebook.com/docs/android)|Identificación|
 |[Google AdMob](https://admob.google.com/home/)|Publicidad|
@@ -79,7 +80,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/uk.ucsoftwa
 
 - Si bien aparece el rastreador de Facebook login, no encontramos cómo identificarnos a través de Facebook.
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
 - Nada que reportar
 
@@ -284,7 +285,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 
 
 ### Datos recopilados y uso según la Política de privacidad
@@ -309,7 +310,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Esta aplicación recopila lo mínimo necesario para funcionar.
 - La información que la persona usuaria otorga de manera opcional como datos personales (nombre, dirección) se procesa en el teléfono, no en un servidor externo.
 - La información de geolocalización no se transmite a nadie.
-- Los medios de contacto de emergencia de esta aplicación son emails, llamadas y sms. Los tres son suceptibles de ser interceptados por un ataque de "hombre en el medio", de tal manera que no provee un medio seguro de transmisión de la información de emergencia.
+- Los medios de contacto de emergencia de esta aplicación son emails, llamadas y sms. Los tres son suceptibles de ser interceptados por un ataque de "[hombre en el medio](https://www.bitdefender.es/consumer/support/answer/79602/)", de tal manera que no provee un medio seguro de transmisión de la información de emergencia.
 - Las conexiones a Twitter tienen que ver con que se puede visitar la página de Twitter de la aplicación desde la misma aplicación.
 - Las conexiones a Facebook tienen que ver con la misma razón anteriormente expuesta y con el rastreador de Facebook login (nunca pudimos autenticarnos en la aplicación a través de Facebook, no se entiende qué hace ahí dicho rastreador).
 

@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 22/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [sosfem.pcap](https://cloud.datavoros.org/index.php/s/k7Jczxaqs2FyLcn)
 - [sosfem.apk](https://cloud.datavoros.org/index.php/s/5F6JnekPrbRzSfX)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US](https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US](https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US)
 - **Descargas:** 100k+
 - **Ultima fecha de actualización:** 14/09/2023
 - **Versión:** 3.9.3
@@ -37,7 +38,7 @@ Enviar una alerta con tu ubicación GPS a contactos previamente seleccionados en
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Facebook Analytics](https://developers.facebook.com/docs/android)|Analítica|
 |[Facebook Flipper](https://fbflipper.com/)|Analítica|
@@ -74,7 +75,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/388372/) de
 - [Imagekit.io](https://imagekit.io/) - Procesamiento de imágenes
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
 - https://api.weplan-app.com
 - https://instagramcom
@@ -293,9 +294,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Es posible que se compartan datos con terceros de
     - Ubicación aproximada para funciones de la aplicación y estadística y seguridad, cumplimiento y prevención de fraudes
     - Ubicación precisa para funciones de la aplicación y estadística y seguridad, cumplimiento y prevención de fraudes y personalización
-    - ID de usuario para funciones de la app, estadística y publicidad y marketing
+    - ID de usuario para funciones de la aplicación, estadística y publicidad y marketing
     - Diagnótico para estadísticas
-    - Otros datos de rendimiento de la app para estadísticas
+    - Otros datos de rendimiento de la aplicación para estadísticas
     - Dispositivo u otros ID para estadísticas
 
 
@@ -304,20 +305,20 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 |Datos|Uso|
 |---|---|
-|Ubicación aproximada|Funciones de la app, Estadísticas, Seguridad, cumplimiento y prevención de fraudes y Personalización|
-|Nombre|Funciones de la app, Estadísticas y Personalización| 
-|Correo electrónico|Funciones de la app, Comunicaciones del desarrollador, Seguridad, cumplimiento y prevención de fraudes, Personalización y Administración de la cuenta| 
-|ID de usuario|Funciones de la app, Estadísticas, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Personalización|
+|Ubicación aproximada|Funciones de la aplicación, Estadísticas, Seguridad, cumplimiento y prevención de fraudes y Personalización|
+|Nombre|Funciones de la aplicación, Estadísticas y Personalización| 
+|Correo electrónico|Funciones de la aplicación, Comunicaciones del desarrollador, Seguridad, cumplimiento y prevención de fraudes, Personalización y Administración de la cuenta| 
+|ID de usuario|Funciones de la aplicación, Estadísticas, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Personalización|
 |Interacciones de la aplicación|Estadística|
 |Otro contenido generado por usuarios|Funcionalidades de la aplicación|
 |Otras acciones|Estadística|
-|Registro de fallas|Funciones de la app y Estadísticas|
+|Registro de fallas|Funciones de la aplicación y Estadísticas|
 |Diagnóstico|Estadística|
-|Dispositivos u otros ID|Funciones de la app, Estadísticas, Publicidad o marketing y Seguridad, cumplimiento y prevención de fraudes|
+|Dispositivos u otros ID|Funciones de la aplicación, Estadísticas, Publicidad o marketing y Seguridad, cumplimiento y prevención de fraudes|
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
 
@@ -359,12 +360,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Se puede alterar el ícono de la aplicación para que pareza una calculadora, un calendario o una cámara
 - Las funciones de girar el dispositivo móvil o apretar el botón de bloqueo para generar una alerta SOS no funcionaron en nuestro Motorla g7
 - Existe una función que se llama **Ayudante**. En esta, una persona que use la aplicación puede ser volunataria para ayudar en caso de emergencia a otras personas usuarias. Para esto, los desarrolladores de la aplicación contactan a la persona voluntaria antes de aceptar su solicitud. No sabemos cuáles son los criterios. Pero la información personal de una persona usuaria se podría compartir con estas personas volunatrias.
-- Hay versión de paga y versión gratuita. En esta última, para tener acceso a las funciones de paga, la persona usuaria está obligada a ver anuncios. El anuncio que nos tocó tres veces ver fue una aplicación de préstamos pequeños We Crédito que está retirada de la PlayStore y actualmente es su página está caída: [https://allinfuture.tech/](https://allinfuture.tech/). Según [reseñas](https://burodeservicios.com/index.php/2023/02/15/we-credito/) en Internet pareciera ser una aplicación de Montadeudas. 
+- Hay versión de paga y versión gratuita. En esta última, para tener acceso a las funciones de paga, la persona usuaria está obligada a ver anuncios. El anuncio que nos tocó tres veces ver fue una aplicación de préstamos pequeños We Crédito que está retirada de la PlayStore y actualmente es su página está caída: [https://allinfuture.tech/](https://allinfuture.tech/). Según [reseñas](https://burodeservicios.com/index.php/2023/02/15/we-credito/) en Internet pareciera ser una aplicación de Montadeudas. Aquí los enlaces a nuestro [reporte](https://datavoros.org/montadeudas/) sobre este tipo de aplicaciones y los reportes [individuales](https://docs.datavoros.org/aplicaciones/) 
 
 
 ## Conclusiones
 
 - Según los datos recolectados, esta aplicación es relativamnete amigable con la privacidad, en particular porque no los venden para campañas de marketing, perfilamiento o publicidad. Sin embargo, hay un exceso de rastreadores que no se justifica. 
 - Nos gusta la idea de que sea una aplicación enfocada a mujeres y el foro es una excelente adición. Sin embargo, por mejor que suene la idea del "Ayudante", nos quedan dudas sobre la seguridad de que compartan datos personales con terceros: ¿cómo deciden quién es y quién puede ser un ayudante?
-- Por último, nos parece inaceptable que, como anuncio, pongan una aplicación de Montadeudas, ya que esto podría hacer que personas usuarias caigan en esa trampa.
+- Por último, nos parece inaceptable que, como anuncio, pongan una aplicación de Montadeudas, ya que esto podría hacer que personas usuarias caigan en esa trampa. Entendemos que es a través de los rastreadores se "decide" qué tipo de anuncios se muestran, en este caso probablemente el causante sea el rastreador Google AdMob.
 

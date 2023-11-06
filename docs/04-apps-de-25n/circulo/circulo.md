@@ -6,22 +6,23 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 24/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [circulo.pcap](https://cloud.datavoros.org/index.php/s/FMRaA9mjYLp2Xwb)
 - [circulo.apk](https://cloud.datavoros.org/index.php/s/SNktYMYHEEtMkHq)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=org.article19.circulo.next](https://play.google.com/store/apps/details?id=org.article19.circulo.next)
+- **Enlaces de descarga:** [https://play.google.com/store/apps/details?id=org.article19.circulo.next](https://play.google.com/store/apps/details?id=org.article19.circulo.next)
 - **Descargas:** 1k+
 - **Ultima fecha de actualización:** 1/08/2023
 - **Versión:** 2.1.1-BETA-2
 - **Desarrollador:** Guardian Project: Apps You Can Trust
 - **Firma:** Article 19
 - **Contacto:** support@guardianproject.info
-- **Condiciones de uso y Política de privacidad:** El link en la PlayStore está caído y en la [página](https://encirculo.org/es/) del proyecto no encontramos ningún aviso de privacidad.
+- **Condiciones de uso y Política de privacidad:** El enlace en la PlayStore está caído y en la [página](https://encirculo.org/es/) del proyecto no encontramos ningún aviso de privacidad.
 
     
 - **Descripción en PlayStore:**
@@ -31,7 +32,7 @@ Círculo es una aplicación que ofrece un canal seguro de comunicación entre t�
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Google Firebase Analytics](https://firebase.google.com/)|Analítica|
 
@@ -45,13 +46,15 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/385052/) de
 - [Amazon](https://www.aboutamazon.mx/quienes-somos) - Almacenamiento de archivos
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-https://api.giphy.com
-https://docs.mongodb.com
-https://scalar.vector.im/ --> [Element](https://element.io/about)
-https://realm.io/
-https://matrix.org
+|Dominios|
+|---|   
+|https://api.giphy.com|   
+|https://docs.mongodb.com|   
+|https://scalar.vector.im/ --> [Element](https://element.io/about)|   
+|https://realm.io/|   
+|https://matrix.org|   
 
 
 
@@ -210,7 +213,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Hace hincapié en la posibilidad de conectarse con un alias
 - Se puede evitar la captura de pantallas
 - Se puede generar un respaldo de seguridad por si la persona usuaria pierde las claves de acceso.
-- se puede bloquear la aplicación con un PIN
+- Se puede bloquear la aplicación con un PIN
 - Se puede cambiar el ícono de la aplicación para poder esconderla
 - La pestaña recursos en en la sección Acerca de de, hace que la aplicación se cierre.
 - Se permite elegir entre mandar registros para depurar la aplicación
@@ -219,7 +222,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Cualquiera que tenga un vínculo se puede unir al "círculo"
 - El nombre de usuario es muy complejo
 - Función mostrar QR para unirse al círculo no funciona
-- en nuestro Motoral G8, se trabó varias veces la aplicación de manera aleatoria
+- En nuestro Motoral G8, se trabó varias veces la aplicación de manera aleatoria
 - Para la ubicación se utiliza un servicio externo (en nuestro caso Google Maps) y se tiene que tener instalada esta aplicación
 
 ## Conclusiones

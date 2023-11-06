@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 11/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [donna.pcap](https://cloud.datavoros.org/index.php/s/2Lmd2FRs3WwXFPM)
 - [donna.apk](https://cloud.datavoros.org/index.php/s/Ct2KP5F6La2JFGW)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.somosdonna&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=com.somosdonna&hl=es_MX&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.somosdonna&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=com.somosdonna&hl=es_MX&gl=US)
 - **Descargas:** 10K+
 - **Ultima fecha de actualización:** 02/10/2023
 - **Versión:** 1.1.8.4
@@ -69,7 +70,7 @@ Disclaimer: el uso continuo de los servicios de ubicación mientras la aplicaci�
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Facebook Analytics](https://developers.facebook.com/docs/android)|Analítica|
 |[Facebook Login](https://developers.facebook.com/docs/android)|Identificación|
@@ -85,7 +86,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/391532/) de
 
 ## Empresas relacionadas con esta aplicación:
 
-- [LoveWeHelp] --> Empresa listada en su aviso de privacidad, tiene su página [https://lovewehelp.com/](https://lovewehelp.com/) que redirige a Rino App. La empresa que desarrolla Donna tiene una [página](https://www.linkedin.com/showcase/somosdonna/) en LinkedIn que hace referencia a una empresa llamada *somosdonna*
+- LoveWeHelp --> Empresa listada en su aviso de privacidad, tiene su página [https://lovewehelp.com/](https://lovewehelp.com/) que redirige a Rino App. La empresa que desarrolla Donna tiene una [página](https://www.linkedin.com/showcase/somosdonna/) en LinkedIn que hace referencia a una empresa llamada *somosdonna*.
 - [Alphabet](https://abc.xyz/) --> Google - Crashes, Analítica
 - [Amazon](https://aws.amazon.com/) - Almacenamiiento de datos
 - [Huawei](https://www.huawei.com/mx/corporate-information) - Analítica
@@ -101,12 +102,14 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/391532/) de
 
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-- https://pinterest.com
-- https://link.com
-- https://logback.qos.ch
-- https://react-native-vision-camera.com
+|Dominios|
+|---|
+|https://pinterest.com|
+|https://link.com|
+|https://logback.qos.ch|
+|https://react-native-vision-camera.com|
 
 
 
@@ -373,7 +376,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
 ### Datos recopilados y uso según la Política de privacidad
@@ -407,11 +410,11 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Notas importantes sobre seguridad y privacidad:
 
 - Empresa basada en México
-- Cuando no se tiene un plan de pago mensual y se pide ayuda a un agente (que tiene un costo de 30 pesos), la aplicación se bloquea hasta que uno pague.
+- Cuando no se tiene un plan de pago mensual y se pide ayuda a un agente (que tiene un costo de $30 pesos), la aplicación se bloquea hasta que uno pague.
 
 ## Conclusiones
 
-- La aplicación parece funcionar de manera correcta (aunque no probamos sus funcionalidades de manera cabal. Le recordamos a la persona lectora que nuestras pruebas no son sobre la usabilidad y efectividad de las aplicaciones) y tiene funciones que probablemente sean muy útiles para salvaguardar la seguridad de las personas usuarias. 
-- No podemos afirmar si es un aplicación extremadamente intrusiva en términos de privacidad ya que su aviso de Privacidad es por lo menos ambiguo. En todo caso, tiene acceso a muchísimos datos sensibles de las personas usuarias lo que la vuelve una aplicación crítica en términos de privacidad. 
-- Los rastreadores de Facebook, por supuesto son un problema mayúsculo, al igual que los de Microsoft, Huawei y Google. En definitiva podría ser mucho más amigable con la privacidad.
+- La aplicación parece funcionar de manera correcta y consideramos que varias de sus funcines, como el acompañamiento por parte de un agente en situaciones de emergencia, puede ser de gran ayuda para las personas usuarias.
+- El aviso de privacidad es ambiguo, de tal manera que no nos queda muy claro qué hacen con los datos de las personas usuarias.
+- Los rastreadores de Facebook son un problema mayúsculo, al igual que los de Microsoft, Huawei y Google. En definitiva podría ser mucho más amigable con la privacidad.
 - Nos parece un problema enorme que no exista la manera de tener una alerta de seguridad de prueba para poder probar las funciones y poder comprobar el servicio al cliente. Nosotros hicimos una alerta de prueba y la aplicación se bloqueó exigiéndonos pagar $30 pesos. Contactamos al servicio al cliente y tardamos días poniéndonos en contacto y el problema nunca se solucionó hasta que nos cansamos y desinstalamos la aplicación. 

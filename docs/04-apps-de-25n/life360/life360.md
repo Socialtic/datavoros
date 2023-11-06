@@ -6,15 +6,16 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 10/10/2023
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [life360.pcap](https://cloud.datavoros.org/index.php/s/qxP48yxaZX27rQJ)
 - [life360.apk](https://cloud.datavoros.org/index.php/s/B783bJQs3LyHAXp)
+- [Capturas de pantalla](./captura-de-pantalla/)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 02/10/2023
 - **Versión:** 29.39.0
@@ -60,7 +61,7 @@ Life360 hace que sea fácil mantenerte conectado, informado y seguro. Regístrat
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[AppsFlyer](https://support.appsflyer.com/hc/es/categories/201114756-Integraci%C3%B3n-de-SDK-)|Analítica|
 |[Braze](https://braze.com)|Analísitca, Publicidad, Ubicación|
@@ -85,23 +86,25 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/386491/) de
 - [PubNub](https://pubnub.com) - Escalamiento de aplicaciones de tiempo real
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-- https://www.zendesk.com/ - Servicio a cliente
-- https://www.tile.com/ - Sirve para la funcionalidad de encontrar objetos
-- https://slf4j.org/ - Parte de las funcionalidades de Java
-- https://eclipse.org/ - Fundación para el desarrollo de software de código abierto
-- https://amplitude.com/ - Plataforma de analítica
-- https://netty.io/ - Desarrollo de aplicaciones
-- https://www.typeform.com/ - Desarrollo de formatos de acceso (signup)
-- https://www.atlassian.com/es - Empresa que genera soluciones de desarrollo de software entre varias otras
-- https://facebook.com/
-- https://github.com/
-- https://bit.ly/ - Acortador de URL
-- https://www.mapbox.com/ - Empresa que permite geolocalización a través de inteligencia Artificial
-- https://berbix.com/ - Identificación de documentos de identificación
-- https://arity.com/ - Empresa dedicada, entre otras cosas, a detección de mobilidad en automóviles
-- https://chromium.org/ - Organización desarrolladora de Chromium OS y el navegador Chromium
+|Dominios|
+|---|
+|https://www.zendesk.com/ - Servicio a cliente|
+|https://www.tile.com/ - Sirve para la funcionalidad de encontrar objetos|
+|https://slf4j.org/ - Parte de las funcionalidades de Java|
+|https://eclipse.org/ - Fundación para el desarrollo de software de código abierto|
+|https://amplitude.com/ - Plataforma de analítica|
+|https://netty.io/ - Desarrollo de aplicaciones|
+|https://www.typeform.com/ - Desarrollo de formatos de acceso (signup)|
+|https://www.atlassian.com/es - Empresa que genera soluciones de desarrollo de software entre varias otras|
+|https://facebook.com/|
+|https://github.com/|
+|https://bit.ly/ - Acortador de URL|
+|https://www.mapbox.com/ - Empresa que permite geolocalización a través de inteligencia Artificial|
+|https://berbix.com/ - Identificación de documentos de identificación|
+|https://arity.com/ - Empresa dedicada, entre otras cosas, a detección de mobilidad en automóviles|
+|https://chromium.org/ - Organización desarrolladora de Chromium OS y el navegador Chromium|
 
 
 
@@ -327,7 +330,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Prácticas de seguridad
 
-- Los datos están encriptados en tránsito
+- Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
 
@@ -350,7 +353,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 |:exclamation:**Mensajes y contenido de las personas usuarias**: mensajes entre los usuarios, fotos y video|
 |**Información proporcionada por terceros sobre las personas usuarias**: cuando se ligan los servicios a otras plataformas como redes sociales|
 |**Información generada a través de rastreadores y cookies**: datos del celular (tipo, modelo, etc.), dirección IP, tipo de navegador, ISP, plataforma, AdID y otros identificadores únicos, estado de la batería, conexión WiFi|
-|**Información generada por el uso de tecnologías de analítica, mercadotecnia, publicidad y anti-fraude de terceros**: número de veces que se accede a un servicio; clicks en links de emails; si los emails fueron abiertos; si se accede desde distintos dispositivos; qué características usa la persona usuaria; qué anuncios se ven; información de compras; ubicación; información técnica de los dispositivos; información sobre el *engagement* con ciertas características de los productos; estadísticas de uso|
+|**Información generada por el uso de tecnologías de analítica, mercadotecnia, publicidad y anti-fraude de terceros**: número de veces que se accede a un servicio; clicks en los enlaces de emails; si los emails fueron abiertos; si se accede desde distintos dispositivos; qué características usa la persona usuaria; qué anuncios se ven; información de compras; ubicación; información técnica de los dispositivos; información sobre el *engagement* con ciertas características de los productos; estadísticas de uso|
 
 
 - #### El uso general que le dan a la información incluye:
@@ -394,7 +397,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
         - Asistencia en el camino
         - Evitar robo de identidad
         - Servicios de analítica de manejo
-    -**Información personal con vendedores y consultores para**:
+    - **Información personal con vendedores y consultores para**:
         - Manejo de cuenta
         - Servicios de administración, email, marketing o analítica
         - Servicio técnico
@@ -425,5 +428,5 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Conclusiones
 
-- La aplicación parece funcionar de manera correcta (aunque no probamos sus funcionalidades de manera cabal. Le recordamos a la persona lectora que nuestras pruebas no son sobre la usabilidad y efectividad de las aplicaciones) y tiene muchas funciones que probablemente sean muy útiles para salvaguardar la seguridad de las personas usuarias. Sin embargo, no existe ningún atisbo de que esta aplicación intente ser amigable con la privacidad de las personas usuarias. Al mismo tiempo, ha habido [escándalos](https://themarkup.org/privacy/2023/06/01/life360-sued-for-selling-location-data#:~:text=The%20Popular%20Family%20Safety%20App,Tens%20of%20Millions%20of%20Users&text=Life360%20disclosed%20the%20lawsuit%20in,12.) sobre cómo esta empresa ha vendido información de localización precisa de las personas usuarias.
+- La aplicación parece funcionar de manera correcta (aunque no probamos todas sus funcionalidades. Le recordamos a la persona lectora que nuestras pruebas no son sobre la usabilidad y efectividad de las aplicaciones) y tiene muchas funciones que probablemente sean muy útiles para salvaguardar la seguridad de las personas usuarias. Sin embargo, no hay ninguna evidencia de que esta aplicación intente ser amigable con la privacidad de las personas usuarias. Al mismo tiempo, ha habido [escándalos](https://themarkup.org/privacy/2023/06/01/life360-sued-for-selling-location-data#:~:text=The%20Popular%20Family%20Safety%20App,Tens%20of%20Millions%20of%20Users&text=Life360%20disclosed%20the%20lawsuit%20in,12.) sobre cómo esta empresa ha vendido información de localización precisa de las personas usuarias.
 
