@@ -224,6 +224,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Función mostrar QR para unirse al círculo no funciona
 - En nuestro Motoral G8, se trabó varias veces la aplicación de manera aleatoria
 - Para la ubicación se utiliza un servicio externo (en nuestro caso Google Maps) y se tiene que tener instalada esta aplicación
+- La aplicación es de código abierto
 
 ## Conclusiones
 
@@ -235,4 +236,4 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
     - en nuestra prueba, la aplicación se trabó de manera aleatoria algunas veces
     - hay otros problemas mencionados en la sección anterior
 - Nos preocupa que no hayamos tenido acceso al Aviso de Privacidad, eso nos parece fundamental. 
-- Las tecnologías utilizadas para construir la aplicación son OpenSource y libres como Matrix, Element o MongoDB. Esto es una excelente práctica. 
+- Las tecnologías utilizadas para construir la aplicación son de código abierto y libres como Matrix, Element o MongoDB. Esto es una excelente práctica, sin contar que la propia aplicación es libre y de código abierto. 
