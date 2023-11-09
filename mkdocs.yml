@@ -8,6 +8,7 @@ nav:
     - Inicio: 'tutoriales/inicio.md'  
     - Instalación del laboratorio de análisis: 'tutoriales/01-instalacion-laboratorio.md'
     - Captura y análisis de tráfico de red: 'tutoriales/02-captura-trafico-analisis.md'
+    - Captura de tráfico de red mediante Draeneg: 'tutoriales/02.1-captura-de-trafico-draeneg.md'
     - Mapeo de permisos y rastreadores: 'tutoriales/03-permisos y trackers.md'
     - Cómo bajar un archivo APK para analizarlo: 'tutoriales/04-apk-download.md'
     - Cómo instalar y utilizar MobSF: 'tutoriales/05-instalacion-y-uso-de-mobfs.md'
@@ -35,6 +36,15 @@ nav:
        - Okredito: '03-apps-de-montadeudas/okredito/okredito.md'
        - Superapoyo: '03-apps-de-montadeudas/superapoyo/superapoyo.md'
        - Tala: '03-apps-de-montadeudas/tala/tala.md'
+    - Aplicaciones del 25N:
+      - Donna: '04-apps-de-25n/donna/donna.md'
+      - BSafe: '04-apps-de-25n/bsafe/bsafe.md'
+      - Life360: '04-apps-de-25n/life360/life360.md'
+      - iSharing: '04-apps-de-25n/isharing/isharing.md'
+      - SosFem: '04-apps-de-25n/sosfem/sosfem.md'
+      - Red Panic Button: '04-apps-de-25n/red-panic-button/red_panic_button.md'
+      - Círculo: '04-apps-de-25n/circulo/circulo.md'
+      - Botón de auxilio Escudo Urbano: '04-apps-de-25n/boton-auxilio-escudo-urbano/boton-auxilio-escudo-urbano.md'
 
   - Listado de rastreadores y permisos:
     - Inicio: 'trackers-permisos/inicio.md'
