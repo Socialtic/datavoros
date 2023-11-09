@@ -10,7 +10,7 @@
 
 - [boton-auxilio-escudo-urbano.pcap](https://cloud.datavoros.org/index.php/s/LKDsyCAKqZq4pAK)
 - [boton-auxilio-escudo-urbano.apk](https://cloud.datavoros.org/index.php/s/XTgc9daoedPztdE)
-- [Capturas de pantalla](./captura-de-pantalla/)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/nscon6MDdX4jmtG)
 
 ## Descripción de la aplicación
 - **Tipo:** Botón de pánico
