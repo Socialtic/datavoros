@@ -8,6 +8,8 @@ La idea es conectar el teléfono a nuestra red privada virtual (VPN) y en esa re
 
 Como última nota, Tshark es la versión de línea de comandos de Wireshark. Utilizamos este programa porque resulta más rápido y cómodo para la captura de paquetes.
 
+**Recomendamos realizar la captura de tráfico de red de las aplicaciones a través de la aplicación Draeneg. Aquí el [tutorial](./02.1-captura-de-trafico-draeneg.md)**
+
 ## Otros requerimientos 
 
 Android es un sistema operativo de Google utilizado en teléfonos y tabletas. La versión que normalmente viene de fábrica en los dispositivos, es una versión modificada de la versión original,  y está hecha por el fabricante del dispositivo físico (Samsung, Motorla, LG, Nokia, etc.) y ulteriormente modificada por nuestro proveedor de servicio de telefonía móvil. Se supone que Android es *Open-Source* (código abierto), lo que quiere decir que cualquiera puede tener acceso al código de Android y modificarlo a su gusto. 
@@ -18,6 +20,8 @@ Para las pruebas de las aplicaciones, nosotros hemos utilizado un celular que ju
 
 Sin embargo entendemos que tener un celular con LineageOS no siempre es factible o lo más sencillo. En este sentido, otra solución puede ser desinstalar la mayoría de apps presentes en el celular e [inhabilitar](https://support.google.com/android/answer/2521768?hl=es) las que no se pueden desinstalar. También entendemos que esto sea un probelma, así que nuestra tercera opción es sencillamente quitarle a todas las apps el permiso de acceso a internet. Dejamos aquí una [guía](https://www.digitalcitizen.life/how-block-internet-access-specific-apps-android/) para hacerlo cuando se tiene Android 10. Dejamos aquí una [guía](https://krispitech.com/how-to-prevent-android-apps-from-sending-and-receiving-data-in-background/) para Android 11. A partir de Android 12, esta opción de deshabilitar el acceso a Internet fue eliminada (o no la pudimos encontrar), y ahora sólo queda el acceso a datos en segundo plano. Esta opción también nos puede ser de utilidad, ya que, al eliminar este permiso, sólo la app que esté abierta se conectará a Internet. Ojo! Es importante, al hacerlo, marcar a cuáles apps se les quitó este permiso, para poder volver a dárselos. Hay muchas apps que necesitan acceder a datos en segundo plano para proporcionar ciertas funcionalidades, por ejemplo, Outlook o Gmail o Whatsapp, para avisar al usuario si tiene algún nuevo mensaje.  
 Para quitar este permiso, ir a **Configuración** (el ícono con la rueda de engrane); **Apps**, dar click en la app deseada, luego **Wi-Fi y datos móviles** y eliminar el permiso de **Datos en segundo plano**.
+
+
 
 ## Captura de datos
 

@@ -7,7 +7,6 @@ Para poder hacer uso de programas como MobSF, necesitamos poder acceder a los ar
 
 Existen varias páginas que nos permitirán descaragar los archivos apk. Enumeramos algunas:
 
-- [https://apkcombo.com/es/](https://apkcombo.com/es/)
 - [https://www.apkonline.net/apkdownloader.php](https://www.apkonline.net/apkdownloader.php)
 - [https://apkpure.com/](https://apkpure.com/)
 - [https://www.apkmirror.com/](https://www.apkmirror.com/)
@@ -15,6 +14,7 @@ Existen varias páginas que nos permitirán descaragar los archivos apk. Enumera
 - [https://en.aptoide.com/](https://en.aptoide.com/)
 - [https://www.apkmonk.com/](https://www.apkmonk.com/)
 - [https://f-droid.org/](https://f-droid.org/) *Sólo aplicaciones FOSS*
+
 
 Si bien sabemos que estas páginas son seguras, siempre existe la posibilidad que algun app que se descaraga de aquí pueda contener código malicioso. De tal manera que recomendamos ser precavidos. 
 

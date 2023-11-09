@@ -1,5 +1,7 @@
 # Instalación de laboratorio
 
+**NOTA**: La instalación de gran parte de este laboratorio no es necesaria si se utiliza la aplicación Draeneg para capturar el tráfico de red. Si se usa dicha aplicación, basta con seguir las instrucciones para instalar Wireshark de este tutorial. Aquí el tutorial de uso de [Draeneg](./02.1-captura-de-trafico-draeneg.md).
+
 En esta primera sección crearemos el laboratorio de análisis de aplicaciones móviles. El diagrama que seguiremos será el siguiente, con la diferencia que usaremos Wireguard en vez de OpenVPN:
 
 ![diagrama](./capturas_de_pantalla/instalacion-laboratorio/diagrama.png)
