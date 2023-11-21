@@ -8,8 +8,10 @@
 
 ## Archivos analizados
 
-- [Apk versión 2.8.5](https://cloud.datavoros.org/index.php/s/dZ6XpbFfspbo9ea)
-- [Pcap versión 2.8.5](https://cloud.datavoros.org/index.php/s/QYeJJiMowpkXYdA)
+- [apk versión 2.8.5](https://cloud.datavoros.org/index.php/s/dZ6XpbFfspbo9ea)
+- [pcap versión 2.8.5](https://cloud.datavoros.org/index.php/s/QYeJJiMowpkXYdA)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/dBdR7eXaQ7E8Hyc)   
+
 
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos, video y red social   

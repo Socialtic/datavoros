@@ -8,13 +8,14 @@
 
 ## Archivos analizados
 
-- [Apk versión 2.190.0](https://cloud.datavoros.org/index.php/s/3i3TRtDNSx554fZ)
-- [Pcap versión 2.190.0](https://cloud.datavoros.org/index.php/s/2WXJp3bDK4LEBQM)
+- [apk versión 2.190.0](https://cloud.datavoros.org/index.php/s/3i3TRtDNSx554fZ)
+- [pcap versión 2.190.0](https://cloud.datavoros.org/index.php/s/2WXJp3bDK4LEBQM)   
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/qYcKPFYbSzkAYQP)   
 
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos y video 
 - **Costo:** Freemium  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.canva.editor&gl=US](https://play.google.com/store/apps/details?id=com.canva.editor&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.canva.editor](https://play.google.com/store/apps/details?id=com.canva.editor)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 01/11/2022
 - **Versión:** 2.190.0

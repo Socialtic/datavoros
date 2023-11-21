@@ -8,14 +8,15 @@
 
 ## Archivos analizados
 
-- [bsafe.pcap](https://cloud.datavoros.org/index.php/s/HgBJXYZdQDSLQrS)
-- [bsafe.apk](https://cloud.datavoros.org/index.php/s/NYf4QJLsgCK7BAW)
-- [Capturas de panatlla](./captura-de-pantalla/)
+- [apk versión 4.0.0](https://cloud.datavoros.org/index.php/s/NYf4QJLsgCK7BAW)
+- [pcap versión 4.0.0](https://cloud.datavoros.org/index.php/s/HgBJXYZdQDSLQrS)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/nTtPNK4Hw2ZNKtk)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/2Xbd6b7A5dKjyoc)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** De paga   
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.bipper.app.bsafe&hl=es&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.bipper.app.bsafe](https://play.google.com/store/apps/details?id=com.bipper.app.bsafe)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 08/09/2023
 - **Versión:** 4.0.0

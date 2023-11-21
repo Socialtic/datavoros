@@ -8,14 +8,14 @@
 
 ## Archivos analizados
 
-- [Apk versión 1.0.89](https://cloud.datavoros.org/index.php/s/xTBetPb5wr8aFNr)
-- [Pcap versión 1.0.89](https://cloud.datavoros.org/index.php/s/sn7LJPH87bHAc48)   
+- [apk versión 1.0.89](https://cloud.datavoros.org/index.php/s/xTBetPb5wr8aFNr)
+- [pcap versión 1.0.89](https://cloud.datavoros.org/index.php/s/sn7LJPH87bHAc48)   
 - [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/WnySDgizmFTnTE4)
 
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX](https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo](https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 14/09/2022
 - **Versión:** 1.0.89

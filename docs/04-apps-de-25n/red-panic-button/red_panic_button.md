@@ -8,14 +8,15 @@
 
 ## Archivos analizados
 
-- [red panic button.pcap](https://cloud.datavoros.org/index.php/s/T46HeCbbRmppwLm)
-- [red panic button.apk](https://cloud.datavoros.org/index.php/s/dQXTA63R7nxfLTo)
-- [Capturas de pantalla](./captura-de-pantalla/)
+- [apk versión 4.0.8](https://cloud.datavoros.org/index.php/s/dQXTA63R7nxfLTo)
+- [pcap versión 4.0.8](https://cloud.datavoros.org/index.php/s/T46HeCbbRmppwLm)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/ANWg7XMdgwPkq78)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/R2JEGcZkkiznNPa)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro&hl=es_MX&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro](https://play.google.com/store/apps/details?id=uk.ucsoftware.panicbuttonpro)
 - **Descargas:** 100k+
 - **Ultima fecha de actualización:** 30/08/2023
 - **Versión:** 4.0.8

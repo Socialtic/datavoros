@@ -7,19 +7,19 @@
 - **Análisis posteriores:** 9 agosto 2022 / 17 octubre 2022 / 23 octubre 2023
 
 ## Archivos analizados
-[apk versión 94](http://cloud.datavoros.org/index.php/s/23wJc5E9QcMoNXy)   
-[pcap versión 94](http://cloud.datavoros.org/index.php/s/Km2p6tCHFkkPMgx)
+- [apk versión 94](http://cloud.datavoros.org/index.php/s/23wJc5E9QcMoNXy)   
+- [pcap versión 94](http://cloud.datavoros.org/index.php/s/Km2p6tCHFkkPMgx)
 
-[apk versión 95](http://cloud.datavoros.org/index.php/s/qzfHWRKXTMBxDnn)   
-[pcap versión 95](http://cloud.datavoros.org/index.php/s/qdJSGPot6KqbJz7)
+- [apk versión 95](http://cloud.datavoros.org/index.php/s/qzfHWRKXTMBxDnn)   
+- [pcap versión 95](http://cloud.datavoros.org/index.php/s/qdJSGPot6KqbJz7)
 
-[apk versión 96](http://cloud.datavoros.org/index.php/s/HW7YjLeYTPTjPmx)   
-[pcap versión 96](http://cloud.datavoros.org/index.php/s/FLTBnHWgyetSWiK)   
+- [apk versión 96](http://cloud.datavoros.org/index.php/s/HW7YjLeYTPTjPmx)   
+- [pcap versión 96](http://cloud.datavoros.org/index.php/s/FLTBnHWgyetSWiK)   
 
-[apk versión 105](https://cloud.datavoros.org/index.php/s/pD6SnHGbHH8JAyE)   
-[pcap versión 105](https://cloud.datavoros.org/index.php/s/AJAa5PcmoT4ZrxG)    
+- [apk versión 105](https://cloud.datavoros.org/index.php/s/pD6SnHGbHH8JAyE)   
+- [pcap versión 105](https://cloud.datavoros.org/index.php/s/AJAa5PcmoT4ZrxG)    
 
-[Capturas de pantalla](https://cloud.datavoros.org/index.php/s/rmQ4Sts4yi9pwjH)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/rmQ4Sts4yi9pwjH)
 
 ## Descripción de la aplicación
 

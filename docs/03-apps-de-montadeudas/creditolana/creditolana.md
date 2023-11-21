@@ -11,14 +11,14 @@
 
 ## Archivos analizados:
 
-- [Apk Versión 1.2.7](https://cloud.datavoros.org/index.php/s/HKnLCr4eNEccZRr)
-- [Pcap versión 1.2.7](https://cloud.datavoros.org/index.php/s/6neaF5wSzwWYCbF)   
+- [apk Versión 1.2.7](https://cloud.datavoros.org/index.php/s/HKnLCr4eNEccZRr)
+- [pcap versión 1.2.7](https://cloud.datavoros.org/index.php/s/6neaF5wSzwWYCbF)   
 - [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/ZPy3Ag86kFzsq4p)    
 
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX](https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uni.UNI0450796](https://play.google.com/store/apps/details?id=uni.UNI0450796)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 7/11/2022
 - **Versión:** 1.2.7

@@ -8,14 +8,15 @@
 
 ## Archivos analizados
 
-- [sosfem.pcap](https://cloud.datavoros.org/index.php/s/k7Jczxaqs2FyLcn)
-- [sosfem.apk](https://cloud.datavoros.org/index.php/s/5F6JnekPrbRzSfX)
-- [Capturas de pantalla](./captura-de-pantalla/)
+- [pcap versión 3.9.3](https://cloud.datavoros.org/index.php/s/k7Jczxaqs2FyLcn)
+- [apk versión 3.9.3](https://cloud.datavoros.org/index.php/s/5F6JnekPrbRzSfX)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/RXqL8NKMjrofbqY)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/Wiqae4WFjRm4Kb9)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US](https://play.google.com/store/apps/details?id=com.aboolean.sosmex&hl=es_419&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.aboolean.sosmex](https://play.google.com/store/apps/details?id=com.aboolean.sosmex)
 - **Descargas:** 100k+
 - **Ultima fecha de actualización:** 14/09/2023
 - **Versión:** 3.9.3

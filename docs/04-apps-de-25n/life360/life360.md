@@ -8,14 +8,16 @@
 
 ## Archivos analizados
 
-- [life360.pcap](https://cloud.datavoros.org/index.php/s/qxP48yxaZX27rQJ)
-- [life360.apk](https://cloud.datavoros.org/index.php/s/B783bJQs3LyHAXp)
-- [Capturas de pantalla](./captura-de-pantalla/)
+- [pcap versión 29.39.0](https://cloud.datavoros.org/index.php/s/qxP48yxaZX27rQJ)
+- [apk versión 29.39.0](https://cloud.datavoros.org/index.php/s/B783bJQs3LyHAXp)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/XMdHjYDyizk4abZ)
+- [Reporte de MobSF](https://cloud.datavoros.org/index.php/s/SA3NGeBBy5ZrYSN)
+
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US](https://play.google.com/store/apps/details?id=com.life360.android.safetymapd&hl=es_MX&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.life360.android.safetymapd](https://play.google.com/store/apps/details?id=com.life360.android.safetymapd)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 02/10/2023
 - **Versión:** 29.39.0

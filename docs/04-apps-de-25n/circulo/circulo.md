@@ -8,14 +8,16 @@
 
 ## Archivos analizados
 
-- [circulo.pcap](https://cloud.datavoros.org/index.php/s/FMRaA9mjYLp2Xwb)
-- [circulo.apk](https://cloud.datavoros.org/index.php/s/SNktYMYHEEtMkHq)
-- [Capturas de pantalla](./captura-de-pantalla/)
+
+- [apk versión 2.1.1-BETA-2](https://cloud.datavoros.org/index.php/s/SNktYMYHEEtMkHq)
+- [pcap version 2.1.1-BETA-2](https://cloud.datavoros.org/index.php/s/FMRaA9mjYLp2Xwb)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/JierRyKiiZtg468)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/DRq3XMjkocfdzjK)
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Gratis  
-- **Enlaces de descarga:** [https://play.google.com/store/apps/details?id=org.article19.circulo.next](https://play.google.com/store/apps/details?id=org.article19.circulo.next)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=org.article19.circulo.next](https://play.google.com/store/apps/details?id=org.article19.circulo.next)
 - **Descargas:** 1k+
 - **Ultima fecha de actualización:** 1/08/2023
 - **Versión:** 2.1.1-BETA-2

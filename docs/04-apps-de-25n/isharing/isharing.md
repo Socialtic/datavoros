@@ -8,14 +8,16 @@
 
 ## Archivos analizados
 
-- [isharing.pcap](https://cloud.datavoros.org/index.php/s/QE75dSeejewcbEA)
-- [isharing.apk](https://cloud.datavoros.org/index.php/s/qHYN35D4s8rmjyA)
-- [Capturas de pantalla](./captura-de-pantalla/)
+- [apk versión 11.12.1.4](https://cloud.datavoros.org/index.php/s/qHYN35D4s8rmjyA)
+- [pcap versión 11.12.1.4](https://cloud.datavoros.org/index.php/s/QE75dSeejewcbEA)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/mnpcFE7zBZkGYWk)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/eXrcpPmWzkFJnxg)
+
 
 ## Descripción de la aplicación
 - **Tipo:** Localizador
 - **Costo:** Freemium  
-- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US](https://play.google.com/store/apps/details?id=com.isharing.isharing&hl=es&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.isharing.isharing](https://play.google.com/store/apps/details?id=com.isharing.isharing)
 - **Descargas:** 10M+
 - **Ultima fecha de actualización:** 15/10/2023
 - **Versión:** 11.12.1.4

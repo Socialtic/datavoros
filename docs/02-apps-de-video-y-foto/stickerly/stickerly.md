@@ -8,8 +8,10 @@
 
 ## Archivos analizados
 
-- [Apk versión 2.8.2](https://cloud.datavoros.org/index.php/s/ZspzEapfsCFstfG)
-- [Pcap versión 2.8.2](https://cloud.datavoros.org/index.php/s/TWBga3TmtfW8zYf)
+- [apk versión 2.8.2](https://cloud.datavoros.org/index.php/s/ZspzEapfsCFstfG)
+- [pcap versión 2.8.2](https://cloud.datavoros.org/index.php/s/TWBga3TmtfW8zYf)   
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/nqHRBnpr6wCmfYF)   
+
 
 ## Descripción de la aplicación
 - **Tipo:** Creador de stickers
