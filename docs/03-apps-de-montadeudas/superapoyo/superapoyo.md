@@ -9,7 +9,8 @@
 ## Archivos analizados
 
 - [Apk versión 1.0.89](https://cloud.datavoros.org/index.php/s/xTBetPb5wr8aFNr)
-- [Pcap versión 1.0.89](https://cloud.datavoros.org/index.php/s/sn7LJPH87bHAc48)
+- [Pcap versión 1.0.89](https://cloud.datavoros.org/index.php/s/sn7LJPH87bHAc48)   
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/WnySDgizmFTnTE4)
 
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
