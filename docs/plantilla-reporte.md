@@ -6,6 +6,13 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 
 - **Análisis Posteriores:** 
 
+## Archivos analizados
+
+- [apk versión ###]()
+- [pcap versión ###]()
+- [Capturas de pantalla]()
+- [Reporte MobSF]()
+
 ## Descripción de la aplicación
 - **Tipo:**   
 - **Costo:**   
@@ -35,6 +42,8 @@ Enlace al reporte de Exodus Privacy
 - b
 - c
 
+### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** Número
@@ -52,32 +61,32 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- 🔴 a
-- 🔵 b
-- 🔵 c
+- :red_circle: a
+- :blue_circle: b
+- 
 
-🔴 Este ícono indica un permiso obligatorio   
-🔵 Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- ⚪ Para los reportes de Asistencia ciudadana:
-    - 🔴 a
-    - ⚪ b
-    - 🔴 c
+- :blue_circle: Para los reportes de Asistencia ciudadana:
+    - :red_circle: a
+    - :blue_circle: b
+    - c
     
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 *Ejemplo*
 
-| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS       |
-|-----------------|--------------------|---------------|-------------|-----------------------|
+| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS       | Dominio |
+|-----------------|--------------------|---------------|-------------|-----------------------|---|
 | 52.36.74.154    |                 25 | United States | Boardman    | AMAZON-02             |
 | 52.38.74.42     |                  6 | United States | Boardman    | AMAZON-02             |
 | 52.88.155.1     |                 22 | United States | Boardman    | AMAZON-02             |
@@ -109,4 +118,5 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 *Descripción sobre bugs encontrados, fallas de seguridad y otras cosas*
 
+## Conclusiones
 
