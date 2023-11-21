@@ -273,7 +273,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS                      | Dominios o Trackers contactados |
+| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS                      | Dominio |
 |-----------------|--------------------|---------------|----------------|-----------|--------------------------------------|---------------------------------|
 | 13.225.41.27    | 30                 | United States |                | 16509     | AMAZON-02                            | Appsflyer                       |
 | 18.203.13.19    | 31                 | Ireland       | Dublin         | 16509     | AMAZON-02                            | onelink.me                      |
@@ -348,7 +348,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 216.58.217.3    | 87                 | United States |                | 15169     | GOOGLE                               |                                 |
 | 216.239.36.54   | 97                 | United States |                | 15169     | GOOGLE                               |                                 |
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 - Hay dos dominios interesantes. inner-active.mobi (también inneractiveassets). Pareciera que estos pertenecen a un tracker, pero no sabemos a cuál. El otro dominio es onelink.me. Está registrado a través de [Godaddy](https://www.godaddy.com/es) y, por lo mismo, la empresa que lo registró es anónima. 
 

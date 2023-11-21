@@ -227,7 +227,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS                       |Dominio o tracker contactado|
+| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS                       |Dominio |
 |-----------------|--------------------|---------------|----------------|-----------|---------------------------------------|---|
 | 8.219.3.226     |                161 | Singapore     |                |     45102 | Alibaba US Technology Co., Ltd.       |Anythinktech.com|
 | 8.219.105.74    |                 75 | Singapore     |                |     45102 | Alibaba US Technology Co., Ltd.       |Anythinktech.com|
@@ -340,7 +340,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 216.58.217.2    |                108 | United States |                |     15169 | GOOGLE                                |Admob|
 
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

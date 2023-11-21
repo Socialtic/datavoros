@@ -362,7 +362,7 @@ Fotos/multimedia/archivos
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección       | Número de paquetes | País          | Ciudad            | Número AS | Organización AS             | Dominios o trackers contactados |
+| Dirección       | Número de paquetes | País          | Ciudad            | Número AS | Organización AS             | Dominio |
 |-----------------|--------------------|---------------|-------------------|-----------|-----------------------------|---------------------------------|
 | 13.107.246.57   |                134 | United States |                   |      8068 | MICROSOFT-CORP-MSN-AS-BLOCK | Clarity                         |
 | 20.96.88.162    |                358 | United States | Boydton           |      8075 | MICROSOFT-CORP-MSN-AS-BLOCK | Clarity                         |
@@ -444,7 +444,7 @@ Fotos/multimedia/archivos
 - No pudimos identificar de quién es o para qué sirve el dominio data-emb-api.com. Según un usuario de [Reddit](https://www.reddit.com/r/pihole/comments/r9ztzd/what_is_dataembapicom_and_what_does_it_do/), es una herramienta de analítica relacionada con la empresa de analítica [Embrace](https://embrace.io/)
 - No pudimos identificar de quién es o para qué sirve el dominio prod.mx.atlas-antelope.com (Por la cantidad de paquetes enviados, probablemente pertence a Tala, pero es una suposición porque el dominio al día de hoy está registrado a través de domainsbyproxy.org )
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

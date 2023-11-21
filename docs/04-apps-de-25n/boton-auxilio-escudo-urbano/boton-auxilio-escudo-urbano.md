@@ -125,7 +125,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección IP    | País          | Ciudad               | Número AS | Organización AS            | Rastreadores o dominios             |
+| Dirección IP    | País          | Ciudad               | Número AS | Organización AS            | Dominio             |
 |-----------------|---------------|----------------------|-----------|----------------------------|-------------------------------------|
 | 131.196.248.243 | Mexico        | Tlajomulco de Zuniga |    265524 | COEFICIENTE COMUNICACIONES | botondeauxilio.c5jalisco.gob.mx     |
 | 142.251.34.46   | United States | Queens               |     15169 | GOOGLE                     | clients4.google.com                 |
@@ -134,7 +134,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 
 
-**Los dominios o rastreadores contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

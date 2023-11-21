@@ -276,7 +276,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección IP    | País          | Ciudad         | Número AS | Organización AS       | Dominio o rastreador contactado |
+| Dirección IP    | País          | Ciudad         | Número AS | Organización AS       | Dominio |
 |-----------------|---------------|----------------|-----------|-----------------------|---------------------------------|
 | 3.5.82.157      | United States | Boardman       | 16509     | AMAZON-02             | amazonaws.com                   |
 | 3.33.152.127    | United States |                | 16509     | AMAZON-02             | intercomcdn.com                 |
@@ -340,7 +340,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 
 
-**Los dominios o rastreadores contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

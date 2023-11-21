@@ -219,7 +219,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS             | Dominio o Tracker contactado |
+| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS             | Dominio |
 |-----------------|--------------------|---------------|----------------|-----------|-----------------------------|------------------------------|
 | 34.120.195.249  | 185                | United States | Kansas City    | 396982    | GOOGLE-CLOUD-PLATFORM       | Sentry.io                    |
 | 35.188.42.15    | 476                | United States | Council Bluffs | 396982    | GOOGLE-CLOUD-PLATFORM       | Sentry.io                    |
@@ -262,7 +262,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 172.217.4.170   | 29                 | United States |                | 15169     | GOOGLE                      | Firebase                     |
 | 172.217.15.3    | 28                 | United States |                | 15169     | GOOGLE                      | Crashlytics                  |
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

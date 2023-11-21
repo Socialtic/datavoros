@@ -173,7 +173,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección IP   | País          | Ciudad   | Número AS | Organización AS | Rastreador o dominio |
+| Dirección IP   | País          | Ciudad   | Número AS | Organización AS | Dominio |
 |----------------|---------------|----------|-----------|-----------------|----------------------|
 | 3.12.45.222    | United States | Columbus |     16509 | AMAZON-02       | casa.encirculo.org   |
 | 3.128.136.76   | United States | Columbus |     16509 | AMAZON-02       | casa.encirculo.org   |

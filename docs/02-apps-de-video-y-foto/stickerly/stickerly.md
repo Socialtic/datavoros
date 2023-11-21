@@ -187,7 +187,7 @@ Ninguno
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS             |Dominio o tracker contactado|
+| Dirección       | Número de paquetes | País          | Ciudad         | Número AS | Organización AS             |Dominio |
 |-----------------|--------------------|---------------|----------------|-----------|-----------------------------|--------|
 | 3.141.92.115    |                294 | United States | Columbus       |     16509 | AMAZON-02                   |clearbit.com|
 | 3.214.234.9     |                 51 | United States | Ashburn        |     14618 | AMAZON-AES                  |Pixalate|
@@ -271,7 +271,7 @@ Ninguno
 | 216.58.195.234  |                 24 | United States |                |     15169 | GOOGLE                      |
 | 216.58.195.238  |                 29 | United States |                |     15169 | GOOGLE                      |
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación

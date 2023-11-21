@@ -308,7 +308,7 @@ Cámara
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-| Dirección IP   | Número de paquetes | País          | Ciudad      | Número AS | Organización AS                                     | Dominio o servicio                   |
+| Dirección IP   | Número de paquetes | País          | Ciudad      | Número AS | Organización AS                                     | Dominio                   |
 |----------------|--------------------|---------------|-------------|-----------|-----------------------------------------------------|--------------------------------------|
 | 52.156.120.137 |                 19 | United States |             |      8075 | MICROSOFT-CORP-MSN-AS-BLOCK                         | sohu.com                             |
 | 65.9.149.24    |                 65 | United States |             |     16509 | AMAZON-02                                           | izatcloud.net --> Qualcomm GPS       |
@@ -338,7 +338,7 @@ Cámara
 | 192.36.143.130 |                  2 | Sweden        |             |      1880 | Svensk Teleutveckling & Produktinnovation, STUPI AB | android.pool.ntp.org --> Passive DNS |
 | 216.58.195.234 |                 73 | United States |             |     15169 | GOOGLE                                              | Google apis                          |
 
-**Los dominios o trackers contactados son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, trackers y empresas no relacionadas con los trackers.**
+**La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
