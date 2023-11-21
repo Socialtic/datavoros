@@ -8,7 +8,8 @@
 
 ## Archivos analizados
 [apk versión 1.3.5](http://cloud.datavoros.org/index.php/s/eeoTJKzEGPxpBFW)   
-[pcap versión 1.3.5](http://cloud.datavoros.org/index.php/s/gde2mT24t8AXjTZ)
+[pcap versión 1.3.5](http://cloud.datavoros.org/index.php/s/gde2mT24t8AXjTZ)   
+[Capturas de pantalla](https://cloud.datavoros.org/index.php/s/bbW2CqyH5nf4Qib)
 
 ## Descripción de la aplicación
 

@@ -17,6 +17,10 @@
 [apk versión 1.2.8](http://cloud.datavoros.org/index.php/s/TBLJoaHpa5jAkBC)   
 [pcap versión 1.2.8](http://cloud.datavoros.org/index.php/s/ffgRTrWPaMcywHG)   
 
+[Capturas de pantalla Seguridad Incluyente](https://cloud.datavoros.org/index.php/s/6s8Ze5egmtrF58g)   
+[Capturas de pantalla Escudo Puebla](https://cloud.datavoros.org/index.php/s/HWMi6m95ZmF72gH)
+
+
 ## Descripción de la aplicación
 
 - **Tipo:** Emergencias estado de Puebla   

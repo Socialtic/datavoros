@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 10/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [life360.pcap](https://cloud.datavoros.org/index.php/s/qxP48yxaZX27rQJ)
 - [life360.apk](https://cloud.datavoros.org/index.php/s/B783bJQs3LyHAXp)

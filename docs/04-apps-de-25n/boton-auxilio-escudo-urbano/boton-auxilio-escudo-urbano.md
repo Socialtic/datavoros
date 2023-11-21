@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 23/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [boton-auxilio-escudo-urbano.pcap](https://cloud.datavoros.org/index.php/s/LKDsyCAKqZq4pAK)
 - [boton-auxilio-escudo-urbano.apk](https://cloud.datavoros.org/index.php/s/XTgc9daoedPztdE)

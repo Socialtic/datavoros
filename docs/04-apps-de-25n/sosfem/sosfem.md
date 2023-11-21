@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 22/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [sosfem.pcap](https://cloud.datavoros.org/index.php/s/k7Jczxaqs2FyLcn)
 - [sosfem.apk](https://cloud.datavoros.org/index.php/s/5F6JnekPrbRzSfX)

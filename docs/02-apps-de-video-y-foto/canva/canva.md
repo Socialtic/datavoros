@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 03/11/2022
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [Apk versión 2.190.0](https://cloud.datavoros.org/index.php/s/3i3TRtDNSx554fZ)
 - [Pcap versión 2.190.0](https://cloud.datavoros.org/index.php/s/2WXJp3bDK4LEBQM)

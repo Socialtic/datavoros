@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 16/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [bsafe.pcap](https://cloud.datavoros.org/index.php/s/HgBJXYZdQDSLQrS)
 - [bsafe.apk](https://cloud.datavoros.org/index.php/s/NYf4QJLsgCK7BAW)

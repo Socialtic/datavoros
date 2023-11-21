@@ -17,7 +17,9 @@
 [pcap versión 96](http://cloud.datavoros.org/index.php/s/FLTBnHWgyetSWiK)   
 
 [apk versión 105](https://cloud.datavoros.org/index.php/s/pD6SnHGbHH8JAyE)   
-[pcap versión 105](https://cloud.datavoros.org/index.php/s/AJAa5PcmoT4ZrxG)
+[pcap versión 105](https://cloud.datavoros.org/index.php/s/AJAa5PcmoT4ZrxG)    
+
+[Capturas de pantalla](https://cloud.datavoros.org/index.php/s/rmQ4Sts4yi9pwjH)
 
 ## Descripción de la aplicación
 

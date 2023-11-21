@@ -20,8 +20,9 @@
 [pcap versión 3.0.10](http://cloud.datavoros.org/index.php/s/5GWHc2AT5gC2dLE)
 
 [apk versión 3.0.13](http://cloud.datavoros.org/index.php/s/Dc9n9zCFXwZqSLm)   
-[pcap versión 3.0.13](http://cloud.datavoros.org/index.php/s/KyknSfdjcjs9xrq)   
+[pcap versión 3.0.13](http://cloud.datavoros.org/index.php/s/KyknSfdjcjs9xrq)      
 
+[Capturas de pantalla](https://cloud.datavoros.org/index.php/s/Ro4SKNjfai4zqjS)
 
 ## Descripción de la aplicación
 

@@ -7,8 +7,9 @@
 - **Análisis Posteriores:** 
 
 ## Archivos analizados
-- [Apk versión 1.79](https://cloud.datavoros.org/index.php/s/DsMzcMdpJxtj8bS)
-- [Pcap versión 1.79](https://cloud.datavoros.org/index.php/s/Sz49TpWeMAY3bR3)
+[Apk versión 1.79](https://cloud.datavoros.org/index.php/s/DsMzcMdpJxtj8bS)   
+[Pcap versión 1.79](https://cloud.datavoros.org/index.php/s/Sz49TpWeMAY3bR3)      
+[Capturas de pantalla](https://cloud.datavoros.org/index.php/s/AWEG4LswmEo6HGS)
 
 ## Descripción de la aplicación
 - **Tipo:** Botón de pánico   

@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 17/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [red panic button.pcap](https://cloud.datavoros.org/index.php/s/T46HeCbbRmppwLm)
 - [red panic button.apk](https://cloud.datavoros.org/index.php/s/dQXTA63R7nxfLTo)

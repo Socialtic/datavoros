@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 11/10/2023
 - **Análisis Posteriores:** 
 
-## Enlaces a los archivos analizados
+## Archivos analizados
 
 - [donna.pcap](https://cloud.datavoros.org/index.php/s/2Lmd2FRs3WwXFPM)
 - [donna.apk](https://cloud.datavoros.org/index.php/s/Ct2KP5F6La2JFGW)
