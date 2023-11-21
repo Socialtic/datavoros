@@ -1,11 +1,11 @@
-# Trackers
+# Rastreadores
 
-Esta es una pequeña base de datos con todos los rastreadores que nos hemos encontrado hasta el momento en las aplicaciones analizadas. El objetivo de esto es poder tener una guía rápida de referencia que incluya el nombre del tracker, el tipo de tracker, la empresa a la que pertenece y los links tanto hacia la página del desarrollador como hacia la base de datos [ETIP](https://etip.exodus-privacy.eu.org/). En el link del nombre se redirige a la página de Exodus. En el link de la empresa a la página del desarrollador. 
+Esta es una pequeña base de datos con todos los rastreadores que nos hemos encontrado hasta el momento en las aplicaciones analizadas. El objetivo de esto es poder tener una guía rápida de referencia que incluya el nombre del rastreador, el tipo de rastreador, la empresa a la que pertenece y los enlaces tanto hacia la página del desarrollador como hacia la base de datos [ETIP](https://etip.exodus-privacy.eu.org/). En el enlace del nombre se redirige a la página de Exodus. En el enlace de la empresa a la página del desarrollador. 
 
-Dejamos aquí un par de links que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
+Dejamos aquí un par de enlaces que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
    
 
-| Tracker                   | Número de veces presente | Tipo                                               | Empresa |
+| Rastreador                   | Número de veces presente | Tipo                                               | Empresa |
 |---------------------------|--------------------------|----------------------------------------------------|---------|
 | [Google Crashlytics](https://etip.exodus-privacy.eu.org/trackers/862b2b1f-47d3-4dc0-9527-d50e73ce2536/)        |             3            | Análítica sobre el funcionamiento de la aplicación | [Google](https://firebase.google.com/products/crashlytics)  |
 | [Google Firebase Analytics](https://etip.exodus-privacy.eu.org/trackers/3bc11db6-499b-441b-84c4-5266063229c1/) |             6            | Analítica sobre el uso de la aplicación            | [Google](https://firebase.google.com/products/analytics)  |

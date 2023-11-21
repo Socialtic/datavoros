@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 07/11/2022
 - **Análisis Posteriores:** 
 
-## Links a archivos analizados
+## Enlaces a archivos analizados
 
 - [Apk versión 7.122.0](https://cloud.datavoros.org/index.php/s/ZTfWGxawQL64Yde)
 - [Pcap versión 7.122.0](https://cloud.datavoros.org/index.php/s/4ne4fbzBG24zTCX)
@@ -14,7 +14,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=mx.com.tala](https://play.google.com/store/apps/details?id=mx.com.tala)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=mx.com.tala](https://play.google.com/store/apps/details?id=mx.com.tala)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 03/10/2022
 - **Versión:** 7.122.0
@@ -112,9 +112,9 @@ TALA está regulada por la CONDUSEF, así, cualquier proceso que inicies con nos
 Puedes consultar su página oficial en www.condusef.org.mx o llamar a su centro de atención telefónica al 55-40-09-99.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Adjust](https://www.adjust.com/)|Analítica y Retargeting|
 |[Braze](https://www.braze.com/)|Analítica, Ubicación, Publicidad|
@@ -124,9 +124,9 @@ Puedes consultar su página oficial en www.condusef.org.mx o llamar a su centro 
 |[Split](https://www.split.io/)|Analítica|
 |[Uxcam](https://uxcam.com/)|Analítica, Perfilamiento|
 
-- Detectamos conexiones al dominio googletagmanager.com que pertenece al tracker Google Tag Manager
-- Detectamos conexiones al dominio clarity.ms que pertence al tracker de [Clarity](https://clarity.microsoft.com/) de Microsoft. Este tracker no está listado en Exodus Privacy.
-- Detectamos conexiones al dominio data-emb.api que, podría pertenecer a un tracker de [Embrace](https://embrace.io/), pero es una suposición. En todo caso, existen actividades relacionadas con un SDK de Embrace dentro del código. Este tracker no está listado en Exodus Privacy.   
+- Detectamos conexiones al dominio googletagmanager.com que pertenece al rastreador Google Tag Manager
+- Detectamos conexiones al dominio clarity.ms que pertence al rastreador de [Clarity](https://clarity.microsoft.com/) de Microsoft. Este rastreador no está listado en Exodus Privacy.
+- Detectamos conexiones al dominio data-emb.api que, podría pertenecer a un rastreador de [Embrace](https://embrace.io/), pero es una suposición. En todo caso, existen actividades relacionadas con un SDK de Embrace dentro del código. Este rastreador no está listado en Exodus Privacy.   
 
 Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/309357/) de Exodus Privacy   
 
@@ -155,7 +155,7 @@ TALA Mobile, S.A.P.I. de C.V., S.O.F.O.M., E.N.R --> [Inventure Capital Corporat
 
 - Sin nada que reportar
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
 - atlas-antelope.com (35.164.145.38). Se encuentra en http y solicita: Versión Android, Tipo de red, Idioma. Pensando en que el dominio
 - https://app.coins.ph/
 - https://coins.ph/
@@ -545,4 +545,4 @@ Fotos/multimedia/archivos
 - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario, y a los SMS y contactos son permisos de alto riesgo.
 - Los datos solicitados son acordes a los datos que se solicitan normalmente para solicitar un préstamo.
 - En conclusión, esta aplicación es legítima y está registrada en Condusef. Como no tenemos acceso a las denuncias no podemos saber si las denuncias incluyen hostigamiento y acoso; si el dinero no se transfirió o los intereses cobrados fueron desproporcionados y nunca se le notificó al deudor. De hecho, en su [página](https://talamobile.mx/2022/07/13/que-tan-confiable-es-la-app-de-prestamos-tala/) tienen una sección sobre apps fraudulentas. 
-- Inventure Access, la empresa madre de Tala, es un fondo de inversiones que desarrolla instrumentos financieros usando Data Science. En el caso de Tala la idea es ofrecer una aplicación que, sin la intervención de una persona, pueda perfilar a quien pide un préstamo para ver si su perfil cumple o no cumple con los requisitos. En este sentido, la privacidad del cliente queda expuesta por los trackers, los permisos que otorga y la información. Sin embargo dicha información queda en manos de una empresa internacional como está explicado en el aviso de privacidad. 
+- Inventure Access, la empresa madre de Tala, es un fondo de inversiones que desarrolla instrumentos financieros usando Data Science. En el caso de Tala la idea es ofrecer una aplicación que, sin la intervención de una persona, pueda perfilar a quien pide un préstamo para ver si su perfil cumple o no cumple con los requisitos. En este sentido, la privacidad del cliente queda expuesta por los rastreadores, los permisos que otorga y la información. Sin embargo dicha información queda en manos de una empresa internacional como está explicado en el aviso de privacidad. 

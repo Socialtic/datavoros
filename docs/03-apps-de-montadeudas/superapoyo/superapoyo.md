@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 14/11/2022
 - **Análisis Posteriores:** 
 
-## Links a archivos analizados
+## Enlaces a archivos analizados
 
 - [Apk versión 1.0.89](https://cloud.datavoros.org/index.php/s/xTBetPb5wr8aFNr)
 - [Pcap versión 1.0.89](https://cloud.datavoros.org/index.php/s/sn7LJPH87bHAc48)
@@ -14,7 +14,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX](https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX](https://play.google.com/store/apps/details?id=credit.prestamos.personale.cash.efectivo&gl=MX)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 14/09/2022
 - **Versión:** 1.0.89
@@ -85,12 +85,12 @@ De sábado a domingo 9:00-14:30
 💰💰💰💰Superapoyo está listo para brindarle el mayor apoyo y asistencia en cualquier momento
 ~~~
 
-## Trackers identificados (mediante MobSF) 
+## Rastreadores identificados (mediante MobSF) 
 - **No pudimos realizar al análisis en Exodus porque arroja el problema: Unable to compute APK fingerprint**
 
-- No hay trackers presentes según MobSF, pero nosotros identificamos en el manifiesto:
+- No hay rastreadores presentes según MobSF, pero nosotros identificamos en el manifiesto:
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[AppsFlyer](https://support.appsflyer.com/hc/es/categories/201114756-Integraci%C3%B3n-de-SDK-)|Analítica|
 |[Google Firebase Analytics](https://firebase.google.com/)|Analítica|
@@ -100,7 +100,7 @@ De sábado a domingo 9:00-14:30
 ## Empresas relacionadas con esta aplicación
 - TIK IN, S.A. de C.V.
 - [Alphabet](https://abc.xyz/) --> Google - Publicidad, Crashes, Analítica
-- [Appsflyer](https://www.appsflyer.com/es/) - Tracker de analítica
+- [Appsflyer](https://www.appsflyer.com/es/) - Rastreador de analítica
 - [Qualcomm](https://www.qualcomm.com/home) --> A través del dominio [izatcloud.net](http://izatcloud.net/) - Localización
 - [Sohu](https://www.sohu.com/)
 - [Microsoft](https://www.microsoft.com/es-mx) - Data Storage
@@ -117,7 +117,7 @@ De sábado a domingo 9:00-14:30
 - Nada que reportar
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
  
 - Nada que reportar
 
@@ -438,12 +438,12 @@ Las razones de uso de estos datos son varias:
 ### Notas importantes sobre seguridad y privacidad:
 - Los datos enviados por esta aplicación están cifrados en tránsito. Aunque existe una IP, la 52.156.120.137 que se corresponde con el dominio de [sohu.com](https://en.wikipedia.org/wiki/Sohu) un proveedor de Internet chino. A esa dirección se manda la versión del sistema operativo del usuario, el modelo, la marca, el user agent y el número de compilación. 
 - No sabemos por qué no funcionó el análisis con Exodus Privacy.
-- El análisis mediante MobSF resultó curioso, en tanto que hay varios campos en los cuales no encontró información (incluídos trackers que nosotros detectamos en el manifiesto).
+- El análisis mediante MobSF resultó curioso, en tanto que hay varios campos en los cuales no encontró información (incluídos rastreadores que nosotros detectamos en el manifiesto).
 
 ## Conclusiones
 - No pudimos averiguar si la empresa a la que pertenece SuperApoyo (TIK IN, S.A: de C.V.) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. Además no está registrada en Condusef.
 - Asimismo vemos una vez más que parte de la infraestructura de la aplicación está relacionada con China, tanto por los servidores de Huawei como el contacto con Sohu.com. Asismismo, la página de [izatcloud.net](http://izatcloud.net/) que pertence a Qualcommm aparece con carcateres chinos.
 - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes.
-- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+- Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
 - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS y contactos son permisos de alto riesgo. En particular el acceso a las cuentas registradas en el dispositivo y la posibilidad de modificarlas es altamente peligrosa.
 - En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás (TIK IN) no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.   

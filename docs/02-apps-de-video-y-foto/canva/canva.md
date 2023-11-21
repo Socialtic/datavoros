@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 03/11/2022
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [Apk versión 2.190.0](https://cloud.datavoros.org/index.php/s/3i3TRtDNSx554fZ)
 - [Pcap versión 2.190.0](https://cloud.datavoros.org/index.php/s/2WXJp3bDK4LEBQM)
@@ -14,7 +14,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Editor de fotos y video 
 - **Costo:** Freemium  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.canva.editor&gl=US](https://play.google.com/store/apps/details?id=com.canva.editor&gl=US)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.canva.editor&gl=US](https://play.google.com/store/apps/details?id=com.canva.editor&gl=US)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 01/11/2022
 - **Versión:** 2.190.0
@@ -92,9 +92,9 @@ EL PODER DEL DISEÑO A TU ALCANCE
 • Community managers y creadoras de contenido: crea contenido visual y mood boards uniformes con el editor de fotos y el creador de collages.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[AppsFlyer](https://support.appsflyer.com/hc/es/categories/201114756-Integraci%C3%B3n-de-SDK-)|Analítica|
 |[Branch](https://branch.io/)|Analítica|
@@ -142,7 +142,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/308425/) de
 - [WeChat](https://www.wechat.com/es/)
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores
 
 - No hay
 
@@ -313,11 +313,11 @@ ID de usuario (opcional)|Funcionalidad de la aplicación|
 |Mensajes enviados al desarrollador a través del servicio; y fotos y textos subidos a la sección User Content.| El uso es para operar, mantener y ofrecer características y funcionalidad del servicio, así como para poder comunicarse con el usuario.|
 |Información obtenida a través de terceros si se usan para crear una cuenta, como por ejemplo: Facebook UID y toda la información que el usuario permita a Facebook dar a Canva|
 |Información obtenida a través de terceros si, por ejemplo, uno sigue la página de Canva en Facebook o le da like o comenta, o postea en su página videos o fotos|
-|:bangbang:Información obtenida de fuentes públicas como redes sociales (Facebook, Twitter, LinkeIN, etc.) y servicios de datos e información (léase servicios que usan trackers). Ejemplo de estos datos pueden ser: compañía, tamaño de la compañía, posición laboral, industria y otra información de perfil. Además pueden cruzar esta información con información proporcionada por el usuario para hacer un perfil más completo.|Se utiliza para poder proporcionar ofertas, publicidad y otros servicios de manera personalizada.|
+|:bangbang:Información obtenida de fuentes públicas como redes sociales (Facebook, Twitter, LinkedIn, etc.) y servicios de datos e información (léase servicios que usan t). Ejemplo de estos datos pueden ser: compañía, tamaño de la compañía, posición laboral, industria y otra información de perfil. Además pueden cruzar esta información con información proporcionada por el usuario para hacer un perfil más completo.|Se utiliza para poder proporcionar ofertas, publicidad y otros servicios de manera personalizada.|
 |Información sobre comportamiento al respecto de los anuncios y productos anunciados por parte de las empresas de publicidad que trabajan con Canvas.|Se usa para conocer la efectividad de los anuncios y poder pagar las cuotas que les son obligatorias.|
 |Información recolectada de manera automática por herramientas de análisis de terceros.|Para poder medir "trends" de uso y formas de uso de su servicio.|
-|Cada vez que usa la aplicación o su servicio web, recolectan estadísticas de uso anónima como el tipo de explorador, referencias (si uno llega a la página a través de otra), número de clicks e interacciones con los links.|
-|Utilizan GIFs (web beacons), para rastrear anónimamente los patrones de comportamiento de los usuarios. Además los usan en emails que le mandan a los usuarios para ver qué links han abierto desde su email.|Se usa para conocer mejor el uso que se le da a su servicio y poder mejorarlo.|
+|Cada vez que usa la aplicación o su servicio web, recolectan estadísticas de uso anónima como el tipo de explorador, referencias (si uno llega a la página a través de otra), número de clicks e interacciones con los enlaces.|
+|Utilizan GIFs (web beacons), para rastrear anónimamente los patrones de comportamiento de los usuarios. Además los usan en emails que le mandan a los usuarios para ver qué enlaces han abierto desde su email.|Se usa para conocer mejor el uso que se le da a su servicio y poder mejorarlo.|
 |Si se accede a través de una app o el celular, recopilan y monitorean más de uno de los identificadores únicos, como puede ser el UUID (universal, unique identifier), en Android es el Android Advertising ID.|Para mejorar el servicio.|
 |:bangbang:Geolocalización a través de: dirección ip, terceros, terceros con los que se realizan pagos y cuando el usuario proporciona la ubicación de manera expedita.|Localizar usuarios y personalizar el contenido; obedecer las leyes locales; analítica; formas de uso de la aplicación: doméstica, educacional o empresarial (léase, saben si el usuario está en su casa, en la escuela o en el trabajo); mejorar publicidad y mejor estimar los impuestos.|
 |Contenido generado por el usuario en la aplicación|

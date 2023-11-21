@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 03/11/2022
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [Apk versión 2.8.5](https://cloud.datavoros.org/index.php/s/dZ6XpbFfspbo9ea)
 - [Pcap versión 2.8.5](https://cloud.datavoros.org/index.php/s/QYeJJiMowpkXYdA)
@@ -85,9 +85,9 @@ PICSART GOLD
 Start your Picsart Gold membership with a free trial - limited to one per Google Play account. Once the trial is over, you’ll be charged a nominal subscription fee. Your Gold subscription will automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period. If your subscription is subject to any promotional discount, the discount will expire upon the end of the current period & you’ll be charged the standard rate upon renewal. Go to your Google Play account to manage your membership & to turn auto-renew off. Your Google Play account will be charged when the purchase is confirmed.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---|
 |[Amazon Advertisement](https://aps.amazon.com/aps/index.html)|Publcidad|
 |[AppLovin](https://www.applovin.com/)| Publicidad, Analítica, Identificación, Perfilamiento|
@@ -108,9 +108,9 @@ Start your Picsart Gold membership with a free trial - limited to one per Google
 |[Smaato](https://www.smaato.com/)|Publicidad| 
 |[VKontakte SDK](https://vksdk.github.io/vk-sdk-android/)|Identificación|
 
-- Según MobFS, existe el tracker VerizonAds. No detectamos ninguna conexión a este en el análisis dinámico. Además no encontramos información en Internet a este respecto. Verizon Ads nos remite a Yahoo. En el análisis estático hay código que justifica que exista este tracker, pero parece ser que es un código obsoleto. 
-- Está presente el SnapKit SDK. Creemos que esto es un tracker. 
-- Además hay otro tracker, bttracker, que pertenece a [Bidtellect](https://bidtellect.com/).
+- Según MobFS, existe el rastreador VerizonAds. No detectamos ninguna conexión a este en el análisis dinámico. Además no encontramos información en Internet a este respecto. Verizon Ads nos remite a Yahoo. En el análisis estático hay código que justifica que exista este rastreador, pero parece ser que es un código obsoleto. 
+- Está presente el SnapKit SDK. Creemos que esto es un rastreador. 
+- Además hay otro rastreador, bttracker, que pertenece a [Bidtellect](https://bidtellect.com/).
 
 
 Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/308249/) de Exodus Privacy   
@@ -167,7 +167,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/308249/) de
 - [VK](https://vk.com/about) 
 - [KAKAO](https://www.kakaocorp.com/page/service/service/KakaoTalk?lang=en) --> [KAKAO Corporation](https://www.kakaocorp.com/page/) 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores
 
 - https://nexage.com/ --> Yahoo.
 - https://weibo.com/
@@ -350,7 +350,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 **La columna de Dominio son solicitudes de conexión de la aplicación establecidas a través del DNS. Conocer esto no siempre es posible, ya que muchas veces dichas comunicaciones están cifradas. Sólo ennumeramos aquellas que tienen un interés puntual para este proyecto, a saber, rastreadores y empresas no relacionadas con los rastreadores.**
 
-- Hay dos dominios interesantes. inner-active.mobi (también inneractiveassets). Pareciera que estos pertenecen a un tracker, pero no sabemos a cuál. El otro dominio es onelink.me. Está registrado a través de [Godaddy](https://www.godaddy.com/es) y, por lo mismo, la empresa que lo registró es anónima. 
+- Hay dos dominios interesantes. inner-active.mobi (también inneractiveassets). Pareciera que estos pertenecen a un rastreador, pero no sabemos a cuál. El otro dominio es onelink.me. Está registrado a través de [Godaddy](https://www.godaddy.com/es) y, por lo mismo, la empresa que lo registró es anónima. 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
@@ -447,7 +447,7 @@ Otros archivos de audio|Funciones de la app|
         - Google Analytics
         - Google Crashlytics
         - Facebook
-    - :bangbang:Servicios de terceros para marketing o publicidad (léase trackers).
+    - :bangbang:Servicios de terceros para marketing o publicidad (léase rastreadores).
 
     *El ícono :bangbang: denota, lo que creemos que es algo importante a tomar en cuenta sobre la privacidad del usuario.*
         
@@ -470,7 +470,7 @@ Otros archivos de audio|Funciones de la app|
 - Hay opciones de privacidad que permiten limitar el uso que hace picsart de los propios datos. 
 - En general la política de privacidad es muy clara, concisa y no es muy extensa. Recomendamos al usuario leerla detenidamente.
 - No hay fallas de seguridad que no encontremos en otras aplicaciones.
-- El número de trackers es muy elevado en comparación de apps similares.
+- El número de rastreadores es muy elevado en comparación de apps similares.
 
 
 

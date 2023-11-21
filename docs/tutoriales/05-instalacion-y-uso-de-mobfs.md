@@ -1,10 +1,10 @@
 # Qué es MobSF
 
-Mobile Security Framework es un programa que automatiza toda una serie de análisis tanto dinámicos como estáticos de aplicaciones, para poder identificar vulnerabilidades, tipos de malware y otros problemas de privacidad. En nuestro caso, es una herramienta que nos permitirá identificar de una manera bastante sencilla los permisos de la app y los trackers. Al mismo tiempo, tiene otras características que veremos más adelante que pueden hacer que nuestros análisis sean más completos.
+Mobile Security Framework es un programa que automatiza toda una serie de análisis tanto dinámicos como estáticos de aplicaciones, para poder identificar vulnerabilidades, tipos de malware y otros problemas de privacidad. En nuestro caso, es una herramienta que nos permitirá identificar de una manera bastante sencilla los permisos de la app y los rastreadores. Al mismo tiempo, tiene otras características que veremos más adelante que pueden hacer que nuestros análisis sean más completos.
 
 # Instalación de MobSF
 
-La guía de instalación de MobSF es muy completa, de tal manera que aquí solamente pondremos los links. Lo primero que hay que hacer es cumplir con los requerimientos para la instalación. Aquí están:
+La guía de instalación de MobSF es muy completa, de tal manera que aquí solamente pondremos los enlaces. Lo primero que hay que hacer es cumplir con los requerimientos para la instalación. Aquí están:
 - [Requerimientos](https://mobsf.github.io/docs/#/requirements)   
 MobSF permite el análisis dinámico de las aplicaciones, es decir, el análisis del comportamiento del código mientras se ejecuta la aplicación. Es importante aclarar que, para poder hacer este tipo de análisis, es necesario que MobSF no esté corriendo dentro de una máquina virtual. MobSF utiliza ya sea el emulador de Android Studio o GenyMotion (dos programas que crean máquinas virtuales donde se simula la ejecución de un celular) para llevar a cabo el análisis dinámico y, a la fecha, es imposible ejecutar un emulador dentro de una máquina virtual. 
 - [Instalación](https://mobsf.github.io/docs/#/installation)
@@ -45,8 +45,8 @@ Aquí podemos o bien arrastrar nuestro archivo apk a la pantalla, o dar click en
 - La siguiente sección, "Domain Malware Check", hace un análisis de los dominios anteriores para verificar que ninguno sea malicioso.
 ![malware](./capturas_de_pantalla/mobsf/6-domain-malware.png)
 
-- Adelante aparece la sección de trackers donde se nos dice cuáles hay y se nos provee un link a la página del tracker del proyecto Exodus Privacy.
-![trackers](./capturas_de_pantalla/mobsf/7-trackers.png)
+- Adelante aparece la sección de rastreadores donde se nos dice cuáles hay y se nos provee un enlace a la página del rastreador del proyecto Exodus Privacy.
+![rastreadores](./capturas_de_pantalla/mobsf/7-trackers.png)
 
 Aunque está claro que la información proporcionada por este programa es muy amplia, esta es la manera de utilizarla para enfocarnos en lo que nos interesa para este proyecto.   
 Incluso podemos, si le damos click del lado izquierdo a la sección "PDF Report", generar un reporte en PDF con todos los datos encontrados. Para poder hacer esto, sin embargo, necesitamos primero instalar la siguiente librería:

@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 02/11/2022
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [Apk versión 2.8.2](https://cloud.datavoros.org/index.php/s/ZspzEapfsCFstfG)
 - [Pcap versión 2.8.2](https://cloud.datavoros.org/index.php/s/TWBga3TmtfW8zYf)
@@ -14,7 +14,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Creador de stickers
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android](https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android](https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android)
 - **Descargas:** 100M+
 - **Ultima fecha de actualización:** 03/10/2022
 - **Versión:** 2.8.2
@@ -60,9 +60,9 @@ Sticker.ly is free animated sticker maker for WhatsApp and Telegram that can eas
 Sticker.ly is all-in-one sticker maker to customize stickers for WhatsApp and Telegram. You can adjust the position, size and angle of your sticker. You can also add captions on each sticker. With this WhatsApp sticker maker, you can create unlimited custom stickers for WhatsApp and Telegram.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Adjust](https://www.adjust.com/)|Analítica y Retargeting|
 |[Amazon Advertisement](https://advertising.amazon.com/)|Publicidad|
@@ -120,7 +120,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/307153/) de
  - [Telegram](https://telegram.org/)
  - [Snapchat](https://www.snapchat.com/)
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
 
 - itunes.apple.com
 
@@ -334,7 +334,7 @@ Ninguno
 
 
 - No recopilan identificadores únicos como IMEI o MAC
-- Dicen que no usan trackers o cookies que no sean Google Analytics y Adjust
+- Dicen que no usan rastreadores o cookies que no sean Google Analytics y Adjust
 - El acceso a cámara y video es exclusivamente para funcionalidad de la aplicación
 - :bangbang:Mantienen la información recogida hasta que se pide eliminar de manera explícita
 

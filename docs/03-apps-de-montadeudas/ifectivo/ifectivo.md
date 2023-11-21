@@ -8,7 +8,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 11/11/2022
 - **Análisis Posteriores:** 
 
-## Links a los archivos analizados
+## Enlaces a los archivos analizados
 
 - [Apk versión 1.6.2](https://cloud.datavoros.org/index.php/s/R7CLzCQrq9kHkaf)
 - [Pcap versión 1.6.2](https://cloud.datavoros.org/index.php/s/PezDNJEzSKD8aMZ)
@@ -16,7 +16,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:**[https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico](https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico)
+- **Enlace de descarga:**[https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico](https://play.google.com/store/apps/details?id=com.loan.credit.branch.tala.fast.efectivo.mexico)
 - **Descargas:** 5M+
 - **Ultima fecha de actualización:** 25/09/2022
 - **Versión:** 1.6.2
@@ -73,9 +73,9 @@ WhatsApp:55-6498-6797
 Company address: Calle Río Tiber 70, Cuauhtémoc, 06500 Mexico City, CDMX
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[AppsFlyer](https://support.appsflyer.com/hc/es/categories/201114756-Integraci%C3%B3n-de-SDK-)|Analítica|
 |[Facebook Analytics](https://developers.facebook.com/docs/app-events)|Analítica|
@@ -93,7 +93,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311000/) de
 ## Empresas relacionadas con esta aplicación
 - Collection Center Media, S.A. de C.V
 - [Alphabet](https://abc.xyz/) --> Google - Publicidad, Crashes, Analítica
-- [Appsflyer](https://www.appsflyer.com/es/) - Tracker de analítica
+- [Appsflyer](https://www.appsflyer.com/es/) - Rastreador de analítica
 - [Meta](https://about.facebook.com/ltam/meta/) --> Facebook
 - [Pangle](https://www.pangleglobal.com/) --> [TikTok](https://www.tiktok.com/) --> [ByteDance](https://www.bytedance.com/en/) - Publicidad
 - [Opentelemetry](https://opentelemetry.io/) --> [CloudNative](https://www.cncf.io/) - Minado y procesamiento de datos
@@ -106,11 +106,11 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311000/) de
 
 
 ### Provedores de servicios de terceros para pagos, identificación y redes sociales
-- Facebook (No pudimos comprobarlo, lo sabemos por los trackers y el manifiesto)
-- Google (No pudimos comprobarlo, lo sabemos por los trackers y el manifiesto)
-- Whatsapp (No pudimos comprobarlo, lo sabemos por los trackers y el manifiesto)
+- Facebook (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
+- Google (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
+- Whatsapp (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
 
 - ab-test.opayweb.com
 - whatsapp.com
@@ -506,7 +506,7 @@ Las razones de uso de estos datos son varias:
     - **Okredito:** com.loan.cash.credit.branch.tala.fast.lending.mexico 
 - Como está dicho en el reporte de CreditoLana, esa aplicación tiene indicios de estar altamente relacionada con esta.
 - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
-- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+- Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
 - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
 - Creemos que las aplicaciones de Okredito, CreditoLana y esta, están hechas por las mismas personas debido a los indicios ya mencionados. 
 - En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás, Collection Center Media, no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.   

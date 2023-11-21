@@ -27,7 +27,7 @@
 
 - **Tipo:** Aplicación de emergencias de la CDMX   
 - **Costo:** Gratuito   
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=com.moobky.MiPolicia](https://play.google.com/store/apps/details?id=com.moobky.MiPolicia)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.moobky.MiPolicia](https://play.google.com/store/apps/details?id=com.moobky.MiPolicia)
 - **Descargas:** 500,000+
 - **Ultima fecha de actualización:** 8 septiembre 2022
 - **Versión:** 3.0.2 / 3.0.8 / 3.0.10 / 3.0.13
@@ -57,9 +57,9 @@ Modulos nuevos:(PT, PC, Z. Wifi, Rev. Proximidad) Favor de mantener
 actualizada la aplicación para poder utilizar los servicios que ofrece App Mi policía
 ```
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-- **Esta aplicación no contiene trackers.**
+- **Esta aplicación no contiene rastreadores.**
 
 Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/com.moobky.MiPolicia/latest/)   
 
@@ -254,7 +254,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Conclusiones
 
-- Aplaudimos que sea la única aplicación analizada que no contiene trackers.
+- Aplaudimos que sea la única aplicación analizada que no contiene rastreadores.
 - La relación entre permisos y funciones es exacta y tiene, en general pocos permisos en comparación con las funciones que tiene. Lo que nos hace creer que la implementación de los desarrolladores es particularmente buena en comparación con las otras aplicaciones.
 - Los permisos de la PlayStore tienen una correlación directa con los encontrados por Exodus Privacy.
 

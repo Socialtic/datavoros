@@ -67,20 +67,20 @@ Nos hemos decantado por utilizar VMWare en Windows porque hemos encontrado vario
 
 ### **Creación de una máquina virtual con Ubuntu en VirtualBox**
 
-Dejamos aquí el [link](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine) al tutorial proporcionado por Ubuntu. Este tutorial sirve tanto si se tiene Linux o Windows como sistema operativo base.   
+Dejamos aquí el [enlace](https://ubuntu.com/tutorials/how-to-run-ubuntu-desktop-on-a-virtual-machine-using-virtualbox#2-create-a-new-virtual-machine) al tutorial proporcionado por Ubuntu. Este tutorial sirve tanto si se tiene Linux o Windows como sistema operativo base.   
 - En resumen hay que hacer lo siguiente:   
     - Bajar una imagen de Ubuntu (recomendamos que sea la versión 20.04.4. La nueva versión, 22.04, tiene todavía varios problemas).
     - Crear una máquina virtual
     - Agregar la imagen de disco de Ubuntu
     - Ejecutar la máquina virtual
-     - Instalar Ubuntu. Aquí el [link](https://ubuntu.com/tutorials/install-ubuntu-desktop#4-boot-from-usb-flash-drive) al tutorial. Aunque en este tutorial dice que es a través de un USB, hay que seguir las instrucciones como se indican desde el punto número 4. 
+     - Instalar Ubuntu. Aquí el [enlace](https://ubuntu.com/tutorials/install-ubuntu-desktop#4-boot-from-usb-flash-drive) al tutorial. Aunque en este tutorial dice que es a través de un USB, hay que seguir las instrucciones como se indican desde el punto número 4. 
 
 
-- Alternativamente, se puede descargar un disco virtual desde este [link](https://www.osboxes.org/ubuntu/) (Recomendamos descargar la versión 20.04.4, ya que la nueva, 22.04, tiene varios problemas todavía). Está la opción tanto para VirtualBox, como para VMWare.
+- Alternativamente, se puede descargar un disco virtual desde este [enlace](https://www.osboxes.org/ubuntu/) (Recomendamos descargar la versión 20.04.4, ya que la nueva, 22.04, tiene varios problemas todavía). Está la opción tanto para VirtualBox, como para VMWare.
     ![osboxes](./capturas_de_pantalla/instalacion-laboratorio/downloadosboxes.png) Lo que uno descarga aquí es básicamente el disco duro de una máquina virtual con la instalación ya hecha y configurada de Ubuntu. Como ya está instalado Ubuntu,   
     -  el nombre de usuario (*username*) es: **osboxes**
     -  y el password es: **osboxes.org**    
-- Descargar disco duro VDI del link anterior. El archivo está en formato .7z. Extraer con [Winrar](https://www.rarlab.com/download.htm) o [7zip](https://www.7-zip.org/). Si usted está en Linux, no hace falta instalar ninguno de estos dos programas. 
+- Descargar disco duro VDI del enlace anterior. El archivo está en formato .7z. Extraer con [Winrar](https://www.rarlab.com/download.htm) o [7zip](https://www.7-zip.org/). Si usted está en Linux, no hace falta instalar ninguno de estos dos programas. 
 - Abrir VirtualBox y dar click en **Nueva** 
 ![importar disco virtual](./capturas_de_pantalla/instalacion-laboratorio/nuevamaquina.png)   
 
@@ -151,7 +151,7 @@ You are running this virtual machine [...]
 - Después de esto, se instalará Ubuntu de manera automática. Puede tardar bastante tiempo. Al finalizar este proceso, nos recibirá la pantalla de bienvenida de Ubuntu. Dar click en el usuario y rellenar el password que seleccionamos. 
 ![bienvenidaubuntuvm](./capturas_de_pantalla/instalacion-laboratorio/bienvenidaubuntuvmware.png)
 - Ahora podemos expandir la ventana de la máquina virtual y aceptar o modificar las diferentes recomendaciones que nos hace Ubuntu.    
-*No haremos un tutorial de cómo importar una imagen de disco de OSBoxes ya que el procedimiento de instalación es bastante sencillo, pero dejamos aquí un [link](https://www.osboxes.org/guide/)*.
+*No haremos un tutorial de cómo importar una imagen de disco de OSBoxes ya que el procedimiento de instalación es bastante sencillo, pero dejamos aquí un [enlace](https://www.osboxes.org/guide/)*.
 
 
 ### *Configuración de red de la máquina virtual*
@@ -175,7 +175,7 @@ Le damos **Aceptar** y dentro de poco se iniciará nuestra máquina virtual como
 ## Instalación de Wireguard
 [Wireguard](https://www.wireguard.com/) es un protocolo de red privada virtual ([VPN](https://es.wikipedia.org/wiki/Red_privada_virtual)) y el código para poder ejecutar ese protocolo. Si bien es mucho más conocido [OpenVPN](https://openvpn.net/), nos hemos decidido por utilizar WireGuard porque es más sencillo de instalar y requiere menos modificaciones *post* instalación para utilizarse.
 
-Por motivos de facilidad, instalaremos WireGuard a través de un *script* (una serie de comando que se ejecutan de manera automática). Si bien no recomendamos ejecutar scripts desde internet por motivos de seguridad, hemos revisado el script que recomendamos y no tiene ningún código malicioso. En todo caso, si algún usuario quisiera hacerlo todo *a mano*, dejamos aquí un [link](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04) con un tutorial.
+Por motivos de facilidad, instalaremos WireGuard a través de un *script* (una serie de comando que se ejecutan de manera automática). Si bien no recomendamos ejecutar scripts desde internet por motivos de seguridad, hemos revisado el script que recomendamos y no tiene ningún código malicioso. En todo caso, si algún usuario quisiera hacerlo todo *a mano*, dejamos aquí un [enlace](https://www.digitalocean.com/community/tutorials/how-to-set-up-wireguard-on-ubuntu-20-04) con un tutorial.
 
 Antes de instalar WireGuard en el Ubuntu de nuestra máquina virtual, tenemos que instalarlo en nuestro celular Android. 
  

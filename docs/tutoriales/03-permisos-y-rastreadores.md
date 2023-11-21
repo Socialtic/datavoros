@@ -25,7 +25,7 @@ En esta sección vamos a mostrar cómo averiguar cuáles son los permisos que es
 
 A través del servicio en línea de [Exodus Privacy](https://exodus-privacy.eu.org/en/) podemos averiguar los permisos que están embebidos en el código de cada aplicación.
 
-1. Entramos a este [link](https://reports.exodus-privacy.eu.org/en/).
+1. Entramos a este [enlace](https://reports.exodus-privacy.eu.org/en/).
 
 2. Aquí podemos buscar la aplicación ya sea por su nombre o por la dirección URL que aparece en la PlayStore. Esta dirección es la que aparece en la barra de direcciones del paso 4 del tutorial anterior. En importante reconocer el nombre que aparece después del valor "id=", ya que este nombre de la aplicación nos servirá más adelante. 
 ![1](./capturas_de_pantalla/permisos/1-permisos-exodus.png)
@@ -45,24 +45,24 @@ A través del servicio en línea de [Exodus Privacy](https://exodus-privacy.eu.o
 7. Terminado el análisis nos dirá que ya podemos analizar el reporte. Le damos click a "See the report":
 ![6](./capturas_de_pantalla/permisos/6-permisos-exodus.png)
 
-8. Lo primero que vemos es un resumen con el número de Trackers presentes y la cantidad de permisos:
+8. Lo primero que vemos es un resumen con el número de rastreadores presentes y la cantidad de permisos:
 ![7](./capturas_de_pantalla/permisos/7-permisos-exodus.png) 
 
 9. Si bajamos un en la página, llegaremos a la sección de permisos, donde se nos mostrarán todos los permisos embebidos en el código, algunos con explicación de qué es lo que hacen, otros no. Y además algunos con un signo de exclamación en rojo, que indica que es un permiso peligroso según lo considera Google.
 ![8](./capturas_de_pantalla/permisos/8-permisos-exodus.png)
 
-# Trackers
+# Rastreadores
 
-Para averiguar qué trackers tiene una aplicación hay que seguir los mismos pasos de la sección anterior. En el listado de trackers, sin embargo, podemos acceder a una página de referencia con más información del tracker en cuestión:
+Para averiguar qué rastreadores tiene una aplicación hay que seguir los mismos pasos de la sección anterior. En el listado de rastreadores, sin embargo, podemos acceder a una página de referencia con más información del rastreador en cuestión:
 ![9](./capturas_de_pantalla/permisos/9-permisos-exodus.png)
 
-- En esta página aparecen datos relevantes sobre el tracker. Hasta arriba, el nombre. Justo abajo, el tipo de tracker, es decir, para qué se usa. En nuestro ejemplo "Advertising", es decir, para publicidad.
+- En esta página aparecen datos relevantes sobre el rastreador. Hasta arriba, el nombre. Justo abajo, el tipo de rastreador, es decir, para qué se usa. En nuestro ejemplo "Advertising", es decir, para publicidad.
 
-- "Present in" se refiere a la cantidad de aplicaciones en las cuales ha sido encontrado este tracker.
+- "Present in" se refiere a la cantidad de aplicaciones en las cuales ha sido encontrado este rastreador.
 
-- Luego tenemos dos enlaces a las páginas web del tracker para desarrolladores y del lado derecho el link "Tracker web page" nos dirige a la página general del tracker (Esta información no siempre aparece para todos los trackers).
+- Luego tenemos dos enlaces a las páginas web del rastreador para desarrolladores y del lado derecho el enlace "Tracker web page" nos dirige a la página general del rastreador (Esta información no siempre aparece para todos los rastreadores).
 
-- Por último tenemos la sección "Detection Rules". Estas son las reglas de detección del tracker dentro del código de la aplicación. En otras palabras, cuando en el código de la aplicación aparece alguna de las cadenas de esta sección, entonces podemos estar seguros que el tracker está presente. 
+- Por último tenemos la sección "Detection Rules". Estas son las reglas de detección del rastreador dentro del código de la aplicación. En otras palabras, cuando en el código de la aplicación aparece alguna de las cadenas de esta sección, entonces podemos estar seguros que el rastreador está presente. 
 
 
 

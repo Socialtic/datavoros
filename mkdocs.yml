@@ -9,7 +9,7 @@ nav:
     - Instalación del laboratorio de análisis: 'tutoriales/01-instalacion-laboratorio.md'
     - Captura y análisis de tráfico de red: 'tutoriales/02-captura-trafico-analisis.md'
     - Captura de tráfico de red mediante Draeneg: 'tutoriales/02-1-captura-de-trafico-draeneg.md'
-    - Mapeo de permisos y rastreadores: 'tutoriales/03-permisos y trackers.md'
+    - Mapeo de permisos y rastreadores: 'tutoriales/03-permisos-y-rastreadores.md'
     - Cómo bajar un archivo APK para analizarlo: 'tutoriales/04-apk-download.md'
     - Cómo instalar y utilizar MobSF: 'tutoriales/05-instalacion-y-uso-de-mobfs.md'
   - Plantilla de aplicación: 'plantilla-reporte.md'

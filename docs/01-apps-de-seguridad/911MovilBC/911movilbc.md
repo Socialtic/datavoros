@@ -21,7 +21,7 @@
 
 - **Tipo:** Aplicación de emergencias de Baja California   
 - **Costo:** Gratuito   
-- **Link:** [https://play.google.com/store/apps/details?id=com.c4bc.alerta066m](https://play.google.com/store/apps/details?id=com.c4bc.alerta066m)        
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.c4bc.alerta066m](https://play.google.com/store/apps/details?id=com.c4bc.alerta066m)        
 - **Descargas:** 50,000+  
 - **Fechas de actualización:** 03 Diciembre 2021 / 19 Abril 2022 / 26 Septiembre 2022   
 - **Versión:**  5.5.14/ 5.6.0/ 5.7.1  
@@ -70,7 +70,7 @@ Ejemplos de uso de la herramienta:
 Te invitamos a realizar un uso adecuado de este servicio.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
 - [Google Firebse Analytics](https://firebase.google.com/products/analytics)
 
@@ -79,7 +79,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/com.c4bc.al
 
 ## Empresas relacionadas con esta aplicación
 
-- [Alphabet](https://abc.xyz/) a través de Google (Trackers y servicio de ubicación)(Trackers y ubicación)
+- [Alphabet](https://abc.xyz/) a través de Google (Rastreadores y servicio de ubicación)(Rastreadores y ubicación)
 - [Teléfonos del Noroeste](https://www.telnor.com/) (Servidor donde está almacenada la aplicación)
 
 ## Permisos
@@ -291,7 +291,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Notas sobre datos recolectados
 
-- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por el tracker de Firebase. Firebase recolecta toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
+- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por el rastreador de Firebase. Firebase recolecta toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
 
 - El servidor 066movilbc.seguridadbc.gob.mx con IP: 200.76.246.123 200.76.246.116 son el _Host_ de la app. Todos los datos que el usuario debe introducir son guardados ahí. Las llamadas se hacen en texto plano, HTTP, lo que implica una brecha de seguridad enorme. Se pueden ver los siguientes datos (además de los proporcionados por el usuario) en las llamadas http:
    - ID de usuario
@@ -350,7 +350,7 @@ Número de teléfono
 | WRITE_EXTERNAL_STORAGE  | Chat  |
 | MAPS_RECEIVE  | Permiso innecesario  |
 | RECEIVE  | Push notifications  |
-| BIND_GET_INSTALL_REFERRER_SERVICE  | Permiso relacionado con el tracker de Firebase  |
+| BIND_GET_INSTALL_REFERRER_SERVICE  | Permiso relacionado con el rastreador de Firebase  |
 | READ_GSERVICES  | Servicio de ubicación  |
 
 ### Funciones específicas de la aplicación

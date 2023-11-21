@@ -14,7 +14,7 @@
 
 - **Tipo:** Aplicación de emergencias de la CDMX   
 - **Costo:** Gratuito   
-- **Link:** [https://play.google.com/store/apps/details?id=com.desarrollo.c5.app_066_android_2&hl=es](https://play.google.com/store/apps/details?id=com.desarrollo.c5.app_066_android_2&hl=es)       
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.desarrollo.c5.app_066_android_2&hl=es](https://play.google.com/store/apps/details?id=com.desarrollo.c5.app_066_android_2&hl=es)       
 - **Descargas:** 1,000,000+   
 - **Fecha de actualización:** 22 Mayo 2020   
 - **Versión:** 1.3.5   
@@ -36,7 +36,7 @@ Ciudad de México, una herramienta tecnológica que facilite solicitar auxilio
 a las autoridades locales, en caso de una emergencia.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
 - [Google Crashlytics](https://firebase.google.com/products/crashlytics)   
 - [Google Firebase Analytics](https://firebase.google.com/products/analytics)
@@ -45,7 +45,7 @@ Enlace a [reporte](https://reports.exodus-privacy.eu.org/es/reports/com.desarrol
 
 ## Empresas relacionadas con esta aplicación
 
-- [Alphabet](https://abc.xyz/) a través de Google (Trackers y servicio de ubicación)(Trackers y ubicación)
+- [Alphabet](https://abc.xyz/) a través de Google (Rastreadores y servicio de ubicación)(Rastreadores y ubicación)
 - [Twitter](https://about.twitter.com/es) (Función de notificaciones sobre temblores)
 - Uninet ([Telmex](https://telmex.com/)) (Servidores donde está albergada la aplicación)
 - Edgecast (comprada por [edg.io](https://edg.io/))(Servidor relacionado con Twitter)
@@ -221,7 +221,7 @@ _modify or delete the contents of your SD card_
 
 ### Notas sobre datos recolectados
 
-- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por los trackers de Firebase y Crashlytics. Firebase asigna [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations) una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
+- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por los rastreadores de Firebase y Crashlytics. Firebase asigna [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations) una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
 - Los servidores de Twitter son contactados por la función de notificaciones sobre temblores.
 - El servidor de Edgecast está relacionado con Twitter.
 - En el servidor 189.174.224.151 de Uninet sirve para el registro de los usuarios. Las llamadas a este servidor son en HTTP, es decir que no están cifradas. Los datos que se mandan son los datos de registro del usuario además del tipo de sistema operativo, un identificador de telefonía y el modelo del celular. Asimismo el token de autenticación y la llave son también mandados en texto plano.
@@ -246,7 +246,7 @@ _modify or delete the contents of your SD card_
 | WAKE_LOCK  | Botón de pánico  |
 | WRITE_EXTERNAL_STORAGE  | Chat  |
 | RECEIVE  | Push Notifications  |
-| BIND_GET_INSTALL_REFERRER_SERVICE  | Firebase Tracker  |
+| BIND_GET_INSTALL_REFERRER_SERVICE  | Rastreador Firebase  |
 
 ### Funciones específicas de la aplicación
 
@@ -258,7 +258,7 @@ _modify or delete the contents of your SD card_
 ## Notas
 
 - La Leyenda de tratamiento de datos debe ser aceptada de manera expresa.
-- El link a la página de Políticas de privacidad en la Playstore está mal.
+- El enlace a la página de Políticas de privacidad en la Playstore está mal.
 - Intentamos agregar un contacto a la red de emergencias pero no se pudo. Aunque el contacto tenía la aplicación instalada (requerimiento necesario), la aplicación no identificó que ese contacto la tenía instalada.
 - Si el usuario instala la aplicación y luego la desinstala, no es posible volver a registrarse. Se tiene que hacer un restablecimiento de fábrica del celular para poder hacerlo.
 - El registro no siempre funciona a la primera, a veces hay que abrir y cerrar la aplicación varias veces.
@@ -271,5 +271,5 @@ _modify or delete the contents of your SD card_
 
 - La aplicación hace las llamadas al servidor de Uninet 187.174.224.151 en texto plano, es decir que no está cifrado. Todos los datos que el usuario otorga de manera voluntaria además de un identificador de telefonía, el sistema operativo, el modelo del celular y la llave y el token de autenticación, no están cifrados. Las llamadas de emergencia a través del botón de pánico, tampoco. Esto es un problema de seguridad mayúsculo.
 - La relación entre permisos y funciones es simétrica y no hay nada fuera de lo normal.
-- El uso de trackers no es excesivo, aunque nos preocupa la integración con Twitter en la información sísmica. No estamos seguros de que esto sea necesariamente un problema de privacidad, pero existe dicha posibilidad debido a las prácticas agresivas de rastreo que tiene esa empresa.
+- El uso de rastreadores no es excesivo, aunque nos preocupa la integración con Twitter en la información sísmica. No estamos seguros de que esto sea necesariamente un problema de privacidad, pero existe dicha posibilidad debido a las prácticas agresivas de rastreo que tiene esa empresa.
 - Hay varias funciones que no sirven o sirven a medias y está el _bug_ (error) que niega la posibilidad de instalar la aplicación dos veces en un mismo celular sin antes tener que revertirlo a sus configuraciones de fábrica.

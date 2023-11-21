@@ -23,7 +23,7 @@
 
 - **Tipo:** Aplicación de emergencia del estado de Jalisco   
 - **Costo:** Gratuito   
-- **Link:** [https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal](https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal)      
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal](https://play.google.com/store/apps/details?id=com.jpriskcorp.botonpanicoapp.jal)      
 - **Descargas:** 50,000+  
 - **Fecha de actualización:** 13 Enero 2022 / 16 Agosto 2022 / 2 octubre 2023
 - **Versión:**  94 / 95 / 96 /105
@@ -67,7 +67,7 @@ Enlace a los reportes:
 
 ## Empresas relacionadas con esta aplicación
 
-- [Alphabet](https://abc.xyz/) a través de Google (Trackers y servicio de ubicación)(Trackers y ubicación)
+- [Alphabet](https://abc.xyz/) a través de Google (Rastreadores y servicio de ubicación)(Rastreadores y ubicación)
 - [Coeficiente comunicaciones](https://coeficientemx.com/) (Servidor donde está almacenada la aplicación)
 
 ## Permisos
@@ -258,9 +258,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - :no_entry_sign: El servidor de Coeficiente Comunicaciones es el _Host_ de la app. Los datos de las llamadas de emergencia hechos a través de los botones de auxilio se mandan en texto plano. También los datos de registro del usuario mencionados en la sección "Datos solicitados al usuario durante el uso" son enviados en texto plano (http sin cifrar). 
 
-- :no_entry_sign: La aplicación contacta a los servidores de Google por dos razones: los mapas y la geolocalización y por los trackers de Firebase, Analytics, Crashlytics, Tag Manager y Admob. Firebase recolecta toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
+- :no_entry_sign: La aplicación contacta a los servidores de Google por dos razones: los mapas y la geolocalización y por los rastreadores de Firebase, Analytics, Crashlytics, Tag Manager y Admob. Firebase recolecta toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
 
-- :no_entry_sign: Los trackers [Crashlytics](https://firebase.google.com/docs/crashlytics) y [Analytics](https://firebase.google.com/docs/analytics) son dos subtrackers de Firebase. El primero tiene la función de mejorar la aplicación al mandar reportes de cierres inesperados de la aplicación, el segundo otorga información sobre su uso, lo que no necesariamente es malo. Sin embargo AdMob es un tracker para mostrar banners de publicidad dentro de la aplicación mientras que TagManager es un tracker que permite etiquetar secciones de código.
+- :no_entry_sign: Los rastreadores [Crashlytics](https://firebase.google.com/docs/crashlytics) y [Analytics](https://firebase.google.com/docs/analytics) son dos subrastreadores de Firebase. El primero tiene la función de mejorar la aplicación al mandar reportes de cierres inesperados de la aplicación, el segundo otorga información sobre su uso, lo que no necesariamente es malo. Sin embargo AdMob es un rastreador para mostrar banners de publicidad dentro de la aplicación mientras que TagManager es un rastreador que permite etiquetar secciones de código.
 
 ## Tabla de relación entre permisos y funciones
 
@@ -298,7 +298,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Conclusiones
 
-- :exlamation: La cantidad de trackers presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica. 
+- :exlamation: La cantidad de rastreadores presentes es demasiada. En particular la presencia de AdMob, que sirve para mostrar anuncios, no se explica. 
 - :exclamation: Como las llamadas al servidor de Coeficiente Comunicaciones no están cifradas, tenemos un serio problema de seguridad, ya que los datos de perfil del usuario, y las llamadas de emergencia hechas por los botones de pánico, están en texto plano. También nos hace preguntarnos si los datos de los usuarios en el servidor están cifrados.
 - Nos queda la duda si, al darse un usuario de baja, los datos de dicho usuario se quedan o no almacenados. En todo caso, es la única aplicación analizada que hasta ahora tiene esa función.
 - La relación entre permisos y funciones es relativamente simétrica. Fuera de _maps_receive_ que ya no es un permiso necesario para Google maps desde la versión 3.1.59 de Google Services, nos queda la duda la utilidad del permiso _write_external_storage_
@@ -311,7 +311,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
     - Términos y condiciones
     - Las personas sordas podrán enviar mensajes de texto 
 - Volvimos a comprobar, con la actualización para ver si las llamadas al servidor de Coeficiente Comunicaciones siguen sin estar cifradas y, en efecto, así fue.
-- En la nueva versión ya no hay ningún tracker.
+- En la nueva versión ya no hay ningún rastreador.
 - En esta versión la función darse de baja no funcionó.
 
 

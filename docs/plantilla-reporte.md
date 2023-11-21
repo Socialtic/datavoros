@@ -9,7 +9,7 @@
 ## Descripción de la aplicación
 - **Tipo:**   
 - **Costo:**   
-- **Link de descarga:** 
+- **Enlace de descarga:** 
 - **Descargas:** *Número de descargas*
 - **Ultima fecha de actualización:** 
 - **Versión:** 
@@ -23,7 +23,7 @@
 Descripción de la PlayStore
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 - a
 - b
 - c

@@ -6,7 +6,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 02/11/2022
 - **Análisis Posteriores:** 
 
-## Links a archivos analizados:
+## Enlaces a archivos analizados:
 
 - [Apk versión 5.1.1493](https://cloud.datavoros.org/index.php/s/APgw9QzaMPr7kEx)
 - [Pcap versión 5.1.1493](https://cloud.datavoros.org/index.php/s/dWaxwkSpaTpRk8p)
@@ -76,9 +76,9 @@ Youtube ： @Sweet Selfie
 Correo electrónico: support@ufotosoft.com
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---|
 |[Adjust](https://www.adjust.com/)|Analítica y Retargeting|
 |[Amazon Advertisement](https://advertising.amazon.com/)|Publicidad
@@ -94,8 +94,8 @@ Correo electrónico: support@ufotosoft.com
 |[Inmobi](https://www.inmobi.com/)|Publicidad|
 |[Pangle](https://www.pangleglobal.com/)|Publicidad|
 
-- Creemos que existe otro tracker en esta aplicación com.bytedance.sdk que, de todos modos, está relacionado con el tracker de Pangle y pertence a [Bytedance]([ByteDance](https://www.bytedance.com/en/)). 
-- También creemos que el dominio anythinktech.com, perteneciente a [Alibaba]([Alibaba](https://www.alibaba.com/)), es usado para recibir información del usuario como las aplicaciones instaladas, sim, ubicación, etc. de tal manera que pertence a un tracker. 
+- Creemos que existe otro rastreador en esta aplicación com.bytedance.sdk que, de todos modos, está relacionado con el rastreador de Pangle y pertence a [Bytedance]([ByteDance](https://www.bytedance.com/en/)). 
+- También creemos que el dominio anythinktech.com, perteneciente a [Alibaba]([Alibaba](https://www.alibaba.com/)), es usado para recibir información del usuario como las aplicaciones instaladas, sim, ubicación, etc. de tal manera que pertence a un rastreador. 
 
 
 Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/com.cam001.selfie/latest/) de Exodus Privacy   
@@ -132,7 +132,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/com.cam001.
  - [Facebook](https://facebook.com) --> Meta
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
 
 - adx.anythinktech.com
 - da.anythinktech.com - Marcado como Malware por [Maltrail](https://github.com/stamparm/maltrail)
@@ -424,13 +424,13 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Notas importantes sobre seguridad y privacidad:
 
 - El aviso de privacidad es muy general y abarca una serie de datos que, dentro de las funciones de la aplicación, el usuario nunca otorga.
-- La lista de terceros con quienes dicen trabajar no está completa. Esto se puede verificar observando los trackers.
-- Las llamadas al dominio anythinktech.com son servidores pertenecientes a Alibaba. Al mismo tiempo, creemos que este dominio es usado por un tracker, probablemente denominado anythinktech. 
+- La lista de terceros con quienes dicen trabajar no está completa. Esto se puede verificar observando los rastreadores.
+- Las llamadas al dominio anythinktech.com son servidores pertenecientes a Alibaba. Al mismo tiempo, creemos que este dominio es usado por un rastreador, probablemente denominado anythinktech. 
 - Esta app no tiene problemas de seguridad flagrantes.
 
 ## Conclusiones
 
 - El aviso de privacidad, como tantos otros, es un aviso genérico y probablemente abarca muchas de las aplicaciones que desarrolla esta empresa, de tal manera que no todo se puede aplicar a esta app en particular. 
 - El ecosistema de empresas involucrado en el guradado, transferencia y minado de datos es muy complejo y difícil de descifrar.
-- Esta app pareciera tener dos trackers no identificados en Exodus, anythinktech y bytedance.sdk. Este primero, incluso fue identificado como dominio malicioso. 
+- Esta app pareciera tener dos rastreadores no identificados en Exodus, anythinktech y bytedance.sdk. Este primero, incluso fue identificado como dominio malicioso. 
 

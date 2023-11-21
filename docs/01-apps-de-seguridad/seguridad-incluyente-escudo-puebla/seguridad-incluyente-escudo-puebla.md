@@ -21,7 +21,7 @@
 
 - **Tipo:** Emergencias estado de Puebla   
 - **Costo:** Gratis   
-- **Link:** [https://play.google.com/store/apps/details?id=net.garagecoders.deri](https://play.google.com/store/apps/details?id=net.garagecoders.deri)       
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=net.garagecoders.deri](https://play.google.com/store/apps/details?id=net.garagecoders.deri)       
 - **Descargas:** 50,000+  
 - **Fecha de actualización:** 7 septiembre 2022
 - **Versión:**  1.2.4.1 / 1.2.5 / 1.2.8
@@ -59,7 +59,7 @@ finalidad de fortalecer acciones enfocadas a la prevención del delito y la cons
 más seguros.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
 - [Google Firebase Analytics](https://firebase.google.com/products/analytics)   
 - [Google Crashlytics](https://firebase.google.com/products/crashlytics/)
@@ -69,7 +69,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/net.garagec
 
 ## Empresas relacionadas con esta aplicación
 
-- [Alphabet](https://abc.xyz/) a través de Google (Trackers y servicio de ubicación)
+- [Alphabet](https://abc.xyz/) a través de Google (Rastreadores y servicio de ubicación)
 - :no_entry_sign: Radiomovil Dipsa ([Telcel](https://www.telcel.com/)) (Servidor donde está guardada la aplicación)
 - [Twitter](https://about.twitter.com/es) (Presente en la página web (la aplicación actúa como explorador) del aviso de privacidad)
 - [Meta](https://about.meta.com/ltam/) a través de Facebook (Presente en la página web (la aplicación actúa como explorador) del aviso de privacidad)
@@ -206,8 +206,8 @@ Cuando se marca la checkbox de discapacidad auditiva, permite agregar un contact
 
 ### Notas sobre datos recolectados
 
-- La aplicación contacta a los servidores de google por tres razones: los mapas y la geolocalización; el archivo PDF de "Tabulador de multas e infracciones" (En la versión actual, esta función queda en blanco); y por el tracker de Firebase y el de Crashlytics. El tracker de Firebase, asigna través de [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations), una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
-- Las conexiones a Twitter y Facebook son trackers que tienen que ver con la página de información del aviso de Privacidad :no_entry_sign: (En la cual no se muestra el aviso).
+- La aplicación contacta a los servidores de google por tres razones: los mapas y la geolocalización; el archivo PDF de "Tabulador de multas e infracciones" (En la versión actual, esta función queda en blanco); y por el rastreador de Firebase y el de Crashlytics. El rastreador de Firebase, asigna través de [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations), una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
+- Las conexiones a Twitter y Facebook son rastreadores que tienen que ver con la página de información del aviso de Privacidad :no_entry_sign: (En la cual no se muestra el aviso).
 - El servidor de Cloudflare está relacionado con la página en construcción de la Secretaría de seguridad ciudadana (en la última versión esto ya no es así).
 - Los mensajes de quejas y felicitaciones van al servidor de RadioMóvil Dipsa, a esta [página](https://deridev.com/auth/login). También la función sobre revisar si un coche está en el corralón dirige a este servidor.
 - El servidor de RadioMóvil Dipasa es el _Host_ de la aplicación. Ahí se guardan todos los datos de registro. 
@@ -249,7 +249,7 @@ Cuando se marca la checkbox de discapacidad auditiva, permite agregar un contact
 | RECEIVE_BOOT_COMPLETED  | Iniciar aplicación al iniciar el dispositivo|
 | WAKE_LOCK  | Botón de pánico  |
 | RECEIVE  | Push Notifications  |
-| BIND_GET_INSTALL_REFERRER_SERVICE  | Tracker Firebase  |
+| BIND_GET_INSTALL_REFERRER_SERVICE  | Rastreador Firebase  |
 | AD_ID | Recolecta el ID de pubicidad del dispositivo |
 
 
@@ -267,7 +267,7 @@ Cuando se marca la checkbox de discapacidad auditiva, permite agregar un contact
 
 ## Notas
 
-- :no_entry_sign: El link provisto por la PlayStore a la política de privacidad no es el correcto. :no_entry_sign: Lo mismo con la redirección al aviso de privacidad dentro de la aplicación.
+- :no_entry_sign: El enlace provisto por la PlayStore a la política de privacidad no es el correcto. :no_entry_sign: Lo mismo con la redirección al aviso de privacidad dentro de la aplicación.
 - La función a la página de la Secretaría de Seguridad Ciudadana no funciona.
 - La función de tabulador de multas no funciona.
 - :no_entry_sign: La función de búsqueda del corralón no funciona.
@@ -278,8 +278,8 @@ Cuando se marca la checkbox de discapacidad auditiva, permite agregar un contact
 
 - La relación entre permisos y funciones es simétrica con excepción del permiso _receive_boot_completed_ que permite que una aplicación se inicie de manera automática cuando se reinicia el teléfono, cosa que no sucede con esta app. Al mismo tiempo, no entendemos la razón de que tengan acceso al permiso del identificador del de publicidad de Android.  
 - No tiene problemas flagrantes de seguridad.
-- Lo que nos preocupa un poco es que da acceso a varias páginas que tienen trackers de Facebook y Twitter. Páginas que, además que no deberían tener esos trackers ya que son del gobierno del estado de Puebla, pueden hacer que un usuario sea rastreado en su móvil al utilizar esta aplicación.
-- Tiene dos trackers, Firebase y Crashlytics. Si bien, en el mejor de los casos, no deberían estar, tampoco es una aplicación que presenta trackers en exceso.
+- Lo que nos preocupa un poco es que da acceso a varias páginas que tienen rastreadores de Facebook y Twitter. Páginas que, además que no deberían tener esos rastreadores ya que son del gobierno del estado de Puebla, pueden hacer que un usuario sea rastreado en su móvil al utilizar esta aplicación.
+- Tiene dos rastreadores, Firebase y Crashlytics. Si bien, en el mejor de los casos, no deberían estar, tampoco es una aplicación que presenta rastreadores en exceso.
 
 ### Adenda actualización Escudo Puebla
 - Cambió de nombre: de Seguridad Inlcuyente, pasó a Escudo Puebla.

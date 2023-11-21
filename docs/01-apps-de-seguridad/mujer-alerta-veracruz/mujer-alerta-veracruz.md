@@ -13,7 +13,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Botón de pánico   
 - **Costo:** Gratis   
-- **Link de descarga:** https://play.google.com/store/apps/details?id=com.artech.nuevoalerta.alertamujer&hl=es 
+- **Enlace de descarga:** https://play.google.com/store/apps/details?id=com.artech.nuevoalerta.alertamujer&hl=es 
 - **Descargas:** 50,000+
 - **Ultima fecha de actualización:** 10/09/2021
 - **Versión:** 1.79
@@ -36,8 +36,8 @@ Para el uso de esta aplicación se requieren conexión a datos móviles y geoloc
 Trabajamos para una vida libre de violencia de género.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
-- No hay trackers identificados
+## Rastreadores identificados (mediante Exodus Privacy)
+- No hay rastreadores identificados
 
 Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/338596/) de Exodus Privacy   
 
@@ -48,7 +48,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/338596/) de
 - [Amazon](https://www.aboutamazon.com/) --> Almacenamiento en la nube
 - [Cloudflare](https://www.cloudflare.com/) --> Almacenamiento de los servidofres de la aplicación. 
 - [Uninet](https://telmex.com/web/acerca-de-telmex/uninet) --> Almacenamiento de dominios de Google
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
 
 - Nada que reportar
 

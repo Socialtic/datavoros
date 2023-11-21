@@ -34,7 +34,7 @@ Podemos ejecutar apkeep de dos maneras, bajando un binario desde la página de g
     ```
     ./apkeep -a com.nombre.app /directorio/de/descarga
     ```
-    *Como vimos anteriormente en el tutorial de "Permisos y trackers", el nombre de la app es el nombre que podemos extraer de la URL de la PlayStore después de id=com.ejemplo.app*   
+    *Como vimos anteriormente en el tutorial de "Permisos y rastreadores", el nombre de la app es el nombre que podemos extraer de la URL de la PlayStore después de id=com.ejemplo.app*   
 
     El comando anterior descargará por defecto la aplicación desde ApkPure. Si queremos que descargue desde la PlayStore, necesitamos agregar otros parámetros:
     ```

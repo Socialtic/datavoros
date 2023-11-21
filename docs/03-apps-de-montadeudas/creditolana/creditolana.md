@@ -1,6 +1,6 @@
 # CreditoLana
 
-- **Esta aplicación ya no está disponible en la Playstore. Dejamos los links aunque estén caídos a modo de registro.**
+- **Esta aplicación ya no está disponible en la Playstore. Dejamos los enlaces aunque estén caídos a modo de registro.**
 - **No comprobamos todas las funcionalidades de la aplicación porque no seguimos todo el proceso para pedir un préstamo debido a las consideraciones de seguridad de las personas que hicimos el análisis** 
 
 ## Fecha de análisis
@@ -9,7 +9,7 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 11/11/2022
 - **Análisis Posteriores:** 
 
-## Links a archivos analizados:
+## Enlaces a archivos analizados:
 
 - [Apk Versión 1.2.7](https://cloud.datavoros.org/index.php/s/HKnLCr4eNEccZRr)
 - [Pcap versión 1.2.7](https://cloud.datavoros.org/index.php/s/6neaF5wSzwWYCbF)
@@ -17,7 +17,7 @@
 ## Descripción de la aplicación
 - **Tipo:** Préstamos rápidos
 - **Costo:** Gratis  
-- **Link de descarga:** [https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX](https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX)
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX](https://play.google.com/store/apps/details?id=uni.UNI0450796&gl=MX)
 - **Descargas:** 1M+
 - **Ultima fecha de actualización:** 7/11/2022
 - **Versión:** 1.2.7
@@ -73,9 +73,9 @@ Atención al cliente: Lunes a Viernes de 8:30 am a 21:30 pm, Sábados y Domingos
 CreditoLana: Préstamos más cerca.
 ~~~
 
-## Trackers identificados (mediante Exodus Privacy)
+## Rastreadores identificados (mediante Exodus Privacy)
 
-|Tracker|Tipo|
+|Rastreador|Tipo|
 |---|---| 
 |[Branch](https://branch.io/)|Analítica|
 |[Facebook Login](https://developers.facebook.com/docs/facebook-login)|Identificación|
@@ -99,7 +99,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/en/reports/311000/) de
 - Facebook
 
 
-### Dominios integrados al código de la app que no pertecen directamente a los trackers y que son de interés
+### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
  
  - Nada que reportar
 
@@ -370,7 +370,7 @@ No se comparten
 
 ### Notas importantes sobre seguridad y privacidad:
 - Los datos enviados por esta aplicación están cifrados en tránsito
-- En el aviso de privacidad se especifica que los datos se suben a dos servidores, aquellos de www.creditolanamx.com y https://api2.branch.io. Este último servidor pertenece al tracker de Branch y, hasta donde sabemos, esta empresa no proporciona servicios de guardado de datos. Esto nos hace dudar si, en efecto, le están vendiendo estos datos a esta empresa de analítica.
+- En el aviso de privacidad se especifica que los datos se suben a dos servidores, aquellos de www.creditolanamx.com y https://api2.branch.io. Este último servidor pertenece al rastreador de Branch y, hasta donde sabemos, esta empresa no proporciona servicios de guardado de datos. Esto nos hace dudar si, en efecto, le están vendiendo estos datos a esta empresa de analítica.
 - Leyendo el manifiesto de la aplicación, descubrimos que aparecen relaciones con otra app analizada aquí: [iFectivo](./captura_pantalla/creditolana%20ifectivo%202.png). En esta captura de pantalla se muestra una sección del manifiesto de la aplicación, ciertas actividades, tienen el nombre ifectivo.
 - El dominio creditolanamx.com está registrado a nombre de alguien en China. **Actualización: esto ya cambió, y ahora aparece en [Whois](./captura_pantalla/creditolanawhois.png) un registrante anónonimo de Gran Bretaña. En la página [Whoxy.com](https://www.whoxy.com/creditolanamx.com#history) se puede revisar quién era dueño de este dominio con anterioridad, aquí una captura de [pantalla](./captura_pantalla/creditolanawhoishistory.png).**
 
@@ -378,6 +378,6 @@ No se comparten
 - No pudimos averiguar si la empresa a la que pertenece CreditoLana (Lana International Holdings Mexico, SAPI de C.V.) está vinculada con otras empresas de manera directa, ya que no existe información en Internet. Esto ya debería hacernos dudar de la legitimidad de la misma. Además no está registrada en Condusef.  
 - El hecho de que utilicen la app de iFectivo como plantilla nos hace sospechar si estas dos empresas no están conectadas de alguna manera, sobre todo porque sabemos por algunos [reportajes](https://politica.expansion.mx/cdmx/2022/08/17/la-cdmx-detiene-a-27-personas-relacionadas-con-23-aplicaciones-montadeudas), que una misma célula de estafadores maneja más de una aplicación. Asimismo sospechamos que, como iFectivo y Okrédito están íntimamente relacionadas, también, por transferencia, lo está esta aplicación con aquellas dos. 
 - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
-- Ni los trackers, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.  
+- Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.  
 - Un indicador de riesgo sí son los permisos solicitados, ya que el acceso a los contactos de la persona usuaria, el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
 - En conclusión, el peligro de esta aplicación tiene que ver con que parece completamente legítima y fuera que la empresa que está detrás, Lana International Holdings Mexico, SAPI de C.V., no está registrada con la Condusef, y el exceso de permisos, no hay muchos más indicios que permitan creer que quien está detrás de esta aplicación sean personas cometiendo fraudes financieros.    

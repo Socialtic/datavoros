@@ -19,7 +19,7 @@
 
 - **Tipo:** Aplicación de emergencia para mujeres del estado de Sonora   
 - **Costo:** Gratuito   
-- **Link:** [https://play.google.com/store/apps/details?id=mx.gob.segobsonora.mujersegura](https://play.google.com/store/apps/details?id=mx.gob.segobsonora.mujersegura)   
+- **Enlace de descarga:** [https://play.google.com/store/apps/details?id=mx.gob.segobsonora.mujersegura](https://play.google.com/store/apps/details?id=mx.gob.segobsonora.mujersegura)   
 - **Descargas:** 50,000+
 - **Fecha de actualización:** 7 Enero 2022 / 13 jun 2022  
 - **Versión:** 2.0.0  / 2.0.3
@@ -42,7 +42,7 @@ Ademas cuenta con el servicio de datos patrocinados que te permitirá utilizar e
 aunque no cuentes con datos móviles.
 ~~~  
 
-## Trackers identificados (mediante Exodus Privacy)  
+## Rastreadores identificados (mediante Exodus Privacy)  
 
 - [Google Firebase Analytics](https://firebase.google.com/)  
 
@@ -50,7 +50,7 @@ Enlace al [reporte](https://reports.exodus-privacy.eu.org/es/reports/mx.gob.sego
 
 ## Empresas relacionadas con esta aplicación
 
-- [Alphabet](https://abc.xyz/) a través de Google (Trackers y servicio de ubicación)
+- [Alphabet](https://abc.xyz/) a través de Google (Rastreadores y servicio de ubicación)
 - [Total Play Telecomunicaciones](https://www.totalplay.com.mx/) (Servidor donde está almacenada la aplicación)
 
 ## Permisos   
@@ -253,7 +253,7 @@ _Pendiente_
 
 ### Notas sobre datos recolectados
 
-- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por el tracker de Firebase. Este último asigna, a través de otro tracker, [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations), una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
+- La aplicación contacta a los servidores de google por dos razones: los mapas y la geolocalización y por el rastreador de Firebase. Este último asigna, a través de otro rastreador, [firebaseinstallations](https://firebase.google.com/docs/reference/android/com/google/firebase/installations/FirebaseInstallations), una id particular a la instalación de la app. De ahí recolecta, a través de app-measurement.com toda una serie de eventos realizados en la aplicación. Aquí los enlaces a todos los eventos y datos que, de manera estándar se recolectan [1](https://support.google.com/firebase/answer/9234069?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [2](https://support.google.com/firebase/answer/9268042?hl=en&ref_topic=6317484&visit_id=637859685880636053-1936242821&rd=1), [3](https://support.google.com/firebase/answer/7029846?hl=en&ref_topic=7029512).
 - El servidor perteneciente a Total Play es el host de la aplicación: servicios.sspsonora.gob.mx. Todas las comunicaciones están cifradas y es en este servidor donde se procesan las alertas de pánico. Estas son enviadas en formato JSON y cuentan con ID de alerta, un número de folio y la ubicación.
 - En este servidor también se guardan los contactos de emergencia en formato JSON: id de contacto, nombre y teléfono.
 - En este servidor se guarda la información de contacto que proporciona el usuario.
@@ -294,7 +294,7 @@ _Pendiente_
 | WRITE_EXTERNAL_STORAGE  | No sabemos para qué se usa  |
 | WRITE_SYNC_SETTINGS  | No sabemos para qué se usa  |
 | RECEIVE  | Push Notifications  |
-| BIND_GET_INSTALL_REFERRER_SERVICE  |  Firebase tracker  |
+| BIND_GET_INSTALL_REFERRER_SERVICE  |  Rastreador Firebase  |
 | ACTIVITY_RECOGNITION  |No sabemos para qué se usa   |
 
 ###  Funciones específicas de la aplicación
@@ -316,7 +316,7 @@ _Pendiente_
 
 - En cuanto a los permisos que solicita la app, son muchos y no encontramos ninguna relación simétrica con las funciones que tiene la aplicación. _Access_location_extra_commands_ permite modificar y manipular el _gps_. El permiso de _authenticate_accounts_ permite, por ejemplo, crear cuentas en el dispositivo y ponerles passwords. Tampoco entendemos para qué sirve el permiso _get_accounts_ que permite identificar las diferentes cuentas del dispositivo. Creemos que no es necesario el permiso _write_contacts_ que permite modificar los datos de los contactos. Y tenemos casos similares con _read_sync_settings_, _receive_boot_complete_ (sirve para iniciar la app de manera automática cuando se reinicia el dispositivo), _write_external_storage_, _write_sync_settings_, y _activity_recognition_ (permite acceder a los sensores del dispositivo cuando los haya). No sabemos cómo funciona y si sirven los datos patrocinados, pero suponemos que tal vez alguno de estos permisos tenga que ver con ello, aún así, nos parece que esta app solicita permisos raros (por no estar presentes en las otras apps de botón de pánico) y excesivos.
 - En cuanto a datos, nos preocupa el hecho de que perfile personas en términos de si son indígenas o pertenecientes a alguna etnia. Este dato podría ser de ayuda y al mismo tiempo un dato particularmente peligroso.
-- No tiene fallas de seguridad flagrantes ni parece haber un uso excesivo de trackers (si bien podría, en el mejor de los casos, no haber ninguno).
+- No tiene fallas de seguridad flagrantes ni parece haber un uso excesivo de rastreadores (si bien podría, en el mejor de los casos, no haber ninguno).
 
 
 ## Adenda de actualización versión 2.0.3
