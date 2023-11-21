@@ -135,28 +135,28 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- 🔴 Acceso ubicación (para la función botón de pánico)
-- 🔵 Acceso a llamadas telefónicas (para realizar llamadas desde la aplicación)
-- 🔵 Acceso a cámara (para escanear el número de placa del policía)
+- :red_circle: Acceso ubicación (para la función botón de pánico)
+- :blue_circle: Acceso a llamadas telefónicas (para realizar llamadas desde la aplicación)
+- :blue_circle: Acceso a cámara (para escanear el número de placa del policía)
 - *Puede acceder a Whatsapp para la *Sección Policía Turística. Aunque esto como tal no es un permiso*
 
-🔴 Este ícono indica un permiso obligatorio   
-🔵 Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- ⚪ Para los reportes de Asistencia ciudadana:
-    - 🔴 Nombre 
-    - ⚪ Apellido
-    - 🔴 Número de contacto 
-    - ⚪ Correo Electrónico
-    - 🔴 Dirección 
+- :blue_circle: Para los reportes de Asistencia ciudadana:
+    - :red_circle: Nombre 
+    - :blue_circle: Apellido
+    - :red_circle: Número de contacto 
+    - :blue_circle: Correo Electrónico
+    - :red_circle: Dirección 
     
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación

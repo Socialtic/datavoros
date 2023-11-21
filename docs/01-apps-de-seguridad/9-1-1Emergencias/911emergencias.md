@@ -207,37 +207,37 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Acceso a Ubicación (Si se niega, funciona en segundo plano)
-- 🔵 Acceso a llamadas telefónicas
-- 🔵 Acceso a Contactos
-- 🔵 Acceso a Grabar Audio
-- 🔵 Acceso a Tomar Fotos y Video
-- 🔵 Acceso a fotos, archivos multimedia y archivos
-- 🔵 Acceso a "No molestar"
-- 🔵 Acceso a SMS
+- :red_circle: Acceso a Ubicación (Si se niega, funciona en segundo plano)
+- :blue_circle: Acceso a llamadas telefónicas
+- :blue_circle: Acceso a Contactos
+- :blue_circle: Acceso a Grabar Audio
+- :blue_circle: Acceso a Tomar Fotos y Video
+- :blue_circle: Acceso a fotos, archivos multimedia y archivos
+- :blue_circle: Acceso a "No molestar"
+- :blue_circle: Acceso a SMS
 
-🔴 Este ícono indica un permiso obligatorio   
-🔵 Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Número de celular
-- 🔴 Compañía telefónica
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- 🔴 Apellido Materno
-- 🔴 Correo Electrónico
-- ⚪ Fecha de nacimiento
-- 🔴 Sexo
-- 🔴 Domicilio
-- 🔴 Estado
-- 🔴 Municipio
-- 🔴 Colonia
-- 🔴 C.P.
-- ⚪ Contactos de emergencia (Máx. 5)
-- ⚪ Perfil médico que incluye:
+- :red_circle: Número de celular
+- :red_circle: Compañía telefónica
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :red_circle: Apellido Materno
+- :red_circle: Correo Electrónico
+- :blue_circle: Fecha de nacimiento
+- :red_circle: Sexo
+- :red_circle: Domicilio
+- :red_circle: Estado
+- :red_circle: Municipio
+- :red_circle: Colonia
+- :red_circle: C.P.
+- :blue_circle: Contactos de emergencia (Máx. 5)
+- :blue_circle: Perfil médico que incluye:
   - Peso
   - Estatura
   - Padecimientos
@@ -245,8 +245,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
   - Medicamentos actuales
   - Tipo de sangre   
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación

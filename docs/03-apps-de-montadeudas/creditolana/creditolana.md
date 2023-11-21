@@ -238,7 +238,7 @@ Cámara
 - :red_circle:Grabar y tomar videos
 
 :red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 

@@ -151,40 +151,40 @@ _modify or delete the contents of your SD card_
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- 🔵 Acceso a ubicación
-- 🔵 Acceso a llamadas telefónicas
-- 🔵 Acceso a contactos
+- :blue_circle: Acceso a ubicación
+- :blue_circle: Acceso a llamadas telefónicas
+- :blue_circle: Acceso a contactos
 
-🔵 Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Número de celular
-- ⚪ Compañía telefónica
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- 🔴 Apellido Materno
-- ⚪ Fecha de nacimiento
-- 🔴 Correo electrónico
-- ⚪ Calle
-- ⚪ Número
-- ⚪ Colonia
-- ⚪ Delegación
-- ⚪ C.P.
-- ⚪ Ficha de salud
-  - 🔴 Edad
-  - ⚪ Sexo
-  - ⚪ Tipo de sangre
-  - ⚪ Padecimiento
-  - 🔴 Enfermedad crónica
-  - 🔴 Alergias
-  - 🔴 Suministro de medicamentos
+- :red_circle: Número de celular
+- :blue_circle: Compañía telefónica
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :red_circle: Apellido Materno
+- :blue_circle: Fecha de nacimiento
+- :red_circle: Correo electrónico
+- :blue_circle: Calle
+- :blue_circle: Número
+- :blue_circle: Colonia
+- :blue_circle: Delegación
+- :blue_circle: C.P.
+- :blue_circle: Ficha de salud
+  - :red_circle: Edad
+  - :blue_circle: Sexo
+  - :blue_circle: Tipo de sangre
+  - :blue_circle: Padecimiento
+  - :red_circle: Enfermedad crónica
+  - :red_circle: Alergias
+  - :red_circle: Suministro de medicamentos
 
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 ### Tabla de conexiones realizadas durante el uso de la Aplicación
 

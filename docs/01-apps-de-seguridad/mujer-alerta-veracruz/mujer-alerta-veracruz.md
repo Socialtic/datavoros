@@ -143,26 +143,26 @@ Información sobre la conexión WI-Fi
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- 🔴 Acceso a la ubicación
+- :red_circle: Acceso a la ubicación
 
-🔴 Este ícono indica un permiso obligatorio   
+:red_circle: Este ícono indica un permiso obligatorio   
 
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Número de teléfono
-- 🔴 Nombre
-- 🔴 Apellido
-- 🔴 Fecha de nacimiento
-- 🔴 Contacto de emergencia y número
-- ⚪ Segundo contacto de emergencia
-- ⚪ Foto: como archivo o a través de la cámara
+- :red_circle: Número de teléfono
+- :red_circle: Nombre
+- :red_circle: Apellido
+- :red_circle: Fecha de nacimiento
+- :red_circle: Contacto de emergencia y número
+- :blue_circle: Segundo contacto de emergencia
+- :blue_circle: Foto: como archivo o a través de la cámara
 
     
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación

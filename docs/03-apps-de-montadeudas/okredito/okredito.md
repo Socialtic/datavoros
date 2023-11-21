@@ -291,7 +291,7 @@ Almacenamiento
 - :red_circle:Tomar fotos y grabar videos
 
 :red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 

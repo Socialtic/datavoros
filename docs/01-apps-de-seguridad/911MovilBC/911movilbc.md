@@ -229,29 +229,29 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 *Antes de aceptarlos aparece una leyenda que informa al usuario que de no aceptarlos, la aplicación no funcionará. Las notificaciones aparecen una tras otras solicitando los permisos*
 
-- 🔴 Acceso a tomar Fotos y Vídeos
-- 🔴 Acceso a ubicación
-- 🔴 Acceso a grabar audio
-- 🔴 Acceso a realizar y administrar llamadas
-- 🔴 Acceso a fotos y contenido multimedia
-- 🔴 Acceso a poner en modo silencioso
-- 🔴 Acceso a mostrar sobre otras apps
+- :red_circle: Acceso a tomar Fotos y Vídeos
+- :red_circle: Acceso a ubicación
+- :red_circle: Acceso a grabar audio
+- :red_circle: Acceso a realizar y administrar llamadas
+- :red_circle: Acceso a fotos y contenido multimedia
+- :red_circle: Acceso a poner en modo silencioso
+- :red_circle: Acceso a mostrar sobre otras apps
 
-🔴 Este ícono indica un permiso obligatorio
+:red_circle: Este ícono indica un permiso obligatorio
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la Aplicación
 
-- 🔴 Número de teléfono
-- 🔴 Correo Electrónico
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- ⚪Apellido Materno
-- 🔴 Municipio *Sólo están disponibles los de Baja California*
+- :red_circle: Número de teléfono
+- :red_circle: Correo Electrónico
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :blue_circle: Apellido Materno
+- :red_circle: Municipio *Sólo están disponibles los de Baja California*
 - :red_circle: Sexo
 - :red_circle: Fecha de nacimiento
-- ⚪ Perfil Médico
+- :blue_circle: Perfil Médico
   - Tipo de sangre (Incorporado en la última versión, _5.6.0_)
   - Alergias a medicamentos
   - Alergias a alimentos
@@ -259,8 +259,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
   - Medicamentos
   - Información adicional   
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 

@@ -8,7 +8,7 @@ La idea es conectar el teléfono a nuestra red privada virtual (VPN) y en esa re
 
 Como última nota, Tshark es la versión de línea de comandos de Wireshark. Utilizamos este programa porque resulta más rápido y cómodo para la captura de paquetes.
 
-**Recomendamos realizar la captura de tráfico de red de las aplicaciones a través de la aplicación Draeneg. Aquí el [tutorial](./02.1-captura-de-trafico-draeneg.md)**
+> **Nota**: Recomendamos realizar la captura de tráfico de red de las aplicaciones a través de la aplicación Draeneg. Aquí el [tutorial](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/)
 
 ## Otros requerimientos 
 

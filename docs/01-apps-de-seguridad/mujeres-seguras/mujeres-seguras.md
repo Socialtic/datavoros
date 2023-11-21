@@ -206,30 +206,30 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados al usuario durante el uso de la aplicación
 
-- 🔵 Acceso a Llamadas telefónicas
-- 🔴 Acceso a Ubicación
-- 🔵 Acceso a contactos  
+- :blue_circle: Acceso a Llamadas telefónicas
+- :red_circle: Acceso a Ubicación
+- :blue_circle: Acceso a contactos  
 
-🔴 Este ícono indica un permiso obligatorio   
-🔵 Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:red_circle: Este ícono indica un permiso obligatorio   
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- ⚪ Apellido Materno
-- 🔴 Número de teléfono
-- ⚪ Fecha de nacimiento
-- ⚪ Género
-- ⚪ Discapacidad
-- ⚪ Indígena o perteneciente a una etnia
-- ⚪ Correo Electrónico   
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :blue_circle: Apellido Materno
+- :red_circle: Número de teléfono
+- :blue_circle: Fecha de nacimiento
+- :blue_circle: Género
+- :blue_circle: Discapacidad
+- :blue_circle: Indígena o perteneciente a una etnia
+- :blue_circle: Correo Electrónico   
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación

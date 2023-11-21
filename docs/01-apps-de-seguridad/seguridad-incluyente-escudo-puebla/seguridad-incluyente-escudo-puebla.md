@@ -140,29 +140,29 @@ _Prevent phone from sleeping_
 
 ### Permisos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Ubicación (Para el botón de pánico. Se recopila, según la documentación de la aplicación, aunque la app no se esté usando durante la incidencia reportada)   
+- :red_circle: Ubicación (Para el botón de pánico. Se recopila, según la documentación de la aplicación, aunque la app no se esté usando durante la incidencia reportada)   
 
-🔴 Este ícono indica un permiso obligatorio
+:red_circle: Este ícono indica un permiso obligatorio
 
 
 ## Datos
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- 🔴 Nombre
-- 🔴 Apellido Paterno
-- ⚪ Apellido Materno
-- 🔴 Correo Electrónico
-- ⚪ Dirección
-- ⚪ Capacidad auditiva (CheckBox)
+- :red_circle: Nombre
+- :red_circle: Apellido Paterno
+- :blue_circle: Apellido Materno
+- :red_circle: Correo Electrónico
+- :blue_circle: Dirección
+- :blue_circle: Capacidad auditiva (CheckBox)
 Cuando se marca la checkbox de discapacidad auditiva, permite agregar un contacto de emergencia:
-  - 🔴 Nombre
-  - 🔴 Apellido Paterno
-  - 🔴 Teléfono
-  - ⚪ Dirección
+  - :red_circle: Nombre
+  - :red_circle: Apellido Paterno
+  - :red_circle: Teléfono
+  - :blue_circle: Dirección
 
-🔴 Este ícono indica que se debe ingresar este dato de manera obligatoria.   
-⚪ Este ícono indica que estos datos son opcionales.   
+:red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
+:blue_circle: Este ícono indica que estos datos son opcionales.   
 
 ### Tabla de conexiones realizadas durante el uso de la Aplicación
 

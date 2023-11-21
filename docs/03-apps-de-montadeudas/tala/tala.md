@@ -326,12 +326,12 @@ Fotos/multimedia/archivos
 - :red_circle:Acceso a ubicación
 - :red_circle:Acceso a contactos
 - :red_circle:Acceso a SMS
-- :large_blue_circle:Acceso a cámara
+- :blue_circle:Acceso a cámara
 - :red_circle:Acceso a llamadas telefónicas
 
 
 :red_circle: Este ícono indica un permiso obligatorio
-:large_blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
