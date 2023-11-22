@@ -3,6 +3,8 @@
 Esta es una pequeña base de datos con todos los rastreadores que nos hemos encontrado hasta el momento en las aplicaciones analizadas. El objetivo de esto es poder tener una guía rápida de referencia que incluya el nombre del rastreador, el tipo de rastreador, la empresa a la que pertenece y los enlaces tanto hacia la página del desarrollador como hacia la base de datos [ETIP](https://etip.exodus-privacy.eu.org/). En el enlace del nombre se redirige a la página de Exodus. En el enlace de la empresa a la página del desarrollador. 
 
 Dejamos aquí un par de enlaces que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
+
+> **NOTA**: Para una mejor visualización de la tabla, por favor utilizar este [enlace](https://datawrapper.dwcdn.net/pmgzo/1/)
    
 
 | Rastreador                                   | Número de veces presente | Tipo                                                 |
