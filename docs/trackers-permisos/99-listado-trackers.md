@@ -5,10 +5,43 @@ Esta es una pequeña base de datos con todos los rastreadores que nos hemos enco
 Dejamos aquí un par de enlaces que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
    
 
-| Rastreador                   | Número de veces presente | Tipo                                               | Empresa |
-|---------------------------|--------------------------|----------------------------------------------------|---------|
-| [Google Crashlytics](https://etip.exodus-privacy.eu.org/trackers/862b2b1f-47d3-4dc0-9527-d50e73ce2536/)        |             3            | Análítica sobre el funcionamiento de la aplicación | [Google](https://firebase.google.com/products/crashlytics)  |
-| [Google Firebase Analytics](https://etip.exodus-privacy.eu.org/trackers/3bc11db6-499b-441b-84c4-5266063229c1/) |             6            | Analítica sobre el uso de la aplicación            | [Google](https://firebase.google.com/products/analytics)  |
-| [Google AdMob](https://etip.exodus-privacy.eu.org/trackers/e9c80f4c-cf20-4a7b-8aa0-4db002597a21/)              |             3            | Publicidad                                         | [Google](https://admob.google.com/home/)  |
-| [Google Analytics](https://etip.exodus-privacy.eu.org/trackers/5f7647ff-ab57-4e30-bafa-1c7f02f10de8/)          |             2            | Analítica sobre el uso de la aplicación            | [Google](https://marketingplatform.google.com/intl/es/about/analytics/features/)  |
-| [Google Tag Manager](https://etip.exodus-privacy.eu.org/trackers/3e6141bc-8eaa-40f7-a1d6-3326a193a3da/)        |             2            | Desarrollo/ Marketing                              | [Google](https://marketingplatform.google.com/intl/es/about/tag-manager/features/)  |
+| Rastreador                                   | Número de veces presente | Tipo                                                 |
+|----------------------------------------------|--------------------------|------------------------------------------------------|
+| Adjust                                       |             3            | Analítica                                            |
+| Amazon Advertisment                          |             4            | Publicidad                                           |
+| AppLovin                                     |             2            | Publicidad, Analítica, Perfilamiento, Identificación |
+| AppsFlyer                                    |             8            | Analítica                                            |
+| Branch                                       |             4            | Analítica                                            |
+| Braze                                        |             4            | Publicidad, Analítica, Ubicación                     |
+| Bugly                                        |             1            | Reporte de fallos                                    |
+| BugSnag                                      |             1            | Reporte de fallos                                    |
+| Didomi                                       |             1            | Analítica                                            |
+| Facebook Ads                                 |             4            | Publicidad                                           |
+| Facebook Analytics                           |             8            | Analítica                                            |
+| Facebook Flipper                             |             2            | Analítica                                            |
+| Facebook Login                               |            13            | Identificación                                       |
+| Facebook Share                               |            11            | Identificación                                       |
+| Fyber                                        |             1            | Publicidad                                           |
+| GIPHY                                        |             1            | Analítica                                            |
+| Google AdMob                                 |            14            | Publicidad                                           |
+| Google Analytics                             |            11            | Analítica                                            |
+| Google Crashlytics                           |            12            | Reporte de fallos                                    |
+| Google Firebase Analytics                    |            17            | Analítica                                            |
+| Google Tag Manager                           |             4            | Desarrollo/ Marketing                                |
+| Huawei Mobile Services (HSM) Core            |             1            | Publicidad, Ubicación, Analítica                     |
+| Huq Sourcekit                                |             1            | Analítica                                            |
+| IAB OpenMeasurement                          |             2            | Publicidad, Identificación                           |
+| Inmobi                                       |             3            | Analítica                                            |
+| Microsoft Visual Studio app Center Analytics |             1            | Analítica                                            |
+| Microsoft Visual Studio app Center Crashes   |             1            | Reporte de fallos                                    |
+| Moat                                         |             1            | Publicidad, Analítica                                |
+| OneSignal                                    |             2            | Publicidad                                           |
+| Open Telemetry                               |             2            | Analítica                                            |
+| Pangle                                       |             3            | Publicidad                                           |
+| Segment                                      |             1            | Analítica                                            |
+| Smaato                                       |             1            | Publicidad                                           |
+| Tapjoy                                       |             1            | Publicidad                                           |
+| Split                                        |             1            | Analítica                                            |
+| Unity3DAds                                   |             2            | Publicidad                                           |
+| VKontakteSDK                                 |             1            | Identificación                                       |
+| UXCam                                        |             1            | Analítica                                            |
