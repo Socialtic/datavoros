@@ -17,11 +17,11 @@
     - [Superapoyo](https://docs.datavoros.org/03-apps-de-montadeudas/superapoyo/superapoyo/)
     - [Tala](https://docs.datavoros.org/03-apps-de-montadeudas/tala/tala/)
  - **Aplicaciones de vídeo y foto**:
-    - [B612](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/b612/B612)
-    - [Canva](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/canva/canva)
-    - [Picsart](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/picsart/picsart)
-    - [Sticker.ly](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/stickerly/stickerly)
-    - [Sweet Selfie Camera Editor](https://github.com/Socialtic/datavoros/blob/main/docs/02-apps-de-video-y-foto/sweetselfie-camera-editor/sweetselfie)
+    - [B612](https://docs.datavoros.org/02-apps-de-video-y-foto/b612/B612/)
+    - [Canva](https://docs.datavoros.org/02-apps-de-video-y-foto/canva/canva/)
+    - [Picsart](https://docs.datavoros.org/02-apps-de-video-y-foto/picsart/picsart/)
+    - [Sticker.ly](https://docs.datavoros.org/02-apps-de-video-y-foto/stickerly/stickerly/)
+    - [Sweet Selfie Camera Editor](https://docs.datavoros.org/02-apps-de-video-y-foto/sweetselfie-camera-editor/sweetselfie/)
      
 - **Aplicaciones del 25N**:
     - [Donna](https://docs.datavoros.org/04-apps-de-25n/donna/donna/)
