@@ -1,204 +1,289 @@
-# Captura y análisis del tráfico de red de cualquier aplicación en Android
-En esta sección mostraremos cómo capturar los paquetes de red de un celular desde una máquina virtual para luego analizarlos. Los prerrequisitos son:
+# Tutorial: Captura y análisis del tráfico de red de aplicaciones en Android
+
+Este tutorial te guiará paso a paso para capturar y analizar el tráfico de red de aplicaciones Android, utilizando herramientas como WireGuard, Tshark y Wireshark. Aprenderas a configurar ele entorno necesario, realizar capturas de paquetes de red y analizar los datos obtenidos para identificar conexiones realizadas por las aplicaciones, docminio y riesgos de seguridad.
+
+## Prerrequisitos
    - Cliente de WireGuard instalado en el celular y configurado. 
    - Máquina virtual con el servidor VPN WireGuard instalado.
    - El cliente y el servidor deben estár los dos en la misma red local.
       
-La idea es conectar el teléfono a nuestra red privada virtual (VPN) y en esa red correr otro programa que se llama Tshark, que nos permitirá capturar el tráfico de red (los datos que envía y recibe nuestro teléfono) para luego poder analizarlos con Wireshark.
+## Pasos a seguir
 
-Como última nota, Tshark es la versión de línea de comandos de Wireshark. Utilizamos este programa porque resulta más rápido y cómodo para la captura de paquetes.
+1. Conecta el teléfono a la VPN configurada con WreGuard.
+2. Ejecuta Tshark en la maquina virtual para capturar el tráfico de red.
+3. Utiliza la aplicacion que deseas analizar en el teléfono.
+4. Terminar la captura de tráfico en Tshark cuando se termine d eusar la aplicación.
+5. Exporta los paquetes capturados en un archivo que pueda ser analizado con Wireshark.
 
 > **Nota**: Recomendamos realizar la captura de tráfico de red de las aplicaciones a través de la aplicación Draeneg. Aquí el [tutorial](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/)
 
-## Otros requerimientos 
+## Sugerencias y recomendaciones opcionales
 
-Android es un sistema operativo de Google utilizado en teléfonos y tabletas. La versión que normalmente viene de fábrica en los dispositivos, es una versión modificada de la versión original,  y está hecha por el fabricante del dispositivo físico (Samsung, Motorla, LG, Nokia, etc.) y ulteriormente modificada por nuestro proveedor de servicio de telefonía móvil. Se supone que Android es *Open-Source* (código abierto), lo que quiere decir que cualquiera puede tener acceso al código de Android y modificarlo a su gusto. 
+### Sugerencias de optimización de análisis 
 
-Hay varias comunidades de desarrolladores que han modificado las versiones de Android para hacerlas más privadas, más seguras, más rápidas, más ligeras, con otro tipo de funcionalidades y muchas cosas más. Entre ellas, una de las más conocidas y utilizadas es [LineageOS](https://lineageos.org/). Soporta varias marcas y modelos de dispositivos y es gratis. Como es bastante utilizada, hay muchos foros donde uno puede encontrar soluciones si uno se encuentra con problemas. 
+Para optimizar la captura y análisis del tráfico de red en dispositivos Android, considera las siguientes configuraciones:
 
-Para las pruebas de las aplicaciones, nosotros hemos utilizado un celular que justamente tiene esta versión de Android instalada. Sin embargo, no es tan sencillo instalarla e implica borrar todos los datos del teléfono, además de que existe el riesgo (mínimo) de *romper* nuestro celular y dejarlo inutilizable. Idealmente, las pruebas del tráfico de aplicaciones deberían hacerse con un celular que tenga LineageOS, esto, por la simple razón de que es una versión de Android desprovista de muchísimas de las funciones y aplicaciones que el fabricante, nuestro proveedor de telefonía y el propio Google agregan a nuestros celulares. De esto resulta que la captura del tráfico de red es más limpia y es más fácil controlar qué aplicaciones se están conectando a Internet. 
+1. **Utilizar LineageOS (opcional):**
+   - Descarga e instala [LineageOS](https://lineageos.org/) en el dispositivo.
+   - LineageOS elimina funciones innecesarias y aplicaciones preinstaladas, facilitando una captura más limpia de tráfico.
 
-Sin embargo entendemos que tener un celular con LineageOS no siempre es factible o lo más sencillo. En este sentido, otra solución puede ser desinstalar la mayoría de apps presentes en el celular e [inhabilitar](https://support.google.com/android/answer/2521768?hl=es) las que no se pueden desinstalar. También entendemos que esto sea un probelma, así que nuestra tercera opción es sencillamente quitarle a todas las apps el permiso de acceso a internet. Dejamos aquí una [guía](https://www.digitalcitizen.life/how-block-internet-access-specific-apps-android/) para hacerlo cuando se tiene Android 10. Dejamos aquí una [guía](https://krispitech.com/how-to-prevent-android-apps-from-sending-and-receiving-data-in-background/) para Android 11. A partir de Android 12, esta opción de deshabilitar el acceso a Internet fue eliminada (o no la pudimos encontrar), y ahora sólo queda el acceso a datos en segundo plano. Esta opción también nos puede ser de utilidad, ya que, al eliminar este permiso, sólo la app que esté abierta se conectará a Internet. Ojo! Es importante, al hacerlo, marcar a cuáles apps se les quitó este permiso, para poder volver a dárselos. Hay muchas apps que necesitan acceder a datos en segundo plano para proporcionar ciertas funcionalidades, por ejemplo, Outlook o Gmail o Whatsapp, para avisar al usuario si tiene algún nuevo mensaje.  
-Para quitar este permiso, ir a **Configuración** (el ícono con la rueda de engrane); **Apps**, dar click en la app deseada, luego **Wi-Fi y datos móviles** y eliminar el permiso de **Datos en segundo plano**.
+2. **Desinstalar o inhabilitar aplicaciones no esenciales:**
+   - Desinstala la mayoría de las aplicaciones preinstaladas.
+   - [Inhabilita aplicaciones](https://support.google.com/android/answer/2521768?hl=es) que no puedan ser desinstaladas.
 
+3. **Restringir acceso a Internet para aplicaciones:**
+   - Para Android 10, utiliza [esta guía](https://www.digitalcitizen.life/how-block-internet-access-specific-apps-android/).
+   - Para Android 11, utiliza [esta guía](https://krispitech.com/how-to-prevent-android-apps-from-sending-and-receiving-data-in-background/).
+   - En Android 12 o superior, elimina el permiso de **Datos en segundo plano**:
+     - Ve a **Configuración** > **Apps**.
+     - Selecciona la app deseada > **Wi-Fi y datos móviles**.
+     - Desactiva el permiso de **Datos en segundo plano**.
+
+4. **Registrar configuraciones alteradas:**
+   - Marca las aplicaciones cuyos permisos se hayan modificado para restaurarlos después de la captura.
+
+### Sugerencias para un Análisis Profundo de Protocolos
+
+Al analizar el tráfico capturado, es útil explorar los siguientes protocolos para obtener información más detallada sobre las conexiones y datos transmitidos:
+
+- [ARP](https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones): Identifica dispositivos en la red local y sus direcciones IP.
+- **DNS**: Traduce direcciones IP a nombres de dominio legibles por humanos, como `www.google.com`.
+- [HTTP](https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto): Protocolo utilizado para transferir datos entre direcciones IP. Es importante para identificar información no cifrada.
+- [HTTPS](https://es.wikipedia.org/wiki/Protocolo_seguro_de_transferencia_de_hipertexto): Versión segura de HTTP, que cifra los datos transmitidos para proteger la privacidad.
+- **OpenVPN**: Protocolo utilizado para redes privadas virtuales, como WireGuard. Proporciona datos sobre direcciones IP públicas y locales.
+- [TCP](https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n): Protocolo en la capa de transporte que soporta otros protocolos, como HTTP.
+- [TLS](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte): Protocolo criptográfico que garantiza comunicaciones seguras, apareciendo como **TLSv1.3** en Wireshark.
+- [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario): Similar a TCP pero más rápido, aunque menos fiable, dependiendo del tipo de datos transmitidos.
+
+> Estas configuraciones y sugerencias te ayudarán a capturar y analizar el tráfico de red de manera más precisa y efectiva, facilitando la identificación de riesgos de seguridad y conexiones importantes. SIn embargo, no es completamente necesario realizar estas configuraciones ni es requisito obligatorio para seguir este tutorial.
 
 
 ## Captura de datos
 
-- Instalar la aplicación que se quiere analizar
-- Cerrar todas las aplicaciones que están corriendo
-- Activar WireGuard
-- En la máquina virtual, en la consola, inicializar el programa Tshark. Para esto, el comando es:
-   
-   ```
-   sudo tshark -i enp0s3 -w /tmp/nombredelapp.pcap
-   ```
-El modificador -i, le dice a Tshark a qué interfaz (i viene de *interface*) conectarse. La que nos interesa siempre va a tener el prefijo "en", ya que esto hace referencia a Ethernet, que es la manera en la cual nuestra máquina virtual se conecta a nuestra red local. Los nombres más comunes son enp0s3 y ens33.  El modificador -w (write) le indica a Tshark dónde guardar el tráfico de red capturado. Aquí utilizamos la carpeta tmp (temporal) para evitar problemas con los permisos de escritura de Linux. Poner el nombre que se quiera al archivo, sugerimos el nombre de la aplicación, y poner la extensión del archivo en .pcap (que es la extensión de los archivos que puede abrir Wireshark).
+### Procedimeinto 
+1. **Preparar el dispositivo y entorno**
+   - Instala la aplicación que se deseas analizar
+   - Cierra todas las aplicaciones que están corriendo en el dispositivo
+   - Activar WireGuard en el teléfono
 
-- Abrir la aplicación que queremos analizar. Si todo está bien, veremos algo similar a esto en nuestra pantalla:
+2. **Inicializar Tshark**  
+   - En la máquina virtual, abre la terminaly ejecuta el sigueinte comando
+      ```
+      sudo tshark -i enp0s3 -w /tmp/nombredelapp.pcap
+      ```
+   > -i especifica la interfaz a utilizar, comunmente es una interfaz Ethernet como `enp0s3` o `ens33`. -w define la ruta donde se guardará el archivo de captura. Utiliza `/tmp` para evitar problemas con permisos.
 
+3. **Capturar tráfico de red**
+   - Abre la aplicación que deseas analizar en el teléfono.
+   - Verifica en la consola que el número de paquetes capturados aumenta.
 
-El número de hasta abajo irá aumentando. Estos son los paquetes de datos que estamos capturando. 
+4. **Utiliza la aplicación**
+   - Utiliza todas las funciones de la aplicación para registrar el tráfico generado hacia diferentes servidores.
 
-- Explorar la aplicación e intentar utilizar todas sus funciones. Esto es importante para poder saber a todos los servidores a los que se conecta. 
+5. **Detener la captura**
+   - Cierra la aplicación en el teléfono
+   - En la terminal presiona **ctrl + c** para detener Tshark
 
-- Después de explorar la aplicación, cerrarla en el celular y en la consola apretar la tecla **ctrl + c**. Esto manda la señal al programa de Tshark de detenerse.
-
-- Si estamos contentos con nuestro archivo, es decir, si no hubo mayores problemas en la captura, podemos moverlo a nuestro directorio de documentos en la máquina virtual. Es importante guardar este archivo incluso después del análisis, para tenerlo como referencia. Para hacer esto hay que poner el siguiente comando
-
-sudo chmod 777 /tmp/nombredelapp.pcap
-
-Este comando modifica (como habíamos hecho en el tutorial anterior) los permisos del archivo, de tal manera que lo podamos mover de lugar. No es la solución más elegante, pero para este tutorial nos sirve. 
-
-- Una vez cambiados los permisos, podemos escribir este comando:
-~~~
-mv /tmp/nombredelapp.pcap /home/seguridad/Documentos
-~~~
-*seguridad* es el nombre de usuario que tenemos en nuestra instalación. 
+6. **Guardar el archivo capturado**
+   - Si el archivo es considerado como satisfactorio, debes ajustar sus permisos para moverlo a otro directorio con el sigueinte comando:
+      ```
+      sudo chmod 777 /tmp/nombredelapp.pcap
+      ```
+   - Mueve el archivo al directorio de documentos
+      ~~~
+      mv /tmp/nombredelapp.pcap /home/seguridad/Documentos
+      ~~~
+   > Remplaza *seguridad* con el nombre de usuario de tu máquina virtual.
 
 ## Análisis del tráfico de red
 
 ### Configuración de Wireshark 
 
-[Wireshark](https://es.wikipedia.org/wiki/Wireshark) es un programa que permite analizar el tráfico de red. El análisis de este tipo de tráfico se puede hacer para detectar problemas en la configuración de una red, detectar malware y otras tantas cosas. En nuestro caso, hay dos cosas que nos interesan de sobre manera: uno, saber qué conexiones hace nuestra aplicación con el protocolo [HTTP](https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto) (si las hay), y dos, conocer todos los servidores que contacta nuestra aplicación.
+1. **Registro y descarga de bases de datos Maxind**
+   - Registrate en [Maxmind](https://www.maxmind.com/en/geolite2/signup?lang=en).
+   - Descarga kas sigueintes bases de datos:
+      - Geolite2 ASN
+      - GeoLite2 City 
+      - GeoLite2 Country 
 
-Un protocolo de red son una serie de reglas que permite que dos servidores se puedan comunicar entre ellos. En la actualidad, la mayoría de la información en internet viaja gracias al protocolo HTTP. Este protocolo, en un inicio, no estaba cifrado, de tal manera que un agente mal intencionado podía acceder a esta información haciendo algo similar a lo que nosotros hacemos en nuestro análisis, poniendo un programa (en este caso Tshark) entre dos servidores y capturando la información. Como esto suponía un problema de seguridad mayúsculo (imaginemos, por ejemplo, que los datos que se están transfiriendo son los datos de una tarjeta de crédito), se inventó el protocolo HTTPS, que es sencillamente el protoclo HTTP pero cifrado. Gracias a esto, si un tercero captura nuestros datos, no puede saber qué hay en ellos. Es por esto que nos interesa saber si nuestra aplicación todavía manda datos sin cifrar, es decir en HTTP. Es un análisis básico de seguridad. 
+   > **Importante** Para este análisis es requerido una base de datos con información referente a direcciones y localizaciones de direcciones IP
 
-Segundo, como nuestro análisis está enfocado a la privacidad, queremos conocer a qué servidores manda información nuestra aplicación.
+   ![maxmind](./capturas_de_pantalla/captura-de-trafico/maxmind.png) 
 
-Para poder hacer este doble análisis, lo primero que tenemos que configurar nuestro programa Wireshark.
+2. **Organizar las bases de datos**
 
-- Lo primero que haremos será agregar una base de datos donde están registradas una gran cantidad de direcciones IP, a quién pertenece esta dirección y dónde se localiza en el mundo. En otras palabras, saber a quién pertece y dónde está cualquiera de los servidores que contacta nuestra aplicación. Para poder descaragar esta base de datos, lo primero que hay que es registrarse en esta [página](https://www.maxmind.com/en/geolite2/signup?lang=en).
+   - Después de descargarlos, crea un directorio en donde guardarlos. En este caso le llamaremos MaxMind. 
+   - Dirigete a la carpeta de descargas, identifica la carpeta de la descarga y descomprimela. 
+   - Mueve las carpetas al directorio creado como MaxMind, el contenido debera quedar organizado de esta manera:
+       - GeoLite2-ASN_20220614
+       - GeoLite2-Country_20220614
+       - GeoLite2-City_20220614   
 
-- Una vez registrados, hay que descargar los siguientes archivos (que son las bases de datos en cuestión):
-    - Geolite2 ASN
-    - GeoLite2 City 
-    - GeoLite2 Country   
-![maxmind](./capturas_de_pantalla/captura-de-trafico/maxmind.png) 
+3. **Configurar WireShark**
+   - Abre Wireshark, y ve a *Edición* --> *Preferencias* --> *Name Resolution* --> *MaxMind Database Directories* y *Edit*
 
-- Después de descargarlos, crearemos un directorio en donde guardarlos. En este caso le llamaremos MaxMind. 
+   ![database](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse.png)
 
-- Vamos a la carpeta de descargas (o donde se hayan descargado estos archivos) y damos doble click. Veremos que adentro hay tres carpetas con un nombre similar a :
-    - GeoLite2-ASN_20220614
-    - GeoLite2-Country_20220614
-    - GeoLite2-City_20220614   
-Extraemos estas carpetas y las guardamos en la carpeta de MaxMind.     
+   - Haz click en el botón de **+**, luego **Browse** y selecciona cada una de las carpetas extraidas que movimos en el paso anterior.
 
-- Ahora abrimos Wireshark, y ahí nos vamos a *Edición* --> *Preferencias* --> *Name Resolution* --> *MaxMind Database Directories* y *Edit*
-![database](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse.png)
+   ![database2](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse2.png).
 
-- Damos click en el botón de **+**, luego **Browse** y seleccionamos cada una de las carpetas que copiamos en el paso anterior.
-![database2](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse2.png).
+   - Cerramos Wireshark y lo reiniciamos. 
 
-- Cerramos Wireshark y lo reiniciamos. 
-
-Lo que acabamos de hacer nos permitirá visualizar las direcciones IP del tráfico de red que capturamos de una manera más cómoda y útil. 
+> Lo que acabamos de hacer nos permitirá visualizar las direcciones IP del tráfico de red que capturamos de una manera más cómoda y útil. 
 
 ### Análisis de los datos
 
-- Vamos a **Archivo** en Wireshark y seleccionamos el archivo de captura de la aplicación *nombredelapp.pcap*. Veremos una pantalla similar a la siguiente:
-![wireshark](./capturas_de_pantalla/captura-de-trafico/wireshark.png)
+Para realizar el analisis de los datos, tienes que seguir los siguientes pasos:
 
-   - La columna **No.** indica el número de orden en el que el paquete de datos fue capturado. Se empieza, naturalmente, con el número 1. 
-   - **Time** se  refiere al momento en el que fue capturado dicho paquete.
-   - **Source** es el origen del paquete, es decir la dirección IP. Aquí aparecerá muchas veces nuestra dirección IP local, porque es desde donde mandamos datos, pero también aparecerán otras direcciones desde donde nos enviaron datos. Si uno le da click a la barra de **Source**, los paquetes son arreglados en función de su origen.
-   - **Destination** se refiere al lugar a donde se envió un paquete.
-   - **Protocol** hace referencia a los diferentes protocolos gracias a los cuales se enviaron y recibieron estos paquetes.
-   - **Length** es la cantidad de bytes del paquete.
-   - **Info** nos muestra mucha información respecto del paquete.
+1. **Abrir el archivo de captura**
+   - Ve a **Archivo** en Wireshark y selecciona el archivo de captura de la aplicación *nombredelapp.pcap*. Veremos una pantalla similar a la siguiente:
 
-De todas esta información, lo que nos interesan son las columnas de **Source**, de **Destination** y de **Protocol**.
+   ![wireshark](./capturas_de_pantalla/captura-de-trafico/wireshark.png)
+
+2. **Interpretar columnas clave**  
+   - Verifica la información presentada en el archivo considerando las comunas: 
+      - **No.**: indica el número de orden en el que el paquete de datos fue capturado. Se empieza, naturalmente, con el número 1. 
+      - **Time**: se  refiere al momento en el que fue capturado dicho paquete.
+      - **Source**: es el origen del paquete, es decir la dirección IP. Aparecerán otras direcciones desde donde se envian datos.
+      - **Destination**: dirección IP a donde se envio el paquete.
+      - **Protocol**: protocolo utilizado en la transmisión.
+      - **Length**: cantidad de bytes del paquete.
+      - **Info**: información respecto del paquete.
+
+> De la información presentada en el archivo, lo relevante para nuestro analisis son las columnas **Source**, de **Destination** y de **Protocol**.
 
 #### **Análisis HTTP**
 
-Analicemos primero la columna de **protocol**. Para hacer todo más sencillo, lo único que tenemos que hacer es escribir en la barra de búsqueda http y darle **enter**. Si hay conexiones con este protocolo, nos aparecerán en la parte de abajo, normalmente marcadas con el color verde. 
-![http](./capturas_de_pantalla/captura-de-trafico/http.png) 
-Si uno selecciona alguno de los paquetes, en la parte de abajo de Wireshark, apacerán una serie de número y letras, y a lado, el contenido del paquete. 
-![seccionwireshark](./capturas_de_pantalla/captura-de-trafico/wiresharkseccion.png)   
-No es lo más fácil de leer, pero con un poco de paciencia uno puede descubir los datos que están siendo mandados o recibidos. Ponemos aquí un ejemplo de una app que ya analizamos:   
-![httpdatos](./capturas_de_pantalla/captura-de-trafico/httpdatos.png)
-Como se ve, esta aplicación manda con el protoclo http datos de registro de la aplicación: Apellido Paterno, Apellido Materno, Email, Teléfono Fijo, etc. Esto, por supuesto, representa un problema mayúsculo de seguridad y de privacidad.
+Para este análisis es importante tener suficientemente claro la información que se te presenta en el anális anterior. Posterior a ello puedes realizar este análisis con más facilidad.
+
+1. **Análisis de la columna protocol**
+   - Escribe **http** en la barra de filtros de Wireshark y haz click en **enter**
+   - Si hay conexiones con este protocolo, te aparecerán en la parte de abajo, normalmente marcadas con el color verde. 
+
+   ![http](./capturas_de_pantalla/captura-de-trafico/http.png) 
+
+2. **Revisar contenido de los paquetes**
+   - Selecciona un paquete HTTP en la lista
+   Observa los datos que fueron capturados en la parte inferior de WIreshark, donde s emuestra el contenido del paquete.   
+ 
+   ![seccionwireshark](./capturas_de_pantalla/captura-de-trafico/wiresharkseccion.png)   
+
+3. **Identificar problematicas**
+   - ANaliza los datos enviados y recibidos para detectar si es que se esta incluyendo infomación sensible.
+   - Verifica el protocolo de envio de los datos para confirmar si es que se esta presentando un alto riesgo de la seguridad si es que se esta omitiendo el cifrado.
+
+   ![httpdatos](./capturas_de_pantalla/captura-de-trafico/httpdatos.png)
+
+   > En esta aplicación que utilizamos como ejemplo, la información Apellido Paterno, Apellido Materno, Email, Teléfono Fijo, etc. ha sido mandada con el protoclo http datos de registro de la aplicación:  Esto, por supuesto, representa un problema mayúsculo de seguridad y de privacidad.
+
+4. **Revisar otros protocolos**
+   Durante el análisis podrían aparecer otros protocolos relevantes que se encuentran frecuentemente en este tipo de análisis. Es recomendable que verifiques la integridad de la información que utilizan estos protocolos.
 
 Dejamos aquí, una explicación de algunos otros protocolos que se pueden encontrar muy seguido:
 
-- [ARP](https://es.wikipedia.org/wiki/Protocolo_de_resoluci%C3%B3n_de_direcciones) - Este protocolo sirve para identificar a qué aparato (router, computadora, celular, etc.) corresponde una cierta dirección IP local. En general, si nos fijamos en este protocolo, aparecerán los diferentes dispositivos que tenemos en nuestra red local y las diferentes direcciones IP locales. Estas direcciones, para el análisis que nos interesa, son superfluas. 
-- DNS - Este protocolo sirve para convertir los nombres de las direcciones IP a formatos legibles por seres humanos. El uso más frecuente y famoso es el de traducir una dirección IP a un nombre de dominio como www.google.com
-- [HTTP](https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto) - Este protocolo sirve para enviar datos entre diferentes direcciones IP. Es uno de los que nos interesa en términos de seguridad, ya que, al no estar cifrado, es muy suceptible a ser abusado, de tal manera que un actor malintencionado pueda acceder a información sensible y privada.
- - [HTTPS](https://es.wikipedia.org/wiki/Protocolo_seguro_de_transferencia_de_hipertexto) - Es igual al protocolo anterior, pero está cifrado, de tal manera que los datos que se comparten entre diferentes direcciones IP viajan más seguros ya que es mucho más difícil acceder a ellos.
-- OpenVPN - Este protocolo es el protocolo de comunicaciones de la Red Privada Virtual que estamos utilizando, WireGuard. En general aquí se encontrará la dirección IP local y nuestra dirección IP pública. La IP pública es la dirección asignada a nuestro módem. Es decir, como ya lo hemos dicho, cada dispositivo de nuestra casa tiene una dirección IP Local, pero todas se comunican al internet a través de una sola: la IP pública. Si se quieren publicar los datos capturados, recomendamos eliminar la IP pública de los mismos. Esto se puede hacer editando el paquete, proceso no muy sencillo, o simplemente reiniciando el Módem de la casa. Esto hará que nuestra IP pública sea distinta.
-- [TCP](https://es.wikipedia.org/wiki/Protocolo_de_control_de_transmisi%C3%B3n) - Protocolo que está al nivel de la acpa de transporte en el modelo [OSI](https://es.wikipedia.org/wiki/Modelo_OSI). Gracias a este, otros protocolos, como HTTP, pueden funcionar. 
-- [TLS] (https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte) - Al igual que el TCP, se encuentra en la capa de transporte del modelo OSI. Es un protocolo criptográfico que permite establecer comunicaciones seguras. Probablemente aparezca en Wireshark como TLSv1.3, que hace referencia a la versión que se usa actualmente.
-- [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario) - Protocolo similar a TCP y que tiene la misma función. La diferencia radica en que TCP tienen integrado un método para revisar que los paquetes llegaron al lugar correcto y de forma correcta, mientras que UDP no. De esta manera, TCP es más fiable, pero más lento. Dependiendo del tipo de datos que se estén enviando uno u otro será más efectivo. 
 
 #### **Análisis direcciones IP**
 
 Ahora bien, para analizar las diferentes direcciones IP que hay en nuestro archivo, haremos lo siguiente:
 
+1. **Acceder a las estadísiticas de puntos finales**
+   - Ve a *Estadísticas* --> *Puntos Finales* --> *IPv4*. 
+   - Esto abrirá una ventana donde aparecerán filtradas la lista de direcciones IP contactadas
+   
+   ![endpoints](./capturas_de_pantalla/captura-de-trafico/endpoints.png)
 
-- Ir a *Estadísticas* --> *Puntos Finales* --> *IPv4*. 
-![endpoints](./capturas_de_pantalla/captura-de-trafico/endpoints.png)
+2. **Interpretar las columnas clave**
+   - **Address**: dirección IP
+   - **Packets**: número total de paquetes enviados y recibidos
+   - **Bytes**: la cantidad de información enviada y recibida
+   - **Tx Packets**: número de paquetes enviados desde esa IP
+   - **Tx Bytes**: cantidad de datos enviados desde esa dirección IP
+   - **Rx Packets**: número paquetes recibidos por esa dirección IP
+   - **Rx Bytes**: cantidad de datos recibidos por esa IP
+   - **Country**: país donde está localizada la dirección IP
+   - **City**: ciudad donde está localizada la dirección IP
+   - **AS Number**: Número de sistema autónomo [ASN](https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo) 
+   - **AS Organization**: Organización a la que pertenece esa dirección IP
 
-Esto abrirá una ventana donde aparecerán filtradas la lista de direcciones IP contactadas y, además, datos sobre ellas. (Para esto pusimos las bases de datos de MaxMind). Aquí una explicación de las diferentes columnas:
+3. **Identificar a donde van los datos**
+   -Ivestiga organizaciones desconocidads para identificar su rol o papel dentro de la transmición de datos.
 
-- **Address**: dirección IP
-- **Packets**: número total de paquetes enviados y recibidos
-- **Bytes**: la cantidad de información enviada y recibida
-- **Tx Packets**: número de paquetes enviados desde esa IP
-- **Tx Bytes**: cantidad de datos enviados desde esa dirección IP
-- **Rx Packets**: número paquetes recibidos por esa dirección IP
-- **Rx Bytes**: cantidad de datos recibidos por esa IP
-- **Country**: país donde está localizada la dirección IP
-- **City**: ciudad donde está localizada la dirección IP
-- **AS Number**: Número de sistema autónomo [ASN](https://es.wikipedia.org/wiki/Sistema_aut%C3%B3nomo) 
-- **AS Organization**: Organización a la que pertenece esa dirección IP
+   > **Por ejemplo**: [Akamai](https://www.akamai.com/es) es una empresa empresa, que proporciona productos de seguridad en la nube, y es conocida por ser un [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos)  y no necesariamente almacena datos sensibles.
 
-Para nuestros análisis, lo que más nos importa es la geolocalización de las direcciones IP, lo que nos dice a dónde están yendo nuestros datos y la organización a la que pertencen (Google, Facebook, Uninet, etc.). 
-Es importante, cuando aparecen otras organizaciones, buscarlas en Internet para saber a qué se dedican. 
+   ![endpoints2](./capturas_de_pantalla/captura-de-trafico/endpoints2.png) 
+
+4. **Visualizar mapa de conexiones**
+   - Haz click en **Map** y luego en **Open in Browser**
+   - Tendremos algo similar a esto:
+
+   ![mapa](./capturas_de_pantalla/captura-de-trafico/mapbien.png)
 
 
-Por ejemplo, [Akamai](https://www.akamai.com/es). Esta empresa, si bien proporciona productos de seguridad en la nube, es conocida por ser un [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos)  (Content Distribution Network). Esto es importante recalcarlo ya que las organizaciones involucradas en una aplicación no tienen siempre la misma función. Algunas almacenan nuestros datos, otras sólo son proveedoras de contenido, otras sirven para proporcionar seguridad, otras son [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio), etc. Es decir que, a la hora de analizar a dónde van nuestros datos, también tenemos que saber quién los tiene, porque eso nos puede indicar qué hacen con ellos. Aparecerán también, como en nuestro ejemplo, otras que no nos interesan. 
-![endpoints2](./capturas_de_pantalla/captura-de-trafico/endpoints2.png) 
-Canonical Group Limited, por ejemplo, que es la empresa dueña de Ubuntu, de tal manera que nuestra aplicación no se está contactando con ellos, sino nuestro sistema operativo. AdGuard Software Limited. Ese es el DNS que elegimos para nuestra configuración de WireGuard. La dirección IP, que nosotros configuramos es como dicho, 94.140.14.14. Además, en este ejemplo, aparece Uninet S.A de C.V. Si nuestro proveedor de Internet es Telmex, esta empresa pudiera estar relacionada con nuestra IP pública. Para corroborar eso, basta acceder a esta [página](https://www.whatsmyip.org/) que nos dirá cuál es nuestra IP. Si las direcciones no corresponden, entonces es probable que nuestra aplicación contacte a Uninet.
-
-Por último, podemos hacer un mapa para poder visualizar todo de manera más esqumática. Para ello hay que hacer click en **Map** y luego en **Open in Browser** y tendremos algo similar a esto:
-![mapa](./capturas_de_pantalla/captura-de-trafico/mapbien.png)
-
-Aquí concluimos nuestro tutorial de análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. 
+Hasta este punto ha concluido el análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. 
 
 #### **Análisis de registros DNS y SNI**
 
-El análisis anterior nos permite conocer, como explicado, los *endpoints* o puntos finales. Estas direcciones IP estarán asociadas a la empresa que es dueña del servidor donde se encuentra esa dirección IP. Por ello, muchos de los resultados siempre serán servidores de Google o de Amazon, por poner un ejemplo. Pero qué pasa si queremos conocer, por ejemplo, qué dominio en particular se contactó, es decir, esa IP corresponde con un servidor, pero ese servidor aloja distintos servicios. En otras palabras, quiero conocer qué servicio fue el que contactó la aplicación.   
+Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la palicación movil.   
 
-Para hacer esto, existen dos maneras. La primera es simplemente poniendo el filtro de búsqueda DNS en Wireshark. 
+Para hacer esto, existen dos maneras. 
+
+#### Identificar dominios con DNS 
+   
+1. **Filtrar registros DNS**
+   - Escriba **dns** eb la barra de filtros de Wireshark y preisona **enter**
+   -Analiza las llamadas DNS realizadas por la aplicación 
+
 ![dns](./capturas_de_pantalla/dns-y-sni/dns1.png)    
 
-Esto nos permitirá detectar las llamadas que nuestra aplicación realizó a los servidores DNS. DNS quiere decir Domain System Name, en español, Nombre de dominio de sistema. En resumen es una suerte de *páginas amarillas* del internet que traducen un dominio como www.google.com a su dirección IP correspondiente y viceversa. Entonces cuando hacemos un filtrado de las llamadas DNS que hizo nuestra aplicación obtendremos una IP (Source) y una IP (Destination) que se corresponden con nuestra dirección local y nuestra VPN. Esas dos direcciones no nos interesan. Lo que nos interesa son los datos que están aparejados a cada llamada hecha. Como se ve en la captura de pantalla anterior, la información es bastante y puede parecer confusa. Sin entrar en demasiados temas técnicos, lo que queremos es encontrar el registro A (el nombre de un dominio) aparejado a una dirección IP en específico, en concreto la dirección IP que apareció en nuestra lista de *endpoints*. Para ello vamos a buscar la información de la siguiente manera:
-- Damos click a la lupa verde  
+2. **Buscar registros A:**
+   - En la lista de paquetes DNS, busca registros tipo **A** que vinculan un dominio con una dirección IP.
+   - Identifica el dominio relacionado con las direcciones IP de los *endpoints* obtenidas previamente.
 
-![dns2](./capturas_de_pantalla/dns-y-sni/dns2.png)
-- Aparecerá una nueva línea de filtrado, ahí nos aseguramos que la primera diga **Listado de paquetes**, la segunda **Reducido & ampliado** y la tercera, debe de decir **Cadena**. En la cuarta sección agregamos la dirección IP (*endpoint*). Esto nos marcará una línea donde se encuentra esta dirección IP y, al inicio un dominio, en este caso, *api.revenuecat.com*. Este dominio es el que nos interesa. Esto quiere decir que en la dirección 34.231.212.93 que pertenece a X empresa de *hosting*, nuestra aplicación está contactando al servicio de *revenuecat.com* 
+3. **Buscar dominios asociados a una IP especifica**
+   - Haz click a la lupa verde para abrir una nueva linea de filtrado 
 
-![dns3](./capturas_de_pantalla/dns-y-sni/dns3.png)
+   ![dns2](./capturas_de_pantalla/dns-y-sni/dns2.png)
 
-Ahora bien, las llamadas al servidor DNS pueden estar cifradas (de hecho, por buena práctica de seguridad y privacidad deberían estarlo), en cuyo caso cuando ponemos el filtro DNS, no nos aparecerá nada. Para solventar este conflicto, podemos recurrir al SNI (Server Name Information). Este es un campo que aparece en ciertos paquetes que se envían al inicio de las conexiones, en el llamada *handshake*. Sin entrara en detalles sobre qué es el *handshake*, lo que nos interesa es encontrar aquel registro en los paquetes donde se definió el dominio que se estaba contactando y la dirección IP.
-- Para hacer esto, lo primero que tenemos que hacer es poner el siguiente filtro en wireshark: ssl.handshake.extensions_server_name.
-Esto va a filtrar todos los paquetes involucrados en el *handshake*. Como vemos, aparece nuestra dirección IP de origen y esta vez, la IP de destino sí es la dirección de nuestros *endpoints*.    
+   - Configura los filtros de la siguiente manera:
+      - **Listado de paquetes** en la primera sección
+      - **Reducido y ampliado** en la segunda sección
+      - **Cadena** en la tercera sección
+      - **IP (endpoint)** en la cuarta sección 
+   - Identifica el dominio asociado con esa direccion IP
 
-![dns4](./capturas_de_pantalla/dns-y-sni/dns4.png)
-- Seleccionamos el primer paquete
-- En la parte de abajo, expandimos el menú que dice **Transport Layer Security**
-- A su vez expandimo el menú que dice **TLSv1.3 Record Layer: Handshake Protocol: Cliente Hello**
-- Expandimo **Hanshake Protocl: Client Hello**
-- Ahora expandimos **Extension Server Name**
-- Y por último expandimos **Server Name Indication extension**   
+   ![dns3](./capturas_de_pantalla/dns-y-sni/dns3.png)
 
-![dns5](./capturas_de_pantalla/dns-y-sni/dns5.png)
+#### Identificar dominios con DNS   
 
-- Por último daremos click con el botón derecho al campo **Server Name Indication Extension** y daremos click en **Aplicar como columna**. Esto nos generará una columna que se llama Server Name y que contiene el dominio contactado y la dirección IP del *endpoint*.   
+1. **Filtrar paquetes con SNI**
+   - Escribe ssl.handshake.extensions_server_name en la barra de filtros de WIreshark y presiona **Enter**.
+   - Esto va a filtrar todos los paquetes involucrados en el *handshake*. Como vemos, aparece nuestra dirección IP de origen y esta vez, la IP de destino sí es la dirección de nuestros *endpoints*.    
 
-![dns6](./capturas_de_pantalla/dns-y-sni/dns6.png)
+   ![dns4](./capturas_de_pantalla/dns-y-sni/dns4.png)
 
-Listo, con esta información ahora podemos saber que, por ejemplo, en un servidor de Amazon con una dirección IP x.x.x.x, está alojado el dominio ejemplo.com que se corresponde con el servicio X. Esto nos permite saber, por ejemplo, donde están alojados los rastreadores, o qué servicio en particular utiliza Google con una Ip particular. Asimismo, aparecerán muchas veces dominios de otros servicios que no conocíamos, pero que sí se utilizan dentro de la aplicación analizada. 
+2. **Extraer información del SNI**
+   - Selecciona el primer paquete filtrado.
+   - En la parte inferior, expande los sigueintes menús:
+      - **Transport Layer Security**
+      - **TLSv1.3 Record Layer: Handshake Protocol: Cliente Hello**
+      - **Hanshake Protocl: Client Hello**
+      - **Extension Server Name**
+      - Y por último expandimos **Server Name Indication extension**   
+
+   ![dns5](./capturas_de_pantalla/dns-y-sni/dns5.png)
+
+3. **Agrgar columna para dominios**
+   - Haz click con el botón derecho al campo **Server Name Indication Extension** 
+   - Haz click en **Aplicar como columna**. 
+   - Esto nos generará una columna que se llama Server Name y que contiene el dominio contactado y la dirección IP del *endpoint*.   
+
+   ![dns6](./capturas_de_pantalla/dns-y-sni/dns6.png)
+
+Este análisis permite identificar dominios específicos contactados por la aplicación, incluso si las direcciones IP corresponden a servidores compartidos. Con esta información, es posible:
+- Determinar la ubicación y función de los dominios.
+- Identificar servicios específicos utilizados por la aplicación.
+- Detectar rastreadores y servicios desconocidos.
 
 
 
