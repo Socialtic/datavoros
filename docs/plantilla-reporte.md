@@ -42,6 +42,11 @@ Enlace al reporte de Exodus Privacy
 - b
 - c
 
+### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
+- a
+- b
+- c
+
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
 ## Permisos   
@@ -110,6 +115,17 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 *Datos extras recolectados. Descripción de los datos recolectados y su relación con las empresas. Por ejemplo: dónde está guardada la aplicación, tal cuál servidor para qué sriven, etc.* 
 
+### Datos recopilados y uso según la PlayStore
+
+### Datos compartidos y uso según la PLayStore
+
+### Prácticas de seguridad
+
+### Datos recopilados y uso según la Política de privacidad
+
+### Uso general de la información según la Política de privacidad
+
+#### Información compartida con terceros
 
 ## Funciones particulares de la aplicación:
 *Describir funciones inusuales en contraste con las demás aplicaciones similares*
