@@ -55,13 +55,13 @@ Grindr es la aplicación de citas gratuita al servicio de la comunidad LGBTQ lí
 |[ironSource](https://www.ironsrc.com/)|Analítica|
 |[Mintegral](https://www.mintegral.com/en/)|Anuncios, analítica|
 |[PubNative](https://pubnative.net/)|Anuncios|
-|[Unity3d Ads](https://unity3d.com/)|ANuncios|
+|[Unity3d Ads](https://unity3d.com/)|Anuncios|
 
 [Enlace al reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/es/reports/com.grindrapp.android/latest/#trackers)   
 
 ## Empresas relacionadas con esta aplicación:
 
-|EMpresa|Servicios que ofrecen|
+|Empresa|Servicios que ofrecen|
 |---|---| 
 |[Akamai International B.V](https://www.akamai.com/es)| CDN, seguridad web, mitigación de DDoS|
 |[Alibaba US Technology CO., Ltd.](https://www.alibabacloud.com/es?_p_lc=17&utm_key=se_1012411086&utm_content=se_1012411086&gad_source=1&gclid=Cj0KCQiA-5a9BhCBARIsACwMkJ5QEdarDZv_ICTKu1D2-du4KLHEKy6xEh2qht6xbWlEpd0JnQPNV7saAq6ZEALw_wcB)| Cloud computing, almacenamiento de datos|
