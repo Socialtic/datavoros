@@ -297,7 +297,7 @@ Datos|Uso|
 **NOTA**:    
     Aunque Tinder mediante Google Play Store menciona que la ubicación aproximada y precisa son opcionales, el uso de la ubicaciń es **vital** para el funcionamiento de la interfaz principal *"Gente"*, ya que limita la interacción si está funcionalidad está desactivada o si la app no tiene permisos sobre la ubicación.
 
-### Datos compartidos y uso según la PLay Store
+### Datos compartidos y uso según la Play Store
 
 Google PlayStore declara los siguientes datos compartidos por Tinder:
 
