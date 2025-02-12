@@ -8,7 +8,7 @@
 
 ## Archivos analizados
 
-- [apk versión 25.0.1](https://cloud.datavoros.org/index.php/s/FCjYEaPqmeJgG9K)
+- [apk versión 5.404.0](https://cloud.datavoros.org/index.php/s/FCjYEaPqmeJgG9K)
 - [pcap versión 1](https://cloud.datavoros.org/index.php/s/P5e3ErgmoaonyMf)
 - [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/iJ5dfSFFaDPsC49)
 - [Reporte MobSF](https://cloud.datavoros.org/index.php/s/qjLoDcGHSZYrJ2Y)
@@ -195,7 +195,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :red_circle: Edad
 - :red_circle: Género
 - :red_circle: ¿Qué buscas en Bumble?
-- :red_circle: ¿ A quien te gustaría conocert (hombres/mujeres)
+- :red_circle: ¿ A quien te gustaría conocer (hombres/mujeres)?
 - :red_circle: ¿Qué tipo de relacion busca?
 - :blue_circle: Altura
 - :blue_circle: Intereses/hobbies
@@ -269,8 +269,6 @@ Google PlayStore declara los siguientes datos recopilados por Bumble:
 
 Datos|Uso|
 |---|---|
-|Datos|Uso|
-|---|---|
 |Nombre|Funciones de la app, Comunicaciones del desarrollador, Publicidad o marketing y Seguridad, cumplimiento y prevención de fraudes|
 |Dirección de correo electrónico · Opcional|Funciones de la app, Comunicaciones del desarrollador, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Administración de la cuenta|
 |IDs de usuario|Funciones de la app, Estadísticas, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Administración de la cuenta|
@@ -339,7 +337,7 @@ Google PlayStore declara los siguientes datos compartidos por Bumble:
 
 ### Uso general de la información según la Política de privacidad
 
-- Para ofrecerle nuestros servicios y características, incluyendo:
+- Para ofrecerle a los usuarios nuestros servicios y características, incluyendo:
     - Crear y mantener la cuenta y el perfil en la aplicación.
     - Personalizar la aplicación y el contenido que se entrega a los usuarios.
     - Facilitar las oportunidades de networking dentro de la aplicación.

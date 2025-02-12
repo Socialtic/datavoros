@@ -387,6 +387,7 @@ Datos|Uso|
     - Compartir datos con las fuerzas del orden o socios para combatir conductas abusivas o ilegales
 
 #### Información compartida con terceros
+
 |Receptores|Motivo|
 |---|---|
 |Otros miembros|Interacción entre usuarios y reportes de conducta.|
