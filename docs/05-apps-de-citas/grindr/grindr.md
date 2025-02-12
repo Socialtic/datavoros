@@ -18,7 +18,7 @@
 - **Costo:** gratuito  
 - **Enlace de descarga:** https://play.google.com/store/apps/details?id=com.grindrapp.android&hl=es_MX&pli=1
 - **Descargas:** *50M+*
-- **Ultima fecha de actualización:** 03 de febrero, 2025
+- **Última fecha de actualización:** 03 de febrero, 2025
 - **Versión:** 25.0.1
 - **Desarrollador:** [Grindr LLC](https://www.grindr.com/)
 - **Firma:** [Grindr LLC](https://www.grindr.com/)
@@ -55,13 +55,13 @@ Grindr es la aplicación de citas gratuita al servicio de la comunidad LGBTQ lí
 |[ironSource](https://www.ironsrc.com/)|Analítica|
 |[Mintegral](https://www.mintegral.com/en/)|Anuncios, analítica|
 |[PubNative](https://pubnative.net/)|Anuncios|
-|[Unity3d Ads](https://unity3d.com/)|ANuncios|
+|[Unity3d Ads](https://unity3d.com/)|Anuncios|
 
 [Enlace al reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/es/reports/com.grindrapp.android/latest/#trackers)   
 
 ## Empresas relacionadas con esta aplicación:
 
-|EMpresa|Servicios que ofrecen|
+|Empresa|Servicios que ofrecen|
 |---|---| 
 |[Akamai International B.V](https://www.akamai.com/es)| CDN, seguridad web, mitigación de DDoS|
 |[Alibaba US Technology CO., Ltd.](https://www.alibabacloud.com/es?_p_lc=17&utm_key=se_1012411086&utm_content=se_1012411086&gad_source=1&gclid=Cj0KCQiA-5a9BhCBARIsACwMkJ5QEdarDZv_ICTKu1D2-du4KLHEKy6xEh2qht6xbWlEpd0JnQPNV7saAq6ZEALw_wcB)| Cloud computing, almacenamiento de datos|
@@ -124,7 +124,7 @@ Grindr es la aplicación de citas gratuita al servicio de la comunidad LGBTQ lí
 
 
 
-### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
 |Dominios|
 |---|
@@ -283,10 +283,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - :red_circle: Google drive
 - :red_circle: Ubicación
-- :blue_circle: Camara
-- :blue_circle: Galeria
+- :blue_circle: Cámara
+- :blue_circle: Galería
 - :blue_circle: Microfono
-- :blue_circle: Almacenamineto
+- :blue_circle: Almacenamiento
 - :blue_circle: Notificaciones
 
 :red_circle: Este ícono indica un permiso obligatorio   
@@ -298,7 +298,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el registro
 
-- :red_circle: Correo electronico
+- :red_circle: Correo electrónico
 - :blue_circle: Nombre
 - :red_circle: Edad
 
@@ -319,7 +319,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :blue_circle: Género
 - :blue_circle: Pronombres
 - :blue_circle: Estado de VIH
-    - :blue_circle: Ultimo análisis
+    - :blue_circle: Último análisis
 - :blue_circle: Redes sociales
     
     
@@ -397,9 +397,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ![mapa](./mapa.png)
 
-### Datos recopilados y uso según la PLayStore
+### Datos recopilados y uso según la Play Store
 
-Google PlayStore declara los sigueintes datos recopilados por Grindr:
+Google PlayStore declara los siguientes datos recopilados por Grindr:
 
 Datos|Uso|
 |---|---|
@@ -421,9 +421,9 @@ Datos|Uso|
 
 
 **NOTA**:    
-    Aunque Grindr mediante Google Play Store menciona que la ubicación aproximada y precisa son opcionales, el uso de la ubicaciń es **vital** para el funcionamiento de la interfáz principal *"Navegación"*, ya que limita la interacción si esta funcionalidad esta desactivada o si la app no tiene permisos sobre la ubicación.
+    Aunque Grindr mediante Google Play Store menciona que la ubicación aproximada y precisa son opcionales, el uso de la ubicaciń es **vital** para el funcionamiento de la interfaz principal *"Navegación"*, ya que limita la interacción si está funcionalidad esta desactivada o si la app no tiene permisos sobre la ubicación.
 
-### Datos compartidos y uso según la PLayStore
+### Datos compartidos y uso según la Play Store
 
 La sección de **Seguridad de los datos** de la aplicación Grindr dice lo siguiente sobre compartir datos con terceros:
 ~~~
@@ -441,19 +441,19 @@ Grindr (sin incluir las cuentas de los planes XTRA y Unlimited) incluye publicid
 - Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
-### Datos recopilados y uso según la Política de privacidad
+### Datos recopilados según la Política de privacidad
 |Datos|
 |---|
 |**Información personal que se exige proveer:** Correo electrónico o número de teléfono y fecha de nacimiento|
-|**Información personal (opcional):** ubicación, estado de VIH, estado de vacunación, fotos y vedos|
+|**Información personal (opcional):** ubicación, estado de VIH, estado de vacunación, fotos y videos|
 |**Información sensible personal:** origen racial o etnico, salud, sexo u orientación sexual, etc.|
 |**Información de la ubicación:** ubicación precisa|
 |**Información personal recibida del dispositivo:** actividad del usuario, información de hardware y software, cookies, bailizas web, kits de desarrollo (SDKs), almacenamiento local y archivos de registro|
-|**Iformación de terceros:** procesadores de pagos, uso de aplicaciones y socios de información de seguimiento de sitios web, autenticación (Google y Meta), socios de aprendizaje automático, proveedor d plataforma de gestion de consentimientos|
+|**Información de terceros:** procesadores de pagos, uso de aplicaciones y socios de información de seguimiento de sitios web, autenticación (Google y Meta), socios de aprendizaje automático, proveedor de plataforma de gestión de consentimientos|
 
-#### Uso general de la información:
+### Uso general de la información según la Política de privacidad
 
-- Porporcionar a los usuarios servicios asociados con su cuenta de Grindr.
+- Proporcionar a los usuarios servicios asociados con su cuenta de Grindr.
 - Responder a las consultas y brindar soporte.
 - Mejorar sus Propiedades y garantizar la seguridad del usuario dentro de los Servicios (incluyendo aprendizaje automático/inteligencia artificial ("IA") y toma de decisiones automatizada).
 - Proteger sus intereses como empresa.
@@ -462,7 +462,7 @@ Grindr (sin incluir las cuentas de los planes XTRA y Unlimited) incluye publicid
 - Realizar encuestas u obtener la opinión voluntaria de los usuarios sobre sus Propiedades.
 - Responder a solicitudes legales de agencias del orden público, reguladores y otros terceros para cumplir con "Obligaciones Legales".
 
-#### **Información compartida con terceros**
+#### Información compartida con terceros
 - Se comparte información personal con proveedores de servicio esenciales para la funcionalidad de la aplicación, como soporte técnico, almacenamiento y moderación.
 - Se puede compartir información personal con socios publicitarios y de marketing para la entrega de anuncios y campañas promocionales.
 - Se puede compartir información con terceros para análisis y mejora de la plataforma, incluyendo machine learning e inteligencia artificial.
@@ -489,20 +489,20 @@ Grindr (sin incluir las cuentas de los planes XTRA y Unlimited) incluye publicid
 
 EL registro a la aplicación mediante una cuenta de **Google** requiere **forzosamente** que el usuario acepte permisos sobre **Google Drive**, los cuales son los siguientes:
 
-- Asociar el perfil con la infomación personal
-- Permitir ver la información personal, incluidos los datos peronales que se hayan hecho públicos
+- Asociar el perfil con la información personal
+- Permitir ver la información personal, incluidos los datos personales que se hayan hecho públicos
     - Nombre completo
     - Foto de perfil
     - Género
     - Idiomas preferidos
     - Cualquier tipo de información pública
-- Ver la dirección de corre electrónico.
+- Ver la dirección de correo electrónico.
 - Ver y cambiar sus propios datos de configuración en la unidad de Google Drive
     - EL tema y los colores de fondo
     - La configuración de idioma para esta app
-- Cear archivos nuevos o cambiar los exitentes que se abran con ella, lo que implica
+- Crear archivos nuevos o cambiar los existentes que se abran con ella, lo que implica
     - Ver estos archivos
-    - SUirlos y descargarlos
+    - SUbirlos y descargarlos
     - Borrarlos
     - Ver los nombres y las direcciones de correo electrónico de las personas con las que los compartes
     - Compartirlos con otras personas o dejar de hacerlo
@@ -511,7 +511,7 @@ EL registro a la aplicación mediante una cuenta de **Google** requiere **forzos
 **Nota**
     Grindr informa que es posible que la unidad de Google Drive contenga información privada, como registros financieros, informes médicos, fotos o información fiscal.
 
-    Así mismo, Grindr al solicitar estos permisos, afirma que al Consultar la Politica de Privacidad y las Condiciones del Servicios se podrán encontrar detalles de qué manera Grindr procesará y protegerá datos de Google Drive.
+    Así mismo, Grindr al solicitar estos permisos, afirma que al Consultar la Política de Privacidad y las Condiciones del Servicio, se podrán encontrar a detalle información aclarando la manera Grindr procesará y protegerá datos de Google Drive.
 
 ### 2. Ubicación
 
@@ -519,21 +519,21 @@ Durante los primeros usos de Grindr, el permiso de ubicación es **esencial**, y
 
 ## Notas
 
-- Las descripciones que Grindr tiene en Google PlayStore son incongruentes
+- Las descripciones que Grindr tiene en Google Play Store son incongruentes
     - Por un lado, menciona en la Información de la aplicación que comparte *"información limitada"* con terceros para publicidad y anuncios.
-    - En la sección de seguridad de datos, menciona que ningun tipo de información del usuario es compartido con otras organizaciones o empresas.
+    - En la sección de seguridad de datos, menciona que ningún tipo de información del usuario es compartido con otras organizaciones o empresas.
 - La política de privacidad menciona que grindr utiliza datos para fines internos y justifica la información compartida con terceros para fines de marketing, publicidad e infraestructura.
 - No hay información clara de permisos a Google Drive
-    - La política de privacidad (Información recopilada y Uso de datos) y en la información de Google PlayStore, no esta justificada la solicitud de permisos de Google Drive.
+    - La política de privacidad (Información recopilada y Uso de datos) y en la información de Google PlayStore, no está justificada la solicitud de permisos de Google Drive.
     - No es clara la información recopilada mediante este permiso, ya que se otorga acceso a lectura, escritura, consulta y borrado.
 
 ## Conclusiones
 
-### Contradicciones en la declaración de uso de datos de PlayStores
-Grindr presenta inconsistencias entre lo que muestra en las secciones Acerca de la app y Seguridad de los datos. Aunque en PlayStore **afirma** no compartir datos con terceros, la política de privacidad y los rastreadores detectados indican que si lo hace a niveles de marketing, anuncios e infraestructura. Grindr podría estar utilizando tecnisismos para evitar declarar explicitamente que comparte datos.
+### Contradicciones en la declaración de uso de datos de Google Play Store
+Grindr presenta inconsistencias entre lo que muestra en las secciones Acerca de la app y Seguridad de los datos. Aunque en PlayStore **afirma** no compartir datos con terceros, la política de privacidad y los rastreadores detectados indican que si lo hace a niveles de marketing, anuncios e infraestructura. Grindr podría estar utilizando tecnicismos para evitar declarar explícitamente que comparte datos.
 
 ### Permisos omitidos
-Grindr es una apliación con 35 permisos que estan justificados (en su mayoria) en la politica de privacidad, si enmbargo, si se realiza un registro con una cuenta de **Google**, solicita permisos importantes y referentes a un control amplio (lectura, rescritura, consulta y borrado) de información en las unidades de **Google drive**, situación que segun Grindr, esta justificada en la politica de privacidad y protección de datos. Dentro de la política de privacidad, no hay ningun referente a permisos de acceso a **Google drive** ni a la recopilación de datos mediante ese permiso y tampoco del uso de esa información recopilada, lo que puede significar un riesgo, dado que sin otrogar este permiso, Grindr no creara la cuenta con este método.
+Grindr es una aplicación con 35 permisos que están justificados (en su mayoría) en la política de privacidad, sin embargo, si se realiza un registro con una cuenta de **Google**, solicita permisos importantes y referentes a un control amplio (lectura, escritura, consulta y borrado) de información en las unidades de **Google drive**, situación que según Grindr, está justificada en la política de privacidad y protección de datos. Dentro de la política de privacidad, no hay ningún referente a permisos de acceso a **Google drive** ni a la recopilación de datos mediante ese permiso y tampoco del uso de esa información recopilada, lo que puede significar un riesgo, dado que sin otorgar este permiso, Grindr no creará la cuenta con este método.
 
 ### Amplia Recolección de Datos Personales
 La aplicación solicita múltiples permisos y recopila información sensible, incluyendo ubicación precisa, orientación sexual (opcional), identificadores de dispositivo y hábitos de uso. Estos datos pueden ser utilizados para segmentación de anuncios y aprendizaje automático.
@@ -542,8 +542,8 @@ La aplicación solicita múltiples permisos y recopila información sensible, in
 Se detectó la integración de numerosos servicios de terceros, como Amazon Web Services, Google Analytics, Cloudflare y AppLovin, utilizados para hosting, seguridad, publicidad y análisis. Esto sugiere que la aplicación depende en gran medida de infraestructuras externas.
 
 ### Ubicación Precisa y Riesgos de Exposición
-Grindr muestra la distancia exacta en metros entre usuarios, lo que puede exponer la ubicación de las personas a terceros mediante trabajos de investigación con fines especificos que pueden ser malintencionados. Esto deriva a riesgos de privacidad y seguridad, especialmente en contextos donde la orientación sexual puede ser motivo de discriminación, odio o incluso espionaje.
+Grindr muestra la distancia exacta en metros entre usuarios, lo que puede exponer la ubicación de las personas a terceros mediante trabajos de investigación con fines específicos que pueden ser malintencionados. Esto deriva a riesgos de privacidad y seguridad, especialmente en contextos donde la orientación sexual puede ser motivo de discriminación, odio o incluso espionaje.
 
-Grindr deberia proporcionar **información más claray accesible**, especialmente sobre cómo maneja los datos y permitir configuraipones mas precisas para que los usuarios puedan gestionar su privacidad eficazmente.
+Grindr debería proporcionar **información más clara y accesible**, especialmente sobre cómo maneja los datos y permitir configuraciones más amigables y explicitas para que los usuarios puedan gestionar su privacidad eficazmente.
 
-En esta ocación podemos confirmar que Grindr es una aplicación es **DATAVOREZCAAA**
+En esta ocasión podemos confirmar que Grindr es una aplicación **DATAVOREZCAAA**
