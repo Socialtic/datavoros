@@ -263,7 +263,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ![mapa](./mapa.png)
 
-### Datos recopilados y uso según la Play Store
+### Datos recopilados según la Play Store
 
 Google PlayStore declara los siguientes datos recopilados por Bumble:
 
@@ -318,7 +318,7 @@ Google PlayStore declara los siguientes datos compartidos por Bumble:
 - Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
-### Datos recopilados y uso según la Política de privacidad
+### Datos recopilados según la Política de privacidad
 
 |Datos|
 |---|

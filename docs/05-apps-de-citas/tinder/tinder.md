@@ -319,7 +319,7 @@ Datos|Uso|
 - Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
-### Datos recopilados y uso según la Política de privacidad
+### Datos recopilados según la Política de privacidad
 
 #### Datos que proporciona el usuario
 |Datos|

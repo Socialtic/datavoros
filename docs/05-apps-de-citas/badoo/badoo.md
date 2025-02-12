@@ -276,7 +276,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ![mapa](./mapa.png)
 
-### Datos recopilados y uso según la Play Store
+### Datos recopilados  según la Play Store
 
 Google PlayStore declara los siguientes datos recopilados por Badoo:
 

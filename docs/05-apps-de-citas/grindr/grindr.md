@@ -423,7 +423,7 @@ Datos|Uso|
 **NOTA**:    
     Aunque Grindr mediante Google Play Store menciona que la ubicación aproximada y precisa son opcionales, el uso de la ubicaciń es **vital** para el funcionamiento de la interfaz principal *"Navegación"*, ya que limita la interacción si está funcionalidad esta desactivada o si la app no tiene permisos sobre la ubicación.
 
-### Datos compartidos y uso según la PLayStore
+### Datos compartidos y uso según la Play Store
 
 La sección de **Seguridad de los datos** de la aplicación Grindr dice lo siguiente sobre compartir datos con terceros:
 ~~~
@@ -441,7 +441,7 @@ Grindr (sin incluir las cuentas de los planes XTRA y Unlimited) incluye publicid
 - Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
-### Datos recopilados y uso según la Política de privacidad
+### Datos recopilados según la Política de privacidad
 |Datos|
 |---|
 |**Información personal que se exige proveer:** Correo electrónico o número de teléfono y fecha de nacimiento|
