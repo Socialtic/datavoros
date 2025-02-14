@@ -40,7 +40,7 @@ Chat de video: ¡prueba tu química en citas virtuales y conoce a tus matches de
 ## Rastreadores identificados (mediante Exodus Privacy)
 
 |Rastreador|Tipo|
-|---|---| 
+|---|---|
 |[AppsFlyer](http://appsflyer.com/)|Analítica|
 |[Branch](https://branch.io/)|Analítica|
 |[Bugsnag](https://www.bugsnag.com/)|Informe de fallas|
@@ -179,12 +179,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Datos solicitados durante el registro
 
 - :red_circle: Correo electrónico
-- :red_circle: Número de teléfono 
+- :red_circle: Número de teléfono
 - :blue_circle: Nombre
 - :red_circle: Edad
 - :red_circle: genero
-- :blue_circle: orientación sexual 
-- :red_circle: intereses personales 
+- :blue_circle: orientación sexual
+- :red_circle: intereses personales
 - :red_circle: ¿que tipo de relación se busca en Tinder?
 - :red_circle: ¿Qué distancia se busca?
 
@@ -213,7 +213,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :blue_circle: Puesto
 - :blue_circle: Compañía
 - :blue_circle: Escuela
-- :blue_circle: Vivo en 
+- :blue_circle: Vivo en
 - :blue_circle: Mi himno musical
 - :blue_circle: Artistas favoritos en spotify    
 
@@ -271,7 +271,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados y uso según la Play Store
 
-Google PlayStore declara los siguientes datos recopilados por Tinder:
+Google Play Store declara los siguientes datos recopilados por Tinder:
 
 Datos|Uso|
 |---|---|
@@ -286,7 +286,7 @@ Datos|Uso|
 |Diagnóstico|Funciones de la app, Estadísticas y Seguridad, cumplimiento y prevención de fraudes|
 |Otros datos de rendimiento de la app|Funciones de la app, Estadísticas y Seguridad, cumplimiento y prevención de fraudes|
 |Fotos o video|Funciones de la app y Seguridad, cumplimiento y prevención de fraudes|
-|Información de pago del usuario|Funciones de la app, Seguridad, cumplimiento y prevención de fraudes y Administración de la cuenta| 
+|Información de pago del usuario|Funciones de la app, Seguridad, cumplimiento y prevención de fraudes y Administración de la cuenta|
 |Historial de compras|Funciones de la app, Estadísticas, Comunicaciones del desarrollador, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Administración de la cuenta|
 |Interacciones en la app|Funciones de la app, Estadísticas, Comunicaciones del desarrollador, Publicidad o marketing, Seguridad, cumplimiento y prevención de fraudes y Personalización|
 |Otro contenido generado por usuarios|Funciones de la app, Estadísticas, Seguridad, cumplimiento y prevención de fraudes y Personalización|
@@ -299,7 +299,7 @@ Datos|Uso|
 
 ### Datos compartidos y uso según la Play Store
 
-Google PlayStore declara los siguientes datos compartidos por Tinder:
+Google Play Store declara los siguientes datos compartidos por Tinder:
 
 Datos|Uso|
 |---|---|
@@ -310,7 +310,7 @@ Datos|Uso|
 |Ubicación aproximada|Seguridad, cumplimiento y prevención de fraudes|
 |Nombre|Funciones de la app|
 |Dirección de correo electrónico|Seguridad, cumplimiento y prevención de fraudes|
-|IDs de usuario|Seguridad, cumplimiento y prevención de faudes|
+|IDs de usuario|Seguridad, cumplimiento y prevención de fraudes|
 |Número de teléfono| Seguridad, cumplimiento y prevención de fraudes|
 
 
@@ -352,7 +352,7 @@ Datos|Uso|
 - Para permitirle utilizar el servicio, incluyendo:
     - Crear y mantener la cuenta y perfil en nuestro servicio
     - Funcionamiento y mantenimiento de las diversas características de nuestro servicio
-    - Recomendar a otros miembros a los usuarios y viceversa 
+    - Recomendar a otros miembros a los usuarios y viceversa
     - Organizar sorteos y concursos
     - En respuesta a peticiones y preguntas de usuarios
     - Supervisar el buen funcionamiento del servicio y solucionar problemas y arreglar los problemas que sean necesarios
@@ -416,7 +416,7 @@ Datos|Uso|
 ## Conclusiones
 
 ### Transparencia en uso y recolección de datos
-Tinder tiene una política de privacidad con una estructura clara sobre los datos que recopila. Así mismo, esta política es explícita sobre los fines de uso de los datos y tambien los escenarios y contextos en los que comparte información con terceros. A diferencia de otras aplicaciones de citas, Tinder **es coherente** entre su declaración de uso y compartimiento de datos en Google Play Store y su política de privacidad, evitando contradicciones o uso de tecnicismos para no mencionar compartición de datos.
+Tinder tiene una política de privacidad con una estructura clara sobre los datos que recopila. Así mismo, esta política es explícita sobre los fines de uso de los datos y también los escenarios y contextos en los que comparte información con terceros. A diferencia de otras aplicaciones de citas, Tinder **es coherente** entre su declaración de uso y compartimiento de datos en Google Play Store y su política de privacidad, evitando contradicciones o uso de tecnicismos para no mencionar compartición de datos.
 
 ### Almacenamiento de datos
 Tinder detalla los periodos en que almacena la información de los usuarios en su política de privacidad, explicando ampliamente los periodos de tiempo en que almacena información de usuarios y la justificación con que lo hace. Sin embargo, en el caso de **usuarios baneados** Tinder no es claro con los plazos de tiempos exactos en que contiene esta información y tampoco cuenta con alguna sección explicativa sobre el proceso de baneo de cuentas.
@@ -426,11 +426,10 @@ Si bien, Tinder es claro y explícito con el uso de datos, menciona que comparte
 Tinder menciona que es parte de Match Group family of businesses, lo que significa que los datos de los usuarios pueden ser compartidos dentro de esta red de aplicaciones de citas en busca de beneficios para las aplicaciones y la seguridad de los usuarios.
 
 ### Ubicación
-Tinder menciona que almacena información sobre la ubicación exacta de los usuarios con fines de marketing, anuncios o ventas. 
+Tinder menciona que almacena información sobre la ubicación exacta de los usuarios con fines de marketing, anuncios o ventas.
 Tinder también hace uso de ubicaciones aproximadas de usuaries medidas en kilómetros/millas, siendo este modelo de ubicación aproximada, el que utiliza Tinder para su algoritmo de emparejamiento,y aunque el permiso a la ubicación en tinder es **vital** para el uso eficaz de la aplicación, las ubicaciones que presenta Tinder a otros usuarios, carecen de exactitud en metros, omitiendo la revelación de ubicación exacta entre usuarios, siendo una **mejor práctica de seguridad** para los usuarios de la aplicación en comparación con otras apps similares.
 
 ### Puntos finales
 Uno de los puntos finales de conexión destacado se encuentra en Suecia, lo que sugiere que existe infraestructura en una red externa que no está presente en la política de privacidad. Además, en este análisis, presentó tráfico tráfico relacionado con la UNAM, lo cual podría estar relacionado a pruebas o infraestructura de investigación presente en la recolección o procesamiento de datos de Tinder.
 
-Como conclusión general, se puede decir que Tinder es en su mayoría transparente y explicito con la recolección y uso de datos. Sin embargo, debería ser más explícito con los terceros con los que comparte información.
-
+Como conclusión general, se puede decir que Tinder es en su mayoría transparente y explícito con la recolección y uso de datos. Sin embargo, debería ser más explícito con los terceros con los que comparte información.

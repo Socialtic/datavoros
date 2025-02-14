@@ -37,7 +37,7 @@ Bumble es una aplicación de citas gratis, para personas solteras que desean lig
 ## Rastreadores identificados (mediante Exodus Privacy)
 
 |Rastreador|Tipo|
-|---|---| 
+|---|---|
 |[AppsFlyer](http://appsflyer.com/)|Analítica|
 |[Facebook Analytics](https://developers.facebook.com/docs/android)|Analítica|
 |[Facebook Login](https://developers.facebook.com/docs/android)|Identificación|
@@ -52,7 +52,7 @@ Bumble es una aplicación de citas gratis, para personas solteras que desean lig
 ## Empresas relacionadas con esta aplicación:
 
 |Empresa|Servicios que ofrecen|
-|---|---| 
+|---|---|
 |[Amazon Web Services (AWS)](https://aws.amazon.com/es/)|Infraestructura en la nube, almacenamiento, servidores y cómputo escalable|
 |[Greysom Limited](https://www.greysom.com/)|Servicios de telecomunicaciones y hosting en la nube|
 |[Google Cloud Platform](https://cloud.google.com/)|Infraestructura en la nube, almacenamiento, servidores y análisis de datos|
@@ -186,7 +186,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Datos
 
-### Datos solicitados al usuario 
+### Datos solicitados al usuario
 
 #### Datos solicitados durante el registro
 
@@ -196,7 +196,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :red_circle: Género
 - :red_circle: ¿Qué buscas en Bumble?
 - :red_circle: ¿ A quien te gustaría conocer (hombres/mujeres)?
-- :red_circle: ¿Qué tipo de relacion busca?
+- :red_circle: ¿Qué tipo de relación busca?
 - :blue_circle: Altura
 - :blue_circle: Intereses/hobbies
 - :blue_circle: ¿Qué cualidades busco?
@@ -213,14 +213,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :blue_circle: Educación
 - :blue_circle: Ubicación
 - :blue_circle: Ciudad natal
-- :blue_circle: Actividad fisica
+- :blue_circle: Actividad física
 - :blue_circle: Nivel educativo
 - :blue_circle: Bebida
 - :blue_circle: Tabaco
-- :blue_circle: Signo sodiacal
+- :blue_circle: Signo zodiacal
 - :blue_circle: Política
 - :blue_circle: Ingles
-- :blue_circle: Biografia 
+- :blue_circle: Biografía
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
@@ -265,7 +265,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados según la Play Store
 
-Google PlayStore declara los siguientes datos recopilados por Bumble:
+Google Play Store declara los siguientes datos recopilados por Bumble:
 
 Datos|Uso|
 |---|---|
@@ -298,7 +298,7 @@ Datos|Uso|
 
 ### Datos compartidos y uso según la Play Store
 
-Google PlayStore declara los siguientes datos compartidos por Bumble:
+Google Play Store declara los siguientes datos compartidos por Bumble:
 
 |Datos|Uso|
 |---|---|
@@ -322,13 +322,13 @@ Google PlayStore declara los siguientes datos compartidos por Bumble:
 
 |Datos|
 |---|
-|**Información de registro:** nombre, nombre de usuario, dirección de correo electrónico, número móvil, identidad de género, fecha, hora y lugar de nacimiento, preferencia sexual, fotografías, ubicación, inicio de sesión en redes sociales conectadas.|
+|**Información de registro:** Nombre, nombre de usuario, dirección de correo electrónico, número móvil, identidad de género, fecha, hora y lugar de nacimiento, preferencia sexual, fotografías, ubicación, inicio de sesión en redes sociales conectadas.|
 |**Datos de perfil:** detalles adicionales que el usuario elige compartir en su perfil, incluyendo intereses, orientación sexual, ubicación aproximada y otras preferencias personales.|
 |**Verificación de perfil (incluyendo datos biométricos):** número de teléfono, verificación de foto con tecnología de reconocimiento facial, almacenamiento de escaneos por hasta tres años.|
 |**Información de compras:** datos de pago, prevención de fraudes, auditoría e impuestos.|
 |**Información de geolocalización:** datos de puntos de acceso WiFi, longitud y latitud del dispositivo, utilizados para mejorar la experiencia de usuario y mostrar perfiles cercanos.|
 |**Datos del dispositivo:** identificador de dispositivo, modelo, sistema operativo, acceso a la libreta de direcciones si es permitido por el usuario.|
-|**Datos de fotos:** análisis del tiempo de visualización de fotos, iluminación, reordenamiento de fotos de perfil basado en interacción.|
+|**Datos de fotos:** Análisis del tiempo de visualización de fotos, iluminación, reordenamiento de fotos de perfil basado en interacción.|
 |**Interacciones con enlaces:** seguimiento de clics en enlaces dentro de la aplicación, estadísticas agregadas de interacciones.|
 |**Cuentas de éxito y encuestas:** testimonios, campañas de marketing opcionales, participación en encuestas de investigación.|
 |**Soporte al cliente:** dirección de correo electrónico, dirección IP, historial de comunicación con el soporte, registros de quejas mantenidos por seis años tras la eliminación de la cuenta.|
@@ -423,27 +423,27 @@ Google PlayStore declara los siguientes datos compartidos por Bumble:
 
 ### Uso y compartición de datos
 
-- Bumble menciona algunas de las empresas (**terceros**) con los que comparte datos, mencionando nombres específicos como Facebook, Google, Twilio, Spotify y Kantar, pero no detalla completamente las condiciones exactas de la transferencia de datos.  
+- Bumble menciona algunas de las empresas (**terceros**con los que comparte datos, mencionando nombres específicos como Facebook, Google, Twilio, Spotify y Kantar, pero no detalla completamente las condiciones exactas de la transferencia de datos.  
 - Se menciona que ciertos datos pueden ser utilizados para publicidad personalizada y segmentación de audiencia, incluyendo el uso de identificadores de publicidad, ubicación estimada y datos de interacción en la aplicación.  
 - El sistema de moderación revisa de forma automatizada y manual (humana), y los criterios de bloqueo de cuentas pueden involucrar algoritmos para detección de fraude y abuso.  
 - No se especifica claramente el tiempo de retención de datos para usuarios que eliminan su cuenta voluntariamente.  
-- Bumble usa sistemas antispam y antifraude, incluyendo el bloqueo de cuentas vinculadas a actividades sospechosas en otras apps del Bumble Group (Bumble Holding Limited, Badoo Trading Limited y Bumble Trading LLC).  
+- Bumble usa sistemas antispam y anti fraude, incluyendo el bloqueo de cuentas vinculadas a actividades sospechosas en otras apps del Bumble Group (Bumble Holding Limited, Badoo Trading Limited y Bumble Trading LLC).  
 
 ### Puntos finales
-  
+ 
 - Existen conexiones a Facebook e Instagram desde la aplicación, incluso sin que el usuario inicie sesión con esas plataformas.  
 
 
 ## Conclusiones
 
 ### **Congruencia entre la Política de Privacidad y Google Play Store**
-Bumble mantiene una congruencia clara entre lo declarado en su política de privacidad y la información proporcionada en Google Play Store. A diferencia de otras aplicaciones de citas, no se detectan contradicciones en la forma en que declara la recopilación, uso y compartición de datos. 
+Bumble mantiene una congruencia clara entre lo declarado en su política de privacidad y la información proporcionada en Google Play Store. A diferencia de otras aplicaciones de citas, no se detectan contradicciones en la forma en que declara la recopilación, uso y compartición de datos.
 
 Tanto en Play Store como en la política de privacidad, Bumble es **explícito** en que recopila datos de ubicación, datos biométricos, preferencias personales, información de dispositivos y datos de interacciones dentro de la app. Además, menciona el uso de estos datos para mejorar la seguridad, personalizar la experiencia y para publicidad y marketing.
 
 
 ### Número de Permisos Solicitados
-En el reporte de Exodus, Bumble solicita 57 permisos (misma cifra ue el analisis de mobsf). Entre estos, algunos tienen un nivel peligroso o especial según la clasificación de Android, incluyendo:
+En el reporte de Exodus, Bumble solicita 57 permisos (misma cifra que el análisis de mobsf). Entre estos, algunos tienen un nivel peligroso o especial según la clasificación de Android, incluyendo:
 - Ubicación precisa
 - Acceso a la cámara
 - Acceso al micrófono
@@ -466,6 +466,7 @@ Uno de los puntos que podría mejorarse es la claridad en los **períodos exacto
 Bumble es explícito y claro sobre los terceros con los que comparte datos, si bien esta información es clara, no se especifican detalles sobre el tiempo que estos terceros almacenan la información de los usuarios.
 
 
-En general, Bumble es congruente con lo declarado en su política de privacidad y en Google Play Store. No hay contradicciones notables en la recopilación, uso y compartición de datos. Sin embargo, el uso de ubicación precisa y la retención de datos biométricos hasta por tres años podría representar un riesgo si no se es mas explicito y amigable con las opciones de control para los usuarios.
-Aunque Bumble es transparente sobre los terceros con los que comparte información, sería recomendable que detallara los períodos exactos de retención de datos para mayor claridad en su política de privacidad. 
+En general, Bumble es congruente con lo declarado en su política de privacidad y en Google Play Store. No hay contradicciones notables en la recopilación, uso y compartición de datos. Sin embargo, el uso de ubicación precisa y la retención de datos biométricos hasta por tres años podría representar un riesgo si no se es más explícito y amigable con las opciones de control para los usuarios.
+Aunque Bumble es transparente sobre los terceros con los que comparte información, sería recomendable que detalla los períodos exactos de retención de datos para mayor claridad en su política de privacidad.
 En términos de permisos, 57 es una cifra alta en comparación con otras aplicaciones de citas, aunque la mayoría de estos están justificados dentro del funcionamiento de la app.
+

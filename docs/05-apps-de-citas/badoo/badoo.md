@@ -1,4 +1,4 @@
-# Grindr
+# Badoo
 
 ## Fechas de análisis
 
@@ -38,7 +38,7 @@ Badoo es la aplicación de citas que te permite ligar, chatear y tener tu primer
 ## Rastreadores identificados (mediante Exodus Privacy)
 
 |Rastreador|Tipo|
-|---|---| 
+|---|---|
 |[Amazon Advertisement](https://developer.amazon.com/public/apis/earn/mobile-ads/docs/quick-start)|Anuncios|
 |[AppsFlyer](http://appsflyer.com/)|Analítica|
 |[Facebook Ads](https://developers.facebook.com/docs/android)|Anuncios|
@@ -58,13 +58,13 @@ Badoo es la aplicación de citas que te permite ligar, chatear y tener tu primer
 ## Empresas relacionadas con esta aplicación:
 
 |Empresa|Servicios que ofrecen|
-|---|---| 
+|---|---|
 | Amazon Web Services (AWS)   | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable |
 | Akamai International B.V.   | CDN, optimización de tráfico, seguridad web y servicios en la nube |
-| Greysom Limited             | Servicios de telecomunicaciones y hosting en la nube        |
-| Google Cloud Platform       | Infraestructura en la nube, almacenamiento, servidores y análisis de datos |
-| Fastly                      | CDN, seguridad web y optimización de entrega de contenido   |
-| Facebook (Meta)             | Publicidad, autenticación de usuarios y servicios de marketing |
+| Greysom Limited           | Servicios de telecomunicaciones y hosting en la nube      |
+| Google Cloud Platform     | Infraestructura en la nube, almacenamiento, servidores y análisis de datos |
+| Fastly                    | CDN, seguridad web y optimización de entrega de contenido   |
+| Facebook (Meta)           | Publicidad, autenticación de usuarios y servicios de marketing |
 | Alibaba US Technology Co., Ltd. | Infraestructura en la nube y servicios tecnológicos en EE.UU. |
 
 
@@ -187,7 +187,7 @@ Badoo es la aplicación de citas que te permite ligar, chatear y tener tu primer
 - READ
 - WRITE
 - BROADCAST_BADGE
-- PROVIDER_INSERT_BADGE 
+- PROVIDER_INSERT_BADGE
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview).
 
@@ -204,7 +204,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Datos
 
-### Datos solicitados al usuario 
+### Datos solicitados al usuario
 
 #### Datos solicitados durante el registro
 
@@ -220,9 +220,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :blue_circle: Orientación sexual
 - :blue_circle: Situación sentimental
 - :blue_circle: Intereses
-- :blue_circle: Biografia
+- :blue_circle: Biografía
 - :blue_circle: Estatura
-- :blue_circle: ¿A dondé fuiste a la escuela?
+- :blue_circle: ¿A dónde fuiste a la escuela?
 - :blue_circle: ¿A qué te dedicas?
 - :blue_circle: ¿Fumas?
 - :blue_circle: ¿Eres extrovertido o introvertido
@@ -237,39 +237,39 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
 
-| Dirección IP     | Número de paquetes | País          | Ciudad/Zona        | Organización                               |
+| Dirección IP  | Número de paquetes | País         | Ciudad/Zona       | Organización                              |
 |-----------------|-------------------|--------------|--------------------|-------------------------------------------|
-| 3.161.41.115   | 46                | United States |                    | AMAZON-02                                 |
-| 3.161.57.191   | 58                | United States |                    | AMAZON-02                                 |
-| 3.226.181.61   | 31                | United States | Ashburn            | AMAZON-AES                                |
-| 3.231.83.229   | 32                | United States | Ashburn            | AMAZON-AES                                |
-| 10.1.10.1      | 86668             |               |                    |                                           |
-| 18.160.114.68  | 29                | United States | Seattle            | AMAZON-02                                 |
-| 18.160.114.203 | 64                | United States | Seattle            | AMAZON-02                                 |
-| 18.160.123.130 | 25                | United States | Seattle            | AMAZON-02                                 |
-| 18.160.124.5   | 94                | United States | Seattle            | AMAZON-02                                 |
-| 18.160.124.30  | 41                | United States | Seattle            | AMAZON-02                                 |
-| 23.223.26.177  | 41                | Mexico       | Querétaro          | Akamai International B.V.                 |
-| 31.222.67.112  | 2903              | Czechia      | Prague             | Greysom Limited                           |
-| 31.222.75.65   | 246               | United States | Miami              | Greysom Limited                           |
-| 31.222.75.112  | 256               | United States | Miami              | Greysom Limited                           |
-| 31.222.75.183  | 761               | United States | Miami              | Greysom Limited                           |
-| 31.222.75.227  | 9125              | United States | Miami              | Greysom Limited                           |
-| 34.54.248.71   | 61                | United States | Kansas City        | GOOGLE-CLOUD-PLATFORM                     |
-| 34.107.172.168 | 82                | United States | Kansas City        | GOOGLE-CLOUD-PLATFORM                     |
-| 34.110.229.214 | 76                | United States | Kansas City        | GOOGLE-CLOUD-PLATFORM                     |
-| 34.120.195.249 | 341               | United States | Kansas City        | GOOGLE-CLOUD-PLATFORM                     |
-| 151.101.1.91   | 32521             | United States | San Francisco      | FASTLY                                    |
-| 151.101.65.91  | 8150              | United States | San Francisco      | FASTLY                                    |
-| 151.101.129.91 | 22502             | United States | San Francisco      | FASTLY                                    |
-| 151.101.193.91 | 3275              | United States | San Francisco      | FASTLY                                    |
-| 157.240.25.1   | 203               | Mexico       | Querétaro City     | FACEBOOK                                  |
-| 157.240.25.35  | 389               | Mexico       | Querétaro City     | FACEBOOK                                  |
-| 172.217.3.138  | 23                | United States |                    | GOOGLE                                    |
-| 192.178.52.162 | 21                | United States |                    | GOOGLE                                    |
-| 192.178.56.196 | 673               | United States |                    | GOOGLE                                    |
-| 192.178.56.234 | 24                | United States |                    | GOOGLE                                    |
-| 192.178.57.14  | 1063              | United States |                    | GOOGLE                                    ||
+| 3.161.41.115   | 46               | United States |                   | AMAZON-02                                 |
+| 3.161.57.191   | 58               | United States |                   | AMAZON-02                                 |
+| 3.226.181.61   | 31               | United States | Ashburn           | AMAZON-AES                                |
+| 3.231.83.229   | 32               | United States | Ashburn           | AMAZON-AES                                |
+| 10.1.10.1     | 86668             |               |                   |                                           |
+| 18.160.114.68  | 29               | United States | Seattle           | AMAZON-02                                 |
+| 18.160.114.203 | 64               | United States | Seattle           | AMAZON-02                                 |
+| 18.160.123.130 | 25               | United States | Seattle           | AMAZON-02                                 |
+| 18.160.124.5   | 94               | United States | Seattle           | AMAZON-02                                 |
+| 18.160.124.30  | 41               | United States | Seattle           | AMAZON-02                                 |
+| 23.223.26.177  | 41               | Mexico    | Querétaro         | Akamai International B.V.                 |
+| 31.222.67.112  | 2903             | Czechia   | Prague            | Greysom Limited                           |
+| 31.222.75.65   | 246              | United States | Miami             | Greysom Limited                           |
+| 31.222.75.112  | 256              | United States | Miami             | Greysom Limited                           |
+| 31.222.75.183  | 761              | United States | Miami             | Greysom Limited                           |
+| 31.222.75.227  | 9125             | United States | Miami             | Greysom Limited                           |
+| 34.54.248.71   | 61               | United States | Kansas City       | GOOGLE-CLOUD-PLATFORM                     |
+| 34.107.172.168 | 82               | United States | Kansas City       | GOOGLE-CLOUD-PLATFORM                     |
+| 34.110.229.214 | 76               | United States | Kansas City       | GOOGLE-CLOUD-PLATFORM                     |
+| 34.120.195.249 | 341              | United States | Kansas City       | GOOGLE-CLOUD-PLATFORM                     |
+| 151.101.1.91   | 32521            | United States | San Francisco     | FASTLY                                    |
+| 151.101.65.91  | 8150             | United States | San Francisco     | FASTLY                                    |
+| 151.101.129.91 | 22502            | United States | San Francisco     | FASTLY                                    |
+| 151.101.193.91 | 3275             | United States | San Francisco     | FASTLY                                    |
+| 157.240.25.1   | 203              | Mexico    | Querétaro City    | FACEBOOK                                  |
+| 157.240.25.35  | 389              | Mexico    | Querétaro City    | FACEBOOK                                  |
+| 172.217.3.138  | 23               | United States |                   | GOOGLE                                    |
+| 192.178.52.162 | 21               | United States |                   | GOOGLE                                    |
+| 192.178.56.196 | 673              | United States |                   | GOOGLE                                    |
+| 192.178.56.234 | 24               | United States |                   | GOOGLE                                    |
+| 192.178.57.14  | 1063             | United States |                   | GOOGLE                                    ||
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
@@ -278,7 +278,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados  según la Play Store
 
-Google PlayStore declara los siguientes datos recopilados por Badoo:
+Google Play Store declara los siguientes datos recopilados por Badoo:
 
 |Datos|Uso|
 |---|---|
@@ -344,8 +344,8 @@ Google PlayStore declara los siguientes datos recopilados por Badoo:
 |**Información de perfil y visibilidad:** Información que los usuarios deciden compartir en su perfil, con advertencias sobre información sensible (correo, URLs, mensajería instantánea, números de teléfono, tarjetas de crédito, identidad nacional, licencias de conducir).|
 |**Información de verificación de perfiles:** Número de teléfono, Verificación fotográfica (posible uso de reconocimiento facial).|
 |**Información de compras:** Información de pago y transacciones realizadas en la plataforma.|
-|**Información de seguridad y fraude:** Datos relacionados con bloqueos de cuentas, actividad sospechosa y procedimientos anti-fraude.|
-|**Información de geolocalización:** Puntos de acceso WiFi, Longitud y latitud del dispositivo, Coordenadas de ubicación.|
+|**Información de seguridad y fraude:** Datos relacionados con bloqueos de cuentas, actividad sospechosa y procedimientos antifraude.|
+|**Información de geolocalización:** Puntos de acceso WiFi, Longitud y latitud del dispositivo, coordenadas de ubicación.|
 |**Información del dispositivo:** Identificador de dispositivo único, Modelo de dispositivo, Sistema operativo, Acceso a la libreta de direcciones del dispositivo.|
 |**Interacciones con enlaces y terceros:** Seguimiento de interacciones con enlaces dentro de la plataforma, incluidos enlaces de terceros.|
 |**Datos de encuestas y campañas de marketing:** Información recopilada voluntariamente en encuestas o campañas publicitarias.|
@@ -359,17 +359,17 @@ Google PlayStore declara los siguientes datos recopilados por Badoo:
 - Facilitar las oportunidades de networking en el sitio de Badoo
 - Verificar la identidad de los usuarios y prevenir fraude y garantizar la seguridad de los usuarios
 - Recibir el pago por servicios premium (no aplicables a los usuarios que realizan pagos a través de la App Store de Apple)
--  Permitir que los socios publicitarios sirvan anuncios especificos en la aplicación y sitios (esto incluye anuncios de video recompensados)
-- Para servir anuncios a UUsuarios de los sitios/app en redes de terceros y medir la eficacia de dichos anuncios
+-  Permitir que los socios publicitarios sirvan anuncios específicos en la aplicación y sitios (esto incluye anuncios de video recompensados)
+- Para servir anuncios a Usuarios de los sitios/app en redes de terceros y medir la eficacia de dichos anuncios
 - Para servir tarjetas promocionales y anuncios en la aplicación
 - Para enviar información a los usuarios de marketing sobre los eventos, ofertas o servicios de Badoo
-- COntactar con los usuarios para ejecutar encuestas con fines de investigación y para obtener retroalimentación, y para investigar si desea participar en campañas de marketing
-- Permitir a los usuarios crear y mejorar su perfil de Badoo e inicar sesion en la aplicación a traves de cuentas de terceros
+- Contactar con los usuarios para ejecutar encuestas con fines de investigación y para obtener retroalimentación, y para investigar si desea participar en campañas de marketing
+- Permitir a los usuarios crear y mejorar su perfil de Badoo e inicar sesion en la aplicación a través de cuentas de terceros
 - Llevar a cabo investigación y análisis que ayude a Badoo a mejorar la aplicación y probar nuevas tecnologías y procesos diseñados para mejorar y mejorar la App/Sites
 - Para responder a la correspondencia y las consultas de los usuarios, incluidas las consultas en las redes sociales
 - Investigar y bloquear a los Usuarios por infracciones denunciadas de los Términos y Condiciones de Uso de Badoo
 - Bloquear las transacciones de pago como parte de nuestros procedimientos antifraude
-- Para habilitar las funciones de video y audiollamadas y el envío de imágenes y vídeo
+- Para habilitar las funciones de video y audio llamadas y el envío de imágenes y vídeo
 - Construir un perfil más preciso de los usuarios, que ayude a Badoo con las coincidencias y a personalizar el servicio
 - Defender las reclamaciones legales, proteger los derechos legales y proteger a las personas del daño
 
@@ -403,36 +403,38 @@ Google PlayStore declara los siguientes datos recopilados por Badoo:
 - Badoo usa al menos 13 trackers conocidos, según Exodus Privacy, siendo una de las aplicaciones de este tipo con menos trackers.
 
 ### Empresas con las que comparte datos
-- Las empresas con las que Badoo comparte datos, son en su mayoria, empresas con las que BUmble tambien lo hace: 
+- Las empresas con las que Badoo comparte datos, son en su mayoría, empresas con las que Bumble también lo hace:
     - AppsFlyer y Kantar
-    - Khoros 
+    - Khoros
 - Badoo comparte datos con procesadores de pago, lo que significa que las compras dentro de la aplicación pueden estar vinculadas con identificadores personales.
 
 ### Política de Badoo y privacidad
 - Menciona compartir datos con autoridades en caso de investigaciones legales, lo que puede significar que el historial de mensajes y otras interacciones pueden ser entregados en casos judiciales.
-- Analisis de datos mediante inteligencia artificial y machine learning.
+- Análisis de datos mediante inteligencia artificial y machine learning.
 - No se menciona explícitamente qué datos específicos se comparten con moderadores.
 
 ### Tiempos
-- No menciona cuanto tiempo pasa para que se eliminen los datos de los suuarios cuando eliminan su cuenta.
+- No menciona cuánto tiempo pasa para que se eliminen los datos de los usuarios cuando eliminen su cuenta.
 
 ## Conclusiones
 
 ### Congruencia entre la Política de Privacidad y Google Play Store
-Badoo es explicito en mencionar los permisos que pide y como los usa en su política de privacidad. Si bien, la cantidad de permisos entre exodus y Google Play Store es inconsistente, esto puede estar justificado por la automatización de permisos que hacen referencia a la experiencia de los usuarios en la aplicación, la personalización, las configuraciones de la aplicación para funcionar y los estados de conexiones de red. En este caso, Se ha demostrado mediante exodus y el informe con mbsf, que existe **redundancia** de permisos, esto debido a la identificación de permisos repetidos, lo que puede ser causado por errores de documentación o incluso configuraciones que quedaron heredadas.
+Badoo es explícito en mencionar los permisos que pide y cómo los usa en su política de privacidad. Si bien, la cantidad de permisos entre exodus y Google Play Store es inconsistente, esto puede estar justificado por la automatización de permisos que hacen referencia a la experiencia de los usuarios en la aplicación, la personalización, las configuraciones de la aplicación para funcionar y los estados de conexiones de red. En este caso, Se ha demostrado mediante exodus y el informe con mbsf, que existe **redundancia** de permisos, esto debido a la identificación de permisos repetidos, lo que puede ser causado por errores de documentación o incluso configuraciones que quedaron heredadas.
 La política de privacidad menciona el uso de Machine Learning e inteligencia artificial para mejorar recomendaciones, pero no detalla si estos datos se usan con terceros o solo internamente.
 
 ### Ubicación
-La ubicación en Badoo es aproximada y no es **vital** en el funcionamiento de la aplicación a comparación de otras aplicaciones que requieren la ubicación encendida en todo momento y que muestran la ubicación aproximada o que a demas de requerir la ubicación encendida, informan a los demas usuarios de la distancia con exactitud.
+La ubicación en Badoo es aproximada y no es **vital** en el funcionamiento de la aplicación a comparación de otras aplicaciones que requieren la ubicación encendida en todo momento y que muestran la ubicación aproximada o que además de requerir la ubicación encendida, informan a los demás usuarios de la distancia con exactitud.
 
 ### Almacenamiento de datos en Badoo
-Badoo menciona cuales datos son recopilados y cuales son sus objetivos, siendo basicamente los objetivos principales:
+Badoo menciona cuáles datos son recopilados y cuales son sus objetivos, siendo básicamente los objetivos principales:
+
     - Emparejamiento basado en algoritmos de Machine Learning
     - Publicidad y marketing dirigido
     - Moderación de contenido y seguridad
     - Prevención de fraudes
 
 Sin embargo, Badoo **no** especifica claramente los períodos de tiempo en el que se queda con la información de los usuarios en los casos:
+
     - Cuenta activa
     - Cuenta inactiva
     - Eliminación de la cuenta
@@ -440,7 +442,7 @@ Sin embargo, Badoo **no** especifica claramente los períodos de tiempo en el qu
     - Pagos
     - Datos compartidos con terceros
 
-Bado unicamente menciona que se queda durante 6 años con el soporte  alos clientes.
+Badoo únicamente menciona que se queda durante 6 años con el soporte  a los clientes.
 
 ### Compartición de Datos con Terceros
 Badoo comparte datos con múltiples empresas y algunos de los mismos terceros que usa Bumble:
@@ -449,19 +451,19 @@ Badoo comparte datos con múltiples empresas y algunos de los mismos terceros qu
     - Khoros (Gestión de comunidad y soporte)
     - Google, Apple, Facebook, Instagram (Integraciones y autenticación)
 
-Esto significa un convenio de comparticion de datos, ya que Baddo es parte de Bumble Group (Bumble Holding Limited, Badoo Trading Limited y Bumble Trading LLC).  
+Esto significa un convenio de compartición de datos, ya que Badoo es parte de Bumble Group (Bumble Holding Limited, Badoo Trading Limited y Bumble Trading LLC).  
 
 Además, Badoo comparte información con proveedores de pago, lo que significa que las compras dentro de la app pueden estar vinculadas con identificadores personales.
 
-Aunque Badoo menciona alguno d elos terceros con los que comparte información, carece de información de otros terceros de infraestructura, marketing o anuncion con quienes comaprte información y que tipo de información se comparte con estas empresas.
+Aunque Badoo menciona alguno de los terceros con los que comparte información, carece de información de otros terceros de infraestructura, marketing o anuncios con quienes comparte información y que tipo de información se comparte con estas empresas.
 
 
 ### Trackers y Publicidad
-Según Exodus, Badoo tiene 13 trackers conocidos, lo que lo convierte en una de las aplicaciones con menos rastreadores en las aplicaciones de citas mas usadas en México. La mayoría de estos trackers están relacionados con publicidad, analítica y monitoreo de fallos. El número reducido de trackers podría indicar que Badoo depende menos de empresas externas para recopilar y procesar información de sus usuarios.
+Según Exodus, Badoo tiene 13 trackers conocidos, lo que lo convierte en una de las aplicaciones con menos rastreadores en las aplicaciones de citas más usadas en México. La mayoría de estos trackers están relacionados con publicidad, analítica y monitoreo de fallos. El número reducido de trackers podría indicar que Badoo depende menos de empresas externas para recopilar y procesar información de sus usuarios.
 
 
-En general Badoo presenta en gran medida consistencia en sus declaraciones de Política de privacidad y la información que comparte en la Google Play Store. Sin embargo, es claro que Badoo puede mejorar la transparencia en el tema de la compartición de información con terceros y el objetivo de compartir esta información. Así mismo, Badoo tiene una área de oportunidad en ser transparente con el tiempo de almacenamiento de datos de los usuarios en diferentes escenarios para darle una correcta interpretación al almacenamiento y objetivos historicos del uso de esta información.
-En esta ocación, Badoo tiene una cantidad de rastreadores moderada en comparacion con algunas aplicaciones similares, siendo estos rastreadores en su mayoria, de anuncios y analítica, siendo cohente con la información presentada en su política de privacidad.
-En comparación con otras apps de citas, bado tiene una cantidad de permisos elevada (62), aunque la mayoria estan jsutificados como funcionamiento de la app, Badoo podría reducir y alcarar los permisos que solicita, en especial los que no son escenciales para el funcionamiento de la aplicación. Así mismo, Badoo es una aplicación que no requiere de la ubicación encendida en todo momento como si lo solicitan apps similares, reduciendo el impacto de seguridad, invación de la privacidad o incluso el espionaje.
+En general Badoo presenta en gran medida consistencia en sus declaraciones de Política de privacidad y la información que comparte en la Google Play Store. Sin embargo, es claro que Badoo puede mejorar la transparencia en el tema de la compartición de información con terceros y el objetivo de compartir esta información. Así mismo, Badoo tiene una área de oportunidad en ser transparente con el tiempo de almacenamiento de datos de los usuarios en diferentes escenarios para darle una correcta interpretación al almacenamiento y objetivos históricos del uso de esta información.
+En esta ocasión, Badoo tiene una cantidad de rastreadores moderada en comparación con algunas aplicaciones similares, siendo estos rastreadores en su mayoría, de anuncios y analítica, siendo coherente con la información presentada en su política de privacidad.
+En comparación con otras apps de citas, Badoo tiene una cantidad de permisos elevada (62), aunque la mayoría están justificados como funcionamiento de la app, Badoo podría reducir y aclarar los permisos que solicita, en especial los que no son esenciales para el funcionamiento de la aplicación. Así mismo, Badoo es una aplicación que no requiere de la ubicación encendida en todo momento como si lo solicitan apps similares, reduciendo el impacto de seguridad, invasión de la privacidad o incluso el espionaje.
 
-Podemos concluir que Badoo jsutifica coreectamente el uso de datos y es consistente en sus declaraciones en su política de privacidad y en la Google Play Store, sin embargo, se deben destacar las areas de oportunidad que tiene en materia de transparencia y en la consistencia de permisos excesivos.
+Podemos concluir que Badoo justifica correctamente el uso de datos y es consistente en sus declaraciones en su política de privacidad y en la Google Play Store, sin embargo, se deben destacar las áreas de oportunidad que tiene en materia de transparencia y en la consistencia de permisos excesivos.
