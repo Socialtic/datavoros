@@ -29,7 +29,7 @@
     
 - **Descripción en PlayStore:**
 ~~~
-Bienvenido al mundo de happn, la primera aplicación de citas de la vida cotidiana. Con más de 140 millones de usuarios en todo el mundo, happn es la aplicación de citas que se convertirá en tu aliado para conocer gente en los lugares que frecuentas. Te podes encontrar y conectar con personas en distintos lugares que frecuentas día a día: en el trabajo, en su cafetería favorita o simplemente dando un paseo, se encuentra con alguien que te gusta pero a quien no pudiste acercarte... gracias a happn, podes encontrar a esa persona, charlar y organizar una cita en tu lugar favorito que elijas.
+Bienvenido al mundo de happn, la primera aplicación de citas de la vida cotidiana. Con más de 140 millones de usuarios en todo el mundo, happn es la aplicación de citas que se convertirá en tu aliado para conocer gente en los lugares que frecuentas. Te puedes encontrar y conectar con personas en distintos lugares que frecuentas día a día: en el trabajo, en su cafetería favorita o simplemente dando un paseo, se encuentra con alguien que te gusta pero a quien no pudiste acercarte... Gracias a happn, puedes encontrar a esa persona, charlar y organizar una cita en tu lugar favorito que elijas.
 Encontrá a tu crush en tus lugares favoritos
 La verdadera ventaja de happn es que la aplicación de citas te permite conocer a personas que ya forman parte de tu vida cotidiana. Basándose en la proximidad geográfica y en los lugares que sueles frecuentar, la aplicación de citas gratuita fomenta encuentros más espontáneos y auténticos.
 ~~~
@@ -37,7 +37,7 @@ La verdadera ventaja de happn es que la aplicación de citas te permite conocer 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
 |Rastreador|Tipo|
-|---|---| 
+|---|---|
 |[Adjust](https://www.adjust.com/)|Analítica|
 |[Didomi](https://www.didomi.io/)|Analítica|
 |[Facebook Analytics](https://developers.facebook.com/docs/android)|Analítica|
@@ -52,7 +52,7 @@ La verdadera ventaja de happn es que la aplicación de citas te permite conocer 
 ## Empresas relacionadas con esta aplicación:
 
 |Empresa|Servicios que ofrecen|
-|---|---| 
+|---|---|
 |[Amazon Web Services (AWS)](https://aws.amazon.com/)| Infraestructura en la nube, almacenamiento y hosting |
 |[Cloudflare](https://www.cloudflare.com/)| CDN, seguridad web, mitigación de DDoS, optimización de tráfico |
 |[Google Cloud Platform (GCP)](https://cloud.google.com/)| Infraestructura en la nube, almacenamiento, inteligencia artificial, análisis de datos |
@@ -126,7 +126,7 @@ La verdadera ventaja de happn es que la aplicación de citas te permite conocer 
 - RECEIVE
 - BIND_GET_INSTALL_REFERRER_SERVICE
 - AD_ID
-- READ_GSERVICES 
+- READ_GSERVICES
 
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview).
@@ -145,7 +145,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Datos
 
-### Datos solicitados al usuario 
+### Datos solicitados al usuario
 
 #### Datos solicitados durante el registro
 
@@ -228,7 +228,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados y uso según la Play Store
 
-Google PlayStore declara los siguientes datos recopilados por happn:
+Google Play Store declara los siguientes datos recopilados por happn:
 
 Datos|Uso|
 |---|---|
@@ -254,7 +254,7 @@ Datos|Uso|
 
 ### Datos compartidos y uso según la Play Store
 
-Google PlayStore declara los siguientes datos compartidos por happn:
+Google Play Store declara los siguientes datos compartidos por happn:
 
 | Datos | Uso |
 |---|---|
@@ -303,8 +303,8 @@ Google PlayStore declara los siguientes datos compartidos por happn:
     - Gestión de videollamadas entre miembros.
     - Administración de suscripciones y servicios de pago comprados (Holas, FlashNotes, crédito de llamada, etc.).
     - Envío de mensajes de información relacionados con los servicios o interacciones con otros miembros (notificaciones).
-- Sugeriendo perfiles que tienes caminos cruzados o puedes cruzar caminos con
-    - Geolocalización para sugerir perfiles de Miembros con los que tiene caminos cruzados o puede cruzarse caminos. 
+- Sugiriendo perfiles que tienes caminos cruzados o puedes cruzar caminos con
+    - Geolocalización para sugerir perfiles de Miembros con los que tiene caminos cruzados o puede cruzarse caminos.
 - Para la identificación y recomendación de perfiles en la aplicación, incluyendo:
     - Mostrar perfiles de Miembros con los que has cruzado caminos o podrías cruzarte.
     - Recomendar perfiles basados en tu actividad en la aplicación, tu ubicación y la información de tu perfil.
@@ -383,12 +383,12 @@ Google PlayStore declara los siguientes datos compartidos por happn:
 ### **Política de privacidad, recolección**  
 
 - Happn detalla en su política de privacidad qué información recopila, justificando su recolección (funcionalidad, experiencia del usuario, seguridad y publicidad).  
-- Happn guarda mensajes enviados (solo son accesibles en casos de requerimientos legales).
-- Se permite el registro con Facebook, Apple o Google. 
+- Happn guardar mensajes enviados (solo son accesibles en casos de requerimientos legales).
+- Se permite el registro con Facebook, Apple o Google.
 
 ### **Uso y compartición de datos**  
 
-- Nse detallan las condiciones exactas bajo las cuales se transfieren los datos.  
+- Se detallan las condiciones exactas bajo las cuales se transfieren los datos.  
 - Se menciona que algunos datos pueden ser utilizados para publicidad personalizada**, incluyendo identificadores de usuario, ubicación estimada.
 - El sistema de moderación sigue el modelo *tipo combinación de detección automatizada y revisión manual* pero no se especifica con claridad cómo funcionan estos sistemas para prevenir abusos o fraudes.   
 
@@ -400,19 +400,19 @@ Google PlayStore declara los siguientes datos compartidos por happn:
   - Los datos se conservarán por un año adicional antes de ser eliminados o anonimizados de forma irreversible.  
   - Las cuentas premium no se consideran **.  
 - Cuentas baneadas  
-  - Los datos de una cuenta baneada se almacenan durante 24 meses en una base de datos activa para cotejarla con nuevas inscripciones y evitar que el usuario regrese.  
+  - Los datos de una cuenta baneada se almacenan durante 24 meses en una base de datos activa para cotejar con nuevas inscripciones y evitar que el usuario regrese.  
   - Posteriormente, se archivan por un año adicional antes de ser eliminados o anonimizados.  
 -Cuentas eliminadas por el usuario  
   - Si el usuario elimina su cuenta, esta se eliminará de la aplicación, pero sus datos se mantendrán durante un año en un archivo separado antes de ser eliminados permanentemente o anonimizados.  
 - Datos de contacto (email y teléfono  
-  - Se conservanpor un año después de que la cuenta haya estado inactiva durante 24 meses para fines de prospección comercial y optimización de servicios.  
+  - Se conservan por un año después de que la cuenta haya estado inactiva durante 24 meses para fines de prospección comercial y optimización de servicios.  
   - Si el usuario elimina su cuenta, estos datos no serán utilizados para marketing  
 - Ubicación y puntos de cruce  
   - La última posición geográfica se almacena por un mes  
   - Los puntos de cruce con otros usuarios se almacenan por seis meses  
 
 ### Rastreadores y privacidad
-- Happn unicmante utiliza 8 rastreadores identificados por Exodus, siendo la mayoría de analítica y publicidad.
+- Happn únicamente utiliza 8 rastreadores identificados por Exodus, siendo la mayoría analítica y publicidad.
 Happn no cuenta con rastreadores de seguridad o protección contra fraudes dedicados en su listado, lo que deja dudas sobre cómo gestiona abusos dentro de la plataforma.
 
 ### Empresas con las que Happn comparte datos
@@ -423,30 +423,30 @@ Happn no cuenta con rastreadores de seguridad o protección contra fraudes dedic
 - api-project-1036899618040.firebaseio.com esta presente en el código, lo que sugiere que Firebase está almacenando datos directamente relacionados con eventos de la aplicación.
 
 ### Ubicación
-- Happn, no reuqiere la ubicación como permiso **vital** dentro de la usabilidad de la aplicación. La app puede usarse sin necesidad de tener encendida la ubicación.
+- Happn, no requiere la ubicación como permiso **vital** dentro de la usabilidad de la aplicación. La app puede usarse sin necesidad de tener encendida la ubicación.
 
 ## Conclusiones
 
 ### Información a los usuarios
 Happn revela a sus usuarios desde el momento del registro toda la información que recopila de los usuarios y de los dispositivos, el uso que le da y también menciona los socios con los que comparte esta información. Esta acción es considerada como una buena práctica de transparencia con sus usuarios a comparación de otras aplicaciones de este tipo.
-Dentro de la breve introducción a los socios de Happn, se menciona explicitamente algunos socios **no piden consentimiento para procesar datos de usuarios y únicamente se amparan en el legítimo interés comercial**. Así mismo, Happn menciona que se puede retirar el consentimiento u opornerse al procesamiento de los datos según el interés legitimo.
+Dentro de la breve introducción a los socios de Happn, se menciona explícitamente algunos socios **no piden consentimiento para procesar datos de usuarios y únicamente se amparan en el legítimo interés comercial**. Así mismo, Happn menciona que se puede retirar el consentimiento u oponerse al procesamiento de los datos según el interés legítimo.
 
 ### Congruencia de información declarada
-Happn, ademas de mencionar la información que recopila en Google Play Store y su Política de Privacidad, hace conocimeinto a sus usuarios en el moemnto del registro y primer uso de esta aplicación hacerca de esta información recopilada. Además, Happn menciona explicitamente con que terceros comerciales (trackers) son con los que comparte datos y sede al usuario la posibilidad de marcar o desmarcar alguno de estos trackers sin modificar el funcionamiento de la aplicación o afectar el registro.
+Happn, además de mencionar la información que recopila en Google Play Store y su Política de Privacidad, hace conocimiento a sus usuarios en el momento del registro y primer uso de esta aplicación acerca de esta información recopilada. Además, Happn menciona explícitamente que terceros comerciales (trackers) son con los que comparte datos y sede al usuario la posibilidad de marcar o desmarcar alguno de estos trackers sin modificar el funcionamiento de la aplicación o afectar el registro.
 
-### Tiempo de almcenamiento de datos 
-Happn es explicito y claro con el tiempo que almacena los datos de los usuarios según la actividad del usuario.
-En general, los datos de los miembros se conservan mientras la cuenta esté activa y en caso de inactividad por 24 meses. Si la cuenta es eliminada, manteniéndose ciertos datos por un año adicional antes de ser destruidos o anonimizados de manera irreversible. 
+### Tiempo de almacenamiento de datos
+Happn es explícito y claro con el tiempo que almacena los datos de los usuarios según la actividad del usuario.
+En general, los datos de los miembros se conservan mientras la cuenta esté activa y en caso de inactividad por 24 meses. Si la cuenta es eliminada, manteniéndose ciertos datos por un año adicional antes de ser destruidos o anonimizados de manera irreversible.
 En caso de prohibición de una cuenta, los datos permanecen accesibles por 24 meses para evitar nuevas inscripciones y luego se archivan por otro año antes de su eliminación definitiva. Cuando un usuario elimina su cuenta de manera voluntaria, sus datos son almacenados por un año adicional en cumplimiento con regulaciones legales. Además, la información de contacto.
 
 ### Rastreadores
-Happn cuenta con una cantidad de permisos baja en comparación con aplicaciones de estos tipos como Grindr, Tinder o BUmble, situación 
+Happn cuenta con una cantidad de permisos baja en comparación con aplicaciones de estos tipos como Grindr, Tinder o BUmble, situación
 
 ### Ubicación
-Happn demostró que para el funcionamiento pleno de la aplicación no es compeltamente necesario tener la ubicación, encendida ya que al momento del registro, solicita al usuario la ciudad en la que vive, tomando eso como puno de referencia principal para sus algoritmos de emparejamiento.
+Happn demostró que para el funcionamiento pleno de la aplicación no es completamente necesario tener la ubicación encendida ya que al momento del registro, solicita al usuario la ciudad en la que vive, tomando eso como punto de referencia principal para sus algoritmos de emparejamiento.
 
-No obstante, al permitir a la aplicación el acceso a la ubicación, la funcion **cruces** permite conocer con que usuarios te has topado en la vida real mediante el despligue de un mapa (uso de google maps) y, aunque estos **cruces** no muestran la ubicación exacta de los usuarios, esta funcion puede revelar puntos que otros usuarios frecuentan, prepresentando un posible riesgo de triangulación de ubicación.
+No obstante, al permitir a la aplicación el acceso a la ubicación, la función **cruces** permite conocer con qué usuarios te has topado en la vida real mediante el despliegue de un mapa (uso de google maps) y, aunque estos **cruces** no muestran la ubicación exacta de los usuarios, esta función puede revelar puntos que otros usuarios frecuentan, representando un posible riesgo de triangulación de ubicación.
 
-En general Happn es una aplicación con una buena transparencia en comparación con aplicaciones de este tipo. La congruencia en entre lo declarado en su política de privacidad y lo declarado en Google Play store es congruente.
-La cantidad de permisos son promedio, además, no hay permisos invasivos para los usuarios, siendo estos lo que eligen la dinámica de funcionalidad de la aplicación. Happn tiene una tabla completa de empresas de terceros con los que comparte información y el proposito de compartir la informacipon. 
-Los tiempos de retención de información son claros y se explican los contextos de retención. Además, en comparación con otras aplicaciones, Happn ampliamente dice que **anonimiza** la información de los usuarios al compartirla y en comparación con otras aplicaciones ismilares, los tiempos de retención de información de usuarios es consideramente corta.
+En general Happn es una aplicación con una buena transparencia en comparación con aplicaciones de este tipo. La congruencia entre lo declarado en su política de privacidad y lo declarado en Google Play Store es congruente.
+La cantidad de permisos son promedio, además, no hay permisos invasivos para los usuarios, siendo estos lo que eligen la dinámica de funcionalidad de la aplicación. Happn tiene una tabla completa de empresas de terceros con los que comparte información y el propósito de compartir la información.
+Los tiempos de retención de información son claros y se explican los contextos de retención. Además, en comparación con otras aplicaciones, Happn ampliamente dice que **anonimiza** la información de los usuarios al compartirla y en comparación con otras aplicaciones similares, los tiempos de retención de información de usuarios es considerablemente corta.
