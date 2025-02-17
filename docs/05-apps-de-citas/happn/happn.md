@@ -179,7 +179,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 |---|---|---|---|---|
 |3.161.44.125|48|United States||AMAZON-02|
 |3.161.55.32|80|United States||AMAZON-02|
-|10.1.10.1|31685|||||
 |104.16.33.190|136||||CLOUDFLARENET|
 |104.16.34.190|96||||CLOUDFLARENET|
 |104.16.35.190|52||||CLOUDFLARENET|
