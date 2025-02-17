@@ -234,7 +234,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 |3.161.41.150|92|United States||AMAZON-02|
 |3.161.57.55|23|United States||AMAZON-02|
 |3.161.57.191|27|United States||AMAZON-02|
-|10.1.10.1|56026|||||
 |18.160.114.203|46|United States|Seattle|AMAZON-02|
 |18.160.123.89|17|United States|Seattle|AMAZON-02|
 |18.160.123.130|23|United States|Seattle|AMAZON-02|

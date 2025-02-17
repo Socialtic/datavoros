@@ -93,12 +93,10 @@ Badoo es la aplicación de citas que te permite ligar, chatear y tener tu primer
 |https://ns.adobe.com/|
 |https://g.tenor.com/|
 |https://badoo.com/|
-|https://172.100.1.5/|
 |https://docs.sentry.io/|
 |https://sf16-static.i18n-pglstatp.com/|
 |https://tizen.org/|
 |https://exoplayer.dev/|
-|https://lf3-cdn-tos.bytegoofy.com/|
 |https://api.giphy.com/|
 |https://xmlpull.org/|
 |https://goo.gle/|
@@ -108,7 +106,6 @@ Badoo es la aplicación de citas que te permite ligar, chatear y tener tu primer
 |https://m.badoo.com/|
 |https://sapp.s/|
 |https://client-api.arkoselabs.com/|
-|https://192.168.11.216/|
 |https://webapps.globalcharge.com/|
 |https://issuetracker.google.com/|
 |https://github.com/|
@@ -243,7 +240,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 3.161.57.191   | 58               | United States |                   | AMAZON-02                                 |
 | 3.226.181.61   | 31               | United States | Ashburn           | AMAZON-AES                                |
 | 3.231.83.229   | 32               | United States | Ashburn           | AMAZON-AES                                |
-| 10.1.10.1     | 86668             |               |                   |                                           |
 | 18.160.114.68  | 29               | United States | Seattle           | AMAZON-02                                 |
 | 18.160.114.203 | 64               | United States | Seattle           | AMAZON-02                                 |
 | 18.160.123.130 | 25               | United States | Seattle           | AMAZON-02                                 |

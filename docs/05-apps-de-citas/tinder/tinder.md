@@ -88,29 +88,29 @@ Chat de video: ¡prueba tu química en citas virtuales y conoce a tus matches de
 
 |Dominios|
 |---|
-|[policies.tinder.com](https://policies.tinder.com)|
-|[square.github.io](https://square.github.io)|
-|[www.emergetools.com](https://www.emergetools.com)|
-|[findbugs.sourceforge.net](https://findbugs.sourceforge.net)|
-|[checkerframework.org](https://checkerframework.org)|
-|[tools.android.com](https://tools.android.com)|
-|[www.joda.org](https://www.joda.org)|
-|[uwaterloo.ca](https://uwaterloo.ca)|
-|[protobuf.dev](https://protobuf.dev)|
-|[code.google.com](https://code.google.com)|
-|[bugsnag.com](https://www.bugsnag.com)|
-|[www.reactive-streams.org](https://www.reactive-streams.org)|
-|[kryo.googlecode.com](https://code.google.com/archive/p/kryo)|
-|[cs.android.com](https://cs.android.com)|
-|[jcp.org](https://jcp.org)|
-|[opensource.org](https://opensource.org)|
-|[objenesis.org](https://objenesis.org)|
-|[facebook.github.io](https://facebook.github.io)|
-|[rtyley.github.io](https://rtyley.github.io)|
-|[source.android.com](https://source.android.com)|
-|[gotinder-com-api-project-465293127427.firebaseio.com](https://console.firebase.google.com/)|
-|[tensorflow.org](https://tensorflow.org)|
-|[tokbox.com](https://tokbox.com)|
+|https://policies.tinder.com |
+|https://square.github.io |
+|https://www.emergetools.com |
+|https://findbugs.sourceforge.net |
+|https://checkerframework.org |
+|https://tools.android.com |
+|https://www.joda.org |
+|https://uwaterloo.ca |
+|https://protobuf.dev |
+|https://code.google.com |
+|https://www.bugsnag.com |
+|https://www.reactive-streams.org |
+|https://code.google.com/archive/p/kryo |
+|https://cs.android.com |
+|https://jcp.org |
+|https://opensource.org |
+|https://objenesis.org |
+|https://facebook.github.io |
+|https://rtyley.github.io |
+|https://source.android.com |
+|https://console.firebase.google.com/ |
+|https://tensorflow.org |
+|https://tokbox.com |
 
 
 ## Permisos   
