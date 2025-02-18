@@ -45,6 +45,12 @@ nav:
       - Red Panic Button: '04-apps-de-25n/red-panic-button/red_panic_button.md'
       - Círculo: '04-apps-de-25n/circulo/circulo.md'
       - Botón de auxilio Escudo Urbano: '04-apps-de-25n/boton-auxilio-escudo-urbano/boton-auxilio-escudo-urbano.md'
+    - Aplicaciones de citas:
+      - Badoo: '05-apps-de-citas/badoo/badoo.md'
+      - Bumble: '05-apps-de-citas/bumble/bumble.md'
+      - Grindr: '05-apps-de-citas/grindr/grindr.md'
+      - Happn: '05-apps-de-citas/happn/happn.md'
+      - Tinder: '05-apps-de-citas/tinder/tinder.md'
   - Listado de rastreadores y permisos:
     - Inicio: 'trackers-permisos/inicio.md'
     - Permisos: 'trackers-permisos/99-listado-permisos.md'
