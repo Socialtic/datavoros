@@ -45,7 +45,6 @@ nav:
       - Red Panic Button: '04-apps-de-25n/red-panic-button/red_panic_button.md'
       - Círculo: '04-apps-de-25n/circulo/circulo.md'
       - Botón de auxilio Escudo Urbano: '04-apps-de-25n/boton-auxilio-escudo-urbano/boton-auxilio-escudo-urbano.md'
-
   - Listado de rastreadores y permisos:
     - Inicio: 'trackers-permisos/inicio.md'
     - Permisos: 'trackers-permisos/99-listado-permisos.md'
@@ -82,7 +81,7 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/socialtic
     - icon: fontawesome/brands/github
-      link: https://github.com/socialtic/qttd
+      link: https://github.com/Socialtic/datavoros
     - icon: material/web
       link: https://socialtic.org
 
