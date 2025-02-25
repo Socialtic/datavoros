@@ -8,6 +8,8 @@ El siguiente diagrama representa el proceso a seguir con la diferencia que usare
 
 ![diagrama](./capturas_de_pantalla/instalacion-laboratorio/diagrama.png)
 
+> **Nota**: Esta guía ha sido actualizada en febrero de 2025, por lo que se agregaron recursos actualizados que pueden no coincidir con las imagenes, sin embargo, esto no afecta el proceso de análisis.
+
 > **Importante**: Si utilizas la aplicacion Draeneg para capturar tráfico de red, gran parte de la preparación de este laboratorio no será necesario. Te sugerimos visitar la sección para instalar Wireshark en este tutorial. Adicionalmente, te sugerimos consultar [el tutorial de Draeneg](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/).
 
 ## **Pasos a realizar**
@@ -17,6 +19,8 @@ El siguiente diagrama representa el proceso a seguir con la diferencia que usare
 - Instalar Wireguard en nuestro teléfono
 - Instalar WireGuard en Ubuntu
 - Instalar Wireshark y Tshark
+- Instalación de Java
+- Instalación de Docker
 
 
 ## Instalación de software de virtualización
@@ -355,7 +359,55 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
    ~~~
    sudo apt install tshark
    ~~~
-   ¡Listo, ya terminamos de configurar nuestro laboratorio!
+
+## Instalación de Java 
+
+### Pasos a seguir
+
+1. Abre la terminal y ejecuta los siguientes comanod de actualización e instalación 
+   ~~~
+   sudo apt update
+   sudo apt install default-jre
+   ~~~
+2. Verifica que java funciona correctamente
+   - UNa vez instalado Java, ejecuta este comando
+      ~~~
+      sudo apt update
+      sudo apt install default-jre
+      ~~~
+   - Aparecera la versión de java
+
+## Instalación de Docker
+
+### Pasos a seguir
+
+1. Abre la terminal y ejecuta el siguiente comando de actualización
+   ~~~
+   sudo apt update && sudo apt upgrade -y
+   ~~~
+2. Ejecuta el comando de instalación de Docker
+   ~~~
+   sudo apt install -y docker.io
+   ~~~
+3. Inicia y hablita Docker
+   ~~~
+   sudo systemctl start docker
+   sudo systemctl enable docker
+   ~~~
+4. Arega el usuario al grupo de docker
+   - Ejecuta este comando para evitar sudo en cada comando de Docker
+      ~~~
+      sudo usermod -aG docker $USER
+      newgrp docker
+      ~~~
+5. Verificar la instalación
+   ~~~
+   docker --version
+   ~~~
+
+## Conclusión
+
+   Para este punto, haz instalado todas las herrmaientas necesarias para poder realizar el análisis de las aplicaciones moviles en Adroid, por lo que estas listo y bien posicionado para poder seguir con los siguientes tutoriales, ¡Animo!
    
 
 
