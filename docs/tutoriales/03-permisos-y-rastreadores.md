@@ -1,69 +1,111 @@
-# Permisos
+# Tutorial: Identificación de permisos y rastreadores en aplicaciones Android
 
-En esta sección vamos a mostrar cómo averiguar cuáles son los permisos que están embebidos en el código de una aplicación y cuáles son aquellos que la Playstore nos muestra. 
+En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplicación tanto desde la PlayStore de Google como mediante el servicio de Exodus Privacy. Además, descubrirás cómo identificar los rastreadores presentes en una aplicación y acceder a información detallada sobre ellos.
 
-## Permisos de la Playstore
+## Objetivos
 
-1. Para averiguar los permisos de una aplicación desde la PlayStore de Google, lo primero que tenemos que hacer es acceder a la [PlayStore](https://play.google.com/store/apps). 
+- **Permisos en la PlayStore:** Aprender a encontrar y visualizar los permisos que solicita una aplicación a través de la PlayStore.
+- **Permisos embebidos:** Utilizar Exodus Privacy para analizar los permisos que están integrados en el código de la aplicación.
+- **Rastreadores:** Identificar y obtener detalles de los rastreadores que se detectan en una aplicación.
 
-2. Activamos la opción de buscar:
-![1](./capturas_de_pantalla/permisos/1-permisos-playstore.png)
+## Requisitos Previos
 
-3. Ponemos el nombre de la aplicación en la barra de búsqueda:
-![2](./capturas_de_pantalla/permisos/2-permisos-playstore.png)
-
-4. Entramos a la aplicación y bajamos hasta la sección de "Información de la aplicación":
-![3](./capturas_de_pantalla/permisos/3-permisos-playstore.png)
-
-5. Damos clic en "detalles" en la sección de "Permisos":
-![4](./capturas_de_pantalla/permisos/4-permisos-playstore.png)
-
-6. Así aparecen los permisos:
-![5](./capturas_de_pantalla/permisos/5-permisos-playstore.png)
-
-## Permisos mediante Exodus Privacy
-
-A través del servicio en línea de [Exodus Privacy](https://exodus-privacy.eu.org/en/) podemos averiguar los permisos que están embebidos en el código de cada aplicación.
-
-1. Entramos a este [enlace](https://reports.exodus-privacy.eu.org/en/).
-
-2. Aquí podemos buscar la aplicación ya sea por su nombre o por la dirección URL que aparece en la PlayStore. Esta dirección es la que aparece en la barra de direcciones del paso 4 del tutorial anterior. En importante reconocer el nombre que aparece después del valor "id=", ya que este nombre de la aplicación nos servirá más adelante. 
-![1](./capturas_de_pantalla/permisos/1-permisos-exodus.png)
-
-3. Si la aplicación ya fue analizada con anterioridad por algún otro usuario, aparecerá en la lista de resultados. En este ejemplo, como nosotros la analizamos, aparece la app 9-1-1 Emergencias:
-![2](./capturas_de_pantalla/permisos/2-permisos-exodus.png)
-
-4. Si la aplicación no aparece o la versión de la aplicación es distinta a la que queremos analizar, entonces bajamos hasta la sección donde dice "Perform new analysis":
-![3](./capturas_de_pantalla/permisos/3-permisos-exodus.png)
-
-5. Nos solicita la dirección URL de la aplicación. Como se ve, a la hora de pegarla, no aparece la URL completa, sino el valor que mencionamos en el paso 2 de esta sección. Le damos click a "Perform analysis":
-![4](./capturas_de_pantalla/permisos/4-permisos-exodus.png)
-
-6. Nos aparecerá una pantalla que dice que se está realizando el análisis:
-![5](./capturas_de_pantalla/permisos/5-permisos-exodus.png)
-
-7. Terminado el análisis nos dirá que ya podemos analizar el reporte. Le damos click a "See the report":
-![6](./capturas_de_pantalla/permisos/6-permisos-exodus.png)
-
-8. Lo primero que vemos es un resumen con el número de rastreadores presentes y la cantidad de permisos:
-![7](./capturas_de_pantalla/permisos/7-permisos-exodus.png) 
-
-9. Si bajamos un en la página, llegaremos a la sección de permisos, donde se nos mostrarán todos los permisos embebidos en el código, algunos con explicación de qué es lo que hacen, otros no. Y además algunos con un signo de exclamación en rojo, que indica que es un permiso peligroso según lo considera Google.
-![8](./capturas_de_pantalla/permisos/8-permisos-exodus.png)
-
-# Rastreadores
-
-Para averiguar qué rastreadores tiene una aplicación hay que seguir los mismos pasos de la sección anterior. En el listado de rastreadores, sin embargo, podemos acceder a una página de referencia con más información del rastreador en cuestión:
-![9](./capturas_de_pantalla/permisos/9-permisos-exodus.png)
-
-- En esta página aparecen datos relevantes sobre el rastreador. Hasta arriba, el nombre. Justo abajo, el tipo de rastreador, es decir, para qué se usa. En nuestro ejemplo "Advertising", es decir, para publicidad.
-
-- "Present in" se refiere a la cantidad de aplicaciones en las cuales ha sido encontrado este rastreador.
-
-- Luego tenemos dos enlaces a las páginas web del rastreador para desarrolladores y del lado derecho el enlace "Tracker web page" nos dirige a la página general del rastreador (Esta información no siempre aparece para todos los rastreadores).
-
-- Por último tenemos la sección "Detection Rules". Estas son las reglas de detección del rastreador dentro del código de la aplicación. En otras palabras, cuando en el código de la aplicación aparece alguna de las cadenas de esta sección, entonces podemos estar seguros que el rastreador está presente. 
+- Acceso a Internet y un navegador web.
+- Conocer el enlace a la [PlayStore de Google](https://play.google.com/store/apps).
+- Acceso al servicio [Exodus Privacy](https://exodus-privacy.eu.org/en/).
 
 
 
+## Parte 1: Consultar permisos en la PlayStore
 
+### Paso 1: Acceder a la PlayStore
+
+1. Abre tu navegador y entra en la [PlayStore de Google](https://play.google.com/store/apps).
+
+### Paso 2: Buscar la aplicación
+
+1. Activa la opción de búsqueda haciendo clic en el ícono correspondiente.  
+   ![1](./capturas_de_pantalla/permisos/1-permisos-playstore.png)
+2. Escribe el nombre de la aplicación en la barra de búsqueda.  
+   ![2](./capturas_de_pantalla/permisos/2-permisos-playstore.png)
+
+### Paso 3: Acceder a la información de la aplicación
+
+1. Selecciona la aplicación de la lista de resultados.
+2. Desplázate hasta la sección **"Información de la aplicación"**.  
+   ![3](./capturas_de_pantalla/permisos/3-permisos-playstore.png)
+
+### Paso 4: Visualizar los permisos
+
+1. Haz clic en **"detalles"** dentro de la sección de **"Permisos"**.  
+   ![4](./capturas_de_pantalla/permisos/4-permisos-playstore.png)
+2. Se mostrará una lista con los permisos que la aplicación solicita.  
+   ![5](./capturas_de_pantalla/permisos/5-permisos-playstore.png)
+
+
+## Parte 2: Analizar permisos embebidos mediante Exodus Privacy
+
+### Paso 1: Acceder a Exodus Privacy
+
+1. Dirígete al [sitio de Exodus Privacy](https://exodus-privacy.eu.org/en/).
+
+### Paso 2: Buscar la aplicación
+
+1. Puedes buscar la aplicación por su nombre o utilizando la URL de la PlayStore (extrae el identificador que aparece después de `id=` en la URL).  
+   ![1](./capturas_de_pantalla/permisos/1-permisos-exodus.png)
+
+### Paso 3: Revisar resultados previos
+
+1. Si la aplicación ya fue analizada, aparecerá en la lista de resultados.  
+   ![2](./capturas_de_pantalla/permisos/2-permisos-exodus.png)
+
+### Paso 4: Realizar un nuevo análisis (si es necesario)
+
+1. Si la aplicación o la versión que deseas analizar no aparece, desplázate hasta **"Perform new analysis"**.  
+   ![3](./capturas_de_pantalla/permisos/3-permisos-exodus.png)
+2. Ingresa la URL o el identificador de la aplicación y haz clic en **"Perform analysis"**.  
+   ![4](./capturas_de_pantalla/permisos/4-permisos-exodus.png)
+3. Espera a que se complete el análisis.  
+   ![5](./capturas_de_pantalla/permisos/5-permisos-exodus.png)
+
+### Paso 5: Revisar el reporte de análisis
+
+1. Una vez finalizado el análisis, haz clic en **"See the report"**.  
+   ![6](./capturas_de_pantalla/permisos/6-permisos-exodus.png)
+2. Se mostrará un resumen con el número de rastreadores y la cantidad de permisos.  
+   ![7](./capturas_de_pantalla/permisos/7-permisos-exodus.png)
+3. Desplázate hacia abajo para visualizar la sección de permisos, donde encontrarás:
+   - Una lista de permisos embebidos.
+   - Explicaciones adicionales para algunos permisos.
+   - Indicadores (como un signo de exclamación en rojo) que señalan permisos considerados peligrosos por Google.  
+   ![8](./capturas_de_pantalla/permisos/8-permisos-exodus.png)
+
+
+
+## Parte 3: Identificar rastreadores en la aplicación
+
+### Paso 1: Acceder a la sección de rastreadores
+
+1. Dentro del reporte de Exodus Privacy, ubica la sección dedicada a los rastreadores.  
+   ![9](./capturas_de_pantalla/permisos/9-permisos-exodus.png)
+
+### Paso 2: Consultar información detallada del rastreador
+
+1. Haz clic en cualquier rastreador para acceder a una página con información adicional.
+2. En la página del rastreador encontrarás:
+   - **Nombre del rastreador** y **tipo de rastreador** (por ejemplo, "Advertising" para publicidad).
+   - La cantidad de aplicaciones en las que se ha detectado el rastreador.
+   - Enlaces a la página para desarrolladores y, en algunos casos, un enlace a la página web general del rastreador.
+   - **Detection Rules:** Reglas que explican cómo se identifica la presencia del rastreador en el código de la aplicación.
+
+
+
+## Conclusión
+
+En este tutorial has aprendido a:
+
+- **Visualizar permisos en la PlayStore:** Mediante una búsqueda y exploración de la sección "Información de la aplicación".
+- **Analizar permisos embebidos:** Usando Exodus Privacy para obtener un informe detallado de los permisos integrados en el código.
+- **Identificar rastreadores:** Revisando el reporte de Exodus Privacy y consultando información detallada de cada rastreador.
+
+Con estos pasos, estarás mejor equipado para evaluar la seguridad y privacidad de las aplicaciones que utilizas. ¡Practica estos procedimientos y refuerza tu conocimiento sobre la protección de datos en el entorno móvil!
