@@ -126,12 +126,12 @@ Una vez que MobSF esté en ejecución, sigue estos pasos para analizar un archiv
 
 ## Conclusión
 
-En este tutorial aprendiste a:
+   En este tutorial aprendiste a:
 
-- **Comprender MobSF:** Conocer las capacidades de MobSF para realizar análisis de seguridad en aplicaciones móviles.
-- **Instalar MobSF:** Seguir los pasos y cumplir los requerimientos para instalar MobSF, tanto para análisis estáticos como dinámicos.
-- **Ejecutar MobSF:** Iniciar el servidor local y acceder a la interfaz web.
-- **Realizar análisis estáticos:** Subir un archivo APK, visualizar permisos, analizar conexiones de red y rastreadores, y generar reportes PDF.
+   - **Comprender MobSF:** Conocer las capacidades de MobSF para realizar análisis de seguridad en aplicaciones móviles.
+   - **Instalar MobSF:** Seguir los pasos y cumplir los requerimientos para instalar MobSF, tanto para análisis estáticos como dinámicos.
+   - **Ejecutar MobSF:** Iniciar el servidor local y acceder a la interfaz web.
+   - **Realizar análisis estáticos:** Subir un archivo APK, visualizar permisos, analizar conexiones de red y rastreadores, y generar reportes PDF.
 
-Esta guía diataxis te proporciona una visión completa para utilizar MobSF como una herramienta integral en tus análisis de seguridad en aplicaciones móviles. ¡Empieza a experimentar y mejora la seguridad de tus aplicaciones!
-**
+   Esta guía diataxis te proporciona una visión completa para utilizar MobSF como una herramienta integral en tus análisis de seguridad en aplicaciones móviles. ¡Empieza a experimentar y mejora la seguridad de tus aplicaciones!
+   **
