@@ -1,6 +1,5 @@
 # Tutorial: Instalación de laboratorio para analisis de aplicaciones moviles.
 
-## **Introducción**
 
 En este tutorial vamos a configurar un laboratorio para el analisis de aplicaciones móviles utilizando las herramientas de virtualización VirtualBox y VMWare, así como tambien las herrameintas de captura de tráfico de red Wireshark y Tshark.
 
@@ -39,12 +38,16 @@ VirtualBox y VMWare son gratuitos y pueden ser instalados en sistemas Windows, L
 #### **Paso 1: Actualizar sistema y preparar repositorio**
 
 - Abre la terminal y ejecuta el sigueinte comando
+
    ``` 
-    sudo add-apt-repository multiverse && sudo apt-get update
-    ```
+   sudo add-apt-repository multiverse && sudo apt-get update
+   ```
+    
     ![multiverse_y_update](./capturas_de_pantalla/instalacion-laboratorio/multiverse-y-update.png)
+
 #### **Paso 2: Instalación de VirtualBox**
 - Ejecuta el siguiente comando para instalar virtualbox
+    
     ```
     $ sudo apt install virtualbox
     ```
@@ -55,9 +58,9 @@ VirtualBox y VMWare son gratuitos y pueden ser instalados en sistemas Windows, L
 #### **Paso 3: Iniciar VirtualBox**    
 - Una vez instalado VirtualBox, puedes ejecutarlo de las sigueintes maneras:
     - Abre tu terminal y ejecuta la sigueinte linea:
-        ~~~
+        ```
         $ virtualbox
-        ~~~
+        ```
     - Busca el icono de VirtualBox en la lista de aplicaciones.
 
 
@@ -241,84 +244,84 @@ Puedes descargar un disco virtual con Ubuntu preinstalado desde [este enlace](ht
 
 2. **Identifica las interfaces de red**
     - Escribe el sigueinte comando:
-        ~~~
+        ```
         ip a
-        ~~~
+        ```
     - Identifica la segunda interfaz (por ejemplo, `ens33`) y toma nota de la dirección IP local asignada (por ejemplo, `192.168.37.133`).
 
     ![interfaces de red](./capturas_de_pantalla/instalacion-laboratorio/interfaces.png)
 
 3. **Instalar Git**
     - Escribe el sigueinte comando en la terminal para instalar git
-        ~~~
+        ```
         sudo apt update && sudo apt install git
-        ~~~
+        ```
     - Introduce tu contraseña cuando se te solicite y presiona **Enter** para continuar.
 
 4. **Dscargar el script de instalación para wireguard**
     - Descarga el script con el comando:
-        ~~~ 
+        ``` 
         git clone https://github.com/angristan/wireguard-install
-        ~~~
+        ```
 
 5. **Acceder al directorio del script**
     - Cambia al directorio descargado
-        ~~~
+        ```
         cd wireguard-install
-        ~~~
+        ```
 6. **Dar permisos de ejecución al script**  
    - Ejecuta el siguiente comando para habilitar permisos de ejecución:  
-        ~~~
+        ```
         chmod +x wireguard-install.sh
-        ~~~
+        ```
 7. **Ejecutar el script como administrador**  
    - Inicia el script con privilegios de superusuario: 
-        ~~~
+        ```
         sudo ./wireguard-install.sh
-        ~~~
+        ```
 8. **Configurar WireGuard paso a paso**  
    Responde a las preguntas del script siguiendo las recomendaciones:  
    - **Dirección IP pública**: Confirma la dirección IP local identificada anteriormente.  
-      ~~~
-     IPv4 or IPv6 public address: 192.168.37.133
-      ~~~ 
+      ```
+      IPv4 or IPv6 public address: 192.168.37.133
+      ``` 
    - **Interfaz pública**: Confirma el nombre de la interfaz.  
-      ~~~
-     Public interface: ens33
-      ~~~ 
+      ```
+      Public interface: ens33
+      ``` 
    - **Nombre de la interfaz de WireGuard**: Usa el valor predeterminado `wg0`.  
-      ~~~
-     WireGuard interface name: wg0
-      ~~~  
+      ```
+      WireGuard interface name: wg0
+      ```
    - **Dirección IPv4 del servidor**: Usa el valor predeterminado.  
-      ~~~
-     Server's WireGuard IPv4: 10.66.66.1
-      ~~~  
+      ```
+      Server's WireGuard IPv4: 10.66.66.1
+      ```  
    - **Dirección IPv6 del servidor**: Usa el valor predeterminado.  
-      ~~~
-     Server's WireGuard IPv6: fd42:42:42::1
-      ~~~  
+      ```
+      Server's WireGuard IPv6: fd42:42:42::1
+      ```  
    - **Puerto del servidor**: Usa el valor predeterminado.  
-      ~~~
-     Server's WireGuard port [1-65535]: 49259
-      ~~~  
+      ```
+      Server's WireGuard port [1-65535]: 49259
+      ```  
    - **Resolver DNS para clientes**: Acepta los valores sugeridos.  
-      ~~~
-     First DNS resolver to use for the clients: 94.140.14.14  
-     Second DNS resolver to use for the clients (optional): 94.140.15.15
-      ~~~  
+      ```
+      First DNS resolver to use for the clients: 94.140.14.14  
+      Second DNS resolver to use for the clients (optional): 94.140.15.15
+      ``` 
    - **Nombre del cliente**: Asigna un nombre, por ejemplo, `socialtic`.  
-      ~~~
-     Client name: socialtic
-      ~~~  
+      ```
+      Client name: socialtic
+      ```  
    - **Dirección IPv4 del cliente**: Usa el valor predeterminado.  
-      ~~~
-     Client's WireGuard IPv4: 10.66.66.2
-      ~~~  
+      ```
+      Client's WireGuard IPv4: 10.66.66.2
+      ``` 
    - **Dirección IPv6 del cliente**: Usa el valor predeterminado.  
-      ~~~
-     Client's WireGuard IPv6: fd42:42:42::2
-      ~~~
+      ```
+      Client's WireGuard IPv6: fd42:42:42::2
+      ```
 9. **Conectar con el dispositivo Android (Cliente)**
     - Ahora nos aparecerá un código QR en la pantalla. (Si no se ve completo, expandir la terminal).
         
@@ -343,9 +346,9 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 
 1. **Instalar Wireshark**  
    Abre la terminal en tu máquina virtual y ejecuta el siguiente comando:  
-   ~~~
+   ```
    sudo apt install wireshark
-   ~~~
+   ```
    Como ya sabemos, esto instalará el programa de Wireshark. 
    A la mitad de la instalación de Wireshark, aparecerá la siguiente pregunta:  
 
@@ -356,25 +359,25 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 2. **Instalación de Tshark**
 
    Una vez finalizada la instalación de Wireshark (que también puede realizarse desde la Ubuntu Software App), procede a instalar Tshark ejecutando el siguiente comando en la terminal:  
-   ~~~
+   ```
    sudo apt install tshark
-   ~~~
+   ```
 
 ## Instalación de Java 
 
 ### Pasos a seguir
 
 1. Abre la terminal y ejecuta los siguientes comanod de actualización e instalación 
-   ~~~
+   ```
    sudo apt update
    sudo apt install default-jre
-   ~~~
+   ```
 2. Verifica que java funciona correctamente
    - UNa vez instalado Java, ejecuta este comando
-      ~~~
+      ```
       sudo apt update
       sudo apt install default-jre
-      ~~~
+      ```
    - Aparecera la versión de java
 
 ## Instalación de Docker
@@ -382,28 +385,28 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 ### Pasos a seguir
 
 1. Abre la terminal y ejecuta el siguiente comando de actualización
-   ~~~
+   ```
    sudo apt update && sudo apt upgrade -y
-   ~~~
+   ```
 2. Ejecuta el comando de instalación de Docker
-   ~~~
+   ```
    sudo apt install -y docker.io
-   ~~~
+   ```
 3. Inicia y hablita Docker
-   ~~~
+   ```
    sudo systemctl start docker
    sudo systemctl enable docker
-   ~~~
+   ```
 4. Arega el usuario al grupo de docker
    - Ejecuta este comando para evitar sudo en cada comando de Docker
-      ~~~
+      ```
       sudo usermod -aG docker $USER
       newgrp docker
-      ~~~
+      ```
 5. Verificar la instalación
-   ~~~
+   ```
    docker --version
-   ~~~
+   ```
 
 ## Conclusión
 

@@ -280,6 +280,8 @@ Para hacer esto, existen dos maneras.
 
    ![dns6](./capturas_de_pantalla/dns-y-sni/dns6.png)
 
+
+## Conclusión
 Este análisis permite identificar dominios específicos contactados por la aplicación, incluso si las direcciones IP corresponden a servidores compartidos. Con esta información, es posible:
 - Determinar la ubicación y función de los dominios.
 - Identificar servicios específicos utilizados por la aplicación.

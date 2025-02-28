@@ -1,6 +1,5 @@
 # Tutorial: Descarga de archivos APK
 
-## Introducción
 Los archivos **APK** (**Android Package Kit**) son el formato utilizado por Android para distribuir e instalar aplicaciones. Su equivalente en Windows sería un archivo **.exe**. Contienen todos los elementos necesarios para instalar una aplicación en un dispositivo Android.
 
 Para analizar aplicaciones con herramientas como **MobSF**, es necesario contar con los archivos APK. Existen varias maneras de obtenerlos, que se describen a continuación.
@@ -112,6 +111,6 @@ Otra manera de obtener un archivo APK es extrayéndolo desde un dispositivo Andr
 Si no se especifica una ruta, el APK se guardará en el directorio actual de la terminal.
 
 ## Conclusión
-Existen diversas maneras de obtener archivos APK. El método a elegir dependerá de la preferencia del usuario y la seguridad requerida. Para análisis de seguridad, se recomienda obtener los APKs directamente desde Google Play o extraerlos de un dispositivo físico con adb para asegurar su integridad.
+   Existen diversas maneras de obtener archivos APK. El método a elegir dependerá de la preferencia del usuario y la seguridad requerida. Para análisis de seguridad, se recomienda obtener los APKs directamente desde Google Play o extraerlos de un dispositivo físico con adb para asegurar su integridad.
 
-Con estas herramientas y técnicas, se pueden obtener APKs de manera eficiente y segura.
+   Con estas herramientas y técnicas, se pueden obtener APKs de manera eficiente y segura.

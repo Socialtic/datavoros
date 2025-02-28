@@ -1,6 +1,9 @@
 # Turotial: Captura de tráfico a través de la aplicación Draeneg
 
-Este breve tutorial detalla cómo capturar el tráfico de una aplicación utilizando la aplicación Draeneg. A continuación se detallan los pasos.
+## Introducción
+En este tutorial, aprenderás a capturar el tráfico de una aplicación en un dispositivo Android utilizando Draeneg, una herramienta intuitiva que emplea una VPN interna para registrar los paquetes de datos generados por cualquier aplicación en ejecución.
+
+A lo largo de esta guía, se detallarán los pasos necesarios para instalar Draeneg, configurar la captura de tráfico y exportar los datos en formato PCAP, facilitando su posterior análisis con herramientas especializadas como Wireshark.
 
 ## Pasos
 
@@ -63,4 +66,6 @@ Este breve tutorial detalla cómo capturar el tráfico de una aplicación utiliz
 
 Como **resultado**, el archivo generado estará en formato **PCAP** y podrá ser **analizado** posteriormente con herramientas como **Wireshark**
 
-¡Listo! Es momento de pasar al análisis del tráfico capturado.
+## Conclusión
+
+	Ahora que has aprendido a realizar esta captura, el siguiente paso es interpretar la información obtenida y utilizarla para mejorar la seguridad y optimización de tus sistemas. ¡Buena suerte en tu análisis!

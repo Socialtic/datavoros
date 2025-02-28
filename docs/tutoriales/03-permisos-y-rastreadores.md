@@ -102,10 +102,10 @@ En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplic
 
 ## Conclusión
 
-En este tutorial has aprendido a:
+   En este tutorial has aprendido a:
 
-- **Visualizar permisos en la PlayStore:** Mediante una búsqueda y exploración de la sección "Información de la aplicación".
-- **Analizar permisos embebidos:** Usando Exodus Privacy para obtener un informe detallado de los permisos integrados en el código.
-- **Identificar rastreadores:** Revisando el reporte de Exodus Privacy y consultando información detallada de cada rastreador.
+   - **Visualizar permisos en la PlayStore:** Mediante una búsqueda y exploración de la sección "Información de la aplicación".
+   - **Analizar permisos embebidos:** Usando Exodus Privacy para obtener un informe detallado de los permisos integrados en el código.
+   - **Identificar rastreadores:** Revisando el reporte de Exodus Privacy y consultando información detallada de cada rastreador.
 
-Con estos pasos, estarás mejor equipado para evaluar la seguridad y privacidad de las aplicaciones que utilizas. ¡Practica estos procedimientos y refuerza tu conocimiento sobre la protección de datos en el entorno móvil!
+   Con estos pasos, estarás mejor equipado para evaluar la seguridad y privacidad de las aplicaciones que utilizas. ¡Practica estos procedimientos y refuerza tu conocimiento sobre la protección de datos en el entorno móvil!
