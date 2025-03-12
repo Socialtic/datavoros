@@ -1,18 +1,18 @@
 # Tutorial: Captura y análisis del tráfico de red de aplicaciones en Android
 
-Este tutorial te guiará paso a paso para capturar y analizar el tráfico de red de aplicaciones Android, utilizando herramientas como WireGuard, Tshark y Wireshark. Aprenderas a configurar ele entorno necesario, realizar capturas de paquetes de red y analizar los datos obtenidos para identificar conexiones realizadas por las aplicaciones, docminio y riesgos de seguridad.
+Este tutorial te guiará paso a paso para capturar y analizar el tráfico de red de aplicaciones Android, utilizando herramientas como WireGuard, Tshark y Wireshark. Aprenderáss a configurar el entorno necesario, realizar capturas de paquetes de red y analizar los datos obtenidos para identificar conexiones realizadas por las aplicaciones, dominio y riesgos de seguridad.
 
 ## Prerrequisitos
    - Cliente de WireGuard instalado en el celular y configurado. 
    - Máquina virtual con el servidor VPN WireGuard instalado.
-   - El cliente y el servidor deben estár los dos en la misma red local.
+   - El cliente y el servidor deben estar los dos en la misma red local.
       
 ## Pasos a seguir
 
-1. Conecta el teléfono a la VPN configurada con WreGuard.
-2. Ejecuta Tshark en la maquina virtual para capturar el tráfico de red.
-3. Utiliza la aplicacion que deseas analizar en el teléfono.
-4. Terminar la captura de tráfico en Tshark cuando se termine d eusar la aplicación.
+1. Conecta el teléfono a la VPN configurada con WireGuard.
+2. Ejecuta Tshark en la máquina virtual para capturar el tráfico de red.
+3. Utiliza la aplicación que deseas analizar en el teléfono.
+4. Terminar la captura de tráfico en Tshark cuando se termine de usar la aplicación.
 5. Exporta los paquetes capturados en un archivo que pueda ser analizado con Wireshark.
 
 > **Nota**: Recomendamos realizar la captura de tráfico de red de las aplicaciones a través de la aplicación Draeneg. Aquí el [tutorial](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/)
@@ -55,23 +55,23 @@ Al analizar el tráfico capturado, es útil explorar los siguientes protocolos p
 - [TLS](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte): Protocolo criptográfico que garantiza comunicaciones seguras, apareciendo como **TLSv1.3** en Wireshark.
 - [UDP](https://es.wikipedia.org/wiki/Protocolo_de_datagramas_de_usuario): Similar a TCP pero más rápido, aunque menos fiable, dependiendo del tipo de datos transmitidos.
 
-> Estas configuraciones y sugerencias te ayudarán a capturar y analizar el tráfico de red de manera más precisa y efectiva, facilitando la identificación de riesgos de seguridad y conexiones importantes. SIn embargo, no es completamente necesario realizar estas configuraciones ni es requisito obligatorio para seguir este tutorial.
+> Estas configuraciones y sugerencias te ayudarán a capturar y analizar el tráfico de red de manera más precisa y efectiva, facilitando la identificación de riesgos de seguridad y conexiones importantes. Sin embargo, no es completamente necesario realizar estas configuraciones ni es requisito obligatorio para seguir este tutorial.
 
 
 ## Captura de datos
 
-### Procedimeinto 
+### Procedimiento 
 1. **Preparar el dispositivo y entorno**
    - Instala la aplicación que se deseas analizar
    - Cierra todas las aplicaciones que están corriendo en el dispositivo
    - Activar WireGuard en el teléfono
 
 2. **Inicializar Tshark**  
-   - En la máquina virtual, abre la terminaly ejecuta el sigueinte comando
+   - En la máquina virtual, abre la terminaly ejecuta el siguiente comando
       ```
       sudo tshark -i enp0s3 -w /tmp/nombredelapp.pcap
       ```
-   > -i especifica la interfaz a utilizar, comunmente es una interfaz Ethernet como `enp0s3` o `ens33`. -w define la ruta donde se guardará el archivo de captura. Utiliza `/tmp` para evitar problemas con permisos.
+   > -i especifica la interfaz a utilizar, comúnmente es una interfaz Ethernet como `enp0s3` o `ens33`. -w define la ruta donde se guardará el archivo de captura. Utiliza `/tmp` para evitar problemas con permisos.
 
 3. **Capturar tráfico de red**
    - Abre la aplicación que deseas analizar en el teléfono.
@@ -85,7 +85,7 @@ Al analizar el tráfico capturado, es útil explorar los siguientes protocolos p
    - En la terminal presiona **ctrl + c** para detener Tshark
 
 6. **Guardar el archivo capturado**
-   - Si el archivo es considerado como satisfactorio, debes ajustar sus permisos para moverlo a otro directorio con el sigueinte comando:
+   - Si el archivo es considerado como satisfactorio, debes ajustar sus permisos para moverlo a otro directorio con el siguiente comando:
       ```
       sudo chmod 777 /tmp/nombredelapp.pcap
       ```
@@ -93,7 +93,7 @@ Al analizar el tráfico capturado, es útil explorar los siguientes protocolos p
       ~~~
       mv /tmp/nombredelapp.pcap /home/seguridad/Documentos
       ~~~
-   > Remplaza *seguridad* con el nombre de usuario de tu máquina virtual.
+   > Reemplaza *seguridad* con el nombre de usuario de tu máquina virtual.
 
 ## Análisis del tráfico de red
 
@@ -101,7 +101,7 @@ Al analizar el tráfico capturado, es útil explorar los siguientes protocolos p
 
 1. **Registro y descarga de bases de datos Maxind**
    - Registrate en [Maxmind](https://www.maxmind.com/en/geolite2/signup?lang=en).
-   - Descarga kas sigueintes bases de datos:
+   - Descarga las siguientes bases de datos:
       - Geolite2 ASN
       - GeoLite2 City 
       - GeoLite2 Country 
@@ -124,7 +124,7 @@ Al analizar el tráfico capturado, es útil explorar los siguientes protocolos p
 
    ![database](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse.png)
 
-   - Haz click en el botón de **+**, luego **Browse** y selecciona cada una de las carpetas extraidas que movimos en el paso anterior.
+   - Haz click en el botón de **+**, luego **Browse** y selecciona cada una de las carpetas extraídas que movimos en el paso anterior.
 
    ![database2](./capturas_de_pantalla/captura-de-trafico/wiresharkdatabse2.png).
 
@@ -142,11 +142,11 @@ Para realizar el analisis de los datos, tienes que seguir los siguientes pasos:
    ![wireshark](./capturas_de_pantalla/captura-de-trafico/wireshark.png)
 
 2. **Interpretar columnas clave**  
-   - Verifica la información presentada en el archivo considerando las comunas: 
+   - Verifica la información presentada en el archivo considerando las columnas: 
       - **No.**: indica el número de orden en el que el paquete de datos fue capturado. Se empieza, naturalmente, con el número 1. 
       - **Time**: se  refiere al momento en el que fue capturado dicho paquete.
-      - **Source**: es el origen del paquete, es decir la dirección IP. Aparecerán otras direcciones desde donde se envian datos.
-      - **Destination**: dirección IP a donde se envio el paquete.
+      - **Source**: es el origen del paquete, es decir la dirección IP. Aparecerán otras direcciones desde donde se envían datos.
+      - **Destination**: dirección IP a donde se envió el paquete.
       - **Protocol**: protocolo utilizado en la transmisión.
       - **Length**: cantidad de bytes del paquete.
       - **Info**: información respecto del paquete.
@@ -165,13 +165,13 @@ Para este análisis es importante tener suficientemente claro la información qu
 
 2. **Revisar contenido de los paquetes**
    - Selecciona un paquete HTTP en la lista
-   Observa los datos que fueron capturados en la parte inferior de WIreshark, donde s emuestra el contenido del paquete.   
+   Observa los datos que fueron capturados en la parte inferior de WIreshark, donde se muestra el contenido del paquete.   
  
    ![seccionwireshark](./capturas_de_pantalla/captura-de-trafico/wiresharkseccion.png)   
 
 3. **Identificar problematicas**
-   - ANaliza los datos enviados y recibidos para detectar si es que se esta incluyendo infomación sensible.
-   - Verifica el protocolo de envio de los datos para confirmar si es que se esta presentando un alto riesgo de la seguridad si es que se esta omitiendo el cifrado.
+   - Analiza los datos enviados y recibidos para detectar si es que se está incluyendo infomación sensible.
+   - Verifica el protocolo de envio de los datos para confirmar si es que se está presentando un alto riesgo de la seguridad si es que se está omitiendo el cifrado.
 
    ![httpdatos](./capturas_de_pantalla/captura-de-trafico/httpdatos.png)
 
@@ -207,7 +207,7 @@ Ahora bien, para analizar las diferentes direcciones IP que hay en nuestro archi
    - **AS Organization**: Organización a la que pertenece esa dirección IP
 
 3. **Identificar a donde van los datos**
-   -Ivestiga organizaciones desconocidads para identificar su rol o papel dentro de la transmición de datos.
+   -Investiga organizaciones desconocidas para identificar su rol o papel dentro de la transmisión de datos.
 
    > **Por ejemplo**: [Akamai](https://www.akamai.com/es) es una empresa empresa, que proporciona productos de seguridad en la nube, y es conocida por ser un [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos)  y no necesariamente almacena datos sensibles.
 
@@ -224,14 +224,14 @@ Hasta este punto ha concluido el análisis de tráfico de red. Es importante rem
 
 #### **Análisis de registros DNS y SNI**
 
-Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la palicación movil.   
+Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la aplicación movil.   
 
 Para hacer esto, existen dos maneras. 
 
 #### Identificar dominios con DNS 
    
 1. **Filtrar registros DNS**
-   - Escriba **dns** eb la barra de filtros de Wireshark y preisona **enter**
+   - Escriba **dns** en la barra de filtros de Wireshark y presiona **enter**
    -Analiza las llamadas DNS realizadas por la aplicación 
 
 ![dns](./capturas_de_pantalla/dns-y-sni/dns1.png)    
@@ -264,7 +264,7 @@ Para hacer esto, existen dos maneras.
 
 2. **Extraer información del SNI**
    - Selecciona el primer paquete filtrado.
-   - En la parte inferior, expande los sigueintes menús:
+   - En la parte inferior, expande los siguientes menús:
       - **Transport Layer Security**
       - **TLSv1.3 Record Layer: Handshake Protocol: Cliente Hello**
       - **Hanshake Protocl: Client Hello**
@@ -273,7 +273,7 @@ Para hacer esto, existen dos maneras.
 
    ![dns5](./capturas_de_pantalla/dns-y-sni/dns5.png)
 
-3. **Agrgar columna para dominios**
+3. **Agregar columna para dominios**
    - Haz click con el botón derecho al campo **Server Name Indication Extension** 
    - Haz click en **Aplicar como columna**. 
    - Esto nos generará una columna que se llama Server Name y que contiene el dominio contactado y la dirección IP del *endpoint*.   
@@ -282,7 +282,7 @@ Para hacer esto, existen dos maneras.
 
 
 ## Conclusión
-Este análisis permite identificar dominios específicos contactados por la aplicación, incluso si las direcciones IP corresponden a servidores compartidos. Con esta información, es posible:
+Este análisis permite identificar dominios específicos contactados por la aplicación, incluso cuando las direcciónes IP corresponden a servidores compartidos. Con esta información, es posible:
 - Determinar la ubicación y función de los dominios.
 - Identificar servicios específicos utilizados por la aplicación.
 - Detectar rastreadores y servicios desconocidos.
