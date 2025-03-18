@@ -1,15 +1,15 @@
-# Tutorial: Instalación de laboratorio para analisis de aplicaciones moviles.
+# Tutorial: Instalación de laboratorio para análisis de aplicaciones móviles.
 
 
-En este tutorial vamos a configurar un laboratorio para el analisis de aplicaciones móviles utilizando las herramientas de virtualización VirtualBox y VMWare, así como tambien las herrameintas de captura de tráfico de red Wireshark y Tshark.
+En este tutorial vamos a configurar un laboratorio para el análisis de aplicaciones móviles utilizando las herramientas de virtualización VirtualBox y VMWare, así como también las herramientas de captura de tráfico de red Wireshark y Tshark.
 
 El siguiente diagrama representa el proceso a seguir con la diferencia que usaremos la herramienta Wireguard en vez de OpenVPN:
 
 ![diagrama](./capturas_de_pantalla/instalacion-laboratorio/diagrama.png)
 
-> **Nota**: Esta guía ha sido actualizada en febrero de 2025, por lo que se agregaron recursos actualizados que pueden no coincidir con las imagenes, sin embargo, esto no afecta el proceso de análisis.
+> **Nota**: Esta guía ha sido actualizada en febrero de 2025, por lo que se agregaron recursos actualizados que pueden no coincidir con las imágenes, sin embargo, esto no afecta el proceso de análisis.
 
-> **Importante**: Si utilizas la aplicacion Draeneg para capturar tráfico de red, gran parte de la preparación de este laboratorio no será necesario. Te sugerimos visitar la sección para instalar Wireshark en este tutorial. Adicionalmente, te sugerimos consultar [el tutorial de Draeneg](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/).
+> **Importante**: Si utilizas la aplicación Draeneg para capturar tráfico de red, gran parte de la preparación de este laboratorio no será necesario. Te sugerimos visitar la sección para instalar Wireshark en este tutorial. Adicionalmente, te sugerimos consultar [el tutorial de Draeneg](https://docs.datavoros.org/tutoriales/02-1-captura-de-trafico-draeneg/).
 
 ## **Pasos a realizar**
 
@@ -30,14 +30,14 @@ El siguiente diagrama representa el proceso a seguir con la diferencia que usare
 
 VirtualBox y VMWare son gratuitos y pueden ser instalados en sistemas Windows, Linux y MacOS, aunque VMWare ofrece una versión de pago.
 
-> **Iportante**: Tanto VirtualBox como VMWare funcionan para el laboratorio de análisis de aplicaciones, sin embargo, te recomendamos utilizar VirtualBox en linux y VMWare en Windows.
+> **Importante**: Tanto VirtualBox como VMWare funcionan para el laboratorio de análisis de aplicaciones, sin embargo, te recomendamos utilizar VirtualBox en Linux y VMWare en Windows.
 
 ### **Instalación de VirtualBox en Linux (Ubuntu)**
 > **Nota**: *Esta instalación también funciona para sistemas basados en Ubuntu*.
 
 #### **Paso 1: Actualizar sistema y preparar repositorio**
 
-- Abre la terminal y ejecuta el sigueinte comando
+- Abre la terminal y ejecuta el siguiente comando
 
    ``` 
    sudo add-apt-repository multiverse && sudo apt-get update
@@ -56,8 +56,8 @@ VirtualBox y VMWare son gratuitos y pueden ser instalados en sistemas Windows, L
     ![continuar](./capturas_de_pantalla/instalacion-laboratorio/continuar.png) 
 
 #### **Paso 3: Iniciar VirtualBox**    
-- Una vez instalado VirtualBox, puedes ejecutarlo de las sigueintes maneras:
-    - Abre tu terminal y ejecuta la sigueinte linea:
+- Una vez instalado VirtualBox, puedes ejecutarlo de las siguientes maneras:
+    - Abre tu terminal y ejecuta la siguiente línea:
         ```
         $ virtualbox
         ```
@@ -74,8 +74,8 @@ Dejamos aquí el [enlace al tutorial oficial de Ubuntu](https://ubuntu.com/tutor
 
 1. Descargar una imagen ISO de ubuntu
 2. Crear una maquina virtual
-3. Agregar la imagen ISO de UBuntu
-4. COnfigurar la maquina virtual
+3. Agregar la imagen ISO de Ubuntu
+4. Configurar la maquina virtual
 5. Ejecutar la maquina virtual
 
 #### Alternativa: Descargar un disco virtual preconfigurado
@@ -220,7 +220,7 @@ Puedes descargar un disco virtual con Ubuntu preinstalado desde [este enlace](ht
    - La razón de haber apagado la máquina completamente en este paso es que no se pueden modificar las configuraciones de red mientras la máquina está suspendida o en ejecución.
 
 
-## Instalación de Wireguard
+## Instalación de WireGuard
 
 ### Instalación en nuestro dispositivo Android
 
@@ -231,19 +231,19 @@ Puedes descargar un disco virtual con Ubuntu preinstalado desde [este enlace](ht
 
 2. **Abrir aplicación**
     - Cuando finalice la instalación, presiona **Abrir**
-    - Deja la aplicación abierta para configurarla mas tarde.
+    - Deja la aplicación abierta para configurarla más tarde.
     
     ![idle](./capturas_de_pantalla/instalacion-laboratorio/idlewireguard.jpg)
     
 
 ### Instalación en la maquina virtual Ubuntu
 
-1. **Abre una temrinal en Ubuntu**
+1. **Abre una terminal en Ubuntu**
 
     ![consola](./capturas_de_pantalla/instalacion-laboratorio/ubuntuterminal.png)
 
 2. **Identifica las interfaces de red**
-    - Escribe el sigueinte comando:
+    - Escribe el siguiente comando:
         ```
         ip a
         ```
@@ -252,13 +252,13 @@ Puedes descargar un disco virtual con Ubuntu preinstalado desde [este enlace](ht
     ![interfaces de red](./capturas_de_pantalla/instalacion-laboratorio/interfaces.png)
 
 3. **Instalar Git**
-    - Escribe el sigueinte comando en la terminal para instalar git
+    - Escribe el siguiente comando en la terminal para instalar git
         ```
         sudo apt update && sudo apt install git
         ```
     - Introduce tu contraseña cuando se te solicite y presiona **Enter** para continuar.
 
-4. **Dscargar el script de instalación para wireguard**
+4. **Descargar el script de instalación para wireguard**
     - Descarga el script con el comando:
         ``` 
         git clone https://github.com/angristan/wireguard-install
@@ -367,18 +367,18 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 
 ### Pasos a seguir
 
-1. Abre la terminal y ejecuta los siguientes comanod de actualización e instalación 
+1. Abre la terminal y ejecuta los siguientes comando de actualización e instalación 
    ```
    sudo apt update
    sudo apt install default-jre
    ```
 2. Verifica que java funciona correctamente
-   - UNa vez instalado Java, ejecuta este comando
+   - Una vez instalado Java, ejecuta este comando
       ```
       sudo apt update
       sudo apt install default-jre
       ```
-   - Aparecera la versión de java
+   - Aparecerá la versión de java
 
 ## Instalación de Docker
 
@@ -397,7 +397,7 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
    sudo systemctl start docker
    sudo systemctl enable docker
    ```
-4. Arega el usuario al grupo de docker
+4. Agrega el usuario al grupo de docker
    - Ejecuta este comando para evitar sudo en cada comando de Docker
       ```
       sudo usermod -aG docker $USER
@@ -410,7 +410,7 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 
 ## Conclusión
 
-   Para este punto, haz instalado todas las herrmaientas necesarias para poder realizar el análisis de las aplicaciones moviles en Adroid, por lo que estas listo y bien posicionado para poder seguir con los siguientes tutoriales, ¡Animo!
+   Para este punto, has instalado todas las herramientas necesarias para poder realizar el análisis de las aplicaciones móviles en Android, por lo que estas listo y bien posicionado para poder seguir con los siguientes tutoriales, no dudes en consultar la documentación de apoóyo ¡Ánimo!
    
 
 

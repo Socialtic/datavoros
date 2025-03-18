@@ -27,10 +27,10 @@ Existen diversas plataformas en línea que permiten la descarga de archivos APK.
 ### Instalación de Raccoon
 1. Descargar el archivo **raccoon.jar** desde el sitio oficial:  
    [Raccoon APK Downloader](https://raccoon.onyxbits.de/apk-downloader/)
-2. Abre una terminal y dirigite a la ruta donde esta el archivo raccoo.jar
+2. Abre una terminal y dirígetete a la ruta donde está el archivo raccoo.jar
 3. Una vez que te encuentres en el directorio del archivo:
-   - Da clic derecho a tu mouse y seleccina **"Abrir en terminal"**
-   - Despues, debes ejecutar el siguiente comando:
+   - Da clic derecho a tu mouse y selecciona **"Abrir en terminal"**
+   - Después, debes ejecutar el siguiente comando:
       ```
       java -jar raccoon.jar 
       ```
@@ -64,11 +64,11 @@ Otra manera de obtener un archivo APK es extrayéndolo desde un dispositivo Andr
       sudo apt install android-tools-adb
       ```
 2. Verifica la versión de adb
-   - Ejecuta el sigueinte comando en la terminal
+   - Ejecuta el siguiente comando en la terminal
       ```
       adb version
       ```
-   - La salida deberia mostrar la siguiente información:
+   - La salida debería mostrar la siguiente información:
       ```
       Android Debug Bridge version 1.0.32
       ```
@@ -77,7 +77,7 @@ Otra manera de obtener un archivo APK es extrayéndolo desde un dispositivo Andr
    - Toca Número de compilación 7 veces para habilitar las opciones de desarrollador.
    - Ve a Configuración > Sistema > Opciones de desarrollador.
    - Activa la Depuración por USB.
-   - Conecta el dispositivo a la computadora y aceptar la solicitud de depuración USB.
+   - Conecta el dispositivo a la computadora y acepta la solicitud de depuración USB.
 
 4. Extraer el APK
    - Conecta el celular a la computadora y activa el modo Depuración USB.
@@ -91,12 +91,12 @@ Otra manera de obtener un archivo APK es extrayéndolo desde un dispositivo Andr
          ZY227BGZP8
          ```
    - Instala la aplicación desde la Play Store pero no la abras aún.
-   - Obtenen la lista de paquetes instalados en el dispositivo:
+   - Obtén la lista de paquetes instalados en el dispositivo:
       ```
       adb shell pm list packages
       ```
    - Identifica el nombre del paquete de la aplicación (por ejemplo, com.kiloo.subwaysurf).
-   - Obten la ubicación del APK:
+   - Obtén la ubicación del APK:
       ```
       adb shell pm path com.kiloo.subwaysurf
       ```

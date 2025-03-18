@@ -1,10 +1,10 @@
 # Tutorial: Identificación de permisos y rastreadores en aplicaciones Android
 
-En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplicación tanto desde la PlayStore de Google como mediante el servicio de Exodus Privacy. Además, descubrirás cómo identificar los rastreadores presentes en una aplicación y acceder a información detallada sobre ellos.
+En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplicación tanto desde la Play Store de Google como mediante el servicio de Exodus Privacy. Además, descubrirás cómo identificar los rastreadores presentes en una aplicación y acceder a información detallada sobre ellos.
 
 ## Objetivos
 
-- **Permisos en la PlayStore:** Aprender a encontrar y visualizar los permisos que solicita una aplicación a través de la PlayStore.
+- **Permisos en la Play Store:** Aprender a encontrar y visualizar los permisos que solicita una aplicación a través de la PlayStore.
 - **Permisos embebidos:** Utilizar Exodus Privacy para analizar los permisos que están integrados en el código de la aplicación.
 - **Rastreadores:** Identificar y obtener detalles de los rastreadores que se detectan en una aplicación.
 
@@ -18,13 +18,13 @@ En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplic
 
 ## Parte 1: Consultar permisos en la PlayStore
 
-### Paso 1: Acceder a la PlayStore
+### Paso 1: Acceder a la Play Store
 
 1. Abre tu navegador y entra en la [PlayStore de Google](https://play.google.com/store/apps).
 
 ### Paso 2: Buscar la aplicación
 
-1. Activa la opción de búsqueda haciendo clic en el ícono correspondiente.  
+1. Activa la opción de búsqueda haciendo clic en el icono correspondiente.  
    ![1](./capturas_de_pantalla/permisos/1-permisos-playstore.png)
 2. Escribe el nombre de la aplicación en la barra de búsqueda.  
    ![2](./capturas_de_pantalla/permisos/2-permisos-playstore.png)
@@ -51,7 +51,7 @@ En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplic
 
 ### Paso 2: Buscar la aplicación
 
-1. Puedes buscar la aplicación por su nombre o utilizando la URL de la PlayStore (extrae el identificador que aparece después de `id=` en la URL).  
+1. Puedes buscar la aplicación por su nombre o utilizando la URL de la PlayStore (Extrae el identificador que aparece después de `id=` en la URL).  
    ![1](./capturas_de_pantalla/permisos/1-permisos-exodus.png)
 
 ### Paso 3: Revisar resultados previos
@@ -91,7 +91,7 @@ En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplic
 
 ### Paso 2: Consultar información detallada del rastreador
 
-1. Haz clic en cualquier rastreador para acceder a una página con información adicional.
+1. Haz clic en cualquier rastreador para ver más detalles sobre su funcionamiento.
 2. En la página del rastreador encontrarás:
    - **Nombre del rastreador** y **tipo de rastreador** (por ejemplo, "Advertising" para publicidad).
    - La cantidad de aplicaciones en las que se ha detectado el rastreador.
@@ -102,10 +102,6 @@ En este tutorial aprenderás, paso a paso, a verificar los permisos de una aplic
 
 ## Conclusión
 
-   En este tutorial has aprendido a:
+   En este tutorial has aprendido a visualizar permisos en la PlayStore mediante una búsqueda y exploración de la sección Información de la aplicación. Además, se ha podido analizar permisos embebidos usando Exodus Privacy para obtener un informe detallado de los permisos integrados en el código, ahora es posible identificar rastreadores revisando el reporte de Exodus Privacy y consultando información detallada de cada rastreador.
 
-   - **Visualizar permisos en la PlayStore:** Mediante una búsqueda y exploración de la sección "Información de la aplicación".
-   - **Analizar permisos embebidos:** Usando Exodus Privacy para obtener un informe detallado de los permisos integrados en el código.
-   - **Identificar rastreadores:** Revisando el reporte de Exodus Privacy y consultando información detallada de cada rastreador.
-
-   Con estos pasos, estarás mejor equipado para evaluar la seguridad y privacidad de las aplicaciones que utilizas. ¡Practica estos procedimientos y refuerza tu conocimiento sobre la protección de datos en el entorno móvil!
+   Con estos pasos, estarás mejor equipado para evaluar la seguridad y privacidad de las aplicaciones que utilizas.
