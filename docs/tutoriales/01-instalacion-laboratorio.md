@@ -410,7 +410,7 @@ Listo, Ahora estás conectado a tu servidor de WireGuard. Toto el trafico de red
 
 ## Conclusión
 
-   Para este punto, has instalado todas las herramientas necesarias para poder realizar el análisis de las aplicaciones móviles en Android, por lo que estas listo y bien posicionado para poder seguir con los siguientes tutoriales, ¡Ánimo!
+   Para este punto, has instalado todas las herramientas necesarias para poder realizar el análisis de las aplicaciones móviles en Android, por lo que estas listo y bien posicionado para poder seguir con los siguientes tutoriales, no dudes en consultar la documentación de apoóyo ¡Ánimo!
    
 
 
