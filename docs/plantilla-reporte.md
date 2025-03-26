@@ -31,23 +31,29 @@ Descripción de la PlayStore
 ~~~
 
 ## Rastreadores identificados (mediante Exodus Privacy)
-- a
-- b
-- c
+
+|Rastreador|Tipo|
+|---|---|
+|[A]()|información|
 
 Enlace al reporte de Exodus Privacy   
 
 ## Empresas relacionadas con esta aplicación:
-- a
-- b
-- c
+
+|Empresa|Servicios que ofrecen|
+|---|---| 
+|[A]()|información|
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
-- a
-- b
-- c
+
+- [a]()
+- [b]()
+- [c]()
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+
+|Dominios|
+|---|
 
 ## Permisos   
 
@@ -74,6 +80,15 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
+
+### Datos solicitados al usuario 
+
+#### Datos solicitados durante el registro
+
+- :blue_circle: Para los reportes de Asistencia ciudadana:
+    - :red_circle: a
+    - :blue_circle: b
+    - c
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
@@ -117,22 +132,51 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados y uso según la PlayStore
 
-### Datos compartidos y uso según la PLayStore
+|Datos|Uso|
+|---|---|
+
+### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
 
+- a
+- b
+- c
+
 ### Datos recopilados y uso según la Política de privacidad
+
+|Datos|
+|---|
 
 ### Uso general de la información según la Política de privacidad
 
+- a
+- b
+- c
+
 #### Información compartida con terceros
+
+- a
+- b
+- c
 
 ## Funciones particulares de la aplicación:
 *Describir funciones inusuales en contraste con las demás aplicaciones similares*
+
+### Función
+
+Información 
 
 ## Notas
 
 *Descripción sobre bugs encontrados, fallas de seguridad y otras cosas*
 
+- a
+- b
+- c
+
+
 ## Conclusiones
+
+### Conslusión especifica
 
