@@ -401,7 +401,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 Google PlayStore declara los siguientes datos recopilados por Grindr:
 
-Datos|Uso|
+|Datos|Uso|
 |---|---|
 |Dirección de correo electrónico|Funciones de la aplicación|
 |IDs de usuario|Funciones de la aplicación|
