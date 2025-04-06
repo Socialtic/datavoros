@@ -11,10 +11,14 @@
             "id": "5924c7e40254df91",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/06-control-parental/AirDroid Parental Control/Reporte AirDroid Parental Control.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Reporte AirDroid Parental Control"
             }
           }
         ]
@@ -164,8 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "922ade29e3a94abd",
+  "active": "5924c7e40254df91",
   "lastOpenFiles": [
+    "().md",
+    "docs/06-control-parental/AirDroid Parental Control/Reporte AirDroid Parental Control.md",
+    "docs/06-control-parental/AirDroid Parental Control",
     "docs/06-control-parental",
     "README.md"
   ]
