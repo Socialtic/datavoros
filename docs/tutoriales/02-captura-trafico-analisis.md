@@ -222,9 +222,20 @@ Ahora bien, para analizar las diferentes direcciones IP que hay en nuestro archi
 
 Hasta este punto ha concluido el análisis de tráfico de red. Es importante remarcar que este análisis puede ser mucho más profundo, y dependerá de estar investigando activamente más empresas, otras opciones de Wireshark y la meta del mismo para hacerlo. Algunas veces, habrá direcciones IP que no aparezcan en Wireshark, recomendamos para ello utilizar esta página para buscar información sobre ellas. 
 
+> :exclamation: Si tu navegador no te permite visualizar el mapa será necesario que descargues las librerías de javascript [Leaflet](https://leafletjs.com/download.html) y [Leaflet Market Cluster](https://github.com/Leaflet/Leaflet.markercluster)
+> Instala javascript si no lo tienes instalado con `sudo apt install npm`
+> Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet`
+> Descomprime la librería Leaflet en el directorio `unzip /Dowloads/leaflet.zip -d /usr/share/javascript/leaflet`
+> Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet/market-cluster`
+> Descomprime la librería Market Cluster en el directorio  `unzip Dowloads/leaflet-market-cluster.zip -d /usr/share/javascript/leaflet/market-cluster`
+> Copia del directorio *market-cluster/dist* los archivos *MarkerCluster.css, MarkerCluster.Default.css, leaflet.markercluster.js* al directorio de la librería *leaflet*.
+> `cd /usr/share/javascript/leaflet` 
+> `cp ./market-cluster/dist/MarkerCluster.css .` 
+> `cp ./market-cluster/dist/MarkerCluster.Default.css .` 
+> `cp ./market-cluster/dist/leaflet.markercluster.js .` 
 #### **Análisis de registros DNS y SNI**
 
-Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la aplicación movil.   
+Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la aplicación móvil.   
 
 Para hacer esto, existen dos maneras. 
 
