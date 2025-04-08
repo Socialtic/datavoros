@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06-control-parental/AirDroid Parental Control/Reporte AirDroid Parental Control.md",
+                "file": "docs/06-apps-de-control-parental/airdroid/airdroid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reporte AirDroid Parental Control"
+              "title": "airdroid"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b0d538139c1f80c6",
@@ -170,10 +170,13 @@
   },
   "active": "5924c7e40254df91",
   "lastOpenFiles": [
+    "README.md",
+    "gitignore",
+    "Untitled.md",
+    "docs/06-apps-de-control-parental/airdroid/airdroid.md",
+    "docs/05-apps-de-citas/badoo/badoo.md",
     "().md",
-    "docs/06-control-parental/AirDroid Parental Control/Reporte AirDroid Parental Control.md",
-    "docs/06-control-parental/AirDroid Parental Control",
-    "docs/06-control-parental",
-    "README.md"
+    "docs/06-apps-de-control-parental/airdroid",
+    "docs/06-apps-de-control-parental"
   ]
 }
