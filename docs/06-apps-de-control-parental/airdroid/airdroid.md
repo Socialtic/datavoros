@@ -106,21 +106,21 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 *Ejemplo*
 
-| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS       | Dominio |
-|-----------------|--------------------|---------------|-------------|-----------------------|---|
-| 52.36.74.154    |                 25 | United States | Boardman    | AMAZON-02             |
-| 52.38.74.42     |                  6 | United States | Boardman    | AMAZON-02             |
-| 52.88.155.1     |                 22 | United States | Boardman    | AMAZON-02             |
-| 52.89.181.193   |                 19 | United States | Boardman    | AMAZON-02             |
-| 104.110.129.127 |                 25 | United States | Los Angeles | AKAMAI-AS             |
-| 142.250.72.138  |                 20 | United States |             | GOOGLE                |
-| 142.250.101.188 |                  8 | United States |             | GOOGLE                |
-| 142.250.188.227 |                 15 | United States |             | GOOGLE                |
-| 142.250.189.10  |                 38 | United States |             | GOOGLE                |
-| 142.250.207.67  |                 27 | United States |             | GOOGLE                |
-| 142.250.217.138 |                 44 | United States |             | GOOGLE                |
-| 172.217.14.78   |               2809 | United States |             | GOOGLE                |
-| 172.217.14.110  |                 13 | United States |             | GOOGLE                |
+| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS | Dominio |
+| --------------- | ------------------ | ------------- | ----------- | --------------- | ------- |
+| 52.36.74.154    | 25                 | United States | Boardman    | AMAZON-02       |         |
+| 52.38.74.42     | 6                  | United States | Boardman    | AMAZON-02       |         |
+| 52.88.155.1     | 22                 | United States | Boardman    | AMAZON-02       |         |
+| 52.89.181.193   | 19                 | United States | Boardman    | AMAZON-02       |         |
+| 104.110.129.127 | 25                 | United States | Los Angeles | AKAMAI-AS       |         |
+| 142.250.72.138  | 20                 | United States |             | GOOGLE          |         |
+| 142.250.101.188 | 8                  | United States |             | GOOGLE          |         |
+| 142.250.188.227 | 15                 | United States |             | GOOGLE          |         |
+| 142.250.189.10  | 38                 | United States |             | GOOGLE          |         |
+| 142.250.207.67  | 27                 | United States |             | GOOGLE          |         |
+| 142.250.217.138 | 44                 | United States |             | GOOGLE          |         |
+| 172.217.14.78   | 2809               | United States |             | GOOGLE          |         |
+| 172.217.14.110  | 13                 | United States |             | GOOGLE          |         |
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
