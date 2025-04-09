@@ -58,8 +58,12 @@ Enlace al reporte de Exodus Privacy
 
 ## Permisos   
 
-- **Según Exodus Privacy/MobFS:** Número
-- **Según prueba de uso:** Número
+- **Según Exodus Privacy/MobFS:** 
+	- En la aplicación del dispositivo de la persona cuidadora: 30
+	- En la aplicación del dispositivo de la personita: 19
+- **Según prueba de uso:** 
+	- En la aplicación del dispositivo de la persona cuidadora: 6
+	- En la aplicación del dispositivo de la personita: 10
 
 
 
@@ -73,7 +77,11 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- :red_circle: a
+- :red_circle: Ubicación
+- :red_circle: Optimización de la batería
+- :red_circle: Cámara
+- :red_circle: Micrófono 
+- :red_circle: Notificaciones
 - :blue_circle: b
 - 
 
@@ -86,18 +94,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el registro
 
-- :blue_circle: Para los reportes de Asistencia ciudadana:
-    - :red_circle: a
-    - :blue_circle: b
-    - c
+- :red_circle: Correo electrónico
+- :blue_circle: Nombre
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :blue_circle: Para los reportes de Asistencia ciudadana:
-    - :red_circle: a
-    - :blue_circle: b
-    - c
-    
+- :red_circle: 
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
@@ -106,21 +108,22 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 *Ejemplo*
 
-| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS | Dominio |
-| --------------- | ------------------ | ------------- | ----------- | --------------- | ------- |
-| 52.36.74.154    | 25                 | United States | Boardman    | AMAZON-02       |         |
-| 52.38.74.42     | 6                  | United States | Boardman    | AMAZON-02       |         |
-| 52.88.155.1     | 22                 | United States | Boardman    | AMAZON-02       |         |
-| 52.89.181.193   | 19                 | United States | Boardman    | AMAZON-02       |         |
-| 104.110.129.127 | 25                 | United States | Los Angeles | AKAMAI-AS       |         |
-| 142.250.72.138  | 20                 | United States |             | GOOGLE          |         |
-| 142.250.101.188 | 8                  | United States |             | GOOGLE          |         |
-| 142.250.188.227 | 15                 | United States |             | GOOGLE          |         |
-| 142.250.189.10  | 38                 | United States |             | GOOGLE          |         |
-| 142.250.207.67  | 27                 | United States |             | GOOGLE          |         |
-| 142.250.217.138 | 44                 | United States |             | GOOGLE          |         |
-| 172.217.14.78   | 2809               | United States |             | GOOGLE          |         |
-| 172.217.14.110  | 13                 | United States |             | GOOGLE          |         |
+| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS                                      | Dominio |
+| --------------- | ------------------ | ------------- | ----------- | ---------------------------------------------------- | ------- |
+| 10.1.10.1       | 17,002             |               |             |                                                      |         |
+| 43.130.4.190    | 83                 | United States | Santa Clara | Tencent Building, Khejizhingyi Avenue                |         |
+| 49.51.35.72     | 66                 | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 49.51.42.41     | 126                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 49.51.181.88    | 927                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 49.51.199.235   | 234                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 49.51.200.225   | 7,194              | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 49.51.229.63    | 84                 | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 170.106.197.185 | 307                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
+| 132.248.30.3    | 6                  | México        | Coyoacán    | Universidad Autónoma de México                       |         |
+| 192.36.143.130  | 10                 | Sweden        |             | Svensk Teleutveckling & Producktinnovation, STUPI AB |         |
+| 192.168.0.15    | 7,924              |               |             |                                                      |         |
+| 192.178.52.138  | 22                 | United States |             | GOOGLE                                               |         |
+| 193.182.111.13  | 5                  | Sweden        |             | Obehosting AB                                        |         |
 
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
@@ -133,8 +136,16 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados y uso según la PlayStore
 
-|Datos|Uso|
-|---|---|
+| Datos                                                          | Uso                                                                                                      |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Dirección de correo electrónico                                | Funciones de la aplicación, estadísticas, comunicaciones del desarrollador y administración de la cuenta |
+| Interacciones de la aplicación                                 | Funciones de la aplicación y estadísticas                                                                |
+| Historial de búsqueda en la aplicación                         | Funciones de la aplicación y estadísticas                                                                |
+| Otras acciones (no especificadas)                              | Funciones de la aplicación y estadísticas                                                                |
+| Registros de fallas                                            | Funciones de la aplicación y estadísticas                                                                |
+| Diagnóstico                                                    | Funciones de la aplicación y estadísticas                                                                |
+| Otros datos de rendimiento de la aplicación (no especificadas) | Funciones de la aplicación y estadísticas                                                                |
+| Dispositivo u otros IDs (no especificados)                     | Estadísticas                                                                                             |
 
 ### Datos compartidos y uso según la PlayStore
 
@@ -146,8 +157,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos recopilados y uso según la Política de privacidad
 
-|Datos|
-|---|
+| Datos |
+| ----- |
+|       |
 
 ### Uso general de la información según la Política de privacidad
 
