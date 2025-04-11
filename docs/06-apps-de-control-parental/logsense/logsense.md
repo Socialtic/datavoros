@@ -188,7 +188,9 @@ En la interfaz muestra un clon de la interfaz de whatsapp con las fotos de los c
 Esta función es falsa ya que la cuenta de whatsapp que usamos para el análisis no tiene más de un chat. 
 
 La aplicación te envia notificaciones constantemente para avisarte que a la persona que rastreas le han llegado mensajes, audios o videollamadas. (La aplicación nunca solicitó permiso para enviar notificaciones).
- 
+
+### Funciones falsas como la gestión de una cuenta
+La aplicación muestra en su interfaz funciones para eliminar la cuenta, sin embargo, en ningún momento se crea una cuenta.
 
 ## Notas
 
