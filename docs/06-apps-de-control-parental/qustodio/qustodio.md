@@ -322,7 +322,7 @@ Algunos permisos como la actividad de pantalla, administración de llamadas y pe
 
 A pesar de que es común ver rastreadores como Google Analytics y Firebase, usados principalmente para analítica y publicidad, su presencia en una herramienta que tiene la intención de ser instalada en los dispositivos de las infancias no parece una práctica ética.
 
-### Datos Recolectados
+### Privacidad y datos recolectados
 
 Se recolectan datos sensibles como  mensajes, historial de navegación, llamadas, contactos y geolocalización, lo que implica un monitoreo de nivel profundo del dispositivo del menor. Estos datos no solo son procesados por Qustodio, sino también potencialmente compartidos con terceros con fines de soporte, analítica, pagos y otros servicios de publicidad.
 
