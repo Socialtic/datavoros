@@ -13,6 +13,7 @@ Aplicación para padres
 - [pcap versión 2.7.1]()
 - [Capturas de pantalla]()
 - [Reporte MobSF]()
+
 Aplicación para niños
 - [apk versión 2.8.89]()
 - [pcap versión 2.7.1]()
@@ -90,7 +91,7 @@ En caso de problemas técnicos, contacta con nuestro servicio de ayuda 24/7 a tr
 | [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)          | Analíticas                                    |
 | [Huawei Mobile Services (HMS) Core](https://reports.exodus-privacy.eu.org/en/trackers/333/) | Ubicación, Publicidad y marketing, Analíticas |
 
-Enlace al reporte de Exodus Privacy   
+[Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/org.findmykids.app/latest/)
 
 ## Empresas relacionadas con esta aplicación:
 
