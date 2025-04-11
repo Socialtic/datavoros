@@ -59,21 +59,21 @@ No se especifica ninguna empresa en el Aviso de Privacidad.
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-| Dominios                       |
-| ------------------------------ |
-| api-diagnostics.revenuecat.com |
-| api64.ipify.org                |
-| rev.cat                        |
-| github.com                     |
-| docs.revenuecat.com            |
-| play.google.com                |
-| sites.google.com               |
-| ipapi.co                       |
-| analytics.us.tiktok.com        |
-| web.whatsapp.com               |
-| flagcdn.com                    |
-| api.revenuecat.com             |
-| errors.rev.cat                 |
+| Dominios                               |
+| -------------------------------------- |
+| https://api-diagnostics.revenuecat.com |
+| https://api64.ipify.org                |
+| https://rev.cat                        |
+| https://github.com                     |
+| https://docs.revenuecat.com            |
+| https://play.google.com                |
+| https://sites.google.com               |
+| https://ipapi.co                       |
+| https://analytics.us.tiktok.com        |
+| https://web.whatsapp.com               |
+| https://flagcdn.com                    |
+| https://api.revenuecat.com             |
+| https://errors.rev.cat                 |
 
 ## Permisos   
 

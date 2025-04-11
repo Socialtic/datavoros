@@ -110,30 +110,30 @@ Disfruta de las funciones gratuitas más:
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-| Dominios                                     |
-| -------------------------------------------- |
-| x-api.rollout.io                             |
-| www.qustodio.com                             |
-| www.w3.org                                   |
-| www.bing.com                                 |
-| jsoup.org                                    |
-| firebase-settings.crashlytics.com            |
-| analytic.rollout.io                          |
-| www.qstodio.com                              |
-| www.google.com                               |
-| crashpad.chromium.org                        |
-| console.firebase.google.com                  |
-| www.youtube.com                              |
-| statestore.rollout.io                        |
-| conf.rollout.io                              |
-| push.rollout.io                              |
-| issuetracker.google.com                      |
-| github.com                                   |
-| cdn-settings.segment.com                     |
-| qustodio.com                                 |
-| schemas.android.com                          |
-| qustodio-com-fair-hallway-795.firebaseio.com |
-| notify.bugsnag.com                           |
+| Dominios                                             |
+| ---------------------------------------------------- |
+| https://x-api.rollout.io                             |
+| https://www.qustodio.com                             |
+| https://www.w3.org                                   |
+| https://www.bing.com                                 |
+| https://jsoup.org                                    |
+| https://firebase-settings.crashlytics.com            |
+| https://analytic.rollout.io                          |
+| https://www.qstodio.com                              |
+| https://vwww.google.com                              |
+| https://crashpad.chromium.org                        |
+| https://console.firebase.google.com                  |
+| https://www.youtube.com                              |
+| https://statestore.rollout.io                        |
+| https://conf.rollout.io                              |
+| https://push.rollout.io                              |
+| https://issuetracker.google.com                      |
+| https://github.com                                   |
+| https://cdn-settings.segment.com                     |
+| https://qustodio.com                                 |
+| https://schemas.android.com                          |
+| https://qustodio-com-fair-hallway-795.firebaseio.com |
+| https://notify.bugsnag.com                           |
 
 ## Permisos   
 

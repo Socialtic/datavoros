@@ -113,32 +113,32 @@ En caso de problemas técnicos, contacta con nuestro servicio de ayuda 24/7 a tr
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
-| Dominios                            |
-| ----------------------------------- |
-| 243408.selcdn.ru                    |
-| ktor.io                             |
-| schemas.microsoft.com               |
-| firebase.google.com                 |
-| www.w3.org                          |
-| firebase-settings.crashlytics.com   |
-| app-measurement.com                 |
-| where-is-my-children.firebaseio.com |
-| ya.ru                               |
-| pagead2.googlesyndication.com       |
-| gdemoideti.onelink.me               |
-| g.co                                |
-| ns.adobe.com                        |
-| aomedia.org                         |
-| youtrack.jetbrains.com              |
-| schemas.android.com                 |
-| www.slf4j.org                       |
-| developer.android.com               |
-| github.com                          |
-| issuetracker.google.com             |
-| www.baidu.com                       |
-| google.com                          |
-| goo.gle                             |
-| developer.apple.com                 |
+| Dominios                                    |
+| ------------------------------------------- |
+| https://243408.selcdn.ru                    |
+| https://ktor.io                             |
+| https://schemas.microsoft.com               |
+| https://firebase.google.com                 |
+| https://www.w3.org                          |
+| https://firebase-settings.crashlytics.com   |
+| https://app-measurement.com                 |
+| https://where-is-my-children.firebaseio.com |
+| https://ya.ru                               |
+| https://pagead2.googlesyndication.com       |
+| https://gdemoideti.onelink.me               |
+| https://g.co                                |
+| https://ns.adobe.com                        |
+| https://aomedia.org                         |
+| https://youtrack.jetbrains.com              |
+| https://schemas.android.com                 |
+| https://www.slf4j.org                       |
+| https://developer.android.com               |
+| https://github.com                          |
+| https://issuetracker.google.com             |
+| https://www.baidu.com                       |
+| https://google.com                          |
+| https://goo.gle                             |
+| https://developer.apple.com                 |
 
 ## Permisos   
 
