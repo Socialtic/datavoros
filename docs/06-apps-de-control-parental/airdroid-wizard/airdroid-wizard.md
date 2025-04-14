@@ -17,7 +17,7 @@
 - **Tipo:**   Aplicación de control parental
 - **Costo:**   Descarga gratuita
 - **Enlace de descarga:** https://www.airdroid.com/es/download/airdroid-parental-control/?type=kid
-- **Descargas:** 
+- **Descargas:** N/A
 - **Ultima fecha de actualización:** 02 de abril 2025
 - **Versión:** 2.4.0.1
 - **Desarrollador:** [Sand Studio](https://sandstudio.co/)
@@ -36,10 +36,7 @@ AirDroid Parental Control es su herramienta definitiva para monitorear los dispo
 
 ## Rastreadores identificados (mediante MobSF)
 
-|Rastreador|Tipo|
-|---|---|
-|[A]()|información|
-
+**No fue posible detectar los rastreadores en la aplicación.**
 
 ## Empresas relacionadas con esta aplicación:
 
@@ -56,13 +53,12 @@ AirDroid Parental Control es su herramienta definitiva para monitorear los dispo
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 -  [Sand Studio](https://sandstudio.co/)
-- Nota: No se mencionan explícitamente otras empresas como parte del procesamiento de datos, pero se hace alusión a terceros y proveedores de servicios.
+
+**Nota: No se mencionan explícitamente otras empresas como parte del procesamiento de datos, pero se hace alusión a terceros y proveedores de servicios.**
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
-| Dominios                |
-| ----------------------- |
-| https://192.168.40.201/ |
+**No se encontraron dominios integrados en el código.**
 
 ## Permisos   
 
@@ -112,13 +108,13 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el registro
 
-- :red_circle: Correo electrónico
-- :blue_circle: Nombre
+- :red_circle: Correo electrónico al que se va a enlazar
+- :blue_circle: Nombre de la persona a vigilar
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :red_circle: Nombre
-- :red_circle: Correo electrónico
+La aplicación no solicita datos durante su uso.
+
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
@@ -129,7 +125,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 | Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS                                      | Dominio |
 | --------------- | ------------------ | ------------- | ----------- | ---------------------------------------------------- | ------- |
-| 10.1.10.1       | 17,002             |               |             |                                                      |         |
 | 43.130.4.190    | 83                 | United States | Santa Clara | Tencent Building, Khejizhingyi Avenue                |         |
 | 49.51.35.72     | 66                 | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
 | 49.51.42.41     | 126                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
@@ -140,7 +135,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 170.106.197.185 | 307                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue                |         |
 | 132.248.30.3    | 6                  | México        | Coyoacán    | Universidad Autónoma de México                       |         |
 | 192.36.143.130  | 10                 | Sweden        |             | Svensk Teleutveckling & Producktinnovation, STUPI AB |         |
-| 192.168.0.15    | 7,924              |               |             |                                                      |         |
 | 192.178.52.138  | 22                 | United States |             | GOOGLE                                               |         |
 | 193.182.111.13  | 5                  | Sweden        |             | Obehosting AB                                        |         |
 
@@ -149,7 +143,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ![mapa](./mapa.png)
 *Mediante Wireshark*
 
-### Datos recopilados y uso según la página oficial
+## Datos recopilados y uso según la página oficial
 
 | Datos                                                          | Uso                                                                                                      |
 | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -161,8 +155,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Diagnóstico                                                    | Funciones de la aplicación y estadísticas                                                                |
 | Otros datos de rendimiento de la aplicación (no especificadas) | Funciones de la aplicación y estadísticas                                                                |
 | Dispositivo u otros IDs (no especificados)                     | Estadísticas                                                                                             |
-
-### Datos compartidos y uso según la página oficial
 
 ### Prácticas de seguridad
 
@@ -180,12 +172,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Información de diagnóstico: Registro de errores y rendimiento.                             |
 
 ### Uso general de la información según la Política de privacidad
+
 - Proveer y operar los servicios de control parental.
 - Monitorear la actividad de la infancia y el estado del dispositivo.
 - Mejorar el rendimiento, calidad y funcionalidad del producto.
 - Proveer soporte técnico y gestionar solicitudes de la persona usuaria.
 - Cumplir con obligaciones legales y regulatorias.
 - Detectar, prevenir y abordar incidentes de seguridad o fraude.
+
 #### Información compartida con terceros
 
 -  Proveedores de servicios como almacenamiento en la nube, análisis de datos, atención al cliente.
@@ -213,16 +207,18 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 *Descripción sobre bugs encontrados, fallas de seguridad y otras cosas*
 
-- Al investigar una de las empresas relacionadas con esta aplicación se detecto que es un posible riesgo fraude.
-- Esta aplicación en especifico, **no se encuentra en la Google PlayStore**, solamente se encuentra en un enlace de descarga externo, como .apk
+- Al investigar las empresas relacionadas se identifico que Obehosting tiene una reputación asociada con el desarrollo de herramientas fraudulentes.
+- Esta aplicación en especifico, **no se encuentra en la Google PlayStore**, solamente se encuentra en un enlace de descarga externo, como .apk lo cual es una práctica negativa en el desarrollo de aplicaciones.
+
+
 ## Conclusiones
 
 La aplicación, aunque es funcional y aparentemente amigable para personas cuidadoras, tiene un diseño intrusivo que plantea serias dudas en términos de protección de datos personales, transparencia, consentimiento informado y derechos de la infancia.
 ### Conclusión especifica
 - **Falta de trasparencia en la activación del periodo de prueba**: 
-	- Hay una **falla de transparencia** que puede ser considerada una mala práctica según estándares de protección de datos.
+	- La aplicación no indica que su uso durante los primeros días es de prueba, por lo que despues de usarla un tiempo solicita realizar un pago para poder seguir utilizandola.
 - **Capacidades remotas intrusivas desde el dispositivo de la persona cuidadora**
-	- Cámara, micrófono, pantalla, notificaciones: en tiempo real y sin presencia física.
+	- La aplicación tiene acceso en tiempo real y sin presencia física de cámara, micrófono, pantalla, notificaciones.
 	- Implicación directa: La aplicación permite una **vigilancia constante**, lo que la coloca peligrosamente cerca del territorio del **control excesivo o potencial vigilancia encubierta**.
 	- Según su propia política de privacidad, **se recolectan datos sensibles**, incluyendo contenidos generados por la persona usuaria, datos de dispositivos y redes, y comportamientos de uso.
 - **Uso de datos personales y consentimiento infantil**
