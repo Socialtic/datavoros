@@ -2,16 +2,17 @@
 
 ## Fechas de análisis
 
-- **Análisis estático (mediante Exodus Privacy/MobFS):** 07 de abril, 2025
-- **Análisis dinámico (mediante análisis de tráfico de red):** 08 de abril, 2025
+- **Análisis estático (mediante Exodus Privacy):** 07 de abril, 2025
+- **Análisis estático (mediante Exodus MobFS):** 10 de abril, 2025
+- **Análisis dinámico (mediante análisis de tráfico de red):** 07 de abril, 2025
 - **Análisis Posteriores:**
 
 ## Archivos analizados
 
-- [apk versión 25.0.1]()
-- [pcap versión 1]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 25.0.1](https://cloud.datavoros.org/index.php/s/zTkJfsXYcpA8oKy)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/k3Aj9cG7Le4nArE)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/4Q3JR6N6XYq8XoQ)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/6HXA3Dez9mp55ZE)
 
 ## Descripción de la aplicación
 - **Tipo:** Rastreador de actividades en linea
@@ -48,17 +49,14 @@ NextLog rastrea sus actividades en línea sin interrupciones y le informa al ins
 |Empresa|Servicios que ofrecen|
 |---|---|
 |[Akamai International B.V](https://www.akamai.com/es)| CDN, seguridad web, mitigación de DDoS|
-|[Amazon](https://aws.amazon.com/es/free/?gclid=Cj0KCQjw2N2_BhCAARIsAK4pEkVOdWeVisgnbhKtNKlE-pdkh3GFex4AoSUfRibjCCwGVYdDRtUiDK0aAn1CEALw_wcB&trk=307cde03-1180-48b3-a852-0fd87ed68ac8&sc_channel=ps&ef_id=Cj0KCQjw2N2_BhCAARIsAK4pEkVOdWeVisgnbhKtNKlE-pdkh3GFex4AoSUfRibjCCwGVYdDRtUiDK0aAn1CEALw_wcB:G:s&s_kwcid=AL!4422!3!646924982326!e!!g!!aws!19636893789!147195440153&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)| Publicidad, servicios en la nube (AWS)|
+|[Amazon](https://aws.amazon.com/es/free/)| Publicidad, servicios en la nube (AWS)|
 |[Facebook (Meta)](https://about.meta.com/ltam/)| Publicidad, integración de APIs sociales|
-|[Google](https://support.google.com/analytics/answer/10607798?hl=en#zippy=%2Cin-this-article)| Publicidad (Ads), analíticas (Google Analytics)|
+|[Google](https://marketingplatform.google.com/intl/es/about/analytics/)| Publicidad (Ads), analíticas (Google Analytics)|
 |[WEBNX](https://webnx.com/)| Infraestructura de internet, servidores dedicados|
-
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 No se mencionan explícitamente empresas con quienes NextLog comparte datos, unicamente hace referencia al compartimiento de datos con "proveedores de servicio" y "socios comerciales".
-
-
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
@@ -78,13 +76,10 @@ No se mencionan explícitamente empresas con quienes NextLog comparte datos, uni
 |https://web.whatsapp.com/|
 |https://rev.cat/|
 
-
 ## Permisos
 
 - **Según Exodus Privacy/MobFS:** 15
 - **Según prueba de uso:** 1
-
-
 
 ### Permisos según Exodus Privacy
 
@@ -108,11 +103,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-
 - :blue_circle: Notificaciones
-
-:red_circle: Este ícono indica un permiso obligatorio
-:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+- :red_circle: Este ícono indica un permiso obligatorio
+- :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
 ## Datos
 
@@ -123,36 +116,31 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :red_circle: Nombre de la persona a espiar
 - :red_circle: Número de teléfono de la persona a espiar
 
-
-
-
 #### Datos solicitados durante el uso de la aplicación
 
 Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de la aplicación
 
-
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
 
-| Dirección IP   | Número de Paquetes | País          | Ciudad/Zona    | Organización AS           | Dominio |
-| -------------- | ------------------ | ------------- | -------------- | ------------------------- | ------- |
-|                |                    |               |                |                           |         |
-| 23.205.110.208 | 193                | United States | Irving         | Akamai International B.V. |         |
-| 23.218.232.70  | 23                 | United States | Irving         | Akamai International B.V. |         |
-| 31.13.93.63    | 21                 | United States | Dallas         | FACEBOOK                  |         |
-| 52.2.187.151   | 26                 | United States | Ashburn        | AMAZON-AES                |         |
-| 52.204.111.199 | 46                 | United States | Ashburn        | AMAZON-AES                |         |
-| 157.240.25.1   | 165                | Mexico        | Querétaro City | FACEBOOK                  |         |
-| 157.240.25.60  | 1524               | Mexico        | Querétaro City | FACEBOOK                  |         |
-| 157.240.25.174 | 78                 | Mexico        | Querétaro City | FACEBOOK                  |         |
-| 173.231.16.77  | 47                 | United States |                | WEBNX                     |         |
-| 189.233.214.97 | 26                 | Mexico        | Irapuato       | UNINET                    |         |
-| 192.178.52.138 | 21                 | United States |                | GOOGLE                    |         |
-| 192.178.52.170 | 60                 | United States |                | GOOGLE                    |         |
-| 192.178.52.234 | 27                 | United States |                | GOOGLE                    |         |
-| 192.178.56.202 | 25                 | United States |                | GOOGLE                    |         |
-| 208.95.112.1   | 17                 | United States |                | TUT-AS                    |         |
-
+| Dirección IP   | Número de Paquetes | País          | Ciudad/Zona    | Organización AS           |
+| -------------- | ------------------ | ------------- | -------------- | ------------------------- |
+|                |                    |               |                |                           |
+| 23.205.110.208 | 193                | United States | Irving         | Akamai International B.V. |
+| 23.218.232.70  | 23                 | United States | Irving         | Akamai International B.V. |
+| 31.13.93.63    | 21                 | United States | Dallas         | FACEBOOK                  |
+| 52.2.187.151   | 26                 | United States | Ashburn        | AMAZON-AES                |
+| 52.204.111.199 | 46                 | United States | Ashburn        | AMAZON-AES                |
+| 157.240.25.1   | 165                | Mexico        | Querétaro City | FACEBOOK                  |
+| 157.240.25.60  | 1524               | Mexico        | Querétaro City | FACEBOOK                  |
+| 157.240.25.174 | 78                 | Mexico        | Querétaro City | FACEBOOK                  |
+| 173.231.16.77  | 47                 | United States |                | WEBNX                     |
+| 189.233.214.97 | 26                 | Mexico        | Irapuato       | UNINET                    |
+| 192.178.52.138 | 21                 | United States |                | GOOGLE                    |
+| 192.178.52.170 | 60                 | United States |                | GOOGLE                    |
+| 192.178.52.234 | 27                 | United States |                | GOOGLE                    |
+| 192.178.56.202 | 25                 | United States |                | GOOGLE                    |
+| 208.95.112.1   | 17                 | United States |                | TUT-AS                    |
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
