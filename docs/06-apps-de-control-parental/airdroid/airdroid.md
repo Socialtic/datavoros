@@ -16,7 +16,7 @@
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental
 - **Costo:**   Descarga gratuita con compras directas desde la aplicación
-- **Enlace de descarga:** <https://play.google.com/store/apps/details?id=com.sand.airdroidkidp&hl=es_MX
+- **Enlace de descarga:** https://play.google.com/store/apps/details?id=com.sand.airdroidkidp&hl=es_MX
 - **Descargas:** Más de 5 millones de descargas
 - **Ultima fecha de actualización:** 02 de abril 2025
 - **Versión:** 2.4.0.1
@@ -55,13 +55,13 @@ La aplicación AirDroid Parental Control está diseñada para que la seguridad d
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 - [Sand Studio](https://sandstudio.co/)
-- Nota: No se mencionan explícitamente otras empresas como parte del procesamiento de datos, pero se hace alusión a terceros y proveedores de servicios.
+
+**Nota: No se mencionan explícitamente otras empresas como parte del procesamiento de datos, pero se hace alusión a terceros y proveedores de servicios.**
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
 | Dominios                                |
 | --------------------------------------- |
-| https://192.168.40.201/                 |
 | https://airdroid-parent.firebaseio.com/ |
 | https://firebase.google.com/            |
 | https://issuetracker.google.com/        |
@@ -117,23 +117,21 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 #### Datos solicitados durante el registro
 
 - :red_circle: Correo electrónico
-- :blue_circle: Nombre
+- :blue_circle: Nombre de la persona adulta
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :red_circle: Nombre
-- :red_circle: Correo electrónico
+La aplicación no solicita datos adicionales durante su uso.
+
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-*Ejemplo*
 
 | Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS                       | Dominio |
 | --------------- | ------------------ | ------------- | ----------- | ------------------------------------- | ------- |
-| 10.1.10.1       | 10,777             |               |             |                                       |         |
 | 38.194.232.102  | 909                | México        | Tizayaca    | IENTC S DE RL DE CV                   |         |
 | 43.130.4.190    | 169                | United States | Santa Clara | Tencent Building, Khejizhingyi Avenue |         |
 | 49.51.35.72     | 244                | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue |         |
@@ -148,7 +146,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 132.248.3.29    | 2                  | México        | Mexico City | Universidad Autónoma de México        |         |
 | 170.106.112.204 | 73                 | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue |         |
 | 170.106.197.185 | 49                 | United States | Santa Clara | Tencent Building, Khejizhongyi Avenue |         |
-
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
@@ -168,12 +165,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Dirección de correo electrónico                                | Funciones de la aplicación, análisis, comunicaciones del desarrollador y gestión de la cuenta |
 | ID de dispositivo u otros IDs (no especificados)               | Análisis                                                                                      |
 
-### Datos compartidos y uso según la PlayStore
-
 ### Prácticas de seguridad
 
-- Cifrado de datos en tránsito: La aplicación indica que cifra los datos durante su transmisión.
-- Mecanismo de eliminación de datos: La aplicación señala que los datos no pueden ser borrados por el usuario
+- La aplicación indica que "*Cifrado de datos en tránsito:* La aplicación indica que cifra los datos durante su transmisión." lo cual según nuestro análisis es correcto.
+- La aplicación indica que "*Mecanismo de eliminación de datos:* La aplicación señala que los datos no pueden ser borrados por el usuario." lo cual no fue posible de probar en este análisis y queda sin confirmar.
 
 ### Datos recopilados y uso según la Política de privacidad
 
