@@ -1,4 +1,4 @@
-# Qustodio (padres)
+# Qustodio Kids (hijo)
 
 ## Fechas de análisis
 
@@ -8,17 +8,17 @@
 
 ## Archivos analizados
 
-- [apk versión 182.27.2]()
+- [apk versión 180.73.1.2]()
 - [pcap versión 2.7.1]()
 - [Capturas de pantalla]()
 - [Reporte MobSF]()
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental (Parenting)
-- **Costo:**   Premium (prueba gratuita)
-- **Enlace de descarga:**  https://play.google.com/store/apps/details?id=com.qustodio.family.parental.control.app.screentime
-- **Descargas:** 5,000,000
-- **Ultima fecha de actualización:** 7/03/2025
+- **Costo:** Premium (prueba gratuita)
+- **Enlace de descarga:**  https://play.google.com/store/apps/details?id=com.qustodio.family.parental.control.app.screentime&pcampaignid=web_share
+- **Descargas:** 1,000,000
+- **Ultima fecha de actualización:** 13/02/2025
 - **Versión:** 182.27.2
 - **Desarrollador:** [Qustodio LLC](https://www.qustodio.com/en/)
 - **Firma:** [Qustodio LLC](https://www.qustodio.com/en/)
@@ -27,57 +27,38 @@
     
 - **Descripción en PlayStore:**
 ~~~
-Galardonada con el premio Editors’ Choice de PC Mag, **Qustodio - Control parental facilita la vida a los padres** > con funciones como los controles de tiempo diarios, la monitorización y el bloqueo de aplicaciones —incluidas Facebook y YouTube—, el seguimiento de geolocalización, el modo infantil, el bloqueo de pornografía, etc.
-- **Bloqueo de dispositivos**: bloquea automáticamente el dispositivo cuando se agota el tiempo  
-- **Control parental y modo para niños**: supervisa y controla el contenido al que acceden tus hijos y filtra el contenido para adultos  
-- **Localizador familiar con GPS**: localiza el teléfono de tus hijos y te envía su localización  
+**Qustodio para niños** es la app complementaria de **Qustodio - Control parental**, la app de Qustodio para los dispositivos de los padres. Descárgala únicamente en los dispositivos de tus hijos.  
   
-Primero, descarga **Qustodio - Control parental** en tu dispositivo. Después, descarga **Qustodio para niños** en los dispositivos de tus hijos. Una vez configuradas, podrás gestionar y supervisar la actividad de sus dispositivos móviles, tabletas y ordenadores en Android, iOS y los principales sistemas operativos.  
+Primero, descarga **Qustodio - Control parental** en tu dispositivo (normalmente, tu teléfono móvil o tu ordenador). A continuación, descarga **Qustodio para niños** en los dispositivos de tus hijos. Una vez configuradas, podrás gestionar y supervisar fácilmente la actividad de tus hijos en los dispositivos móviles, tabletas y ordenadores vinculados a tu cuenta en Android, iOS, macOS y los principales sistemas operativos.  
   
-**Versión gratuita (1 dispositivo)**  
+**Qustodio para niños**  
   
-✓ Configura y gestiona los límites de uso diarios  
-✓ Bloquea sitios web y categorías (videojuegos, juegos de azar o pornografía)  
+• Gratis  
+• Instálala en los dispositivos que desees supervisar  
+• App complementaria de Qustodio - Control parental  
+  
+Versión gratuita de Qustodio (supervisa 1 dispositivo)  
+  
+✓ Configura y gaestiona límites de uso diarios  
 ✓ Supervisa la actividad online, las búsquedas y el uso de las apps  
-✓ Búsqueda segura para bloquear los sitios web para adultos o pornográficos  
+✓ Bloquea sitios web y categorías (juegos, contenidos pornográficos, juegos de azar o contenidos indeseados)  
+✓ Búsqueda segura  
 ✓ Bloquea los navegadores no compatibles  
-✓ Función Pausar Internet  
 ✓ Informes de actividad avanzados (incluido el historial de los últimos 7 días)  
-✓ Recibe notificaciones del Localizador familiar, el rastreador GPS y los controles de tiempo
-
-**Versión Premium (5 dispositivos o ilimitado)  
+✓ Alertas  
   
-Disfruta de las funciones gratuitas más:  
+Para disfrutar de funciones como el bloqueo de apps, el seguimiento de geolocalización, las estadísticas de uso avanzadas y los permisos de tiempo, pásate a Qustodio Premium.  
   
-✓ Monitorización de YouTube  
-✓ Localizador familiar con geolocalización GPS  
-✓ Alertas de los sitios guardados  
-✓ Bloqueador de aplicaciones (bloquea apps y categorías)  
-✓ Límites de tiempo en los juegos y las aplicaciones  
-✓ Seguimiento de llamadas y mensajes  
-✓ Historial de actividad de los últimos 30 días  
-✓ Botón de SOS  
-✓ Alertas de búsqueda basadas en IA  
-✓ Alertas de mensaje basadas en IA  
-✓ Rutinas personalizadas  
-✓ Soporte prioritario  
-✓ Acceso prioritario a nuevas funciones  
-✓ Protección multidispositivo para activar todas las funciones del modo infantil y el Localizador familiar  
-✓ Compatible con dispositivos iOS, Windows, Mac, Android o Kindle  
-✓ Protege un número ilimitado de dispositivos  
-**
+Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 ~~~
 
 ## Rastreadores identificados (mediante Exodus Privacy)
 
-| Rastreador                                                                                     | Tipo                  |
-| ---------------------------------------------------------------------------------------------- | --------------------- |
-| [Adjust](https://www.adjust.com/product/adjust-audience-builder/)                              | Retargeting móvil     |
-| [Google Analytics](https://reports.exodus-privacy.eu.org/en/trackers/48/)                      | Analítica             |
-| [Google CrashLytics](https://reports.exodus-privacy.eu.org/en/trackers/27/)                    | Reporte de fallos     |
-| [Análisis de Google Firebase](https://reports.exodus-privacy.eu.org/en/trackers/49/)           | Analítica             |
-| [Administrador de etiquetas de Google](https://reports.exodus-privacy.eu.org/en/trackers/105/) | Analítica, Publicidad |
-
+| Rastreador                                                                           | Tipo                     |
+| ------------------------------------------------------------------------------------ | ------------------------ |
+| [Segment](https://reports.exodus-privacy.eu.org/en/trackers/62/)                     | Perfilamiento, Analítica |
+| [Google CrashLytics](https://reports.exodus-privacy.eu.org/en/trackers/27/)          | Reporte de fallos        |
+| [Análisis de Google Firebase](https://reports.exodus-privacy.eu.org/en/trackers/49/) | Analítica                |
 
 [Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/555581/#trackers)
 
@@ -131,52 +112,56 @@ Disfruta de las funciones gratuitas más:
 
 ## Permisos   
 
-- **Según Exodus Privacy/MobFS:** 34
-- **Según prueba de uso:** 2
-
+- **Según Exodus Privacy/MobFS:** 28
+- **Según prueba de uso:** 14
 
 ### Permisos según Exodus Privacy
 
  - ACCESS_ADSERVICES_AD_ID
  - ACCESS_ADSERVICES_ATTRIBUTION
- - :exclamation: ACCESS_COARSE_LOCATION: access approximate location only in the foreground
  - :exclamation: ACCESS_FINE_LOCATION: access precise location only in the foreground
  - ACCESS_NETWORK_STATE: view network connections
+ - ACCESS_NOTIFICATION_POLICY: access Do Not Disturb
+ - ACCESS_WIFI_STATE: view Wi-Fi connections
+ - :exclamation: CALL_PHONE: directly call phone numbers
+- CHANGE_NETWORK_STATE: change network connectivity
+- FOREGROUND_SERVICE: run foreground service
+- FOREGROUND_SERVICE_SYSTEM_EXEMPTED
  - INTERNET: have full network access
+ - KILL_BACKGROUND_PROCESSES: close other apps
+ - PACKAGE_USAGE_STATS
  - POST_NOTIFICATIONS
- - READ_APP_BADGE
- - USE_BIOMETRIC: use biometric hardware
- - USE_FINGERPRINT: use fingerprint hardware
+ - RECEIVE_BOOT_COMPLETED_run at startup_
+ - REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: ask to ignore battery optimizations
+ - :exclamation: SYSTEM_ALERT_WINDOW: This app can appear on top of other apps
+ - USE_EXACT_ALARM
  - VIBRATE: control vibration
- - WAKE_LOCK:prevent phone from sleeping
- - UPDATE_COUNT
- - BILLING
+ - WAKE_LOCK: prevent phone from sleeping
+ - READ_HISTORY_BOOKMARKS
+ - WRITE_HISTORY_BOOKMARKS
  - RECEIVE
  - BIND_GET_INSTALL_REFERRER_SERVICE
- - AD_ID
- - READ_GSERVICES
- - READ_SETTINGS
- - UPDATE_SHORTCUT
- - CHANGE_BADGE
- - READ_SETTINGS
- - :exclamation: WRITE_SETTINGS
- - UPDATE_BADGE
- - READ_SETTINGS
- - :exclamation: WRITE_SETTINGS
  - DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
- - PushHandlerActivity
- - READ
- - WRITE
- - BROADCAST_BADGE
- - PROVIDER_INSERT_BADGE
- - BADGE_COUNT_READ
- - BADGE_COUNT_WRITE
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
 ### Permisos solicitados durante el uso de la aplicación
 
-La aplicación no solicita ningún permiso.
+- :red_circle: Actividad del dispositivo
+- :red_circle: Ver y controlar la pantalla
+- :red_circle: Ver y realizar acciones
+- :red_circle: Seguimiento de uso
+- :red_circle: Aparecer encima
+- :red_circle: Leer notificaciones
+- :red_circle: Responder mensajes
+- :red_circle: Cambiar parámetros de configuración
+- :red_circle: Dejar de optimizar el uso de batería
+- :red_circle: Hacer y administrar llamadas telefónicas
+- :red_circle: Ejecución en segundo plano
+- :red_circle: Ubicación
+- :red_circle: Permisos de administrador
+- :blue_circle: Instalación de una conexión VPN
+- :blue_circle: Instalación de certificado web
 
 :red_circle: Este ícono indica un permiso obligatorio   
 :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
@@ -185,11 +170,10 @@ La aplicación no solicita ningún permiso.
 
 ### Datos solicitados al usuario 
 
-#### Datos solicitados durante el registro
+#### Datos solicitados para iniciar sesión en la cuenta del padre
 
 - :red_circle: Correo electrónico
-- :red_circle: Nombre del tutor
-- :red_circle: Nombre del hijo
+- :red_circle: Contraseña
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
@@ -204,26 +188,17 @@ La aplicación no solicita ningún permiso.
 
 | Dirección IP   | Número de Paquetes | País          | Ciudad/Zona | Organización AS       | Dominio |
 | -------------- | ------------------ | ------------- | ----------- | --------------------- | ------- |
-| 3.161.44.59    | 476                | United States |             | AMAZON-02             |         |
-| 3.161.44.102   | 244                | United States |             | AMAZON-02             |         |
-| 9.9.9.9        | 144                | United States | Berkeley    | QUAD9-AS-1            |         |
-| 34.120.195.249 | 352                | United States | Kansas City | GOOGLE-CLOUD-PLATFORM |         |
-| 34.199.63.39   | 710                | United States | Ashburn     | AMAZON-AES            |         |
-| 44.205.80.224  | 528                | United States | Ashburn     | AMAZON-AES            |         |
-| 44.209.27.27   | 122                | United States | Ashburn     | AMAZON-AES            |         |
-| 54.144.48.80   | 620                | United States | Ashburn     | AMAZON-AES            |         |
-| 65.9.149.79    | 37                 | United States |             | AMAZON-02             |         |
-| 104.18.35.7    | 100                | United States |             | CLOUDFLARENET         |         |
-| 172.64.152.249 | 80                 | United States |             | CLOUDFLARENET         |         |
-| 172.217.3.138  | 30                 | United States |             | GOOGLE                |         |
-| 192.178.52.170 | 26                 | United States |             | GOOGLE                |         |
-| 192.178.52.234 | 42                 | United States |             | GOOGLE                |         |
-| 192.178.56.74  | 29                 | United States |             | GOOGLE                |         |
-| 192.178.56.106 | 28                 | United States |             | GOOGLE                |         |
-| 192.178.56.202 | 129                | United States |             | GOOGLE                |         |
-| 192.178.57.42  | 73                 | United States |             | GOOGLE                |         |
-| 192.178.57.46  | 309                | United States |             | GOOGLE                |         |
-GOOGLE
+| 34.117.132.3   | 86                 | United States | Kansas City | GOOGLE-CLOUD-PLATFORM |         |
+| 34.199.63.39   | 189                | United States | Ashburn     | AMAZON-AES            |         |
+| 44.205.80.224  | 363                | United States | Ashburn     | AMAZON-AES            |         |
+| 54.144.48.80   | 336                | United States | Ashburn     | AMAZON-02             |         |
+| 192.178.52.234 | 73                 | United States |             | GOOGLE                |         |
+| 192.178.56.234 | 50                 | United States |             | GOOGLE                |         |
+| 216.239.35.0   | 20                 | United States |             | GOOGLE                |         |
+| 216.239.35.4   | 20                 | United States |             | GOOGLE                |         |
+| 216.239.35.8   | 21                 | United States |             | GOOGLE                |         |
+| 216.239.35.12  | 20                 | United States |             | GOOGLE                |         |
+
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 ![mapa](./mapa.png)
 *Mediante Wireshark*
@@ -234,12 +209,13 @@ GOOGLE
 
 ### Datos recopilados y uso según la PlayStore
 
-| Datos                               | Uso                         |
-| ----------------------------------- | --------------------------- |
-| Información y rendimiento de la app | Diagnostico                 |
-| Nombre                              | Administración de la cuenta |
-| Correo electrónico                  | Administración de la cuenta |
-| Número de teléfono                  | Administración de la cuenta |
+| Datos               | Uso                               |
+| ------------------- | --------------------------------- |
+| Actividad de apps   | Estadísticas y funciones          |
+| Ubicación           | Ubicación precisa                 |
+| Navegación web      | Historial de navegación en la Web |
+| Nombre              | Administración de la cuenta       |
+| Dirección de correo | Administración de la cuenta       |
 
 ### Datos compartidos y uso según la PlayStore
 | Datos                   | Uso                                                   |
@@ -279,7 +255,13 @@ GOOGLE
 
 ## Funciones particulares de la aplicación:
 
-La aplicación tiene un costo de $730 mx (básico) $1290 mx (premium) al año, con el cual desbloqueas todas las funciones.
+La aplicación instalada en el teléfono de la infancia solo muestra un temporizador con tu tiempo en pantalla y un botón para activar una alerta a un contacto de confianza.
+
+### Captura de red mediante VPN
+
+**Esta función solo se activa en la versión de Android 10 o menores, en las versiones posteriores Android prohibió la instalación de certificados web y captura de tráfico de red por temas de seguridad.** 
+
+Instalación de un certificado web y una conexión VPN para realizar el monitoreo y captura del tráfico de red del dispositivo monitoreado. Si este permiso no se da el tráfico de red, las busquedas en internet y las alertas de sitios web bloqueados.
 ### Botón de pánico
 
 Botón de pánico que envía un mensaje o correo electrónico a un contacto de emergencia.
@@ -292,24 +274,26 @@ Instalación de un certificado web y una conexión VPN para realizar el monitore
 - La aplicación de padres no pide ningún permiso
 - El monitoreo de llamadas y mensajes de texto no funciona a pesar de haber dado los permisos para hacer y administrar llamadas telefónicas y leer mensajes de texto.
 - El seguimiento de redes sociales es el seguimiento normal que le da a cualquier aplicación (tiempo de uso), no se monitorean mensajes como da a entender la aplicación.
-- La aplicación no solicita ningún permiso al instalarse sin embargo, el reporte de Exodus Privacy indica que la aplicación accede a 34 permisos que son muy invasivos para el tipo de funciones que realiza el panel de control de monitoreo.
+
 
 ## Conclusiones
 
 ### Permisos y Nivel de Acceso
 
-Aunque la app no solicita permisos directamente al usuario durante su instalación, el análisis con herramientas como Exodus Privacy revela que accede a 34 permisos, muchos de ellos de tipo peligroso o especial para Android, como acceso a ubicación, configuraciones del sistema y uso de biométricos. Esta cantidad de permisos no son congruentes con las funciones de la aplicación ya que este teléfono no es el teléfono monitoreado.
+La aplicación para niños solicita una cantidad significativa de permisos considerados peligrosos o especiales por Android, incluyendo ubicación precisa, lectura de notificaciones, administración del dispositivo, y la capacidad de instalar certificados y crear una VPN. Esto le otorga un alto nivel de control sobre el dispositivo monitoreado, que incluso no permite desinstalar la aplicación.
+
+Algunos permisos como la actividad de pantalla, administración de llamadas y permisos de administrador, implican riesgos importantes de privacidad y seguridad, especialmente en dispositivos de infancias.
 
 ### Rastreo y Análisis de Datos
 
-El análisis de tráfico de red indica que  la app se comunica con múltiples servidores y servicios de terceros, incluyendo Amazon, Google, Cloudflare, PayPal, Stripe, Mailchimp, Segment y Zendesk, entre otros. También se identificaron rastreadores de Google, Adjust y Firebase, lo cual contradice parcialmente su promesa de “protección y privacidad” publicada en su política de privacidad.
+A pesar de que es común ver rastreadores como Google Analytics y Firebase, usados principalmente para analítica y publicidad, su presencia en una herramienta que tiene la intención de ser instalada en los dispositivos de las infancias no parece una práctica ética.
 
 ### Privacidad y datos recolectados
 
 Se recolectan datos sensibles como  mensajes, historial de navegación, llamadas, contactos y geolocalización, lo que implica un monitoreo de nivel profundo del dispositivo del menor. Estos datos no solo son procesados por Qustodio, sino también potencialmente compartidos con terceros con fines de soporte, analítica, pagos y otros servicios de publicidad.
 
 ### Funcionalidad
-Algunas funciones no son como se anuncian, como el monitoreo de llamadas y mensajes, que no se ejecutan correctamente, incluso tras otorgar los permisos correspondientes.
+Algunas funciones no funcionan como se anuncian, como el monitoreo de llamadas y mensajes, que no se ejecutan correctamente, incluso tras otorgar los permisos correspondientes.
 
 El supuesto “monitoreo de redes sociales” se limita al tiempo de uso de las apps, y no accede a contenidos ni mensajes, a pesar de que la publicidad de la app sugiere una funcionalidad más intrusiva hacia las aplicaciones de mensajería como Instagram, Whatsapp y Line.
 
@@ -318,9 +302,10 @@ La política de privacidad de Qustodio explica qué datos se recopilan, pero no 
 
 A pesar de usar cifrado, el hecho de recopilar el tráfico completo de red y todo el uso del dispositivo es un monitoreo desmedido especialmente cuando se trata de infancias y adolescencias.
 
-
 ### Conclusión final
 
-La aplicación es muy invasiva y a pesar de acceder a toda la información no logra funcionar correctamente. Incluso en la versión premium las funciones no cumplen la espectativa generada con la descripción de la PlayStore.
+Identificamos que anteriormente esta aplicación abusaba de configuraciones de seguridad para obtener todo el tráfico de red del dispositivo. Una vez cubierta esta vulnerabilidad por los desarrolladores de Android la aplicación no logra cumplir con la espectativa de las funciones.
 
-En resumen, además de que esta aplicación no funciona, sí recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa de la misma manera que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavorezca.
+A pesar de que los resultados del monitoreo no son tan invasivos no incentivamos su uso ya que los permisos y rastreadores son abusivos, vulnerando los principios fundamentales de privacidad y uso ético de la tecnología.
+
+La aplicación recopila información sensible de las infancias que posteriormente se comparte con terceros, por lo tanto, esta aplicación es Datavorezca.
