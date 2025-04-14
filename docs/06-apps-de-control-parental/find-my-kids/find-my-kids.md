@@ -1,4 +1,4 @@
-# Find my Kids y Pingo!
+# Find my Kids (padres)
 
 ## Fechas de análisis
 
@@ -8,21 +8,15 @@
 
 ## Archivos analizados
 
-Aplicación para padres
 - [apk versión 2.8.91]()
 - [pcap versión 2.7.1]()
 - [Capturas de pantalla]()
 - [Reporte MobSF]()
 
-Aplicación para niños
-- [apk versión 2.8.89]()
-- [pcap versión 2.7.1]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental (Parenting)
-- **Costo:**   $69 mx (mensual) $549 mx (anual) $999 mx (de por vida)
-- **Enlace de descarga:** https://play.google.com/store/apps/details?id=org.findmykids.app&gl=mx
+- **Costo:**  Freemium
+- **Enlace de descarga:** https://play.google.com/store/apps/details?id=org.findmykids.app&hl=es_MX
 - **Descargas:** 50,000,000
 - **Ultima fecha de actualización:** 03/04/2025
 - **Versión:** 2.8.91
@@ -58,29 +52,11 @@ Aplicación para niños
 **Control parental y localizador familiar**  
   
 Find My Kids tiene como único objetivo garantizar la seguridad de tu familia. Funciona como un localizador familiar, facilitando el control parental mediante su sistema de rastreo GPS. La app de seguimiento de la ubicación de persona por su teléfono no puede instalarse de manera secreta y su uso requiere el consentimiento explícito del menor. Además, los datos personales se almacenan siguiendo estrictamente las legislaciones y políticas del RGPD.  
-  
-**Cómo funciona Find My Kids:**  
-  
-1) Instala la aplicación Find My Kids en tu teléfono.  
-2) Selecciona el dispositivo que deseas conectar: el teléfono de tu hijo o un reloj GPS.  
-3) Instala la app Pingo! en el teléfono de tu hijo o introduce el número de la tarjeta SIM del reloj GPS.
 
 **Si tu hijo tiene un smartphone:**  
   
 Instala la app Pingo! en el móvil de tu hijo con GPS. A diferencia de otras aplicaciones similares, nuestro servicio utiliza el localizador GPS en un modo de ahorro de energía.  
   
-**Relojes GPS compatibles:**  
-  
-Disfruta de todas las funciones del localizador familiar de forma gratuita durante el periodo de prueba, una vez que el dispositivo de tu hijo esté conectado. Al finalizar este periodo, la versión gratuita te permitirá consultar la ubicación del niño en tiempo real. Sin embargo, necesitarás una suscripción activa para acceder a las funciones completas.  
-  
-**Permisos necesarios para la app Find My Kids:**  
-  
-- Acceso a cámara y fotos: Para crear el avatar de tu hijo.  
-- Acceso a contactos: Para completar la agenda en el reloj GPS.  
-- Funciones especiales: Para limitar el tiempo de pantalla del móvil.  
-- Acceso al micrófono: Para enviar mensajes de voz en el chat.  
-  
-En caso de problemas técnicos, contacta con nuestro servicio de ayuda 24/7 a través del chat en la app o por correo electrónico a support@findmykids.org.
 ~~~
 
 ## Rastreadores identificados (mediante Exodus Privacy)
@@ -98,7 +74,14 @@ En caso de problemas técnicos, contacta con nuestro servicio de ayuda 24/7 a tr
 | Empresa                                                             | Servicios que ofrecen                                                       |
 | ------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | [Hetzner Online GmbH](https://www.hetzner.com/legal/privacy-policy) | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
-| Google                                                              | Publicidad (Ads), analíticas (Google Analytics).                            |
+| [Google](https://google.com)                                        | Publicidad (Ads), analíticas (Google Analytics).                            |
+| [Amazon Web Services (AWS)](https://aws.amazon.com)                 | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+| [Akamai International](https://www.akamai.com/)                     | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+| [DoubleGIS LLC]()                                                   | Desarrollo de Mapas, herramientas de geoanálisis.                           |
+| [JSC Selectel](https://selectel.ru/en/)                             | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+| [Facebook](https://facebook.com)                                    | Publicidad (Ads), redes sociales, analíticas, servicios de mensajería.      |
+| [Cloudflare](https://www.cloudflare.com/)                           | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
@@ -115,35 +98,86 @@ En caso de problemas técnicos, contacta con nuestro servicio de ayuda 24/7 a tr
 
 | Dominios                                    |
 | ------------------------------------------- |
-| https://243408.selcdn.ru                    |
-| https://ktor.io                             |
-| https://schemas.microsoft.com               |
-| https://firebase.google.com                 |
-| https://www.w3.org                          |
-| https://firebase-settings.crashlytics.com   |
-| https://app-measurement.com                 |
-| https://where-is-my-children.firebaseio.com |
-| https://ya.ru                               |
-| https://pagead2.googlesyndication.com       |
-| https://gdemoideti.onelink.me               |
-| https://g.co                                |
+| https://apache.org                          |
+| https://nav2-cn.ronghub.com                 |
+| https://sviap.s                             |
+| https://graph-video.s                       |
+| https://analytics.us.tiktok.com             |
+| https://feedback.cn.ronghub.com             |
 | https://ns.adobe.com                        |
-| https://aomedia.org                         |
 | https://youtrack.jetbrains.com              |
+| https://cdn.apkmonk.com                     |
+| https://webview.findmykids.org              |
 | https://schemas.android.com                 |
+| https://sadrevenue.s                        |
 | https://www.slf4j.org                       |
+| https://scdn-ssettings.s                    |
+| https://sdlsdk.s                            |
 | https://developer.android.com               |
 | https://github.com                          |
-| https://issuetracker.google.com             |
 | https://www.baidu.com                       |
-| https://google.com                          |
+| https://billing.findmykids.org              |
 | https://goo.gle                             |
+| https://offer.gdemoideti.ru                 |
+| https://sars.s                              |
+| https://sconversions.s                      |
+| https://shop.gdemoideti.ru                  |
+| https://www.w3.org                          |
+| https://fundingchoicesmessages.google.com   |
+| https://firebase-settings.crashlytics.com   |
+| https://webview.kidstracker.pro             |
+| https://svalidate.s                         |
+| https://facebook.com                        |
+| https://ya.ru                               |
+| https://sgcdsdk.s                           |
+| https://simpression.s                       |
+| https://sinapps.s                           |
+| https://developers.facebook.com             |
+| https://play.google.com                     |
+| https://app.resubscribe.ai                  |
+| https://ssdk-services.s                     |
+| https://sregister.s                         |
+| https://privacy-sandbox.appsflyersdk.com    |
+| https://form.typeform.com                   |
+| https://scdn-stestsettings.s                |
+| https://smonitorsdk.s                       |
+| https://where-is-my-children.firebaseio.com |
+| https://webview.gdemoideti.ru               |
+| https://l.gdemoideti.ru                     |
+| https://gdemoideti.onelink.me               |
+| https://gdemoideti.ru                       |
+| https://graph.s                             |
+| https://api.resubscribe.ai                  |
+| https://offer.findmykids.org                |
+| https://sapp.s                              |
+| https://sattr.s                             |
+| https://slaunches.s                         |
+| https://junior.mts.ru                       |
+| https://tile.openstreetmap.org              |
+| https://issuetracker.google.com             |
+| https://findmykids.org                      |
 | https://developer.apple.com                 |
+| https://svalidate-and-log.s                 |
+| https://spia.s                              |
+| https://ktor.io                             |
+| https://javax.xml.xmlconstants              |
+| https://firebase.google.com                 |
+| https://52.83.240.50                        |
+| https://gps-watch.findmykids.org            |
+| https://app-measurement.com                 |
+| https://l.findmykids.org                    |
+| https://www.openstreetmap.org               |
+| https://aomedia.org                         |
+| https://www.google.ru                       |
+| https://api.findmykids.org                  |
+| https://nav.cn.ronghub.com                  |
+| https://stats.cn.ronghub.com                |
+| https://sonelink.s                          |
 
 ## Permisos   
 
-- **Según Exodus Privacy/MobFS:** 36
-- **Según prueba de uso:** 11
+- **Según Exodus Privacy/MobFS:** 33
+- **Según prueba de uso:** 3
 
 
 ### Permisos según Exodus Privacy
@@ -188,15 +222,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 - :red_circle: Ubicación
 - :red_circle: Notificaciones
-- :red_circle: Acceso a los datos de actividad física
-- :red_circle: Ejecutarse en segundo plano
-- :red_circle: Grabar audio
-- :red_circle: Mostar sobre otras aplicaciones
-- :red_circle: Acceso a datos de uso
 - :red_circle: Acceso a contactos
-- :red_circle: Acceso a la gestión de llamadas
-- :red_circle: Establecer como identificador de llamada y spam predeterminado.
-- :red_circle: Acceso a la API del servicio de accesibilidad
+
 
 
 :red_circle: Este ícono indica un permiso obligatorio   
@@ -222,20 +249,43 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
-| Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS     | Dominio |
-| --------------- | ------------------ | ------------- | ----------- | ------------------- | ------- |
-| 116.203.126.51  | 666                | Germany       | Nuremberg   | Hetzner Online GmbH |         |
-| 142.251.218.131 | 66                 | United States |             | GOOGLE              |         |
-| 159.69.174.250  | 6214               | Germany       |             | Hetzner Online GmbH |         |
-| 167.235.81.130  | 94                 | Germany       |             | Hetzner Online GmbH |         |
-| 167.235.232.60  | 2821               | Germany       | Falkenstein | Hetzner Online GmbH |         |
-| 172.217.15.4    | 934                | United States |             | GOOGLE              |         |
-| 192.178.52.164  | 3672               | United States |             | GOOGLE              |         |
-| 192.178.52.174  | 288                | United States |             | GOOGLE              |         |
-| 192.178.52.196  | 2680               | United States |             | GOOGLE              |         |
-| 192.178.57.3    | 78                 | United States |             | GOOGLE              |         |
-| 192.178.57.4    | 658                | United States |             | GOOGLE              |         |
-| 216.58.195.238  | 56                 | United States |             | GOOGLE              |         |
+| Dirección IP   | Número de Paquetes | País          | Ciudad/Zona    | Organización AS           | Dominio |
+| -------------- | ------------------ | ------------- | -------------- | ------------------------- | ------- |
+| 3.161.44.27    | 171                | United States |                | AMAZON-02                 |         |
+| 3.161.44.43    | 119                | United States |                | AMAZON-02                 |         |
+| 3.220.27.242   | 167                | United States | Ashburn        | AMAZON-AES                |         |
+| 13.218.7.32    | 58                 | United States | Ashburn        | AMAZON-AES                |         |
+| 15.197.143.135 | 61                 | United States |                | AMAZON-02                 |         |
+| 23.2.18.232.89 | 59                 | United States | Irving         | Akamai International      |         |
+| 34.56.35.108   | 264                | United States | Council Bluffs | GOOGLE-CLOUD-PLATFORM     |         |
+| 34.237.73.95   | 175                | United States | Ashburn        | AMAZON-AES                |         |
+| 54.83.110.225  | 60                 | United States | Ashburn        | AMAZON-AES                |         |
+| 65.9.121.31    | 172                | United States |                | AMAZON-02                 |         |
+| 65.9.149.23    | 60                 | United States |                | AMAZON-02                 |         |
+| 65.9.149.71    | 172                | United States |                | AMAZON-02                 |         |
+| 65.9.149.95    | 79                 | United States |                | AMAZON-02                 |         |
+| 91.236.51.150  | 726                | Russia        |                | DoubleGIS LLC             |         |
+| 92.53.68.16    | 52                 | Russia        | St Petersburg  | JSC Selectel              |         |
+| 95.213.211.138 | 279                | Russia        | St Petersburg  | JSC Selectel              |         |
+| 138.199.255.74 | 884                | Germany       | Falkenstein    | Hetzner Online GmbH       |         |
+| 142.251.34.10  | 24                 | United States |                | Hetzner Online GmbH       |         |
+| 142.251.34.46  | 1498               | United States |                | Hetzner Online GmbH       |         |
+| 157.240.25.1   | 211                | Mexico        | Queretaro      | FACEBOOK                  |         |
+| 167.235.81.130 | 9566               | Germany       |                | Hetzner Online GmbH       |         |
+| 167.235.81.131 | 373                | Germany       |                | Hetzner Online GmbH       |         |
+| 167.235.232.60 | 48                 | Germany       |                | Hetzner Online GmbH       |         |
+| 167.235.23.158 | 1499               | Germany       | Falkenstein    | Hetzner Online GmbH       |         |
+| 172.67.23.158  | 18                 |               |                | CLOUDFLARENET             |         |
+| 184.28.41.5    | 172                | United States | Dallas         | Akamai International B.V. |         |
+| 184.28.41.20   | 37                 | United States | Dallas         | Akamai International B.V. |         |
+| 184.28.41.28   | 43                 | United States | Dallas         | Akamai International B.V. |         |
+| 184.28.41.31   | 19                 | United States | Dallas         | Akamai International B.V. |         |
+| 184.28.41.29   | 44                 | United States | Dallas         | Akamai International B.V. |         |
+| 184.28.41.36   | 54                 | United States | Dallas         | Akamai International B.V. |         |
+| 192.178.52.202 | 19                 | United States |                | GOOGLE                    |         |
+| 192.178.57.36  | 2267               | United States |                | GOOGLE                    |         |
+| 216.58.195.238 | 49                 | United States |                | GOOGLE                    |         |
+
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 ![mapa](./mapa.png)
@@ -265,7 +315,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 ### Prácticas de seguridad
 
 - Los datos están cifrados en tránsito
-- Puedes solicitar que se borren los datos
+- :exclamation: **No se pueden borrar los datos**
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -305,6 +355,29 @@ El niño tiene la posibilidad de bloquear el acceso a la escucha del entorno (im
 
 La aplicación le sugiere lecturas a los padres para llegar a acuerdos en lugar de imponer las medidas de control impositivas, que es incongruente respecto a las características de la aplicación y la cantidad de datos que captura.
 
+### Envio de una señal fuerte
+
+El tutor puede enviar una señal fuerte que mostrará una ventana emergente para indicarle al niño que debe llamar a sus padres.
+
+### Chat 
+
+La aplicación tiene un chat directo con la infancia. Es posible que la infancia se comunique con otros contactos de confianza.
+
+### Funciones premium
+
+Las funciones  premium tienen un costo de  $69 mx (mensual) $549 mx (anual) $999 mx (de por vida). Estas funciones incluyen:
+
+- Rastreo GPS en tiempo real: Permite a los padres ver la ubicación actual de sus hijos en un mapa. 
+- Historial de ubicación: Mantiene un registro de los lugares donde han estado los hijos a lo largo del día. 
+- Notificaciones de seguridad: Recibe alertas cuando los hijos llegan o salen de lugares específicos, como el colegio o la casa. 
+- Escucha de entorno: Permite escuchar los sonidos alrededor de los hijos para asegurarse de que están bien. 
+- Control parental: Facilita la gestión de aplicaciones, tiempos de uso y acceso a contenido en línea. 
+- Chat familiar: Permite comunicarse con los hijos a través de la aplicación. 
+- Alertas de batería baja: Notifica a los padres cuando la batería del dispositivo del hijo está baja. 
+
+Es posible usar la aplicación sin las funciones de pago. Si ves anuncios la aplicación te permite desbloquear tiempo o intentos de prueba de las funciones de paga.
+
+
 ## Notas
 
 - Inconsistencia en la solicitud de permisos de ubicación: Aunque la aplicación inicialmente solicita el permiso de ubicación “Mientras la app está en uso”, conforme a lo indicado en sus políticas de privacidad, luego requiere al usuario configurar manualmente el permiso como “Permitir siempre”. Esta situación implica un riesgo de uso indebido y un incumplimiento a la política de privacidad.
@@ -313,31 +386,31 @@ La aplicación le sugiere lecturas a los padres para llegar a acuerdos en lugar 
 
 - La app funciona bajo un modelo freemium, con funciones limitadas sin pago que te permite probarlas al principio. El acceso completo depende de una suscripción mensual, anual o de por vida.
 
+- Según la PlayStore, Find my Kids no comparte datos del usuario con otras organizaciones o empresas, pero en la política de privacidad si declara compartir los datos con fines publicitarios o con sus proveedores de servicios.
+
 
 ## Conclusiones
 
 ### Privacidad y datos recolectados
 
-La app recolecta una gran cantidad de datos sensibles que pertenecen a infancias o adolescencias, incluyendo ubicación precisa, grabaciones de sonido ambiental, uso de aplicaciones, actividad física, y más, lo cual plantea preocupaciones serias sobre su derecho a la privacidad.
+La aplicación solicita más de 30 permisos, varios de ellos considerados peligrosos o especiales por Android (como acceso al micrófono, cámara, contactos, ubicación precisa y almacenamiento externo). Lo que no tiene sentido ya que este teléfono no es el que se está monitoreando.
 
-Aunque la app menciona el cumplimiento del RGPD (Reglamento General de Protección de Datos), se identificaron incongruencias en la solicitud de permisos, que tampoco están declarados por completo en la política de privacidad.
+La app no ofrece la opción de borrar los datos personales recopilados y la política de privacidad admite compartirlos con múltiples terceros para fines como publicidad, estadísticas, soporte, etc.
 
-Se comparten datos con múltiples empresas de terceros, incluyendo proveedores de analítica, publicidad, CRM y almacenamiento en la nube. Este ecosistema extenso amplifica el riesgo de exposición de la información.
-
-
+Se identificaron conexiones activas con más de 30 dominios de terceros, muchos de ellos asociados a publicidad, analítica o almacenamiento en la nube. La app se conecta a servidores en Estados Unidos, Alemania y Rusia.
 ### Funcionalidades  contradictorias
 
-Las funciones como la escucha del entorno, el control del uso de aplicaciones y el seguimiento GPS constante y en vivo son prácticas hipervigilantes, incluso aunque se presenten como medidas de protección.
+Usar la gamificación como estategia normaliza el monitoreo invasivo desde edades tempranas, lo cual puede impactar negativamente la percepción que las infancias tienen sobre su autonomía y privacidad.
 
-La app promueve acuerdos entre adultos y menores mediante lecturas educativas, lo cual es positivo, pero no se alinea con el modelo intrusivo de recolección de datos ni con la monetización a través de dispositivos GPS.
-
+La aplicación solicita tantos permisos como la que se instala en los dispositivos a monitorear, los cuales no son necesarios ni congruentes con las funciones que tiene el panel de control de la app.
 
 ### Permisos y Nivel de Acceso
 
-Según Exodus Privacy se identificaron 36 permisos en la aplicación Pingo! solicitan un conjunto amplio de permisos considerados peligrosos por Android, que les permite tener un control profundo del sistema. 
-
-Permisos como RECORD_AUDIO, ACCESS_FINE_LOCATION, READ_CONTACTS, READ_EXTERNAL_STORAGE, y SYSTEM_ALERT_WINDOW le otorgan a la aplicación un acceso intrusivo a funciones privadas y sensibles del dispositivo.
-
-El permiso para grabar audio, combinado con la función de escucha del entorno, puede transformar el dispositivo en un medio de vigilancia remota.
+Según Exodus Privacy se identificaron 33 permisos en la aplicación, solicitan un conjunto amplio de permisos considerados peligrosos por Android, que les permite tener un control profundo del sistema. 
 
 El conjunto de permisos en Find My Kids y Pingo! otorga a la aplicación un nivel de acceso desproporcionado al dispositivo del niño, lo cual es riesgoso desde una perspectiva de privacidad, derechos de la infancia y seguridad digital. Si bien algunas funciones lo justifican desde el enfoque de control parental, la cantidad y el tipo de permisos exceden lo razonable, es po
+
+### Conclusión final
+Consideramos que el nivel de efectividad de esta app es preocupante ya que las funciones que promociona realmente se llevan a cabo, sin embargo no incentivamos su uso ya que es muy invasivo, vulnera principios fundamentales de privacidad y uso ético de la tecnología recopilando información sensible de las infancias que posteriormente se comparte con terceros y no ofrece la eliminación de los datos. Contradiciendo el discurso de la protección familiar.
+
+Esta aplicación recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa al mismo nivel que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavorezca.
