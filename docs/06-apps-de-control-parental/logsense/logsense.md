@@ -15,7 +15,7 @@
 
 ## Descripción de la aplicación
 - **Tipo:** Maternidad y Paternidad
-- **Costo:**  $119 semanal, $239 mensual
+- **Costo:**  Premium
 - **Enlace de descarga:** https://play.google.com/store/apps/details?id=com.app.logsense&hl=es_MX
 - **Descargas:** 100,000
 - **Ultima fecha de actualización:** 08/01/2025
@@ -44,14 +44,14 @@ LogSense supervisa de forma inteligente sus actividades en línea y le notifica 
 
 ## Empresas relacionadas con esta aplicación:
 
-| Empresa                   | Servicios que ofrecen                                                                |
-| ------------------------- | ------------------------------------------------------------------------------------ |
-| Amazon Web Services (AWS) | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
-| Google Cloud Platform     | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
-| Google                    | Publicidad (Ads), analíticas (Google Analytics).                                     |
-| Cloudflare                | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
-| Facebook                  | Publicidad (Ads), redes sociales, analíticas, servicios de mensajería.               |
-| Webnx                     | Servidores dedicados, colocation, hosting personalizado, infraestructura en la nube. |
+| Empresa                                             | Servicios que ofrecen                                                                |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Amazon Web Services (AWS)](https://aws.amazon.com) | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
+| [Google Cloud Platform](https://cloud.google.com/)  | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
+| [Google](https://google.com)                        | Publicidad (Ads), analíticas (Google Analytics).                                     |
+| [Cloudflare](https://www.cloudflare.com/)           | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable.          |
+| [Facebook](https://facebook.com)                    | Publicidad (Ads), redes sociales, analíticas, servicios de mensajería.               |
+| [Webnx](http://www.webnex.net/)                     | Servidores dedicados, colocation, hosting personalizado, infraestructura en la nube. |
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
@@ -126,7 +126,6 @@ Esta aplicación no requiere un registro.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-*Ejemplo*
 
 | Dirección IP   | Número de Paquetes | País          | Ciudad/Zona | Organización AS | Dominio |
 | -------------- | ------------------ | ------------- | ----------- | --------------- | ------- |
@@ -198,6 +197,7 @@ La aplicación muestra en su interfaz funciones para eliminar la cuenta, sin emb
 - Sección de la Política de Privacidad: [Privacidad de los niños](https://sites.google.com/view/logsense/privacy?authuser=0#h.9meg4q4udvo3)
 	Nuestro Servicio no está dirigido a menores de 13 años. No recopilamos intencionalmente información personal identificable de menores de 13 años. Si usted es padre, madre o tutor y sabe que su hijo nos ha proporcionado datos personales, póngase en contacto con nosotros. Si detectamos que hemos recopilado datos personales de menores de 13 años sin verificar el consentimiento parental, tomaremos medidas para eliminar dicha información de nuestros servidores.
 - La Política de privacidad parece ser una política genérica y está publicada en un google sites.
+- La aplicación cobra $119 semanal, $239 mensual para "descifrar" los chats, pero nunca los descifra.
 
 ## Conclusiones
 
