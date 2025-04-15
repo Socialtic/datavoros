@@ -1,7 +1,7 @@
 # Qustodio Kids (infancias y adolescencias)
 
 ---
-## Funciones particulares de la aplicación:
+## Funciones particulares de la aplicación
 La aplicación instalada en el teléfono de la infancia solo muestra un temporizador con tu tiempo en pantalla y un botón para activar una alerta a un contacto de confianza.
 
 ### Captura de red mediante VPN

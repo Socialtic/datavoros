@@ -1,6 +1,6 @@
 # Qustodio (madres y padres)
 ___
-## Funciones particulares de la aplicación:
+## Funciones particulares de la aplicación
 
 La aplicación tiene un costo de $730 mx (básico) $1290 mx (premium) al año, con el cual desbloqueas todas las funciones.
 ### Panel de control

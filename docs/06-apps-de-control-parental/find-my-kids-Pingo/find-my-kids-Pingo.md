@@ -1,6 +1,6 @@
 # Pingo! by Find my Kids  (infancias y adolescencias)
 ___
-## Funciones particulares de la aplicación:
+## Funciones particulares de la aplicación
 
 ### Widget de botón SOS en la patalla de inicio
 Esta función permite colocar un acceso rápido en la pantalla principal del dispositivo del niño.Al tocar el botón SOS, el niño puede enviar una alerta inmediata a sus padres en caso de emergencia. La alerta suele incluir la ubicación actual y puede activar funciones como la **escucha del entorno** del dispositivo.
