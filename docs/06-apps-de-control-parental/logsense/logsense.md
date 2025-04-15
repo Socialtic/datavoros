@@ -1,5 +1,43 @@
 # Logsense
+___
+## Funciones particulares de la aplicación
 
+### Muestra un clon del Whatsapp rastreado
+En la interfaz muestra un clon de la interfaz de whatsapp con las fotos de los chats opacas y el texto está cifrado. Solicita un pago para descifrar el contenido.
+
+Esta función es falsa ya que la cuenta de whatsapp que usamos para el análisis no tiene más de un chat. 
+
+La aplicación te envia notificaciones constantemente para avisarte que a la persona que rastreas le han llegado mensajes, audios o videollamadas. (La aplicación nunca solicitó permiso para enviar notificaciones).
+
+### Funciones falsas como la gestión de una cuenta
+La aplicación muestra en su interfaz funciones para eliminar la cuenta, sin embargo, en ningún momento se crea una cuenta.
+
+## Notas
+
+- Antes de instalar, la aplicación tiene un mensaje de advertencia en la Playstore que dice "Esta app se desinstala con frecuencia en comparación con otras apps de Play".
+- Sección de la Política de Privacidad: [Privacidad de los niños](https://sites.google.com/view/logsense/privacy?authuser=0#h.9meg4q4udvo3)
+	Nuestro Servicio no está dirigido a menores de 13 años. No recopilamos intencionalmente información personal identificable de menores de 13 años. Si usted es padre, madre o tutor y sabe que su hijo nos ha proporcionado datos personales, póngase en contacto con nosotros. Si detectamos que hemos recopilado datos personales de menores de 13 años sin verificar el consentimiento parental, tomaremos medidas para eliminar dicha información de nuestros servidores.
+- La Política de privacidad parece ser una política genérica y está publicada en un google sites.
+- La aplicación cobra $119 semanal, $239 mensual para "descifrar" los chats, pero nunca los descifra.
+
+## Conclusiones
+
+### Actividad Fraudulenta
+La aplicación LogSense simula funcionalidades inexistentes con fines fraudulentos. Durante el análisis dinámico se evidenció que la app muestra una supuesta interfaz de WhatsApp rastreado, pero el contenido es completamente falso y generado sin ninguna relación real con el dispositivo objetivo. A pesar de mostrar chats, estos se presentan de forma opaca y cifrada, solicitando un pago para “descifrarlos”, sin que exista ninguna evidencia de que esa información provenga realmente de WhatsApp.
+
+Además, esta aplicación está planeada para ser instalada en el dispositivo de la persona que realiza el monitoreo, nunca tiene contacto con el dispositivo monitoreado. Esto confirma que la app no realiza funciones de espionaje real, sino que simula comportamientos para convencer al usuario de pagar.
+
+### Política de Privacidad genérica y poco confiable
+La política de privacidad es genérica y poco confiable. Está alojada en Google Sites y no especifica claramente con qué terceros se comparten los datos, pese a que la app establece múltiples conexiones con empresas externas. 
+
+En su política tiene una sección donde especifica que el servicio no está dirigido a personas menores de 13 años, a pesar de ser una de las aplicaciones con mayor recaudación en la categoría de Maternidad y Paternidad.
+
+### Monetización Agresiva
+Presenta prácticas de diseño y monetización que son engañosas. Las notificaciones constantes que simulan recibir mensajes o videollamadas de la persona rastreada, buscan presionar emocionalmente al usuario para que pague. 
+
+### Privacidad y datos recolectados
+Aunque en la Play Store afirma no recopilar ni compartir datos, durante el uso se observó tráfico de red hacia múltiples dominios asociados con empresas de rastreo y análisis, incluyendo Facebook, Google, RevenueCat y TikTok. Además, se solicitan datos sensibles como el nombre y número de la persona que se desea rastrear. Esta aplicación sí es Datavorezca.
+___
 ## Fechas de análisis
 
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 7/04/2025
@@ -21,8 +59,8 @@
 - **Ultima fecha de actualización:** 08/01/2025
 - **Versión:** 1.0.6
 - **Desarrollador:** LogSense LTD
-- **Firma:** no hay firma
-- **Contacto:** https://sites.google.com/view/logsense/support?authuser=0
+- **Firma:** RAPID DIJITAL HIZMETLER LIMITED SIRKETI
+- **Contacto:** https://sites.google.com/view/logsense/support?authuser=0 o info@rapid-mobile.net
 - **Condiciones de uso y Política de privacidad:** https://sites.google.com/view/logsense/terms https://sites.google.com/view/logsense/privacy?authuser=0
     
 - **Descripción en PlayStore:**
@@ -69,7 +107,7 @@ No se especifica ninguna empresa en el Aviso de Privacidad.
 | https://play.google.com                |
 | https://sites.google.com               |
 | https://ipapi.co                       |
-| https://analytics.us.tiktok.com        |
+| https://tiktok.com                     |
 | https://web.whatsapp.com               |
 | https://flagcdn.com                    |
 | https://api.revenuecat.com             |
@@ -79,7 +117,6 @@ No se especifica ninguna empresa en el Aviso de Privacidad.
 
 - **Según Exodus Privacy/MobFS:** 14
 - **Según prueba de uso:** Ninguno
-
 
 ### Permisos según Exodus Privacy
 
@@ -104,26 +141,15 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 Esta app no solicitó permisos en ningún momento. 
 
-:red_circle: Este ícono indica un permiso obligatorio   
-:blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
-
 ## Datos
-
-### Datos solicitados al usuario 
-
-#### Datos solicitados durante el registro
-
-Esta aplicación no requiere un registro.
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
 - :red_circle: Nombre de la persona a la que deseas rastrear
 - :red_circle: Número de teléfono a la que deseas rastrear
-    
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
-
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
@@ -143,7 +169,7 @@ Esta aplicación no requiere un registro.
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 ![mapa](./mapa.png)
 *Mediante Wireshark*
-
+El análisis de conexiones nos indica que la infraestructura de esta aplicación está en Estados Unidos, la infraestructura que está en México pertenece a Meta y Google que proveen servicios de analíticas.
 ### Datos recopilados y uso según la PlayStore
 El desarrollador indica que esta app no recopila ni comparte datos del usuario.
 ### Datos compartidos y uso según la PlayStore
@@ -151,10 +177,9 @@ El desarrollador indica que esta app no comparte datos del usuario con otras org
 
 ### Prácticas de seguridad
 
-- Los datos están cifrados en tránsito
-- Puedes solicitar que se borren los datos
-- El desarrollador indica que esta app no recopila datos del usuario.
-
+- Los datos están cifrados cuando viajan a través de Internet.
+- Puedes solicitar a los desarrolladores que se borren los datos asociados a tu cuenta.
+- :exclamation: El desarrollador indica que esta app no recopila datos del usuario. (¡Spoiler!: es mentira).
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -162,7 +187,6 @@ El desarrollador indica que esta app no comparte datos del usuario con otras org
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Datos personales<br>- Nombre y apellido<br>- Número de teléfono<br>- Datos de uso                                                                                                                                                                                                                                                                                                          |
 | Datos de uso<br>Los datos de uso pueden incluir información como la dirección de protocolo de Internet de su dispositivo (por ejemplo, dirección IP), el tipo de navegador, la versión del navegador, las páginas de nuestro Servicio que visita, la hora y la fecha de su visita, el tiempo dedicado a esas páginas, identificadores únicos del dispositivo y otros datos de diagnóstico. |
-
 
 ### Uso general de la información según la Política de privacidad
 
@@ -176,43 +200,4 @@ El desarrollador indica que esta app no comparte datos del usuario con otras org
 - Para otros fines : Podemos utilizar su información para otros fines, como análisis de datos, identificar tendencias de uso, determinar la efectividad de nuestras campañas promocionales y para evaluar y mejorar nuestro Servicio, productos, servicios, marketing y su experiencia.
 
 #### Información compartida con terceros
-
 No especifica en la política de privacidad que comparte información con terceros.
-
-## Funciones particulares de la aplicación
-
-### Muestra un clon del Whatsapp rastreado
-En la interfaz muestra un clon de la interfaz de whatsapp con las fotos de los chats opacas y el texto está cifrado. Solicita un pago para descifrar el contenido.
-
-Esta función es falsa ya que la cuenta de whatsapp que usamos para el análisis no tiene más de un chat. 
-
-La aplicación te envia notificaciones constantemente para avisarte que a la persona que rastreas le han llegado mensajes, audios o videollamadas. (La aplicación nunca solicitó permiso para enviar notificaciones).
-
-### Funciones falsas como la gestión de una cuenta
-La aplicación muestra en su interfaz funciones para eliminar la cuenta, sin embargo, en ningún momento se crea una cuenta.
-
-## Notas
-
-- Antes de instalar, la aplicación tiene un mensaje de advertencia en la Playstore que dice "Esta app se desinstala con frecuencia en comparación con otras apps de Play".
-- Sección de la Política de Privacidad: [Privacidad de los niños](https://sites.google.com/view/logsense/privacy?authuser=0#h.9meg4q4udvo3)
-	Nuestro Servicio no está dirigido a menores de 13 años. No recopilamos intencionalmente información personal identificable de menores de 13 años. Si usted es padre, madre o tutor y sabe que su hijo nos ha proporcionado datos personales, póngase en contacto con nosotros. Si detectamos que hemos recopilado datos personales de menores de 13 años sin verificar el consentimiento parental, tomaremos medidas para eliminar dicha información de nuestros servidores.
-- La Política de privacidad parece ser una política genérica y está publicada en un google sites.
-- La aplicación cobra $119 semanal, $239 mensual para "descifrar" los chats, pero nunca los descifra.
-
-## Conclusiones
-
-### Actividad Fraudulenta
-La aplicación LogSense simula funcionalidades inexistentes con fines fraudulentos. Durante el análisis dinámico se evidenció que la app muestra una supuesta interfaz de WhatsApp rastreado, pero el contenido es completamente falso y generado sin ninguna relación real con el dispositivo objetivo. A pesar de mostrar chats, estos se presentan de forma opaca y cifrada, solicitando un pago para “descifrarlos”, sin que exista ninguna evidencia de que esa información provenga realmente de WhatsApp.
-
-Además, esta aplicación está planeada para ser instalada en el dispositivo de la persona que realiza el monitoreo, nunca tiene contacto con el dispositivo monitoreado. Esto confirma que la app no realiza funciones de espionaje real, sino que simula comportamientos para convencer al usuario de pagar.
-
-### Política de Privacidad genérica y poco confiable
-La política de privacidad es genérica y poco confiable. Está alojada en Google Sites y no especifica claramente con qué terceros se comparten los datos, pese a que la app establece múltiples conexiones con empresas externas. 
-
-En su política tiene una sección donde especifica que el servicio no está dirigido a personas menores de 13 años, a pesar de ser una de las aplicaciones con mayor recaudación en la categoría de Maternidad y Paternidad.
-
-### Monetización Agresiva
-Presenta prácticas de diseño y monetización que son engañosas. Las notificaciones constantes que simulan recibir mensajes o videollamadas de la persona rastreada, buscan presionar emocionalmente al usuario para que pague. 
-
-### Privacidad y datos recolectados
-Aunque en la Play Store afirma no recopilar ni compartir datos, durante el uso se observó tráfico de red hacia múltiples dominios asociados con empresas de rastreo y análisis, incluyendo Facebook, Google, RevenueCat y TikTok. Además, se solicitan datos sensibles como el nombre y número de la persona que se desea rastrear. Esta aplicación sí es Datavorezca.
