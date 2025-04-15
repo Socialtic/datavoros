@@ -5,7 +5,20 @@
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 02 de abril 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):**  04 de abril 2025
 - **Análisis Posteriores:** 
+## Resumen de la aplicación
 
+La aplicación que es presentada como una herramienta de acompañamiento digital para madres, padres o personas cuidadoras implementa un conjunto de prácticas que se aproximan peligrosamente a la vigilancia encubierta y el control excesivo sobre la infancia. Sus funcionalidades remotas avanzadas y un uso cuestionable de los datos personales, evidencia una desconexión entre lo que la aplicación declara y lo que efectivamente permite hacer.
+
+El análisis técnico, revela múltiples inconsistencias que afectan tanto la experiencia de uso como el cumplimiento de estándares mínimos de privacidad y seguridad digital, especialmente cuando están involucradas personas menores de edad.
+Entre los principales hallazgos encontramos que:
+- **Falta de transparencia en el uso y activación del periodo de prueba**  
+    Se detectó que la activación del periodo gratuito de uso **carece de claridad en su proceso**, lo que constituye una **mala práctica** desde los estándares internacionales de protección de datos y transparencia comercial.
+- **Acceso remoto a funciones críticas del dispositivo de la infancia**
+    La aplicación permite a la persona cuidadora **activar en tiempo real la cámara, el micrófono, leer notificaciones y ver la pantalla del dispositivo infantil**, sin necesidad de presencia física ni validación adicional. Esto **rompe con cualquier principio de proporcionalidad y consentimiento informado**, habilitando un escenario de **vigilancia constante** que excede ampliamente los márgenes éticos del acompañamiento digital.
+- **Procesamiento de datos sensibles sin mecanismos robustos de consentimiento**  
+    Si bien la política de privacidad menciona que los datos del menor son “controlados” por la cuenta del adulto responsable, **no se especifican ni los mecanismos de consentimiento informado ni las validaciones de edad exigidas por normativas internacionales**. Esto **pone en riesgo el cumplimiento legal y ético** del tratamiento de datos personales de menores.
+- **Violación de principios de privacidad por diseño y minimización de datos**  
+    La posibilidad de grabar audio, video y pantalla completa de manera remota **no guarda proporción con la finalidad declarada de seguridad o acompañamiento**. Estas funcionalidades, sin filtros ni restricciones claras, **evidencian un diseño centrado en el control total** del dispositivo infantil, más que en su protección.
 ## Archivos analizados
 
 - [apk versión ###]()
@@ -191,10 +204,11 @@ La aplicación no solicita datos adicionales durante su uso.
 
 #### Información compartida con terceros
 
-- Proveedores de servicios como almacenamiento en la nube, análisis de datos, atención al cliente.
+La aplicación declara que puede compartir la información de las personas usuarias con:
+- Proveedores externos, como lo que ofrecen servicios de almacenamiento en la nube, análisis de datos, atención al cliente.
 - Autoridades legales o reguladoras, cuando es requerido por la ley.
-- Filiales o subsidiarias dentro del mismo grupo empresarial.
-- Terceros en caso de fusión, adquisición o venta de activos.
+- Otras empresas del mismo grupos como, filiales o subsidiarias dentro del mismo grupo empresarial.
+- Empresas externas en casi de que la aplicación sea vendida, se fusione o cambie de dueño.
 
 ## Funciones particulares de la aplicación:
 - **Supervisión de aplicaciones espía ocultas**  
@@ -215,8 +229,6 @@ La aplicación no solicita datos adicionales durante su uso.
 
 ## Conclusiones
 
-La aplicación, aunque es funcional y aparentemente amigable para las personas cuidadoras, tiene un diseño intrusivo que plantea serias dudas en términos de protección de datos personales, transparencia, consentimiento informado y derechos de la infancia.
-### Conclusión especifica
 - **Falta de trasparencia en la activación del periodo de prueba**: 
 	- Hay una **falla de transparencia** que puede ser considerada una mala práctica según estándares de protección de datos.
 - **Capacidades remotas intrusivas desde el dispositivo de la persona cuidadora**
@@ -230,3 +242,7 @@ La aplicación, aunque es funcional y aparentemente amigable para las personas c
 - **Compatibilidad entre funcionalidad y principios de minimización de datos**
 	- El nivel de acceso remoto que se ofrece **no guarda proporción con la función declarada** de acompañamiento o seguridad infantil. Grabar audio, video y pantalla completa en tiempo real puede **exceder con lo necesario** para fines de supervisión legítimos.
 	- El diseño actual de la aplicación parece estar **orientado al control total, no al acompañamiento respetuoso**.
+
+### Conclusión especifica
+
+La aplicación, aunque es funcional y aparentemente amigable para las personas cuidadoras,**transgrede los límites aceptables del acompañamiento parental digital**, al permitir prácticas que se asemejan a una vigilancia no consensuada, desproporcionada y opaca. Su modelo de funcionamiento **prioriza el control por sobre la confianza**, y su arquitectura **no incorpora principios básicos de protección de la infancia**, como la privacidad por diseño, la proporcionalidad en el tratamiento de datos o la claridad en el consentimiento.

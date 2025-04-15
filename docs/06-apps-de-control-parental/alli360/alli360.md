@@ -5,7 +5,21 @@
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 02 de abril 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):**  04 de abril 2025
 - **Análisis Posteriores:** 
+## Resumen de la aplicación
 
+La aplicación Alli360, dirigida a dispositivos utilizados por niños, niñas y adolescentes, presenta una serie de funcionalidades que, si bien podrían enmarcarse dentro del discurso del control parental, **superan ampliamente los límites aceptables desde una perspectiva de derechos digitales, privacidad y autonomía progresiva de la infancia**.
+
+Entre los principales hallazgos encontramos: 
+- **Control total del dispositivo**: Alli360 bloquea completamente la descarga y la desinstalación de aplicaciones, eliminando toda posibilidad de gestión autónoma del entorno digital por parte de la infancia.
+- **Censura y restricciones absolutas**: La aplicación impide el ingreso a cualquier aplicación que haya sido bloqueada por la persona cuidadora, sin permitir excepciones, moderación o participación del menor en dichas decisiones.
+- **Vigilancia en tiempo real**: La aplicación **transmite todas las notificaciones del dispositivo de la infancia al dispositivo de la persona cuidadora**, generando una intercepción constante de la vida digital.
+- **Gamificación del acceso a derechos digitales**: El diseño de la app condiciona el uso de aplicaciones a la realización de tareas impuestas por el adulto, generando un sistema de “tiempo ganado” que **refuerza dinámicas de obediencia sin agencia propia**, desdibujando la línea entre educación digital y castigo conductual.
+- **Permisos intrusivos no declarados:** Se identificó que la aplicación solicita permisos críticos que no están declarados en su ficha de Google Play Store, incluyendo:
+    - Lectura del estado y la identidad del teléfono
+    - Grabación de audio
+    - Acceso al almacenamiento externo  
+        Estos permisos amplían drásticamente las capacidades de recolección de datos personales sin el consentimiento informado de la persona usuaria.
+- **Infraestructura cuestionable**: El principal actor identificado en la infraestructura digital es **Hetzner Online GmbH**, empresa alemana de hosting. Si bien legalmente establecida, **su historial en el alojamiento de servicios sin suficiente control de uso ha sido cuestionado en contextos de aplicaciones de vigilancia**. Esto refuerza el riesgo de falta de auditoría y supervisión sobre los datos almacenados y transmitidos.
 ## Archivos analizados
 
 - [apk versión ###]()
@@ -58,31 +72,25 @@ Alli360 — es un servicio que ayuda a los padres a establecer límites de tiemp
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 - [ANKO SOLUTION LCC](https://www.anko.solutions/)
-- Nota: Tras el análisis de la política de privacidad de Kids360, no se mencionan otras empresas específicas, sin embargo, hay referencias al uso de herramientas de análisis de terceros para recopilar datos analíticos, también hace referencia a socios comerciales. 
+
+Nota: Tras el análisis de la política de privacidad de Kids360, no se mencionan otras empresas específicas, sin embargo, hay referencias al uso de herramientas de análisis de terceros para recopilar datos analíticos, también hace referencia a socios comerciales. 
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
-| Dominios                                         |
-| ------------------------------------------------ |
-| https://deeplink.kids360.app                     |
-| https://play.google.com                          |
-| https://www.slf4j.org                            |
-| https://issuetracker.google.com                  |
-| https://play.google                              |
-| https://kids360.app                              |
-| https://subdomain.region.verifysession.uxcam.com |
-| https://kids360kid.page.link                     |
-| https://kids-360-parental.firebaseio.com         |
-| https://developer.android.com                    |
-| https://github.com                               |
-| https://sapp.s                                   |
-| https://developer.apple.com                      |
-| https://af-alli360.kids360.app                   |
-| https://aomedia.org                              |
-| https://subdomain.region.uxcamsession.com        |
-| https://websocket-manager.kids360.app            |
-| https://api.prod.findmykids.app                  |
-| https://logiclike.com                            |
+| Dominios                                  |
+| ----------------------------------------- |
+| https://kids360kid.page.link              |
+| https://play.google.com/                  |
+| https://www.slf4j.org/                    |
+| https://issuetracker.google.com/          |
+| https://kids360.app                       |
+| https://kids-360-parental.firebaseio.com  |
+| https://developer.android.com             |
+| https://github.com                        |
+| https://developer.apple.com               |
+| https://af-alli360.kids360.app            |
+| https://aomedia.org                       |
+| https://logiclike.com                     |
 
 ## Permisos   
 - **Según Exodus Privacy/MobFS:** 36
@@ -149,19 +157,16 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :red_circle: Correo electrónico
-- :red_circle: Nombre
+- Durante el uso de la aplicación no se solicitan más datos de la persona usuaria.
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-*Ejemplo*
 
 | Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS     | Dominio |
 | --------------- | ------------------ | ------------- | ----------- | ------------------- | ------- |
 | 3.161.10.68     | 31                 | United States |             | AMAZON-02           |         |
-| 10.1.10.1       | 968                |               |             |                     |         |
 | 49.13.202.210   | 76                 | Germany       | Numberg     | Hetzner Online GmbH |         |
 | 66.23.231.30    | 28                 | United States |             | IS-AS-1             |         |
 | 95.216.209      | 553                | Finland       | Helsinki    | Hetzner Online GmbH |         |
@@ -188,13 +193,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Otro contenido generado por usuarios (No especificado)        | Funciones de la aplicación                |
 | Otras acciones (No especificado)                              | Estadísticas                              |
 
-
 ### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
 
-- Cifrado de datos en tránsito: La aplicación indica que cifra los datos durante su transmisión.
-- Mecanismo de eliminación de datos: Se menciona que la aplicación ofrece una forma para que las personas usuarias soliciten la eliminación de sus datos personales, más no declara explícitamente como.
+- La aplicación indica que "*Cifrado de datos en tránsito:* La aplicación indica que cifra los datos durante su transmisión." lo cual según nuestro análisis es correcto.
+- La aplicación indica que "*Mecanismo de eliminación de datos:* La aplicación señala que los datos pueden ser borrados por el usuario." lo cual no fue posible de probar en este análisis y queda sin confirmar.
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -216,40 +220,43 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Información compartida con terceros
 
-- Datos que se requiera legalmente.
-- Datos técnicos y de uso como el uso de la aplicación e interacciones con funciones de la aplicación.
-- Datos proporcionados por la persona usuaria directamente con los servicios.
+- La aplicación indica que en casi de ser requeridos de manera legal o por parte de autoridades, los datos que se soliciten se compartirán con estos organismos.
+- La aplicación señala que los datos técnicos y de uso, como el uso de la aplicación e interacciones con funciones de la aplicación, se compartirán con fines comerciales.
+- La aplicación señala que los datos proporcionados por la persona usuaria se comparten directamente con los servicios de la aplicación.
 
 ## Funciones particulares de la aplicación:
-1. Acceso amplio a datos del dispositivo de la persona menor
+-  Acceso amplio a datos del dispositivo de la persona menor
 	- Recopilan datos técnicos y del uso del dispositivo.
 	- No esta claro hasta que punto acceden a estos datos como historial de navegación, contactos o mensajes.
-2. Herramientas de análisis de terceros no identificadas.
+-  Herramientas de análisis de terceros no identificadas.
 	- Mencionan que usan herramientas analíticas pero no se especifican quienes son estas empresas ni que datos exactamente recopilan
-3. Recopilación de datos con la aplicación en segundo plano o sin uso activo
+-  Recopilación de datos con la aplicación en segundo plano o sin uso activo
 	- La política no aclara este uso de la aplicación, sin embargo, la aplicación si se ejecuta en segundo plano.
-4. Uso genérico de "socios comerciales"
+-  Uso genérico de "socios comerciales"
 	- Aunque en la política de privacidad dice que no comparte datos salvo bajo obligación legal, hacen referencia a "partners" y servicios vinculados no especificados
-5. Retención de datos sin plazos concretos
+-  Retención de datos sin plazos concretos
 	- No se especifica con claridad cuánto tiempo retienen los datos ni bajo que criterios los eliminan.
 
 ## Notas
 
-- La aplicación contiene funciones especificas que se desbloquean al momento de acceder a la versión de paga de la aplicación.
-- Dentro de aplicación de las personas cuidadoras se ofrecen varios servicios de control hacia la aplicación de las infancias, la única interacción que tienen las infancias con la aplicación es el realizar tareas que conforme van marcando como realizadas, la aplicación de la persona cuidadora las registra y va aumentando la cantidad de minutos que la infancia puede pasar en las aplicaciones que la persona cuidadora de autorización.
 - La aplicación bloquea de manera total la descarga y la desinstalación de aplicaciones en el dispositivo de la infancia.
 - La aplicación bloquea de manera total el ingreso a las aplicaciones bloqueadas por la persona cuidadora.
 - La aplicación manda en tiempo real las notificaciones del dispositivo de la infancia al dispositivo de la persona cuidadora.
 
 ## Conclusiones
-- **Restricciones absolutas en el dispositivo del menor**:  
-	- El control ejercido por la app no solo limita la privacidad, sino que transforma el dispositivo en un entorno **sin derechos digitales básicos**, lo que puede incluso afectar el desarrollo de la infancia.
-- **Recolección y transmisión en tiempo real de datos**:
-	- - Aunque la política afirma que los datos se recogen con el consentimiento de la persona cuidadora, no hay un manera para validar ese consentimiento ni asegurar que sea informado.
-	- Además, no se especifica con claridad cómo se protege la confidencialidad de los datos de la infancia, ni si estos datos son compartidos con terceros con fines comerciales o analíticos.
+
+- **Diseñada para el control absoluto, no el acompañamiento digital:**  
+    La aplicación implementa un modelo de **control total** sobre el dispositivo de la infancia, sin espacio para la mediación, el consentimiento o el desarrollo de la autonomía digital. El bloqueo completo de descargas, desinstalaciones y acceso a aplicaciones, convierte el dispositivo en un entorno cerrado y rígido.
+- **Vigilancia intrusiva y en tiempo real:**  
+    La transmisión continua de notificaciones desde el dispositivo de la infancia al dispositivo de la persona cuidadora constituye una forma de **vigilancia persistente**, incompatible con los principios de proporcionalidad y privacidad. Esta lógica reproduce prácticas más cercanas al espionaje que al cuidado.
+- **Mecanismo de control conductual gamificado:**  
+    La aplicación impone un sistema de recompensas donde las infancias deben cumplir tareas impuestas por la persona adulta para "ganar" tiempo de uso. Esto genera una **relación transaccional con el acceso a derechos digitales**, que puede afectar negativamente el desarrollo de la autonomía, la autoestima y la confianza.
+- **Incumplimiento de transparencia y políticas de privacidad:**  
+    Alli360 **solicita permisos altamente sensibles** (como grabación de audio, lectura del estado del teléfono y del almacenamiento externo) **sin declararlos en la Play Store ni en su política de privacidad**, violando estándares mínimos de transparencia y consentimiento informado.
+- **Riesgo elevado por infraestructura opaca:**  
+    La app utiliza servidores alojados en **Hetzner Online GmbH**, una empresa que, aunque legítima, ha sido señalada por alojar servicios sin suficiente supervisión. Esto **plantea dudas sobre la custodia, seguridad y jurisdicción de los datos recolectados**, especialmente considerando que se trata de datos de menores.
+- **Inadecuación para contextos de crianza respetuosa o educativos:**  
+    Las dinámicas que impone esta app no solo obstaculizan el desarrollo digital de la infancia, sino que también **consolidan un modelo autoritario** de relación adulto-niño, lo cual la hace incompatible con enfoques de crianza respetuosa, educación basada en derechos o metodologías participativas.
 ### Conclusión especifica
-La app Kids360 presenta un **modelo altamente intrusivo**, que prioriza el control total sobre el acompañamiento respetuoso. A pesar de estar pensada para “proteger”, **termina vulnerando derechos fundamentales de la infancia**, entre ellos:
-- El derecho a la privacidad.
-- El derecho a la participación digital.
-- El derecho al desarrollo de la autonomía.
-Desde un enfoque de seguridad digital con principios éticos, **esta aplicación no cumple con los estándares mínimos recomendables para un entorno seguro y respetuoso para las infancias.** Incluso si se alinea formalmente con políticas de privacidad básicas, en la práctica **su diseño funcional vulnera derechos clave.**
+
+La aplicación Alli360 representa un riesgo para la seguridad digital, la privacidad y el desarrollo de las infancias. No puede considerarse una herramienta ética ni apropiada de acompañamiento parental. Se sugiere **restringir su uso e investigar sus prácticas de tratamiento de datos personales**.

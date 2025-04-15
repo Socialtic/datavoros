@@ -5,6 +5,13 @@
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 03 de abril 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):**  04 de abril 2025
 - **Análisis Posteriores:** 
+## Resumen de la aplicación
+
+La aplicación SeenLog, ha generado **numerosas quejas de usuarios** que indican que no cumple con lo prometido. Entre los problemas más destacados se encuentran **funciones bloqueadas**, **falta de visibilidad real del dispositivo objetivo** y constantes **requerimientos de pago** para acceder a funcionalidades adicionales. Estas quejas sugieren que la app podría estar **engañando a los usuarios**, lo que la coloca en una situación de desconfianza y posibles prácticas fraudulentas.
+
+Desde una perspectiva de **protección de datos**, la aplicación presenta **graves deficiencias**. Su **política de privacidad es vaga, ambigua y mal estructurada**, lo que es particularmente preocupante dado que la aplicación **monitorea ubicación en tiempo real** y otros datos sensibles. No se especifica qué tipo de **datos se recogen**, **con qué base legal se procesan**, ni qué **derechos tienen las personas usuarias**, especialmente en el caso de **menores**.
+
+El **consentimiento** mencionado en la política es confuso, y no queda claro cómo se obtiene **ni si se cumple con las normativas de privacidad**, lo que podría implicar una **violación del derecho a la privacidad**, especialmente si se está monitoreando a personas sin su consentimiento explícito. Además, la aplicación **no explica cómo protege los datos** ni cuánto tiempo los retiene, ni si se implementan medidas de seguridad adecuadas, como **cifrado o anonimización**.
 
 ## Archivos analizados
 
@@ -14,6 +21,7 @@
 - [Reporte MobSF]()
 
 ## Descripción de la aplicación
+
 - **Tipo:**   Aplicación de control parental
 - **Costo:**   Descarga gratuita con compras directas desde la aplicación
 - **Enlace de descarga:** <https://play.google.com/store/apps/details?id=com.app.seenlog
@@ -70,23 +78,17 @@ SeenLog analiza sus actividades en línea y le envía notificaciones instantáne
 | https://ipapi.co                        |
 | https://api.revenuecat.com              |
 | https://errors.rev.cat                  |
-| https://opentelemtry.io                 |
 | https://selenium.dev                    |
-| https://analytics.us.tiktok.com         |
 | https://apache.org                      |
 | https://rev.cat                         |
 | https://www.mozilla.org                 |
 | https://github.com                      |
 | https://flagcdn.com                     |
 | https://docs.revenuecat.com             |
-| https://api64.ipify.org                 |
-| https://127.0.01                        |
 | https://web.whatsapp.com                |
 | www.w3.org                              |
 
 ## Permisos   
-
-Permisos solicitados a la aplicación de la persona cuidadora:
 
 - **Según Exodus Privacy/MobFS:** 15
 - **Según prueba de uso:** 0
@@ -114,7 +116,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- No solicita ningun permiso para el uso de esta aplicación
+- No solicita ningún permiso para el uso de esta aplicación
 
 :red_circle: Este ícono indica un permiso obligatorio   
 :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
@@ -129,18 +131,16 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :red_circle: Número de teléfono de la persona espiada
+- :No solicita ningún dato durante el uso de esta aplicación.
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-*Ejemplo*
 
 | Dirección IP   | Número de Paquetes | País          | Ciudad/Zona    | Organización AS            | Dominio |
 | -------------- | ------------------ | ------------- | -------------- | -------------------------- | ------- |
-| 10.1.10.1      | 309                |               |                |                            |         |
 | 23.218.232.88  | 28                 | United States | Irving         | Akamaki International B.V. |         |
 | 98.84.146.18   | 23                 | United States | Ashburn        | AMAZON-AES                 |         |
 | 157.240.25.60  | 104                | México        | Querétaro City | Facebook                   |         |
@@ -164,8 +164,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Prácticas de seguridad
 
-- Cifrado de datos en tránsito: La aplicación indica que cifra los datos durante su transmisión.
-- Mecanismo de eliminación de datos: Se menciona que la aplicación ofrece una forma para que las personas usuarias soliciten la eliminación de sus datos personales, más no declara explícitamente como.
+- La aplicación indica que "*Cifrado de datos en tránsito:* La aplicación indica que cifra los datos durante su transmisión." lo cual según nuestro análisis es correcto.
+- La aplicación indica que "*Mecanismo de eliminación de datos:* La aplicación señala que los datos pueden ser borrados por el usuario." lo cual no fue posible de probar en este análisis y queda sin confirmar.
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -178,13 +178,13 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Uso general de la información según la Política de privacidad
 
-- **Operación y mantenimiento** de la aplicación y sus funcionalidades.
-- **Gestión de cuentas de usuario**, incluyendo registro, inicio de sesión y sincronización.
-- **Análisis de uso** para mejorar el servicio y la experiencia del usuario.
-- **Comunicación directa** con el usuario (emails, notificaciones).
-- **Cumplimiento de obligaciones contractuales**, como compras dentro de la aplicación.
-- **Publicidad y remarketing personalizado** a través de plataformas de terceros.
-- **Integración con servicios de salud**, si el usuario lo autoriza.
+- Operación y mantenimiento de la aplicación y sus funcionalidades.
+- Gestión de cuentas de usuario, incluyendo registro, inicio de sesión y sincronización.
+- Análisis de uso para mejorar el servicio y la experiencia del usuario.
+- Comunicación directa con el usuario (emails, notificaciones).
+- Cumplimiento de obligaciones contractuales, como compras dentro de la aplicación.
+- Publicidad y marketing personalizado a través de plataformas de terceros.
+- Integración con servicios de salud, si el usuario lo autoriza.
 
 #### Información compartida con terceros
 
@@ -198,13 +198,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ## Funciones particulares de la aplicación:
 
-Recordatorios inteligentes: La aplicación puede enviar notificaciones personalizadas para alentar al usuario a registrar sus emociones o eventos importantes, basándose en patrones de uso y preferencias.
-**Sincronización contextual con el estado del dispositivo**: La aplicación puede adaptarse al estado del dispositivo, como el modo silencio, para ofrecer una experiencia más personalizada y menos intrusiva.
+- Recordatorios inteligentes: La aplicación puede enviar notificaciones personalizadas para alentar al usuario a registrar sus emociones o eventos importantes, basándose en patrones de uso y preferencias.
+- **Sincronización contextual con el estado del dispositivo**: La aplicación puede adaptarse al estado del dispositivo, como el modo silencio, para ofrecer una experiencia más personalizada y menos intrusiva.
 
 ## Notas
 
 - Los comentarios de la Google PlayStore señalan que es un tipo de estafa, ya que no pueden ver realmente lo que la aplicación dice que hará, así como requerimiento de pagos constantemente para el "funcionamiento de la aplicación"
 ## Conclusiones
+
 - **Quejas de los usuarios en Google PlayStore**
 	- Los comentarios indican que **la app no cumple lo que promete**: funciones bloqueadas, falta de visibilidad real del dispositivo objetivo, y constantes requerimientos de pago.
 - **Falta de compromiso con los derechos de protección de datos**
@@ -219,5 +220,5 @@ Recordatorios inteligentes: La aplicación puede enviar notificaciones personali
 	- Si se usa para vigilar a menores u otros adultos sin consentimiento explícito, esto puede **vulnerar derechos fundamentales y representar una violación directa del derecho a la privacidad.**
 	- Esta aplicación **no especifica cómo protege estos datos**, ni cuánto tiempo los almacena, ni si hay medidas de seguridad activas como cifrado o anonimización.
 ### Conclusión especifica
-SeenLog se presenta como una aplicación de localización familiar, pero tanto su diseño como sus prácticas parecen estar más orientadas a **explotar la preocupación parental para capturar datos y generar ingresos con un modelo opaco**. No sólo falla en términos de usabilidad según sus propios usuarios, sino que **incumple estándares básicos de privacidad, transparencia y legalidad.**
+SeenLog se presenta como una aplicación de localización familiar, pero tanto su diseño como sus prácticas parecen estar más orientadas a explotar la preocupación parental para capturar datos y generar ingresos. No sólo falla en términos de usabilidad según sus propios usuarios, sino que incumple estándares básicos de privacidad, transparencia y legalidad.
 - Esta aplicación **no es recomendable bajo ningún escenario**.

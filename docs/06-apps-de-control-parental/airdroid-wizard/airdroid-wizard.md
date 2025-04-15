@@ -5,6 +5,17 @@
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 02 de abril 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):**  04 de abril 2025
 - **Análisis Posteriores:** 
+## Resumen de la aplicación
+
+La aplicación AirDroid Wizard Parental Control presenta múltiples señales de alertas criticas que pueden comprometer tanto la seguridad digital como la protección de los derechos digitales de la infancia. La aplicación presenta una combinación de prácticos riesgosas, opacidad técnica y posibles intenciones maliciosas que deben ser consideradas con máxima seriedad.
+
+Entre los hallazgos más relevantes destacan:
+- La aplicación **no está disponible en Google Play Store** y solo puede descargarse desde un enlace externo en formato .apk, evitando los controles de seguridad estándar.
+- Se identificó la presencia de **al menos 19 permisos sensibles no declarados** en su política de privacidad, incluyendo acceso a notificaciones, lectura del almacenamiento interno, entre otros, lo cual representa una **violación directa a principios de transparencia y consentimiento informado**.
+- La app **no posee dominio asociado conocido**, dificultando su trazabilidad y fiscalización.
+- Su funcionalidad se limita a **reenviar datos a una app secundaria**, sin ofrecer herramientas útiles al usuario primario (niños/as), lo cual **refuerza su carácter de software de control encubierto**.
+- La posibilidad de **ocultar tanto notificaciones como el ícono de la aplicación** evidencia intenciones de operar de forma invisible, comportamiento característico de **stalkerware o spyware**.
+- Se detectó además una fuerte presencia de **Tencent, empresa tecnológica china**, dentro de la arquitectura técnica de la aplicación, lo cual puede tener implicaciones geopolíticas o de soberanía de datos, especialmente tratándose de información sensible de menores.
 
 ## Archivos analizados
 
@@ -121,7 +132,6 @@ La aplicación no solicita datos durante su uso.
 
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
-*Ejemplo*
 
 | Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS                                      | Dominio |
 | --------------- | ------------------ | ------------- | ----------- | ---------------------------------------------------- | ------- |
@@ -158,8 +168,7 @@ La aplicación no solicita datos durante su uso.
 
 ### Prácticas de seguridad
 
-- Cifrado de datos en tránsito: La aplicación indica que cifra los datos durante su transmisión.
-- Mecanismo de eliminación de datos: La aplicación señala que los datos no pueden ser borrados por el usuario
+- No se pudieron encontrar recomendaciones de practicas de seguridad en la página oficial de la aplicación.
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -190,42 +199,34 @@ La aplicación no solicita datos durante su uso.
 ## Funciones particulares de la aplicación:
 - **Supervisión de aplicaciones espía ocultas**  
     AirDroid permite a las madres, padres y personas cuidadoras visualizar todas las aplicaciones instaladas en el dispositivo del menor, incluyendo aquellas que podrían estar ocultas o disfrazadas. Esta función ayuda a identificar y eliminar posibles aplicaciones espía que podrían comprometer la seguridad del menor.
-    
 - **Monitoreo de actividades en redes sociales sin acceso directo**  
     La aplicación ofrece la capacidad de supervisar la actividad del menor en plataformas como Snapchat sin necesidad de acceder directamente a sus cuentas. Esto permite a las madres, padres y personas cuidadoras mantenerse informados sobre las interacciones sociales de sus hijos sin invadir su privacidad.
-    
 - **Alertas instantáneas de contenido sensible**  
     AirDroid envía notificaciones en tiempo real cuando detecta palabras clave o contenidos específicos que podrían ser inapropiados o peligrosos, permitiendo a los padres actuar de manera oportuna.
-    
 - **Detección de rastreo y amenazas de seguridad**  
     La aplicación incluye herramientas para identificar si el dispositivo del menor está siendo rastreado o si hay intentos de acceso no autorizados, fortaleciendo así la seguridad digital del usuario.
-    
 - **Historial y seguimiento de ubicación en tiempo real**  
     AirDroid proporciona un historial detallado de las ubicaciones visitadas por el menor y permite a los padres rastrear su ubicación en tiempo real, ofreciendo una capa adicional de seguridad
 
 ## Notas
 
-*Descripción sobre bugs encontrados, fallas de seguridad y otras cosas*
-
-- Al investigar las empresas relacionadas se identifico que Obehosting tiene una reputación asociada con el desarrollo de herramientas fraudulentes.
+- Al investigar las empresas relacionadas se identifico que Obehosting tiene una reputación asociada con el desarrollo de herramientas fraudulentas.
 - Esta aplicación en especifico, **no se encuentra en la Google PlayStore**, solamente se encuentra en un enlace de descarga externo, como .apk lo cual es una práctica negativa en el desarrollo de aplicaciones.
-
+- Dentro de la aplicación, no se puede realizar nada, la aplicación solamente funciona como vinculo que envía datos a la aplicación de las personas cuidadoras.
+- Además, la aplicación permite ocultar las notificaciones y el icono de la misma en el dispositivo de la infancia.
 
 ## Conclusiones
 
-La aplicación, aunque es funcional y aparentemente amigable para personas cuidadoras, tiene un diseño intrusivo que plantea serias dudas en términos de protección de datos personales, transparencia, consentimiento informado y derechos de la infancia.
+- **Asociación con prácticas fraudulentas :**  
+    Se identificó que la empresa vinculada con la aplicación, _Obehosting_, posee una **reputación asociada con el desarrollo de herramientas fraudulentas**, lo que genera **alertas en cuanto a su confiabilidad** y posible incumplimiento de normativas legales y éticas.
+- **Distribución por canales no oficiales el cual representa un riesgo de seguridad:**  
+    La aplicación **no se encuentra disponible en la Google Play Store**, lo cual impide cualquier tipo de verificación o revisión de seguridad por parte de plataformas oficiales. Solo es accesible a través de un **enlace externo en formato .apk**, práctica considerada riesgosa y fuera de los estándares recomendados en desarrollo de aplicaciones móviles.
+- **Ausencia de infraestructura identificable:**  
+    Durante el análisis técnico **no se identificó ningún dominio asociado a la aplicación**, lo cual es inusual y preocupante. Esto indica una **falta de trazabilidad de su infraestructura digital**, dificultando la auditoría de sus servidores, responsables técnicos o canales de comunicación de datos.
+- **Funcionalidad mínima con enfoque unidireccional:**  
+    La aplicación **no ofrece funcionalidades reales al usuario principal**, sino que actúa como un simple **puente de envío de datos hacia otra aplicación controlada por personas cuidadoras**. Esto plantea serias dudas sobre la finalidad legítima del software y **refuerza la hipótesis de que se trata de una herramienta de vigilancia**.
+- **Capacidad de operar encubiertamente:**  
+    La aplicación permite **ocultar notificaciones y el propio icono en el dispositivo**, lo cual es una funcionalidad característica de aplicaciones diseñadas para operar sin el conocimiento del usuario objetivo, en este caso, las infancias. Este comportamiento **es consistente con herramientas de stalkerware o spyware**, especialmente preocupante en contextos donde el usuario es una persona menor de edad.
 ### Conclusión especifica
-- **Falta de trasparencia en la activación del periodo de prueba**: 
-	- La aplicación no indica que su uso durante los primeros días es de prueba, por lo que despues de usarla un tiempo solicita realizar un pago para poder seguir utilizandola.
-- **Capacidades remotas intrusivas desde el dispositivo de la persona cuidadora**
-	- La aplicación tiene acceso en tiempo real y sin presencia física de cámara, micrófono, pantalla, notificaciones.
-	- Implicación directa: La aplicación permite una **vigilancia constante**, lo que la coloca peligrosamente cerca del territorio del **control excesivo o potencial vigilancia encubierta**.
-	- Según su propia política de privacidad, **se recolectan datos sensibles**, incluyendo contenidos generados por la persona usuaria, datos de dispositivos y redes, y comportamientos de uso.
-- **Uso de datos personales y consentimiento infantil**
-	- La app recopila **información personal de menores**, lo cual **exige el consentimiento explícito de los tutores legales**.
-	- Aunque en su política mencionan que **los datos del menor son controlados por la cuenta del padre, madre o persona cuidadora**, no queda claro cómo y cuándo se solicita ese consentimiento informado ni si se valida la edad.
-	- Desde un enfoque de **privacidad por diseño**, esto es insuficiente y roza una **violación potencial de los derechos de la infancia** al no garantizar mecanismos claros de protección.
-- **Compatibilidad entre funcionalidad y principios de minimización de datos**
-	- El nivel de acceso remoto que se ofrece **no guarda proporción con la función declarada** de acompañamiento o seguridad infantil. Grabar audio, video y pantalla completa en tiempo real puede **exceder con lo necesario** para fines de supervisión legítimos.
-	- El diseño actual de la aplicación parece estar **orientado al control total, no al acompañamiento respetuoso**.
 
+Esta aplicación presenta múltiples indicadores de riesgos técnicos, éticos y legales.  Por su distribución, su diseño centrado en la vigilancia encubierta, la ausencia de infraestructura identificable y su asociación con actores de reputación dudosa configuran un escenario **altamente preocupante para la seguridad digital y los derechos de la infancia**.

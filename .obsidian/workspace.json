@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0ce5785216c4b6df",
+        "id": "a2ff465162e68449",
         "type": "tabs",
         "children": [
           {
@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/06-apps-de-control-parental/airdroid/airdroid.md",
+                "file": "docs/06-apps-de-control-parental/seenlog/seenlog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "airdroid"
+              "title": "seenlog"
             }
           }
         ]
@@ -170,10 +170,15 @@
   },
   "active": "5924c7e40254df91",
   "lastOpenFiles": [
+    "docs/06-apps-de-control-parental/kids360/kids360.md",
+    "docs/06-apps-de-control-parental/alli360/alli360.md",
+    "docs/06-apps-de-control-parental/airdroid-wizard/airdroid-wizard.md",
+    "docs/06-apps-de-control-parental/airdroid/airdroid.md",
+    "docs/06-apps-de-control-parental/seenlog/seenlog.md",
+    "docs/06-apps-de-control-parental/nextlog/nextlog.md",
     "README.md",
     "gitignore",
     "Untitled.md",
-    "docs/06-apps-de-control-parental/airdroid/airdroid.md",
     "docs/05-apps-de-citas/badoo/badoo.md",
     "().md",
     "docs/06-apps-de-control-parental/airdroid",
