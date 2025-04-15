@@ -1,4 +1,57 @@
-# Qustodio Kids (hijo)
+# Qustodio Kids (infancias y adolescencias)
+
+---
+## Funciones particulares de la aplicación:
+La aplicación instalada en el teléfono de la infancia solo muestra un temporizador con tu tiempo en pantalla y un botón para activar una alerta a un contacto de confianza.
+
+### Captura de red mediante VPN
+**Esta función solo se activa en la versión de Android 10 o menores, en las versiones posteriores Android prohibió la instalación de certificados web y captura de tráfico de red por temas de seguridad.** 
+
+Instalación de un certificado web y una conexión VPN para realizar el monitoreo y captura del tráfico de red del dispositivo monitoreado. Si este permiso no se da el tráfico de red las funciones de la aplicación no funcionan correctamente.
+### Botón de pánico
+Botón de pánico que envía un mensaje o correo electrónico a un contacto de emergencia.
+### Monitoreo de llamadas y mensajes
+Instalación de un certificado web y una conexión VPN para realizar el monitoreo y captura del tráfico de red del dispositivo monitoreado.
+
+## Notas
+- La aplicación de padres no pide ningún permiso.
+- El monitoreo de llamadas y mensajes de texto no funciona a pesar de haber dado los permisos para hacer y administrar llamadas telefónicas y leer mensajes de texto.
+- El seguimiento de redes sociales es el seguimiento normal que le da a cualquier aplicación (tiempo de uso), no se monitorean mensajes como da a entender la aplicación.
+- No se puede desinstalar la aplicación sin que se elimine el control del  dispositivo desde la aplicación del padre/madre.
+
+
+## Conclusiones
+
+### Permisos y Nivel de Acceso
+La aplicación para niños solicita una cantidad significativa de permisos considerados peligrosos o especiales por Android, incluyendo ubicación precisa, lectura de notificaciones, administración del dispositivo, y la capacidad de instalar certificados y crear una VPN. Esto le otorga un alto nivel de control sobre el dispositivo monitoreado, que incluso no permite desinstalar la aplicación.
+
+Algunos permisos como la actividad de pantalla, administración de llamadas y permisos de administrador, implican riesgos importantes de privacidad y seguridad, especialmente en dispositivos de infancias.
+
+### Rastreo y Análisis de Datos
+A pesar de que es común ver rastreadores como Google Analytics y Firebase, usados principalmente para analítica y publicidad, su presencia en una herramienta que tiene la intención de ser instalada en los dispositivos de las infancias no parece una práctica ética.
+
+### Privacidad y datos recolectados
+Se recolectan datos sensibles como  mensajes, historial de navegación, llamadas, contactos y geolocalización, lo que implica un monitoreo de nivel profundo del dispositivo del menor. Estos datos no solo son procesados por Qustodio, sino también potencialmente compartidos con terceros con fines de soporte, analítica, pagos y otros servicios de publicidad.
+
+### Funcionalidad
+Algunas funciones no funcionan como se anuncian, como el monitoreo de llamadas y mensajes, que no se ejecutan correctamente, incluso tras otorgar los permisos correspondientes.
+
+El supuesto “monitoreo de redes sociales” se limita al tiempo de uso de las apps, y no accede a contenidos ni mensajes, a pesar de que la publicidad de la app sugiere una funcionalidad más intrusiva hacia las aplicaciones de mensajería como Instagram, Whatsapp y Line.
+
+### Transparencia
+La política de privacidad de Qustodio explica qué datos se recopilan, pero no especifica de forma granular qué datos se comparten con cada proveedor.
+
+A pesar de usar cifrado, el hecho de recopilar el tráfico completo de red y todo el uso del dispositivo es un monitoreo desmedido especialmente cuando se trata de infancias y adolescencias.
+
+### Conclusión final
+Identificamos que anteriormente esta aplicación abusaba de configuraciones de seguridad para obtener todo el tráfico de red del dispositivo. Una vez cubierta esta vulnerabilidad por los desarrolladores de Android la aplicación no logra cumplir con la espectativa de las funciones.
+
+A pesar de que los resultados del monitoreo no son tan invasivos no incentivamos su uso ya que los permisos y rastreadores son abusivos, vulnerando los principios fundamentales de privacidad y uso ético de la tecnología.
+
+La aplicación recopila información sensible de las infancias que posteriormente se comparte con terceros, por lo tanto, esta aplicación es Datavorezca.
+
+___
+
 
 ## Fechas de análisis
 
@@ -60,15 +113,15 @@ Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 | [Google CrashLytics](https://reports.exodus-privacy.eu.org/en/trackers/27/)          | Reporte de fallos        |
 | [Análisis de Google Firebase](https://reports.exodus-privacy.eu.org/en/trackers/49/) | Analítica                |
 
-[Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/555581/#trackers)
+[Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/com.qustodio.qustodioapp/latest/)
 
 ## Empresas relacionadas con esta aplicación:
 
-| Empresa                   | Servicios que ofrecen                                                       |
-| ------------------------- | --------------------------------------------------------------------------- |
-| Amazon Web Services (AWS) | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
-| Google Cloud Platform     | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
-| Google                    | Publicidad (Ads), analíticas (Google Analytics).                            |
+| Empresa                                             | Servicios que ofrecen                                                       |
+| --------------------------------------------------- | --------------------------------------------------------------------------- |
+| [Amazon Web Services (AWS)](https://aws.amazon.com) | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+| [Google Cloud Platform](https://cloud.google.com/)  | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
+| [Google](https://google.com)                        | Publicidad (Ads), analíticas (Google Analytics).                            |
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
@@ -83,7 +136,7 @@ Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 - [Stripe, Inc.](https://stripe.com/)
 - [Zendesk Inc.](https://www.zendesk.com/)
 
-### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
 | Dominios                                             |
 | ---------------------------------------------------- |
@@ -92,24 +145,18 @@ Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 | https://www.w3.org                                   |
 | https://www.bing.com                                 |
 | https://jsoup.org                                    |
-| https://firebase-settings.crashlytics.com            |
-| https://analytic.rollout.io                          |
-| https://www.qstodio.com                              |
 | https://vwww.google.com                              |
 | https://crashpad.chromium.org                        |
 | https://console.firebase.google.com                  |
 | https://www.youtube.com                              |
-| https://statestore.rollout.io                        |
-| https://conf.rollout.io                              |
-| https://push.rollout.io                              |
+| https://rollout.io                                   |
 | https://issuetracker.google.com                      |
 | https://github.com                                   |
-| https://cdn-settings.segment.com                     |
+| https://segment.com                                  |
 | https://qustodio.com                                 |
-| https://schemas.android.com                          |
 | https://qustodio-com-fair-hallway-795.firebaseio.com |
 | https://notify.bugsnag.com                           |
-
+| https://crashlytics.com                              |
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 28
@@ -117,31 +164,31 @@ Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 
 ### Permisos según Exodus Privacy
 
- - ACCESS_ADSERVICES_AD_ID
- - ACCESS_ADSERVICES_ATTRIBUTION
- - :exclamation: ACCESS_FINE_LOCATION: access precise location only in the foreground
- - ACCESS_NETWORK_STATE: view network connections
- - ACCESS_NOTIFICATION_POLICY: access Do Not Disturb
- - ACCESS_WIFI_STATE: view Wi-Fi connections
- - :exclamation: CALL_PHONE: directly call phone numbers
+- ACCESS_ADSERVICES_AD_ID
+- ACCESS_ADSERVICES_ATTRIBUTION
+- :exclamation: ACCESS_FINE_LOCATION: access precise location only in the foreground
+- ACCESS_NETWORK_STATE: view network connections
+- ACCESS_NOTIFICATION_POLICY: access Do Not Disturb
+- ACCESS_WIFI_STATE: view Wi-Fi connections
+- :exclamation: CALL_PHONE: directly call phone numbers
 - CHANGE_NETWORK_STATE: change network connectivity
 - FOREGROUND_SERVICE: run foreground service
 - FOREGROUND_SERVICE_SYSTEM_EXEMPTED
- - INTERNET: have full network access
- - KILL_BACKGROUND_PROCESSES: close other apps
- - PACKAGE_USAGE_STATS
- - POST_NOTIFICATIONS
- - RECEIVE_BOOT_COMPLETED_run at startup_
- - REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: ask to ignore battery optimizations
- - :exclamation: SYSTEM_ALERT_WINDOW: This app can appear on top of other apps
- - USE_EXACT_ALARM
- - VIBRATE: control vibration
- - WAKE_LOCK: prevent phone from sleeping
- - READ_HISTORY_BOOKMARKS
- - WRITE_HISTORY_BOOKMARKS
- - RECEIVE
- - BIND_GET_INSTALL_REFERRER_SERVICE
- - DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+- INTERNET: have full network access
+- KILL_BACKGROUND_PROCESSES: close other apps
+- PACKAGE_USAGE_STATS
+- POST_NOTIFICATIONS
+- RECEIVE_BOOT_COMPLETED_run at startup_
+- REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: ask to ignore battery optimizations
+- :exclamation: SYSTEM_ALERT_WINDOW: This app can appear on top of other apps
+- USE_EXACT_ALARM
+- VIBRATE: control vibration
+- WAKE_LOCK: prevent phone from sleeping
+- READ_HISTORY_BOOKMARKS
+- WRITE_HISTORY_BOOKMARKS
+- RECEIVE
+- BIND_GET_INSTALL_REFERRER_SERVICE
+- DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
@@ -204,8 +251,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 *Mediante Wireshark*
 
 ### Otros datos recolectados:
-
-*Datos extras recolectados. Descripción de los datos recolectados y su relación con las empresas. Por ejemplo: dónde está guardada la aplicación, tal cuál servidor para qué sriven, etc.* 
+El análisis de conexiones nos indica que la infraestructura de esta aplicación está en Estados Unidos.
 
 ### Datos recopilados y uso según la PlayStore
 
@@ -226,9 +272,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Dispositivo u otros IDs | Estadísticas                                          |
 
 ### Prácticas de seguridad
-
-- Los datos están cifrados en tránsito
-- Puedes solicitar que se borren los datos
+- Los datos están cifrados cuando viajan a través de Internet.
+- Puedes solicitar a los desarrolladores que se borren los datos asociados a tu cuenta.
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -246,66 +291,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - **Datos de usuario y dispositivos monitoreados**
 	- Información recopilada de los dispositivos que se supervisan mediante Qustodio. Esto puede incluir detalles sobre el uso de aplicaciones, sitios web visitados, mensajes y otras comunicaciones. Qustodio procesa estos datos en tu nombre para proporcionarte servicios de control parental y monitoreo a través de su panel de control.
 #### Información compartida con terceros
-
 - Datos personales
 	- Proveedores de soporte al cliente (Zendesk).
 	- Servicios de facturación y pagos.
 	- Herramientas de analíticas.
 - Qustodio podría compartir ciertos datos con terceros para otros fines específicos.
-
-## Funciones particulares de la aplicación:
-
-La aplicación instalada en el teléfono de la infancia solo muestra un temporizador con tu tiempo en pantalla y un botón para activar una alerta a un contacto de confianza.
-
-### Captura de red mediante VPN
-
-**Esta función solo se activa en la versión de Android 10 o menores, en las versiones posteriores Android prohibió la instalación de certificados web y captura de tráfico de red por temas de seguridad.** 
-
-Instalación de un certificado web y una conexión VPN para realizar el monitoreo y captura del tráfico de red del dispositivo monitoreado. Si este permiso no se da el tráfico de red, las busquedas en internet y las alertas de sitios web bloqueados.
-### Botón de pánico
-
-Botón de pánico que envía un mensaje o correo electrónico a un contacto de emergencia.
-### Monitoreo de llamadas y mensajes
-
-Instalación de un certificado web y una conexión VPN para realizar el monitoreo y captura del tráfico de red del dispositivo monitoreado.
-
-## Notas
-
-- La aplicación de padres no pide ningún permiso
-- El monitoreo de llamadas y mensajes de texto no funciona a pesar de haber dado los permisos para hacer y administrar llamadas telefónicas y leer mensajes de texto.
-- El seguimiento de redes sociales es el seguimiento normal que le da a cualquier aplicación (tiempo de uso), no se monitorean mensajes como da a entender la aplicación.
-
-
-## Conclusiones
-
-### Permisos y Nivel de Acceso
-
-La aplicación para niños solicita una cantidad significativa de permisos considerados peligrosos o especiales por Android, incluyendo ubicación precisa, lectura de notificaciones, administración del dispositivo, y la capacidad de instalar certificados y crear una VPN. Esto le otorga un alto nivel de control sobre el dispositivo monitoreado, que incluso no permite desinstalar la aplicación.
-
-Algunos permisos como la actividad de pantalla, administración de llamadas y permisos de administrador, implican riesgos importantes de privacidad y seguridad, especialmente en dispositivos de infancias.
-
-### Rastreo y Análisis de Datos
-
-A pesar de que es común ver rastreadores como Google Analytics y Firebase, usados principalmente para analítica y publicidad, su presencia en una herramienta que tiene la intención de ser instalada en los dispositivos de las infancias no parece una práctica ética.
-
-### Privacidad y datos recolectados
-
-Se recolectan datos sensibles como  mensajes, historial de navegación, llamadas, contactos y geolocalización, lo que implica un monitoreo de nivel profundo del dispositivo del menor. Estos datos no solo son procesados por Qustodio, sino también potencialmente compartidos con terceros con fines de soporte, analítica, pagos y otros servicios de publicidad.
-
-### Funcionalidad
-Algunas funciones no funcionan como se anuncian, como el monitoreo de llamadas y mensajes, que no se ejecutan correctamente, incluso tras otorgar los permisos correspondientes.
-
-El supuesto “monitoreo de redes sociales” se limita al tiempo de uso de las apps, y no accede a contenidos ni mensajes, a pesar de que la publicidad de la app sugiere una funcionalidad más intrusiva hacia las aplicaciones de mensajería como Instagram, Whatsapp y Line.
-
-### Transparencia
-La política de privacidad de Qustodio explica qué datos se recopilan, pero no especifica de forma granular qué datos se comparten con cada proveedor.
-
-A pesar de usar cifrado, el hecho de recopilar el tráfico completo de red y todo el uso del dispositivo es un monitoreo desmedido especialmente cuando se trata de infancias y adolescencias.
-
-### Conclusión final
-
-Identificamos que anteriormente esta aplicación abusaba de configuraciones de seguridad para obtener todo el tráfico de red del dispositivo. Una vez cubierta esta vulnerabilidad por los desarrolladores de Android la aplicación no logra cumplir con la espectativa de las funciones.
-
-A pesar de que los resultados del monitoreo no son tan invasivos no incentivamos su uso ya que los permisos y rastreadores son abusivos, vulnerando los principios fundamentales de privacidad y uso ético de la tecnología.
-
-La aplicación recopila información sensible de las infancias que posteriormente se comparte con terceros, por lo tanto, esta aplicación es Datavorezca.
