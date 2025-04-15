@@ -46,10 +46,10 @@ ___
 
 ## Archivos analizados
 
-- [apk versión 1.0.6]()
-- [pcap versión 2.7.1]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 1.0.6](https://cloud.datavoros.org/index.php/s/8gfMcAk6jB38H6F)
+- [pcap versión 2.7.1](https://cloud.datavoros.org/index.php/s/KXiGQXJbBAggtSk)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/SWZg8jTKeQS4TQQ)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/AyzXY3MXnb8jfy9)
 
 ## Descripción de la aplicación
 - **Tipo:** Maternidad y Paternidad

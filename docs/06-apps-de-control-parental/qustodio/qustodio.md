@@ -56,10 +56,10 @@ ____
 
 ## Archivos analizados
 
-- [apk versión 182.27.2]()
-- [pcap versión 2.7.1]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 182.27.2](https://cloud.datavoros.org/index.php/s/y9aeiCTamayokfF)
+- [pcap versión 2.7.1](https://cloud.datavoros.org/index.php/s/YHK8o3Qa6QZCcPH)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/YHK8o3Qa6QZCcPH)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/RrkaQKpxYCGca7N)
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental (Parenting)
