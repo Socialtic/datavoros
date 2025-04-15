@@ -45,7 +45,7 @@ A pesar de usar cifrado, el hecho de recopilar el tráfico completo de red y tod
 ### Conclusión final
 La aplicación es muy invasiva y a pesar de acceder a toda la información no logra funcionar correctamente. Incluso en la versión premium las funciones no cumplen la espectativa generada con la descripción de la PlayStore.
 
-En resumen, además de que esta aplicación no funciona, sí recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa de la misma manera que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavorezca.
+En resumen, además de que esta aplicación no funciona, sí recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa de la misma manera que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavora.
 ____
 
 ## Fechas de análisis

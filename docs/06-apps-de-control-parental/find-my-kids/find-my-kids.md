@@ -1,5 +1,72 @@
-# Find my Kids (padres)
+# Find my Kids (madres y padres)
+___
+## Funciones particulares de la aplicación:
 
+### Widget de botón SOS en la patalla de inicio
+Esta función permite colocar un acceso rápido en la pantalla principal del dispositivo del niño.Al tocar el botón SOS, el niño puede enviar una alerta inmediata a sus padres en caso de emergencia. La alerta suele incluir la ubicación actual y puede activar funciones como la **escucha del entorno** del dispositivo.
+
+### Lista de tareas con recompensas
+Los padres pueden crear una lista de tareas diarias o semanales para sus hijos (por ejemplo: hacer la tarea, recoger la habitación, etc.). Al completar cada tarea, la infancia puede recibir recompensas virtuales, lo que de la aplicación una experiencia positiva, porque su recompensa (estrellas) se ven reflejadas en la aplicación Pingo!.
+
+### La infancia / adolescencia puede bloquear funciones del padre
+El niño tiene la posibilidad de bloquear el acceso a la escucha del entorno (impedir que se active el micrófono del dispositivo para escuchar lo que ocurre alrededor). También es posible ocultar las estadísticas de uso de aplicaciones, es decir, el padre no podrá ver qué apps usa, cuánto tiempo pasa en ellas, etc.
+
+La aplicación le sugiere lecturas a los padres para llegar a acuerdos en lugar de imponer las medidas de control impositivas, que es incongruente respecto a las características de la aplicación y la cantidad de datos que captura.
+
+### Envío de una señal fuerte
+El tutor puede enviar una señal fuerte que mostrará una ventana emergente para indicarle al niño que debe llamar a sus padres.
+
+### Chat 
+La aplicación tiene un chat directo con la infancia. Es posible que la infancia se comunique con otros contactos de confianza.
+
+### Funciones premium
+Las funciones  premium tienen un costo de  $69 mx (mensual) $549 mx (anual) $999 mx (de por vida). Estas funciones incluyen:
+
+- Rastreo GPS en tiempo real: Permite a los padres ver la ubicación actual de sus hijos en un mapa. 
+- Historial de ubicación: Mantiene un registro de los lugares donde han estado los hijos a lo largo del día. 
+- Notificaciones de seguridad: Recibe alertas cuando los hijos llegan o salen de lugares específicos, como el colegio o la casa. 
+- Escucha de entorno: Permite escuchar los sonidos alrededor de los hijos para asegurarse de que están bien. 
+- Control parental: Facilita la gestión de aplicaciones, tiempos de uso y acceso a contenido en línea. 
+- Chat familiar: Permite comunicarse con los hijos a través de la aplicación. 
+- Alertas de batería baja: Notifica a los padres cuando la batería del dispositivo del hijo está baja. 
+
+Es posible usar la aplicación sin las funciones de pago. Si ves anuncios la aplicación te permite desbloquear tiempo o intentos de prueba de las funciones de paga.
+
+
+## Notas
+- Inconsistencia en la solicitud de permisos de ubicación: Aunque la aplicación inicialmente solicita el permiso de ubicación “Mientras la app está en uso”, conforme a lo indicado en sus políticas de privacidad, luego requiere al usuario configurar manualmente el permiso como “Permitir siempre”. Esta situación implica un riesgo de uso indebido y un incumplimiento a la política de privacidad.
+
+- La aplicación también vende relojes GPS para infancias. Esto cae en un procesamiento intensivo de datos sensibles (ubicación en tiempo real, micrófono, etc.) que requiere especial atención en cuanto a privacidad y seguridad de la información.
+
+- La app funciona bajo un modelo freemium, con funciones limitadas sin pago que te permite probarlas al principio. El acceso completo depende de una suscripción mensual, anual o de por vida.
+
+- Según la PlayStore, Find my Kids no comparte datos del usuario con otras organizaciones o empresas, pero en la política de privacidad si declara compartir los datos con fines publicitarios o con sus proveedores de servicios.
+
+
+## Conclusiones
+
+### Privacidad y datos recolectados
+La aplicación solicita más de 30 permisos, varios de ellos considerados peligrosos o especiales por Android (como acceso al micrófono, cámara, contactos, ubicación precisa y almacenamiento externo). Lo que no tiene sentido ya que este teléfono no es el que se está monitoreando.
+
+La app no ofrece la opción de borrar los datos personales recopilados y la política de privacidad admite compartirlos con múltiples terceros para fines como publicidad, estadísticas, soporte, etc.
+
+Se identificaron conexiones activas con más de 30 dominios de terceros, muchos de ellos asociados a publicidad, analítica o almacenamiento en la nube. La app se conecta a servidores en Estados Unidos, Alemania y Rusia.
+### Funcionalidades  contradictorias
+Usar la gamificación como estategia normaliza el monitoreo invasivo desde edades tempranas, lo cual puede impactar negativamente la percepción que las infancias tienen sobre su autonomía y privacidad.
+
+La aplicación solicita tantos permisos como la que se instala en los dispositivos a monitorear, los cuales no son necesarios ni congruentes con las funciones que tiene el panel de control de la app.
+
+### Permisos y Nivel de Acceso
+Según Exodus Privacy se identificaron 33 permisos en la aplicación, solicitan un conjunto amplio de permisos considerados peligrosos por Android, que les permite tener un control profundo del sistema. 
+
+El conjunto de permisos en Find My Kids y Pingo! otorga a la aplicación un nivel de acceso desproporcionado al dispositivo del niño, lo cual es riesgoso desde una perspectiva de privacidad, derechos de la infancia y seguridad digital. Si bien algunas funciones lo justifican desde el enfoque de control parental, la cantidad y el tipo de permisos exceden lo razonable, es po
+
+### Conclusión final
+Consideramos que el nivel de efectividad de esta app es preocupante ya que las funciones que promociona realmente se llevan a cabo, sin embargo no incentivamos su uso ya que es muy invasivo, vulnera principios fundamentales de privacidad y uso ético de la tecnología recopilando información sensible de las infancias que posteriormente se comparte con terceros y no ofrece la eliminación de los datos. Contradiciendo el discurso de la protección familiar.
+
+Esta aplicación recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa al mismo nivel que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavora.
+
+___
 ## Fechas de análisis
 
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 07/04/2025
@@ -82,7 +149,6 @@ Instala la app Pingo! en el móvil de tu hijo con GPS. A diferencia de otras apl
 | [Facebook](https://facebook.com)                                    | Publicidad (Ads), redes sociales, analíticas, servicios de mensajería.      |
 | [Cloudflare](https://www.cloudflare.com/)                           | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
 
-
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 - [Selectel Ltd](https://selectel.ru/en/about/documents/)
@@ -100,71 +166,42 @@ Instala la app Pingo! en el móvil de tu hijo con GPS. A diferencia de otras apl
 | ------------------------------------------- |
 | https://apache.org                          |
 | https://nav2-cn.ronghub.com                 |
-| https://sviap.s                             |
-| https://graph-video.s                       |
-| https://analytics.us.tiktok.com             |
-| https://feedback.cn.ronghub.com             |
-| https://ns.adobe.com                        |
+| https://tiktok.com                          |
 | https://youtrack.jetbrains.com              |
 | https://cdn.apkmonk.com                     |
-| https://webview.findmykids.org              |
-| https://schemas.android.com                 |
-| https://sadrevenue.s                        |
+| https://findmykids.org                      |
 | https://www.slf4j.org                       |
-| https://scdn-ssettings.s                    |
-| https://sdlsdk.s                            |
 | https://developer.android.com               |
 | https://github.com                          |
 | https://www.baidu.com                       |
-| https://billing.findmykids.org              |
 | https://goo.gle                             |
 | https://offer.gdemoideti.ru                 |
-| https://sars.s                              |
-| https://sconversions.s                      |
 | https://shop.gdemoideti.ru                  |
 | https://www.w3.org                          |
 | https://fundingchoicesmessages.google.com   |
-| https://firebase-settings.crashlytics.com   |
-| https://webview.kidstracker.pro             |
-| https://svalidate.s                         |
+| https://crashlytics.com                     |
 | https://facebook.com                        |
 | https://ya.ru                               |
-| https://sgcdsdk.s                           |
-| https://simpression.s                       |
-| https://sinapps.s                           |
 | https://developers.facebook.com             |
 | https://play.google.com                     |
 | https://app.resubscribe.ai                  |
-| https://ssdk-services.s                     |
-| https://sregister.s                         |
 | https://privacy-sandbox.appsflyersdk.com    |
 | https://form.typeform.com                   |
-| https://scdn-stestsettings.s                |
-| https://smonitorsdk.s                       |
 | https://where-is-my-children.firebaseio.com |
-| https://webview.gdemoideti.ru               |
 | https://l.gdemoideti.ru                     |
 | https://gdemoideti.onelink.me               |
 | https://gdemoideti.ru                       |
-| https://graph.s                             |
 | https://api.resubscribe.ai                  |
 | https://offer.findmykids.org                |
-| https://sapp.s                              |
-| https://sattr.s                             |
-| https://slaunches.s                         |
 | https://junior.mts.ru                       |
 | https://tile.openstreetmap.org              |
 | https://issuetracker.google.com             |
 | https://findmykids.org                      |
 | https://developer.apple.com                 |
-| https://svalidate-and-log.s                 |
-| https://spia.s                              |
 | https://ktor.io                             |
-| https://javax.xml.xmlconstants              |
 | https://firebase.google.com                 |
 | https://52.83.240.50                        |
 | https://gps-watch.findmykids.org            |
-| https://app-measurement.com                 |
 | https://l.findmykids.org                    |
 | https://www.openstreetmap.org               |
 | https://aomedia.org                         |
@@ -172,8 +209,6 @@ Instala la app Pingo! en el móvil de tu hijo con GPS. A diferencia de otras apl
 | https://api.findmykids.org                  |
 | https://nav.cn.ronghub.com                  |
 | https://stats.cn.ronghub.com                |
-| https://sonelink.s                          |
-
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 33
@@ -224,8 +259,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - :red_circle: Notificaciones
 - :red_circle: Acceso a contactos
 
-
-
 :red_circle: Este ícono indica un permiso obligatorio   
 :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
@@ -245,7 +278,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria. 
 :blue_circle: Este ícono indica que estos datos son opcionales.
-
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
@@ -292,9 +324,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 *Mediante Wireshark*
 
 ### Otros datos recolectados:
-
-*Datos extras recolectados. Descripción de los datos recolectados y su relación con las empresas. Por ejemplo: dónde está guardada la aplicación, tal cuál servidor para qué sriven, etc.* 
-
+El análisis de conexiones nos indica que la infraestructura de esta aplicación está en Estados Unidos, en Alemania y Rusia.
 ### Datos recopilados y uso según la PlayStore
 
 | Datos                                   | Uso                                                                          |
@@ -309,13 +339,12 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Contactos                               | Contactos                                                                    |
 | Información personal                    | Nombre, Dirección de correo electrónico, IDs de usuario y Número de teléfono |
 | Información y rendimiento de la app<br> | Registros de fallas y Diagnóstico                                            |
-
 ### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
 
-- Los datos están cifrados en tránsito
-- :exclamation: **No se pueden borrar los datos**
+- Los datos están cifrados cuando viajan a través de Internet.
+- :exclamation: **No se pueden borrar los datos asociados a tu cuenta y uso de la aplicación.**
 
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -335,82 +364,6 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - Proporcionar y mejorar los servicios ofrecidos, incluyendo la creación de perfiles y la personalización de la experiencia del usuario.
 
 #### Información compartida con terceros
-
 - Proveedores de servicios: Los datos pueden ser compartidos con terceros que prestan servicios como procesamiento de pagos, análisis de datos y servicios al cliente. ​
 - Publicidad y análisis: Terceros pueden usar cookies para medir el rendimiento de las campañas publicitarias.
 
-## Funciones particulares de la aplicación
-
-### Widget de botón SOS en la patalla de inicio
-
-Esta función permite colocar un acceso rápido en la pantalla principal del dispositivo del niño.Al tocar el botón SOS, el niño puede enviar una alerta inmediata a sus padres en caso de emergencia. La alerta suele incluir la ubicación actual y puede activar funciones como la **escucha del entorno** del dispositivo.
-
-### Lista de tareas con recompensas
-
-Los padres pueden crear una lista de tareas diarias o semanales para sus hijos (por ejemplo: hacer la tarea, recoger la habitación, etc.). Al completar cada tarea, la infancia puede recibir recompensas virtuales, lo que de la aplicación una experiencia positiva, porque su recompensa (estrellas) se ven reflejadas en la aplicación Pingo!.
-
-### La infancia / adolescencia puede bloquear funciones del padre
-
-El niño tiene la posibilidad de bloquear el acceso a la escucha del entorno (impedir que se active el micrófono del dispositivo para escuchar lo que ocurre alrededor). También es posible ocultar las estadísticas de uso de aplicaciones, es decir, el padre no podrá ver qué apps usa, cuánto tiempo pasa en ellas, etc.
-
-La aplicación le sugiere lecturas a los padres para llegar a acuerdos en lugar de imponer las medidas de control impositivas, que es incongruente respecto a las características de la aplicación y la cantidad de datos que captura.
-
-### Envio de una señal fuerte
-
-El tutor puede enviar una señal fuerte que mostrará una ventana emergente para indicarle al niño que debe llamar a sus padres.
-
-### Chat 
-
-La aplicación tiene un chat directo con la infancia. Es posible que la infancia se comunique con otros contactos de confianza.
-
-### Funciones premium
-
-Las funciones  premium tienen un costo de  $69 mx (mensual) $549 mx (anual) $999 mx (de por vida). Estas funciones incluyen:
-
-- Rastreo GPS en tiempo real: Permite a los padres ver la ubicación actual de sus hijos en un mapa. 
-- Historial de ubicación: Mantiene un registro de los lugares donde han estado los hijos a lo largo del día. 
-- Notificaciones de seguridad: Recibe alertas cuando los hijos llegan o salen de lugares específicos, como el colegio o la casa. 
-- Escucha de entorno: Permite escuchar los sonidos alrededor de los hijos para asegurarse de que están bien. 
-- Control parental: Facilita la gestión de aplicaciones, tiempos de uso y acceso a contenido en línea. 
-- Chat familiar: Permite comunicarse con los hijos a través de la aplicación. 
-- Alertas de batería baja: Notifica a los padres cuando la batería del dispositivo del hijo está baja. 
-
-Es posible usar la aplicación sin las funciones de pago. Si ves anuncios la aplicación te permite desbloquear tiempo o intentos de prueba de las funciones de paga.
-
-
-## Notas
-
-- Inconsistencia en la solicitud de permisos de ubicación: Aunque la aplicación inicialmente solicita el permiso de ubicación “Mientras la app está en uso”, conforme a lo indicado en sus políticas de privacidad, luego requiere al usuario configurar manualmente el permiso como “Permitir siempre”. Esta situación implica un riesgo de uso indebido y un incumplimiento a la política de privacidad.
-
-- La aplicación también vende relojes GPS para infancias. Esto cae en un procesamiento intensivo de datos sensibles (ubicación en tiempo real, micrófono, etc.) que requiere especial atención en cuanto a privacidad y seguridad de la información.
-
-- La app funciona bajo un modelo freemium, con funciones limitadas sin pago que te permite probarlas al principio. El acceso completo depende de una suscripción mensual, anual o de por vida.
-
-- Según la PlayStore, Find my Kids no comparte datos del usuario con otras organizaciones o empresas, pero en la política de privacidad si declara compartir los datos con fines publicitarios o con sus proveedores de servicios.
-
-
-## Conclusiones
-
-### Privacidad y datos recolectados
-
-La aplicación solicita más de 30 permisos, varios de ellos considerados peligrosos o especiales por Android (como acceso al micrófono, cámara, contactos, ubicación precisa y almacenamiento externo). Lo que no tiene sentido ya que este teléfono no es el que se está monitoreando.
-
-La app no ofrece la opción de borrar los datos personales recopilados y la política de privacidad admite compartirlos con múltiples terceros para fines como publicidad, estadísticas, soporte, etc.
-
-Se identificaron conexiones activas con más de 30 dominios de terceros, muchos de ellos asociados a publicidad, analítica o almacenamiento en la nube. La app se conecta a servidores en Estados Unidos, Alemania y Rusia.
-### Funcionalidades  contradictorias
-
-Usar la gamificación como estategia normaliza el monitoreo invasivo desde edades tempranas, lo cual puede impactar negativamente la percepción que las infancias tienen sobre su autonomía y privacidad.
-
-La aplicación solicita tantos permisos como la que se instala en los dispositivos a monitorear, los cuales no son necesarios ni congruentes con las funciones que tiene el panel de control de la app.
-
-### Permisos y Nivel de Acceso
-
-Según Exodus Privacy se identificaron 33 permisos en la aplicación, solicitan un conjunto amplio de permisos considerados peligrosos por Android, que les permite tener un control profundo del sistema. 
-
-El conjunto de permisos en Find My Kids y Pingo! otorga a la aplicación un nivel de acceso desproporcionado al dispositivo del niño, lo cual es riesgoso desde una perspectiva de privacidad, derechos de la infancia y seguridad digital. Si bien algunas funciones lo justifican desde el enfoque de control parental, la cantidad y el tipo de permisos exceden lo razonable, es po
-
-### Conclusión final
-Consideramos que el nivel de efectividad de esta app es preocupante ya que las funciones que promociona realmente se llevan a cabo, sin embargo no incentivamos su uso ya que es muy invasivo, vulnera principios fundamentales de privacidad y uso ético de la tecnología recopilando información sensible de las infancias que posteriormente se comparte con terceros y no ofrece la eliminación de los datos. Contradiciendo el discurso de la protección familiar.
-
-Esta aplicación recopila una exagerada cantidad de datos del teléfono con el objetivo de compartirla con terceros. Instalar esta aplicación implica que el dispositivo del padre será monitoreado por la empresa al mismo nivel que monitorea a la infancia, con fines de marketing y publicidad. Por lo tanto, esta aplicación es sumamente Datavorezca.
