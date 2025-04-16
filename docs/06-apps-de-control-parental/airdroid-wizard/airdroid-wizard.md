@@ -19,10 +19,10 @@ Entre los hallazgos más relevantes destacan:
 
 ## Archivos analizados
 
-- [apk versión ###]()
-- [pcap versión ###]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 2.4.0.1](https://cloud.datavoros.org/index.php/s/d89aLYTXFggAAdS)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/x77jZp4oAMtFLkJ)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/LZgsogRNLpRLBBq)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/8Gdo52yWpgcMeFL)
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental
@@ -74,7 +74,7 @@ AirDroid Parental Control es su herramienta definitiva para monitorear los dispo
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 19
-- **Según prueba de uso:** 10
+- **Según prueba de uso:** 13
 
 ### Permisos según Exodus Privacy
 
@@ -102,12 +102,18 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 ### Permisos solicitados durante el uso de la aplicación
 
-- :red_circle: Ubicación
-- :red_circle: Optimización de la batería
-- :red_circle: Cámara
-- :red_circle: Micrófono 
-- :red_circle: Notificaciones
 - :red_circle: Accesibilidad/Lector de pantalla
+- :red_circle: Visualizar sobre otras aplicaciones
+- :red_circle: Cámara
+- :red_circle: Micrófono
+- :red_circle: Uso de usuario
+- :red_circle: Notificaciones
+- red_circle: Administrador de dispositivo
+- :red_circle: Ubicación
+- :red_circle: Permiso de contactos
+- :red_circle: Control de llamadas
+- :red_circle: Permiso SMS
+- :red_circle: Optimización de la batería
 - :red_circle: Instalación de aplicaciones de terceros
 
 :red_circle: Este ícono indica un permiso obligatorio   
@@ -119,8 +125,8 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el registro
 
-- :red_circle: Correo electrónico al que se va a enlazar
-- :blue_circle: Nombre de la persona a vigilar
+- :red_circle: Nombre de la persona a vigilar
+- :red_circle: Fecha de nacimiento
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 

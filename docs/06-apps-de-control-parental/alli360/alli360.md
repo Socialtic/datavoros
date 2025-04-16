@@ -22,10 +22,10 @@ Entre los principales hallazgos encontramos:
 - **Infraestructura cuestionable**: El principal actor identificado en la infraestructura digital es **Hetzner Online GmbH**, empresa alemana de hosting. Si bien legalmente establecida, **su historial en el alojamiento de servicios sin suficiente control de uso ha sido cuestionado en contextos de aplicaciones de vigilancia**. Esto refuerza el riesgo de falta de auditoría y supervisión sobre los datos almacenados y transmitidos.
 ## Archivos analizados
 
-- [apk versión ###]()
-- [pcap versión ###]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 2.47.1](https://cloud.datavoros.org/index.php/s/CzFPKmYrNNxtEL2)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/yLc4Dk3jciKW6Pb)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/CGzPzpzsiK3amdE)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/KHPXEXHdpkmmzin)
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental

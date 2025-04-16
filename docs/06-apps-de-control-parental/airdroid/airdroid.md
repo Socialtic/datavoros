@@ -21,10 +21,10 @@ Entre los principales hallazgos encontramos que:
     La posibilidad de grabar audio, video y pantalla completa de manera remota **no guarda proporción con la finalidad declarada de seguridad o acompañamiento**. Estas funcionalidades, sin filtros ni restricciones claras, **evidencian un diseño centrado en el control total** del dispositivo infantil, más que en su protección.
 ## Archivos analizados
 
-- [apk versión ###]()
-- [pcap versión ###]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 2.4.0.1](https://cloud.datavoros.org/index.php/s/qaixt3tAka2oCbP)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/2B6MXdNNWTF4yBm)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/p5jm9FcE3e6EbKr)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/cPWCPaG4osSTMkz)
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental

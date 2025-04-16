@@ -15,10 +15,10 @@ El **consentimiento** mencionado en la política es confuso, y no queda claro c�
 
 ## Archivos analizados
 
-- [apk versión ###]()
-- [pcap versión ###]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 1.2.8](https://cloud.datavoros.org/index.php/s/5ZBRJfy5okELbjD)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/iCr7sNRQDPpSMFw)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/3cTPM7LFG2s3xQN)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/9XAEDLTCAA5WqDE)
 
 ## Descripción de la aplicación
 

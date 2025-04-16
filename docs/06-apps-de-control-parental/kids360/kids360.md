@@ -24,10 +24,10 @@ El análisis técnico y funcional permitió identificar una serie de caracterís
     Varias de las funciones de control más profundas están disponibles solo en la versión de paga, lo que plantea preocupaciones adicionales sobre la **monetización de la vigilancia** y la ética en el diseño de este tipo de herramientas.
 ## Archivos analizados
 
-- [apk versión ###]()
-- [pcap versión ###]()
-- [Capturas de pantalla]()
-- [Reporte MobSF]()
+- [apk versión 2.47.0](https://cloud.datavoros.org/index.php/s/cm7zoY63Fkb2xxP)
+- [pcap versión 1](https://cloud.datavoros.org/index.php/s/2DBZwmsKT3GZbLs)
+- [Capturas de pantalla](https://cloud.datavoros.org/index.php/s/Jwd93DTcWHkDMEM)
+- [Reporte MobSF](https://cloud.datavoros.org/index.php/s/nJeicpNbe2ELSTc)
 
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental
