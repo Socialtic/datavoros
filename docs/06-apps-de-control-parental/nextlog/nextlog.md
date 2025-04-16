@@ -1,15 +1,28 @@
 # NextLog
 
-## Resumen de la aplicación
-NextLog es una aplicación **DATAVOREZCA** que busca vender una función *premium* de **espionaje**, puesto que **simula** tener acceso a los mensajes, chats y conversaciones de cuentas de Instagram y WhatsApp solicitando únicamente un numero de teléfono vinculado a una cuenta de WhatsApp o un nombre de usuario de Instagram.
-En este análisis  te mostramos las razones técnicas por las cuales NextLog resulta ser un tipo de **estafa digital**, destacando **permisos omitidos** en la información declarada, las brechas de **transparencia** y los **datos** que recolecta **sin consentimiento** claro del usuario aprovechándose del desconocimiento del usuario para explotar su información con fines cuestionables.
-
 ## Fechas de análisis
 
 - **Análisis estático (mediante Exodus Privacy):** 07 de abril, 2025
 - **Análisis estático (mediante Exodus MobFS):** 10 de abril, 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):** 07 de abril, 2025
 - **Análisis Posteriores:**
+
+## Resumen de la aplicación
+NextLog es una aplicación **DATAVOREZCA** que busca vender una función *premium* de **espionaje**, puesto que **simula** tener acceso a los mensajes, chats y conversaciones de cuentas de Instagram y WhatsApp, solicitando únicamente un número de teléfono vinculado a una cuenta de WhatsApp o un nombre de usuario de Instagram.
+
+En este breve resumen te comentamos las razones técnicas por las cuales NextLog resulta ser un tipo de **estafa digital**, destacando lo siguiente:
+
+- **Función de espionaje**: NextLog simula tener acceso a mensajes, chats y conversaciones privadas de Instagram y WhatsApp, solicitando solo un número de teléfono o nombre de usuario, promoviendo una práctica invasiva e ilegal de espionaje.
+
+- **Pago engañoso**: Se solicita un pago de **119 MXN** por una supuesta función de *desencriptación* para los mensajes obtenidos de las cuentas. Esto ocurre sin ningún tipo de explicación técnica ni garantía de funcionamiento. El proceso de *desencriptar* dura entre 10 y 11 días, lo cual excede el periodo premium de 8 días, forzando a los usuarios a realizar pagos adicionales.
+
+- **Recolección de datos abusiva**: Aunque NextLog declara que no recopila datos, se identificaron rastreadores de **Meta, Google y Amazon**, además de la recolección de información como nombre, número de teléfono, dirección IP y comportamiento del usuario en el navegador (tiempos de espera, sitios consultados, tipo de navegador, entre otros).
+
+- **Permisos no transparentes**: La app solicita al menos **15 permisos** que no son informados claramente en Google Play Store, en la Política de Privacidad ni durante el uso, lo que evidencia la carencia de consentimiento informado hacia los usuarios.
+
+- **Política de privacidad genérica**: La Política de Privacidad de NextLog es un texto genérico que no menciona con qué terceros se comparten los datos ni cómo se resguardan. Esto, además de evidenciar la falta de transparencia, sugiere que los desarrolladores utilizan recursos genéricos únicamente para cumplir con los requisitos mínimos de publicación en Google Play Store.
+
+- **Comentarios de usuarios**: Las reseñas en Google Play Store reportan tiempos falsos de *desencriptación*, cobros injustificados y la falta total de información recuperada, confirmando el comportamiento fraudulento de la aplicación.
 
 ## Archivos analizados
 
@@ -122,7 +135,7 @@ En este caso, Exodus Privacy no detecta permisos considerados peligrosos, los pe
 - :red_circle: Este ícono indica un permiso obligatorio
 - :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
-E esta ocasión NextLog unicamente solicito consentimiento para mostrar notificaciones.
+En esta ocasión NextLog unicamente solicito consentimiento para mostrar notificaciones.
 
 ## Datos
 
@@ -196,7 +209,7 @@ Sin embargo, en los Rastreadores identificados previamente, podemos ver que, al 
 
 Estas practicas de seguridad indican que existen medidas para mantener cifrados (ilegibles) los datos de los usuarios en el momento en que se mueven, lo que proporciona seguridad, ademas de que puede solicitar directamente a la aplicación, eliminar tus datos.
 
-**Nota**: NO existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad
+**Nota**: No existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad
 
 ### Datos recopilados según la Política de privacidad
 | **Datos**               | **Uso**                                                                                                                                                                                                                   |
