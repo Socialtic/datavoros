@@ -65,6 +65,7 @@ El análisis de tráfico de red indica que estas empresas están relacionadas co
 | [Google](https://google.com)                                        | Publicidad (Ads), analíticas (Google Analytics).                            |
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
+
 La aplicación declara en el Aviso de Privacidad que comparte datos con la siguientes empresas para fines de soporte, infraestructura o publicidad:
 - [Selectel Ltd](https://selectel.ru/en/about/documents/)
 - [Hetzner Online GmbH](https://www.hetzner.com/legal/privacy-policy)
