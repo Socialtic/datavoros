@@ -16,6 +16,7 @@ El análisis técnico reveló múltiples irregularidades en el comportamiento de
 - **Política de privacidad poco confiable:** La política está publicada en Google Sites, es genérica y contradictoria respecto al tratamiento de datos y la presencia de terceros. No especifica con claridad qué empresas tienen acceso a la información recolectada.
 - **Modelo de monetización engañoso:** Se detectaron tácticas abusivas y fraudulentas para presionar al usuario a pagar suscripciones semanales o mensuales, mediante notificaciones que simulan actividad falsa en la cuenta monitoreada.
 - **Ausencia de funcionalidades reales:** No se crea ninguna cuenta de usuario ni se otorgan permisos durante el uso, aunque en la interfaz se simulan opciones para eliminar cuentas o gestionar configuraciones que en realidad no existen.
+- **Adquisición de nuevas personas usuarias con engaños:** La aplicación solicita una reseña positiva de al menos 500 caracteres para poder "adelantar el proceso de descifrado", es por este motivo que en la PlayStore tiene buenas reseñas y una calificación alta.
 ## Archivos analizados
 
 - [apk versión 1.0.6](https://cloud.datavoros.org/index.php/s/8gfMcAk6jB38H6F)
@@ -207,6 +208,9 @@ La aplicación te envia notificaciones constantemente para avisarte que a la per
 
 ### Funciones falsas como la gestión de una cuenta
 La aplicación muestra en su interfaz funciones para eliminar la cuenta, sin embargo, en ningún momento se crea una cuenta.
+
+### Adquisición de nuevas personas usuarias con engaños
+La aplicación solicita una reseña positiva de al menos 500 caracteres para poder "adelantar el proceso de descifrado", es por este motivo que en la PlayStore tiene buenas reseñas y una calificación alta.
 
 ## Notas
 
