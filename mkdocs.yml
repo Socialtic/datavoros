@@ -51,6 +51,18 @@ nav:
       - Grindr: '05-apps-de-citas/grindr/grindr.md'
       - Happn: '05-apps-de-citas/happn/happn.md'
       - Tinder: '05-apps-de-citas/tinder/tinder.md'
+    - Aplicaciones de control parental:
+      - AirDroid Kids Wizard: '06-apps-de-control-parental/airdroid-wizard/airdroid-wizard.md'
+      - AirDroid: '06-apps-de-control-parental/airdroid/airdroid.md'
+      - Alli360: '06-apps-de-control-parental/alli360/alli360.md'
+      - Pingo! by Find my Kids: '06-apps-de-control-parental/find-my-kids-Pingo/find-my-kids-Pingo.md'
+      - Find my Kids: '06-apps-de-control-parental/find-my-kids/find-my-kids.md'
+      - Kids360: '06-apps-de-control-parental/kids360/kids360.md'
+      - Logsense: '06-apps-de-control-parental/logsense/logsense.md'
+      - NextLog: '06-apps-de-control-parental/nextlog/nextlog.md'
+      - Qustodio Kids: '06-apps-de-control-parental/qustodio-kids/qustodio-kids.md'
+      - Qustodio: '06-apps-de-control-parental/qustodio/qustodio.md'
+      - SeenLog: '06-apps-de-control-parental/seenlog/seenlog.md'
   - Listado de rastreadores y permisos:
     - Inicio: 'trackers-permisos/inicio.md'
     - Permisos: 'trackers-permisos/99-listado-permisos.md'
