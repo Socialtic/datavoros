@@ -7,9 +7,7 @@
 - **Análisis Posteriores:** 
 ## Resumen de la aplicación
 
-La aplicación Kids360, dirigida al control parental de dispositivos utilizados por niños, niñas y adolescentes, presenta un ecosistema altamente centralizado en el **control unidireccional, la vigilancia constante y la gamificación del acceso digital**. Lejos de fomentar un acompañamiento respetuoso y educativo, la app establece una lógica de supervisión total, donde la infancia **no tiene agencia sobre su propio entorno digital**.
-
-El análisis técnico y funcional permitió identificar una serie de características que, en conjunto, **vulneran principios básicos de privacidad, proporcionalidad y transparencia** de las personas menores de edad. Además, algunas funciones clave están **restringidas a versiones pagas**, lo cual **refuerza la mercantilización de prácticas de vigilancia**.
+La aplicación Kids360, dirigida al control parental de dispositivos utilizados por niños, niñas y adolescentes, presenta un ecosistema altamente centralizado en el **control unidireccional, la vigilancia constante y la gamificación del acceso digital**. Lejos de fomentar un acompañamiento respetuoso y educativo, la app establece una lógica de supervisión total, donde la infancia **no tiene agencia sobre su propio entorno digital**. El análisis técnico y funcional permitió identificar una serie de características que **vulneran principios básicos de privacidad y transparencia** de las personas menores de edad. Además, algunas funciones clave están **restringidas a versiones pagas**, lo cual **refuerza la monetización de prácticas de vigilancia**.
 
  Los principales hallazgos al realizar el análisis fueron: 
  - **Control total sobre el dispositivo infantil:**  
@@ -32,7 +30,7 @@ El análisis técnico y funcional permitió identificar una serie de caracterís
 ## Descripción de la aplicación
 - **Tipo:**   Aplicación de control parental
 - **Costo:**   Descarga gratuita con compras directas desde la aplicación
-- **Enlace de descarga:** <https://play.google.com/store/apps/details?id=app.kids360.parent&hl=es_MX
+- **Enlace de descarga:** https://play.google.com/store/apps/details?id=app.kids360.parent&hl=es_MX
 - **Descargas:** Más de 5 millones de descargas
 - **Ultima fecha de actualización:** 04 de abril 2025
 - **Versión:** 2.47.0
@@ -60,6 +58,7 @@ Kids360 es una app de control parental diseñada para la seguridad infantil que 
 
 [Enlace al reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/es/reports/app.kids360.parent/latest/)
 
+- El reporte de Exodus Privacy indica que la aplicación utiliza diversas herramientas de analítica, informe de fallas y para tener un publicidad personalizada para la persona usuaria, esto la aplicación lo declara para mejorar la experiencia de uso de la persona usuaria.
 ## Empresas relacionadas con esta aplicación:
 
 | Empresa                                                         | Servicios que ofrecen                                    |
@@ -69,13 +68,13 @@ Kids360 es una app de control parental diseñada para la seguridad infantil que 
 | [DoubleGIS LLC](https://dev.2gis.com/)                          | Servicios de búsqueda local y navegación                 |
 | [Google](https://marketingplatform.google.com/about/analytics/) | Publicidad (Ads), analíticas (Google Analytics)          |
 | [Anko Solution LLC](https://www.anko.solutions/)                | Empresa desarrolladora                                   |
-
+- En el análisis identificamos diversos tipos de empresas que se relacionan directamente con la aplicación, entre las que destacan son empresas dedicadas a los servicios de publicidad, resguardo de información en la nube y la empresa desarrolladora de la aplicación. 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 - [ANKO SOLUTION LCC](https://www.anko.solutions/)
-- Nota: Tras el análisis de la política de privacidad de Kids360, no se mencionan otras empresas específicas, sin embargo, hay referencias al uso de herramientas de análisis de terceros para recopilar datos analíticos, también hace referencia a socios comerciales. 
+- Nota: Tras el análisis de la política de privacidad de Kids360, no se mencionan otras empresas específicas, sin embargo, hay referencias al uso de herramientas de análisis de terceros para recopilar datos analíticos, también hace referencia a socios comerciales. Esto no concuerda con lo encontrado en el análisis, ya que si se encontraron empresas especificas.
 
-### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
 | Dominios                                  |
 | ----------------------------------------- |
@@ -106,7 +105,7 @@ Kids360 es una app de control parental diseñada para la seguridad infantil que 
 | https://firebase-settings.crashlytics.com |
 | https://xmlpull.org                       |
 | https://www.w3.org                        |
-
+- Los dominios encontrados tras el análisis indican que la aplicación cuenta con una infraestructura propia, pero también una fuerte dependencia terceros en cuestión de analíticas, además que la aplicación utiliza mapas y geolocalización. Se resalta un dominio relacionado con otra aplicación de control parental llamada *Find my kids*
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 21
@@ -138,6 +137,7 @@ Kids360 es una app de control parental diseñada para la seguridad infantil que 
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
+- Tras el análisis se identificó que la aplicación solicita un conjunto amplio de permisos, varios de ellos se consideran sensibles desde una perspectiva de privacidad y seguridad digital ya que solicita **permisos para grabar audio o leer el estado total del dispositivo**, además de la capacidad de mostrar ventanas sobre otras aplicaciones.
 ### Permisos solicitados durante el uso de la aplicación
 
 - :red_circle: Ubicación
@@ -150,6 +150,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 :red_circle: Este ícono indica un permiso obligatorio   
 :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
 
+- Durante el uso de la aplicación se solicitaron únicamente los permisos enlistados, esto señala una incongruencia entre algunos de los permisos que declara y los que realmente solicita.
 ## Datos
 
 ### Datos solicitados al usuario 
@@ -166,7 +167,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 :red_circle: Este ícono indica que se debe ingresar este dato de manera obligatoria.   
 :blue_circle: Este ícono indica que estos datos son opcionales.
 
-
+- Los datos solicitados a la persona usuaria son pocos en relación a la recopilación que hace la aplicación de manera técnica.
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
 | Dirección IP    | Número de Paquetes | País          | Ciudad/Zona | Organización AS     | Dominio |
@@ -191,13 +192,15 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 192.178.57.36   | 998                | United States |             | GOOGLE              |         |
 | 216.219.92.10   | 41                 | United States |             | IS-AS-1             |         |
 | 216.219.92.253  | 1,109              | United States |             | IS-AS-1             |         |
-
+- La tabla de conexiones muestra los servidores remotos que se identificaron mediante el análisis de tráfico de red, se detectó que la aplicación depende de infraestructura en la nube, gran parte de ella en Estados Unidos, además de un proveedor hosting alemán. También, un trafico de red hacia Rusia, lo cual no se declara en las políticas de privacidad.
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
 ![mapa](./mapa.png)
 *Mediante Wireshark*
 
 ### Datos recopilados y uso según la PlayStore
+
+Google PlayStore indica que los datos recopilados por la aplicación son los enlistados:
 
 | Datos                                                         | Uso                                                           |
 | ------------------------------------------------------------- | ------------------------------------------------------------- |
@@ -208,7 +211,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Interacciones de la aplicación                                | Estadísticas                                                  |
 | Historial de búsqueda en la aplicación                        | Estadísticas                                                  |
 | Aplicaciones de instaladas                                    | Estadísticas                                                  |
-
+- El análisis revela que la aplicación recopila gran cantidad de datos, recolecta datos que van desde fallas técnicas hasta el historial de búsqueda de la persona usuaria, esto puede crear un perfilamiento de la persona usuaria.
 ### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
@@ -225,9 +228,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | Datos del dispositivo: Modelo, Sistema operativo, identificadores              |
 | Datos de uso de la aplicación: Acciones dentro de la aplicación, tiempo de uso |
 | Análisis estadístico                                                           |
-
+- La aplicación recopila datos personales, técnicos y de comportamiento de la persona usuaria, así como datos del dispositivo usado, el cual puede crear un perfilamiento y es congruente con lo declarado en la Google PlayStore.
 ### Uso general de la información según la Política de privacidad
 
+Uso general de la aplicación que desde la política de privacidad se declara es:
 - Ayudar a los padres, madres y personas cuidadoras a monitorear y garantizar la seguridad de la persona menor en su entorno digital y físico.
 - Seguimiento de la persona menor en tiempo real.
 - Notificaciones sobre el movimiento de la persona menor o salidas de zonas seguras.
@@ -236,11 +240,14 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Información compartida con terceros
 
-- La aplicación indica que en casi de ser requeridos de manera legal o por parte de autoridades, los datos que se soliciten se compartirán con estos organismos.
-- La aplicación señala que los datos técnicos y de uso, como el uso de la aplicación e interacciones con funciones de la aplicación, se compartirán con fines comerciales.
+La aplicación declara que puede compartir la información de las personas usuarias con:
+- La aplicación indica que en caso de ser requeridos de manera legal o por parte de autoridades, los datos que se soliciten se compartirán con estos organismos.
+- La aplicación señala que los datos técnicos y de uso, así como el uso de la aplicación e interacciones con funciones de la aplicación, se compartirán con fines comerciales.
 - La aplicación señala que los datos proporcionados por la persona usuaria se comparten directamente con los servicios de la aplicación.
 
 ## Funciones particulares de la aplicación:
+
+Las funciones particulares que se encontraron en la aplicación tras el análisis son: 
 1. Acceso amplio a datos del dispositivo de la persona menor
 	- Recopilan datos técnicos y del uso del dispositivo.
 	- No esta claro hasta que punto acceden a estos datos como historial de navegación, contactos o mensajes.
