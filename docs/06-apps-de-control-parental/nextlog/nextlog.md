@@ -181,6 +181,7 @@ Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de
 Google Play Store declara los siguientes datos recopilados por NextLog:
 
 La sección de **Seguridad de los datos** de la aplicación NextLog dice lo siguiente sobre recopilación de datos:
+
 ~~~
 No se recopilan datos
 El desarrollador indica que esta app no recopila datos del usuario.
