@@ -7,6 +7,23 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 07 de abril, 2025
 - **Análisis Posteriores:**
 
+## Resumen de la aplicación
+NextLog es una aplicación **DATAVOREZCA** que busca vender una función *premium* de **espionaje**, puesto que **simula** tener acceso a los mensajes, chats y conversaciones de cuentas de Instagram y WhatsApp, solicitando únicamente un número de teléfono vinculado a una cuenta de WhatsApp o un nombre de usuario de Instagram.
+
+En este breve resumen te comentamos las razones técnicas por las cuales NextLog resulta ser un tipo de **estafa digital**, destacando lo siguiente:
+
+- **Función de espionaje**: NextLog simula tener acceso a mensajes, chats y conversaciones privadas de Instagram y WhatsApp, solicitando solo un número de teléfono o nombre de usuario, promoviendo una práctica invasiva e ilegal de espionaje.
+
+- **Pago engañoso**: Se solicita un pago de **119 MXN** por una supuesta función de *desencriptación* para los mensajes obtenidos de las cuentas. Esto ocurre sin ningún tipo de explicación técnica ni garantía de funcionamiento. El proceso de *desencriptar* dura entre 10 y 11 días, lo cual excede el periodo premium de 8 días, forzando a los usuarios a realizar pagos adicionales.
+
+- **Recolección de datos abusiva**: Aunque NextLog declara que no recopila datos, se identificaron rastreadores de **Meta, Google y Amazon**, además de la recolección de información como nombre, número de teléfono, dirección IP y comportamiento del usuario en el navegador (tiempos de espera, sitios consultados, tipo de navegador, entre otros).
+
+- **Permisos no transparentes**: La app solicita al menos **15 permisos** que no son informados claramente en Google Play Store, en la Política de Privacidad ni durante el uso, lo que evidencia la carencia de consentimiento informado hacia los usuarios.
+
+- **Política de privacidad genérica**: La Política de Privacidad de NextLog es un texto genérico que no menciona con qué terceros se comparten los datos ni cómo se resguardan. Esto, además de evidenciar la falta de transparencia, sugiere que los desarrolladores utilizan recursos genéricos únicamente para cumplir con los requisitos mínimos de publicación en Google Play Store.
+
+- **Comentarios de usuarios**: Las reseñas en Google Play Store reportan tiempos falsos de *desencriptación*, cobros injustificados y la falta total de información recuperada, confirmando el comportamiento fraudulento de la aplicación.
+
 ## Archivos analizados
 
 - [apk versión 25.0.1](https://cloud.datavoros.org/index.php/s/zTkJfsXYcpA8oKy)
@@ -42,6 +59,8 @@ NextLog rastrea sus actividades en línea sin interrupciones y le informa al ins
 |[Facebook Share](https://developers.facebook.com/docs/android)||
 |[Google Firebase Analytics](https://firebase.google.com/)|Analítica|
 
+Los rastreadores de esta aplicación son meramente para medir y analizar el uso que le da el usuario a la aplicación, para poder hacer logins y compartir datos de los usuarios con Meta y Google.
+
 [Enlace al reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/com.app.nextlog/latest/#trackers)
 
 ## Empresas relacionadas con esta aplicación:
@@ -54,9 +73,14 @@ NextLog rastrea sus actividades en línea sin interrupciones y le informa al ins
 |[Google](https://marketingplatform.google.com/intl/es/about/analytics/)| Publicidad (Ads), analíticas (Google Analytics)|
 |[WEBNX](https://webnx.com/)| Infraestructura de internet, servidores dedicados|
 
+En la información declara y análisis de trafico, unicamente encontramos que existen relaciones con dos tipos de empresas:
+- Infraestructura tecnológica
+- Publicidad y Rastreadores
+
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
-No se mencionan explícitamente empresas con quienes NextLog comparte datos, unicamente hace referencia al compartimiento de datos con "proveedores de servicio" y "socios comerciales".
+No se mencionan explícitamente empresas con quienes NextLog comparte datos, unicamente hace referencia al compartimiento de datos con *"proveedores de servicio"* y *"socios comerciales"*.
+La falta de transparencia de empresas colaboradoras con esta aplicación es un indicador de desconfianza, pues ademas de impedir que los usuarios conozcan con claridad quienes (organizaciones) tienen acceso a su información personal, puede resultar en que esta aplicación tiene una Política de Privacidad **genérica** con la única finalidad de cumplir el requisito establecido para estar en la Google Play Store.
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
@@ -75,6 +99,8 @@ No se mencionan explícitamente empresas con quienes NextLog comparte datos, uni
 |https://analytics.us.tiktok.com/|
 |https://web.whatsapp.com/|
 |https://rev.cat/|
+
+Estos dominios indican que la aplicación se conecta a servicios de magnetización y suscripciones para *funciones premium*, también se conecta a servicios de analítica, redes sociales (Instagram y WhatsApp) y a repositorios de documentación, es decir el sitio donde se encuentra su Política de privacidad y términos de uso.
 
 ## Permisos
 
@@ -101,11 +127,15 @@ No se mencionan explícitamente empresas con quienes NextLog comparte datos, uni
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview).
 
+En este caso, Exodus Privacy no detecta permisos considerados peligrosos, los permisos listados anteriormente hacen referencia a rastreo publicitario, compras dentro de la aplicación, permisos para conectarse a internet, mostrar notificaciones y de usabilidad como vibrar cuando hayan notificaciones.
+
 ### Permisos solicitados durante el uso de la aplicación
 
 - :blue_circle: Notificaciones
 - :red_circle: Este ícono indica un permiso obligatorio
 - :blue_circle: Este ícono indica un permiso opcional pero se pierde una funcionalidad particular
+
+En esta ocasión NextLog unicamente solicito consentimiento para mostrar notificaciones.
 
 ## Datos
 
@@ -118,7 +148,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el uso de la aplicación
 
-Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de la aplicación
+Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de la aplicación.
 
 ### Tabla de conexiones realizadas durante el uso de la aplicación
 
@@ -160,6 +190,8 @@ Sin embargo, la sección **Acerca de esta app** de la aplicación NextLog dice l
 Gracias a su interfaz fácil de usar, puede acceder fácilmente a sus datos y no perderse ningún evento crítico con alertas en tiempo real.
 ~~~
 
+Esto representa contradicciones en la información declarada, lo que suma un indicador de desconfianza para esta aplicación sumado a la falta de transparencia mencionado anteriormente.
+
 ### Datos compartidos y uso según la Play Store
 
 La sección de **Seguridad de los datos** de la aplicación NextLog dice lo siguiente sobre compartir datos con terceros:
@@ -168,18 +200,23 @@ No se comparten datos con terceros
 El desarrollador indica que esta app no comparte datos del usuario con otras organizaciones o empresas.
 ~~~
 
+Sin embargo, en los Rastreadores identificados previamente, podemos ver que, al menos, NextLog comparte información de usuarios con Meta y Google, lo que representa una inconsistencia entre la información declarada y lo que realmente sucede durante el uso de la aplicación, situación que se considera un riesgo para la privacidad de los datos personales de los usuarios.
 
 ### Prácticas de seguridad
 
 - Los datos están cifrados en tránsito
 - Puedes solicitar que se borren los datos
 
+Estas practicas de seguridad indican que existen medidas para mantener cifrados (ilegibles) los datos de los usuarios en el momento en que se mueven, lo que proporciona seguridad, ademas de que puede solicitar directamente a la aplicación, eliminar tus datos.
+
+**Nota**: No existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad
+
 ### Datos recopilados según la Política de privacidad
-| Datos                                                                                                                                                                                                                                    |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Información personal:** Nombre, Apellido, Número de teléfono, Dirección de correo electrónico (si se proporciona o se extrae de redes sociales)                                                                                        |
-| **Datos de uso:** Dirección IP, Tipo y versión del navegador, Páginas visitadas, Fecha y hora de visita, Tiempo en cada página, Identificadores únicos del dispositivo, Tipo de dispositivo móvil, Sistema operativo, Datos diagnósticos |
-| **Datos desde redes sociales:** Nombre, Correo electrónico, Lista de contactos, Actividades, Foto de perfil, Descripción de actividad (si se comparte o se interactúa públicamente)                                                      |
+| **Datos**               | **Uso**                                                                                                                                                                                                                   |
+|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Información personal**       | Nombre, Apellido, Número de teléfono, Dirección de correo electrónico (si se proporciona o se extrae de redes sociales)                                                                                                          |
+| **Datos de uso**               | Dirección IP, Tipo y versión del navegador, Páginas visitadas, Fecha y hora de visita, Tiempo en cada página, Identificadores únicos del dispositivo, Tipo de dispositivo móvil, Sistema operativo, Datos diagnósticos          |
+| **Datos desde redes sociales** | Nombre, Correo electrónico, Lista de contactos, Actividades, Foto de perfil, Descripción de actividad (si se comparte o se interactúa públicamente)                                                                              |
 
 
 ### Uso general de la información según la Política de privacidad
@@ -211,11 +248,11 @@ El desarrollador indica que esta app no comparte datos del usuario con otras org
 ## Funciones particulares de la aplicación:
 
 ### 1. Registro para espionaje
-Durante el registro a esta aplicación, se solicitó un *username* (usuario) de una cuenta de instagram o un número de teléfono vinculado a una cuenta de whatsapp con la finalidad de obtener el contenido de los mensajes pertenecientes a este usuario o cuenta de whatsapp.
+Durante el registro a esta aplicación, se solicitó un *username* (usuario) de una cuenta de Instagram o un número de teléfono vinculado a una cuenta de WhatsApp con la finalidad de obtener el contenido de los mensajes pertenecientes a este usuario o cuenta de WhatsApp.
 
 ### 2. Pago por "funciones especiales"
 
-Cuando el interesado en **espiar** los chats y conversaciones de un usuario de instagram o cuenta de whatsapp ingresa la información solicitada, la aplicación muestra una pantalla que contiene una interfaz parecida a whatsapp o instagram con una lista de mensajes y chats que son ilegibles en previsualización, sin embargo, se muestra un botón que ofrece *desencriptar* los mensajes de la/las cuentas, función que al día 10 de abril de 2025 cuesta 119 pesos mexicanos, equivalente a 5.79 dólares estadounidenses.
+Cuando el interesado en **espiar** los chats y conversaciones de un usuario de Instagram o cuenta de WhatsApp ingresa la información solicitada, la aplicación muestra una pantalla que contiene una interfaz parecida a WhatsApp o Instagram con una lista de mensajes y chats que son ilegibles en previsualización, sin embargo, se muestra un botón que ofrece *desencriptar* los mensajes de la/las cuentas, función que al día 10 de abril de 2025 cuesta 119 pesos mexicanos, equivalente a 5.79 dólares estadounidenses.
 
 **Nota**
     - NextLog no informa sobre esta función en su descripción que declara en Google Play Store
@@ -243,7 +280,7 @@ Así mismo, en al declaración de permisos de Google Play Store, NextLog no menc
 
 ### Recolección de datos personales
 
-Durante el proceso de registro, la aplicación solicita el nombre y número de teléfono de la persona que se desea espiar. Esta acción es una clara representación de la recolección intencionada de información personal y sensible de terceras persinas con fines de **vigilancia no autorizada**, lo que implica una acción ilegal y no consensuada.
+Durante el proceso de registro, la aplicación solicita el nombre y número de teléfono de la persona que se desea espiar. Esta acción es una clara representación de la recolección intencionada de información personal y sensible de terceras personas con fines de **vigilancia no autorizada**, lo que implica una acción ilegal y no consensuada.
 
 A nivel de usuario, la aplicación también hace una recolección de datos excesiva, como nombre, dirección IP, version del navegador y paginas visitadas por el usuario.
 
@@ -251,9 +288,13 @@ A nivel de usuario, la aplicación también hace una recolección de datos exces
 
 La política de privacidad de NextLog menciona unicamente que los datos pueden ser compartidos con proveedores de servicios y socios comerciales, pero no especifica con qué empresas. El análisis de tráfico revela conexiones  con dominios y servicios de Meta, Google, Amazon, Akamai y RevenueCat, lo cual deja en claro la falta de transparencia en la política de privacidad.
 
+### Política de Privacidad genérica
+
+Los desarrolladores de esta aplicación utilizan un texto genérico y reciclado para justificar la recolección y uso de datos personales puesto que esos textos demuestran ser típicas políticas **sin transparencia** y que unicamente buscan dar **apariencia de legalidad** mientras que el análisis de trafico de red y rastreadores demuestran que se recolectan y comparten datos sin un **consentimiento informado**
+
 ### Función premium sospechosa
 
-NextLog ofrece una supuesta función de *desencriptación* de mensajes tras registrar una cuenta de instagram o un número de whatsapp. El acceso tiene un costo de 119 pesos mexicanos por 8 días, pero el proceso de desencriptación tarda entre 10 y 11 días, lo que obliga al usuario a pagar nuevamente. No se proporcionan explicaciones técnicas, tutoriales ni garantías de funcionamiento.
+NextLog ofrece una supuesta función de *desencriptación* de mensajes tras registrar una cuenta de Instagram o un número de WhatsApp. El acceso tiene un costo de 119 pesos mexicanos por 8 días, pero el proceso de desencriptación tarda entre 10 y 11 días, lo que obliga al usuario a pagar nuevamente. No se proporcionan explicaciones técnicas, tutoriales ni garantías de funcionamiento.
 
 En general, NextLog demuestra ser una aplicación que carece de coherencia entre lo declarado y lo que se aplica en realidad durante la ejecución de la aplicación.
 NextLog es una aplicación altamente invasiva en los siguientes niveles:
