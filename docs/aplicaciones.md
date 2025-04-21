@@ -22,7 +22,6 @@
     - [Picsart](https://docs.datavoros.org/02-apps-de-video-y-foto/picsart/picsart/)
     - [Sticker.ly](https://docs.datavoros.org/02-apps-de-video-y-foto/stickerly/stickerly/)
     - [Sweet Selfie Camera Editor](https://docs.datavoros.org/02-apps-de-video-y-foto/sweetselfie-camera-editor/sweetselfie/)
-     
 - **Aplicaciones del 25N**:
     - [Donna](https://docs.datavoros.org/04-apps-de-25n/donna/donna/)
     - [BSafe](https://docs.datavoros.org/04-apps-de-25n/bsafe/bsafe/)
@@ -32,10 +31,21 @@
     - [Red Panic Button](https://docs.datavoros.org/04-apps-de-25n/red-panic-button/red_panic_button/)
     - [Círculo](https://docs.datavoros.org/04-apps-de-25n/circulo/circulo/)
     - [Botón de auxilio Jalisco](https://docs.datavoros.org/04-apps-de-25n/boton-auxilio-escudo-urbano/boton-auxilio-escudo-urbano/)
-
 - **Aplicaciones de citas**:
     - [Badoo](https://docs.datavoros.org/05-apps-de-citas/badoo/badoo/)
     - [Bumble](https://docs.datavoros.org/05-apps-de-citas/bumble/bumble/)
     - [Grindr](https://docs.datavoros.org/05-apps-de-citas/grindr/grindr/)
     - [Happn](https://docs.datavoros.org/05-apps-de-citas/happn/happn/)
     - [Tinder](https://docs.datavoros.org/05-apps-de-citas/tinder/tinder/)
+- **Aplicaciones de control parental**:
+    - [AirDroid Kids Wizard](https://docs.datavoros.org/06-apps-de-control-parental/airdroid-wizard/airdroid-wizard/)
+    - [AirDroid](https://docs.datavoros.org/06-apps-de-control-parental/airdroid/airdroid/)
+    - [Alli360](https://docs.datavoros.org/06-apps-de-control-parental/alli360/alli360/)
+    - [Pingo! by Find my Kids](https://docs.datavoros.org/06-apps-de-control-parental/find-my-kids-Pingo/find-my-kids-Pingo/)
+    - [Find my Kids](https://docs.datavoros.org/06-apps-de-control-parental/find-my-kids/find-my-kids/)
+    - [Kids360](https://docs.datavoros.org/06-apps-de-control-parental/kids360/kids360/)
+    - [Logsense](https://docs.datavoros.org/06-apps-de-control-parental/logsense/logsense/)
+    - [NextLog](https://docs.datavoros.org/06-apps-de-control-parental/nextlog/nextlog/)
+    - [Qustodio Kids](https://docs.datavoros.org/06-apps-de-control-parental/qustodio-kids/qustodio-kids/)
+    - [Qustodio](https://docs.datavoros.org/06-apps-de-control-parental/qustodio/qustodio/)
+    - [SeenLog](https://docs.datavoros.org/06-apps-de-control-parental/seenlog/seenlog/)
