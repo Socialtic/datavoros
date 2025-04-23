@@ -174,13 +174,14 @@ Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de
 
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
-![mapa](docs/06-apps-de-control-parental/nextlog/mapa.png)
+![mapa](mapa.png)
 
 ### Datos recopilados y uso según la Play Store
 
 Google Play Store declara los siguientes datos recopilados por NextLog:
 
 La sección de **Seguridad de los datos** de la aplicación NextLog dice lo siguiente sobre recopilación de datos:
+
 ~~~
 No se recopilan datos
 El desarrollador indica que esta app no recopila datos del usuario.
