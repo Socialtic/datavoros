@@ -50,7 +50,9 @@ LogSense supervisa de forma inteligente sus actividades en línea y le notifica 
 | [Facebook Share](https://reports.exodus-privacy.eu.org/en/trackers/70/)            | Identificación |
 | [Google AdMob](https://reports.exodus-privacy.eu.org/en/trackers/312/)             | Publicidad     |
 | [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/) | Analítica      |
+
 Los rastreadores de esta aplicación sirven para medir y analizar el uso que le da la persona usuaria a la aplicación, para iniciar sesión con Facebook, vincular identidades y recopilar datos de perfiles. También para mostrar publicidad dentro de la app, personalizar anuncios y compartir datos personales con terceros.
+
 [Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/591395/)
 
 ## Empresas relacionadas con esta aplicación:
@@ -72,6 +74,7 @@ No se mencionan explícitamente empresas con quienes comparte datos, unicamente 
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
+
 | Dominios                               |
 | -------------------------------------- |
 | https://api-diagnostics.revenuecat.com |
@@ -87,6 +90,7 @@ No se mencionan explícitamente empresas con quienes comparte datos, unicamente 
 | https://flagcdn.com                    |
 | https://api.revenuecat.com             |
 | https://errors.rev.cat                 |
+
 Estos dominios indican que la aplicación se conecta a servicios de magnetización y suscripciones para funciones premium, también se conecta a servicios de analítica, redes sociales (Instagram y WhatsApp) y a repositorios de documentación, es decir el sitio donde se encuentra su Política de privacidad y términos de uso.
 ## Permisos   
 
@@ -149,6 +153,7 @@ Esta aplicación no solicita a los usuarios ningún dato extra durante el uso de
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 ![mapa](./mapa.png)
 *Mediante Wireshark*
+
 El análisis de conexiones nos indica que la infraestructura de esta aplicación está en Estados Unidos, la infraestructura que está en México pertenece a Meta y Google que proveen servicios de analíticas.
 ### Datos recopilados y uso según la PlayStore
 El desarrollador indica que esta app no recopila ni comparte datos del usuario. Sin embargo la política de privacidad si expresa una recopilación de datos.
@@ -163,6 +168,7 @@ El desarrollador indica que esta app no comparte datos del usuario con otras org
 - :exclamation: El desarrollador indica que esta app no recopila datos del usuario. 
 
 Estas practicas de seguridad indican que existen medidas para mantener cifrados (ilegibles) los datos de los usuarios en el momento en que se mueven, lo que proporciona seguridad, ademas de que puede solicitar directamente a la aplicación, eliminar tus datos.
+
 **Nota**: NO existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad
 El análisis de Exodus Privacy indica que la aplicación si recopila datos del usuario.
 ### Datos recopilados y uso según la Política de privacidad

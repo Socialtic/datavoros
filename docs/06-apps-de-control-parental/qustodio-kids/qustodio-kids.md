@@ -70,7 +70,9 @@ Qustodio Premium (supervisa 5, 10 o 15 dispositivos)
 | [Segment](https://reports.exodus-privacy.eu.org/en/trackers/62/)                     | Perfilamiento, Analítica |
 | [Google CrashLytics](https://reports.exodus-privacy.eu.org/en/trackers/27/)          | Reporte de fallos        |
 | [Análisis de Google Firebase](https://reports.exodus-privacy.eu.org/en/trackers/49/) | Analítica                |
+
 Los rastreadores de esta aplicación sirven para medir y analizar el uso que le da la persona usuaria a la aplicación, vincular identidades y recopilar datos de perfiles. También para mostrar publicidad dentro de la app, personalizar anuncios y compartir datos personales con terceros.
+
 [Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/com.qustodio.qustodioapp/latest/)
 
 ## Empresas relacionadas con esta aplicación:
@@ -86,6 +88,7 @@ El análisis de tráfico de red indica que estas empresas están relacionadas co
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 La aplicación declara en el Aviso de Privacidad que comparte datos con la siguientes empresas para fines de soporte, infraestructura o publicidad:
+
 - [Amazon.com, Inc.](https://aws.amazon.com/)
 - [Braze, Inc.](https://www.braze.com/)
 - [CHARGEBEE INC.](https://www.chargebee.com/)
@@ -98,6 +101,7 @@ La aplicación declara en el Aviso de Privacidad que comparte datos con la sigui
 - [Zendesk Inc.](https://www.zendesk.com/)
 
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
+
 
 | Dominios                                             |
 | ---------------------------------------------------- |
@@ -118,6 +122,7 @@ La aplicación declara en el Aviso de Privacidad que comparte datos con la sigui
 | https://qustodio-com-fair-hallway-795.firebaseio.com |
 | https://notify.bugsnag.com                           |
 | https://crashlytics.com                              |
+
 Estos dominios indican que la aplicación se conecta con múltiples plataformas externas para fines técnicos, analíticas, publicidad y soporte. La variedad  de dominios integrados reflejan una alta dependencia de servicios externos, lo cual aumenta el riesgo potencial en términos de privacidad, trazabilidad de la información y transparencia del uso de los datos, especialmente considerando que parte de la información pertenece a personas menores de edad.
 ## Permisos   
 
@@ -238,6 +243,7 @@ El análisis de conexiones nos indica que la infraestructura de esta aplicación
 - Puedes solicitar a los desarrolladores que se borren los datos asociados a tu cuenta.
 
 Estas practicas de seguridad indican que existen medidas para mantener cifrados (ilegibles) los datos de los usuarios en el momento en que se mueven, lo que proporciona seguridad, ademas de que puede solicitar directamente a la aplicación, eliminar tus datos.
+
 **Nota**: NO existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad
 ### Datos recopilados y uso según la Política de privacidad
 
@@ -247,6 +253,7 @@ Estas practicas de seguridad indican que existen medidas para mantener cifrados 
 | **Pagos**                       | Proveedores de pago (PayPal, Braintree, Cleverbridge, Chargebee y Stripe) recopilan datos de pago.                                                                                                                                                                                 |
 | **Información del dispositivo** | ID del modelo, número de serie, código IMEI, sistema operativo.                                                                                                                                                                                                                    |
 | **Información recolectada**     | Todo el tráfico de red del dispositivo, nombres de dominio, direcciones URL de los motores de búsqueda y sitios web visitados, información de las aplicaciones, usuarios, contactos, conexiones, pagos, mensajes y otras comunicaciones, contenido publicado y recibido.           |
+
 ### Uso general de la información según la Política de privacidad
 
 - **Registro de cuenta**
