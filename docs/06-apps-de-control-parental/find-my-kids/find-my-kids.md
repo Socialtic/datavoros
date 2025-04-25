@@ -75,7 +75,9 @@ Instala la app Pingo! en el móvil de tu hijo con GPS. A diferencia de otras apl
 | [Google CrashLytics](https://reports.exodus-privacy.eu.org/en/trackers/27/)                 | Reporte de fallos                             |
 | [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)          | Analíticas                                    |
 | [Huawei Mobile Services (HMS) Core](https://reports.exodus-privacy.eu.org/en/trackers/333/) | Ubicación, Publicidad y marketing, Analíticas |
+
 Los rastreadores de esta aplicación sirven para medir y analizar el uso que le da la persona usuaria a la aplicación, para iniciar sesión con Facebook, vincular identidades y recopilar datos de perfiles. También para mostrar publicidad dentro de la app, personalizar anuncios y compartir datos personales con terceros.
+
 [Leer el reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/en/reports/org.findmykids.app/latest/)
 
 ## Empresas relacionadas con esta aplicación:
@@ -94,7 +96,9 @@ El análisis de tráfico de red indica que estas empresas están relacionadas co
 | [Cloudflare](https://www.cloudflare.com/)                           | Infraestructura en la nube, almacenamiento, servidores y cómputo escalable. |
 
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
+
 La aplicación declara en el Aviso de Privacidad que comparte datos con la siguientes empresas para fines de soporte, infraestructura o publicidad:
+
 - [Selectel Ltd](https://selectel.ru/en/about/documents/)
 - [Hetzner Online GmbH](https://www.hetzner.com/legal/privacy-policy)
 - [Google Cloud Platform](https://policies.google.com/privacy?hl=en)
@@ -105,6 +109,7 @@ La aplicación declara en el Aviso de Privacidad que comparte datos con la sigui
 - [UserX Analytics -BUMPIN L.L.C-FZ. ](https://userx.pro/privacy)
 
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
+
 
 | Dominios                                    |
 | ------------------------------------------- |
@@ -153,7 +158,9 @@ La aplicación declara en el Aviso de Privacidad que comparte datos con la sigui
 | https://api.findmykids.org                  |
 | https://nav.cn.ronghub.com                  |
 | https://stats.cn.ronghub.com                |
+
 Estos dominios indican que la aplicación se conecta con múltiples plataformas externas para fines técnicos, analíticas, publicidad y soporte. La variedad  de dominios integrados reflejan una alta dependencia de servicios externos, lo cual aumenta el riesgo potencial en términos de privacidad, trazabilidad de la información y transparencia del uso de los datos, especialmente considerando que parte de la información pertenece a personas menores de edad.
+
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 33
@@ -284,6 +291,7 @@ El análisis de conexiones nos indica que la infraestructura de esta aplicación
 | Contactos                               | Contactos                                                                    |
 | Información personal                    | Nombre, Dirección de correo electrónico, IDs de usuario y Número de teléfono |
 | Información y rendimiento de la app<br> | Registros de fallas y Diagnóstico                                            |
+
 ### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
@@ -291,7 +299,9 @@ El análisis de conexiones nos indica que la infraestructura de esta aplicación
 - Los datos están cifrados en tránsito
 - :exclamation: **No se pueden borrar los datos asociados a tu cuenta y uso de la aplicación.**
 
+
 Estas practicas de seguridad indican que existen medidas para mantener cifrados (ilegibles) los datos de los usuarios en el momento en que se mueven, lo que proporciona seguridad, ademas de que puede solicitar directamente a la aplicación, eliminar tus datos.
+
 **Nota**: NO existe información adicional sobre el proceso de eliminación de datos de la aplicación en Google Play Store ni en al Política de Privacidad.
 
 - Los datos están cifrados cuando viajan a través de Internet.
@@ -307,6 +317,7 @@ Estas practicas de seguridad indican que existen medidas para mantener cifrados 
 | **Datos recopilados automáticamente mediante cookies y tecnologías relacionadas**<br><br>                                                                                                                                                                                                                                                                                                      | - Recibir o recopilar y almacenar números de identificación únicos asociados con su dispositivo o nuestra aplicación móvil (incluido, por ejemplo, UDID, un identificador único para anunciantes ("IDFA")), tipo de dispositivo, modelo y fabricante, marca y modelo del sistema operativo móvil.<br>- Marketing. Podemos utilizar cookies o tecnologías similares para ofrecer campañas de marketing y monitorizar su rendimiento. Asimismo, nuestros socios pueden utilizar cookies para proporcionarnos información sobre sus interacciones con sus servicios y etiquetas de acción para medir la eficacia de la publicidad y permitir una publicidad dirigida más eficaz.<br>- **Rendimiento, análisis e investigación.** Las cookies o tecnologías similares nos ayudan a conocer el rendimiento de nuestros Sitios y Servicios, así como a diagnosticar o solucionar problemas tecnológicos reportados por usuarios o desarrolladores.<br>- Paymentwall (EE. UU.): Utilizamos los servicios mencionados para pro- Firebase nos ayuda a comprender claramente el comportamiento de los usuarios, lo que le permite tomar decisiones informadas sobre el marketing de la aplicación y la optimización del rendimiento.<br>- Google Analytics recopila información como la frecuencia con la que los usuarios visitan este sitio, las páginas que visitan y los sitios que usaron antes de visitarlo.<br>- **Facebook Analytics (el país del propietario de este servicio depende de su país).**  Solución de análisis que ayuda a comprender cómo utiliza nuestros Servicios.<br>- AppsFlyer (EE. UU.), Adjust (el país del propietario de este servicio depende de su país). Utilizamos los servicios mencionados para la atribución y el análisis de marketing, lo que nos permite medir y analizar la eficacia de nuestras campañas de marketing, entendiendo qué campañas contribuyeron a la instalación de nuestras aplicaciones móviles y otras métricas de conversión.cesar transacciones. |
 | **Datos anónimos**                                                                                                                                                                                                                                                                                                                                                                             | También recopilaremos información anónima sobre los visitantes y el uso de nuestros Servicios para crear estadísticas agregadas o elaborar informes. Sin embargo, ninguna persona podrá ser identificada a partir de la información anónima que recopilemos para estos fines.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Información sensible**<br>                                                                                                                                                                                                                                                                                                                                                                   | No recopilamos ni procesamos ninguna información confidencial, como información relacionada con el origen racial o étnico, opiniones políticas, creencias religiosas, salud o condición física o mental, antecedentes penales o judiciales, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
 ### Uso general de la información según la Política de privacidad
 
 - Monitoreo de las actividades y ubicación de la infancia a través de su teléfono.
