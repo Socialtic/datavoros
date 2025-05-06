@@ -224,16 +224,28 @@ Hasta este punto ha concluido el análisis de tráfico de red. Es importante rem
 
 > :exclamation: Si tu navegador no te permite visualizar el mapa será necesario que descargues las librerías de javascript [Leaflet](https://leafletjs.com/download.html) y [Leaflet Market Cluster](https://github.com/Leaflet/Leaflet.markercluster)
 
- Instala javascript si no lo tienes instalado con `sudo apt install npm`
- Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet`
- Descomprime la librería Leaflet en el directorio `unzip /Dowloads/leaflet.zip -d /usr/share/javascript/leaflet`
-Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet/market-cluster`
-Descomprime la librería Market Cluster en el directorio  `unzip Dowloads/leaflet-market-cluster.zip -d /usr/share/javascript/leaflet/market-cluster`
-Copia del directorio *market-cluster/dist* los archivos *MarkerCluster.css, MarkerCluster.Default.css, leaflet.markercluster.js* al directorio de la librería *leaflet*.
+**Pasos para corregir el error de visualización**
+
+ 1. Instala javascript si no lo tienes instalado con `sudo apt install npm`
+ 
+ 2. Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet`
+ 
+ 3. Descomprime la librería Leaflet en el directorio `unzip /Dowloads/leaflet.zip -d /usr/share/javascript/leaflet`
+ 
+4. Crea un directorio para la librería sudo `mkdir /usr/share/javascript/leaflet/market-cluster`
+
+5. Descomprime la librería Market Cluster en el directorio  `unzip Dowloads/leaflet-market-cluster.zip -d /usr/share/javascript/leaflet/market-cluster`
+
+6. Copia del directorio *market-cluster/dist* los archivos *MarkerCluster.css, MarkerCluster.Default.css, leaflet.markercluster.js* al directorio de la librería *leaflet*.
+
 `cd /usr/share/javascript/leaflet` 
+
 `cp ./market-cluster/dist/MarkerCluster.css .` 
+
 `cp ./market-cluster/dist/MarkerCluster.Default.css .` 
+
 `cp ./market-cluster/dist/leaflet.markercluster.js .` 
+
 #### **Análisis de registros DNS y SNI**
 
 Esta sección del tutorial tiene el objetivo de profundizar en conocer qué servicios y dominios son los que contactan la aplicación móvil.   
