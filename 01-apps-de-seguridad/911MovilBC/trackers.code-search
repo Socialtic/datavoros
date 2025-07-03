@@ -1,0 +1,241 @@
+# Query: trackers
+# ContextLines: 1
+
+54 resultados - Archivos de 14
+
+mkdocs.yml:
+  11      - Captura de tráfico de red mediante Draeneg: 'tutoriales/02-1-captura-de-trafico-draeneg.md'
+  12:     - Mapeo de permisos y rastreadores: 'tutoriales/03-permisos y trackers.md'
+  13      - Cómo bajar un archivo APK para analizarlo: 'tutoriales/04-apk-download.md'
+
+  49    - Listado de rastreadores y permisos:
+  50:     - Inicio: 'trackers-permisos/inicio.md'
+  51:     - Permisos: 'trackers-permisos/99-listado-permisos.md'
+  52:     - Rastreadores: 'trackers-permisos/99-listado-trackers.md'
+  53    - Contribuye: 'contribuye.md'
+
+docs/02-apps-de-video-y-foto/canva/canva.md:
+  314  |Información obtenida a través de terceros si, por ejemplo, uno sigue la página de Canva en Facebook o le da like o comenta, o postea en su página videos o fotos|
+  315  |Información obtenida a través de terceros si, por ejemplo, uno sigue la página de Canva en Facebook o le da like o comenta, o postea en su página videos o fotos|
+  316: |:bangbang:Información obtenida de fuentes públicas como redes sociales (Facebook, Twitter, LinkeIN, etc.) y servicios de datos e información (léase servicios que usan trackers). Ejemplo de estos datos pueden ser: compañía, tamaño de la compañía, posición laboral, industria y otra información de perfil. Además pueden cruzar esta información con información proporcionada por el usuario para hacer un perfil más completo.|Se utiliza para poder proporcionar ofertas, publicidad y otros servicios de manera personalizada.|
+  316  |Información sobre comportamiento al respecto de los anuncios y productos anunciados por parte de las empresas de publicidad que trabajan con Canvas.|Se usa para conocer la efectividad de los anuncios y poder pagar las cuotas que les son obligatorias.|
+  317  |Información sobre comportamiento al respecto de los anuncios y productos anunciados por parte de las empresas de publicidad que trabajan con Canvas.|Se usa para conocer la efectividad de los anuncios y poder pagar las cuotas que les son obligatorias.|
+
+docs/02-apps-de-video-y-foto/picsart/picsart.md:
+   86  
+   87  
+   88: ## Rastreadores identificados (mediante Exodus Privacy)
+
+   88  
+   89  
+
+  168  
+  169  
+  170: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores
+
+  170  
+  171  
+
+  448          - Facebook
+  449          - Facebook
+  450:     - :bangbang:Servicios de terceros para marketing o publicidad (léase rastreadores).
+
+  450  
+  451  
+
+  471  - No hay fallas de seguridad que no encontremos en otras aplicaciones.
+  472  - No hay fallas de seguridad que no encontremos en otras aplicaciones.
+  473: - El número de rastreadores es muy elevado en comparación de apps similares.
+  473  
+  474  
+
+docs/02-apps-de-video-y-foto/stickerly/stickerly.md:
+   61  
+   62  
+   63: ## Rastreadores identificados (mediante Exodus Privacy)
+
+   63  
+   64  
+
+  121  
+  122  
+  123: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+
+  123  
+  124  
+
+  335  - No recopilan identificadores únicos como IMEI o MAC
+  336  - No recopilan identificadores únicos como IMEI o MAC
+  337: - Dicen que no usan rastreadores o cookies que no sean Google Analytics y Adjust
+  337  - El acceso a cámara y video es exclusivamente para funcionalidad de la aplicación
+  338  - El acceso a cámara y video es exclusivamente para funcionalidad de la aplicación
+
+docs/02-apps-de-video-y-foto/sweetselfie-camera-editor/sweetselfie.md:
+   77  
+   78  
+   79: ## Rastreadores identificados (mediante Exodus Privacy)
+
+   79  
+   80  
+
+  133  
+  134  
+  135: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+
+  135  
+  136  
+
+  425  - El aviso de privacidad es muy general y abarca una serie de datos que, dentro de las funciones de la aplicación, el usuario nunca otorga.
+  426  - El aviso de privacidad es muy general y abarca una serie de datos que, dentro de las funciones de la aplicación, el usuario nunca otorga.
+  427: - La lista de terceros con quienes dicen trabajar no está completa. Esto se puede verificar observando los rastreadores.
+
+  427  - Las llamadas al dominio anythinktech.com son servidores pertenecientes a Alibaba. Al mismo tiempo, creemos que este dominio es usado por un tracker, probablemente denominado anythinktech. 
+  428  - Las llamadas al dominio anythinktech.com son servidores pertenecientes a Alibaba. Al mismo tiempo, creemos que este dominio es usado por un tracker, probablemente denominado anythinktech. 
+
+  433  - El ecosistema de empresas involucrado en el guradado, transferencia y minado de datos es muy complejo y difícil de descifrar.
+  434  - El ecosistema de empresas involucrado en el guradado, transferencia y minado de datos es muy complejo y difícil de descifrar.
+  435: - Esta app pareciera tener dos rastreadores no identificados en Exodus, anythinktech y bytedance.sdk. Este primero, incluso fue identificado como dominio malicioso. 
+  435  
+  436  
+
+docs/03-apps-de-montadeudas/creditolana/creditolana.md:
+   75  
+   76: ## Rastreadores identificados (mediante Exodus Privacy)
+   77  
+
+  101  
+  102: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+  103   
+
+  380  - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
+  381: - Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.  
+  382  - Un indicador de riesgo sí son los permisos solicitados, ya que el acceso a los contactos de la persona usuaria, el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
+
+docs/03-apps-de-montadeudas/ifectivo/ifectivo.md:
+   75  
+   76: ## Rastreadores identificados (mediante Exodus Privacy)
+   77  
+
+  108  ### Provedores de servicios de terceros para pagos, identificación y redes sociales
+  109: - Facebook (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
+  110: - Google (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
+  111: - Whatsapp (No pudimos comprobarlo, lo sabemos por los rastreadores y el manifiesto)
+  112  
+  113: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+  114  
+
+  508  - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
+  509: - Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+  510  - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
+
+docs/03-apps-de-montadeudas/okredito/okredito.md:
+   90  
+   91: ## Rastreadores identificados (mediante Exodus Privacy)
+   92  
+
+  132  
+  133: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+  134  
+
+  526  - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes. 
+  527: - Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+  528  - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS, son permisos de alto riesgo. 
+
+docs/03-apps-de-montadeudas/superapoyo/superapoyo.md:
+   86  
+   87  
+   88: ## Rastreadores identificados (mediante MobSF) 
+
+   88  - **No pudimos realizar al análisis en Exodus porque arroja el problema: Unable to compute APK fingerprint**
+   89  
+   90  
+   91: - No hay rastreadores presentes según MobSF, pero nosotros identificamos en el manifiesto:
+
+   91  
+   92  
+
+  118  
+  119  
+  120: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+
+  120   
+  121   
+
+  439  - No sabemos por qué no funcionó el análisis con Exodus Privacy.
+  440  - No sabemos por qué no funcionó el análisis con Exodus Privacy.
+  441: - El análisis mediante MobSF resultó curioso, en tanto que hay varios campos en los cuales no encontró información (incluídos trackers que nosotros detectamos en el manifiesto).
+
+  441  
+  442  
+
+  445  - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes.
+  446  - La aplicación no parece ser maliciosa y probablemente no tenga ningún tipo de peligros técnicos inherentes.
+  447: - Ni los rastreadores, ni la extensa recolección de datos (que es perfectamente congruente con ser un aplicación para conseguir préstamos) parecería indicar algún problema.
+  447  - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS y contactos son permisos de alto riesgo. En particular el acceso a las cuentas registradas en el dispositivo y la posibilidad de modificarlas es altamente peligrosa.
+  448  - Un indicador de riesgo sí son los permisos solicitados, ya que  el acceso a lectura y escritura del almacenamiento y el acceso al estado del teléfono, así como al calendario y a los SMS y contactos son permisos de alto riesgo. En particular el acceso a las cuentas registradas en el dispositivo y la posibilidad de modificarlas es altamente peligrosa.
+
+docs/03-apps-de-montadeudas/tala/tala.md:
+  113  
+  114  
+  115: ## Rastreadores identificados (mediante Exodus Privacy)
+
+  115  
+  116  
+
+  156  
+  157  
+  158: ### Dominios integrados al código de la app que no pertecen directamente a los rastreadores y que son de interés
+
+  158  - atlas-antelope.com (35.164.145.38). Se encuentra en http y solicita: Versión Android, Tipo de red, Idioma. Pensando en que el dominio
+  159  - atlas-antelope.com (35.164.145.38). Se encuentra en http y solicita: Versión Android, Tipo de red, Idioma. Pensando en que el dominio
+
+  546  - En conclusión, esta aplicación es legítima y está registrada en Condusef. Como no tenemos acceso a las denuncias no podemos saber si las denuncias incluyen hostigamiento y acoso; si el dinero no se transfirió o los intereses cobrados fueron desproporcionados y nunca se le notificó al deudor. De hecho, en su [página](https://talamobile.mx/2022/07/13/que-tan-confiable-es-la-app-de-prestamos-tala/) tienen una sección sobre apps fraudulentas. 
+  547  - En conclusión, esta aplicación es legítima y está registrada en Condusef. Como no tenemos acceso a las denuncias no podemos saber si las denuncias incluyen hostigamiento y acoso; si el dinero no se transfirió o los intereses cobrados fueron desproporcionados y nunca se le notificó al deudor. De hecho, en su [página](https://talamobile.mx/2022/07/13/que-tan-confiable-es-la-app-de-prestamos-tala/) tienen una sección sobre apps fraudulentas. 
+  548: - Inventure Access, la empresa madre de Tala, es un fondo de inversiones que desarrolla instrumentos financieros usando Data Science. En el caso de Tala la idea es ofrecer una aplicación que, sin la intervención de una persona, pueda perfilar a quien pide un préstamo para ver si su perfil cumple o no cumple con los requisitos. En este sentido, la privacidad del cliente queda expuesta por los trackers, los permisos que otorga y la información. Sin embargo dicha información queda en manos de una empresa internacional como está explicado en el aviso de privacidad. 
+  548  
+  549  
+
+docs/trackers-permisos/99-listado-trackers.md:
+   1: # Rastreadores
+   2  
+
+   4  
+   5: Dejamos aquí un par de links que explican qué son y cómo funcionan los rastreadores [1](https://protege.la/como-funcionan-los-rastreadores-ocultos-en-tu-telefono/) [2](https://reports.exodus-privacy.eu.org/es/info/trackers)
+   6     
+
+   9  |---------------------------|--------------------------|----------------------------------------------------|---------|
+  10: | [Google Crashlytics](https://etip.exodus-privacy.eu.org/trackers/862b2b1f-47d3-4dc0-9527-d50e73ce2536/)        |             3            | Análítica sobre el funcionamiento de la aplicación | [Google](https://firebase.google.com/products/crashlytics)  |
+  11: | [Google Firebase Analytics](https://etip.exodus-privacy.eu.org/trackers/3bc11db6-499b-441b-84c4-5266063229c1/) |             6            | Analítica sobre el uso de la aplicación            | [Google](https://firebase.google.com/products/analytics)  |
+  12: | [Google AdMob](https://etip.exodus-privacy.eu.org/trackers/e9c80f4c-cf20-4a7b-8aa0-4db002597a21/)              |             3            | Publicidad                                         | [Google](https://admob.google.com/home/)  |
+  13: | [Google Analytics](https://etip.exodus-privacy.eu.org/trackers/5f7647ff-ab57-4e30-bafa-1c7f02f10de8/)          |             2            | Analítica sobre el uso de la aplicación            | [Google](https://marketingplatform.google.com/intl/es/about/analytics/features/)  |
+  14: | [Google Tag Manager](https://etip.exodus-privacy.eu.org/trackers/3e6141bc-8eaa-40f7-a1d6-3326a193a3da/)        |             2            | Desarrollo/ Marketing                              | [Google](https://marketingplatform.google.com/intl/es/about/tag-manager/features/)  |
+
+docs/tutoriales/03-permisos y trackers.md:
+  47  
+  48: 8. Lo primero que vemos es un resumen con el número de rastreadores presentes y la cantidad de permisos:
+  49  ![7](./capturas_de_pantalla/permisos/7-permisos-exodus.png) 
+
+  53  
+  54: # Rastreadores
+  55  
+  56: Para averiguar qué rastreadores tiene una aplicación hay que seguir los mismos pasos de la sección anterior. En el listado de trackers, sin embargo, podemos acceder a una página de referencia con más información del tracker en cuestión:
+  57  ![9](./capturas_de_pantalla/permisos/9-permisos-exodus.png)
+
+  62  
+  63: - Luego tenemos dos enlaces a las páginas web del tracker para desarrolladores y del lado derecho el link "Tracker web page" nos dirige a la página general del tracker (Esta información no siempre aparece para todos los trackers).
+  64  
+
+docs/tutoriales/04-apk-download.md:
+  36      ```
+  37:     *Como vimos anteriormente en el tutorial de "Permisos y rastreadores", el nombre de la app es el nombre que podemos extraer de la URL de la PlayStore después de id=com.ejemplo.app*   
+  38  
+
+docs/tutoriales/05-instalacion-y-uso-de-mobfs.md:
+   2  
+   3: Mobile Security Framework es un programa que automatiza toda una serie de análisis tanto dinámicos como estáticos de aplicaciones, para poder identificar vulnerabilidades, tipos de malware y otros problemas de privacidad. En nuestro caso, es una herramienta que nos permitirá identificar de una manera bastante sencilla los permisos de la app y los trackers. Al mismo tiempo, tiene otras características que veremos más adelante que pueden hacer que nuestros análisis sean más completos.
+   4  
+
+  47  
+  48: - Adelante aparece la sección de rastreadores donde se nos dice cuáles hay y se nos provee un link a la página del tracker del proyecto Exodus Privacy.
+  49: ![rastreadores](./capturas_de_pantalla/mobsf/7-trackers.png)
+  50  
