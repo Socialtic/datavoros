@@ -63,7 +63,7 @@ Revisa también el Código de Conducta para asegurar una colaboración ética, s
 
 # Licencia
 
-Todo el contenido de este repositorio está disponible bajo la licencia Creative Commons Attribution-ShareAlike No comercial 4.0 International (CC BY-SA 4.0).
+Todo el contenido de este repositorio está disponible bajo la licencia **Creative Commons Attribution-ShareAlike No comercial 4.0 International (CC BY-SA 4.0).**
 
 Consulta el apartado [LICENSE](#license) para más información.
 
