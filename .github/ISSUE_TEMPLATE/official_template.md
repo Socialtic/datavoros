@@ -1,4 +1,12 @@
-# ISSUE\_TEMPLATE
+---
+name: Plantilla de Issue
+about: Reportar errores, sugerir apps o proponer mejoras en documentación
+title: "[ISSUE] "
+labels: enhancement
+assignees: ''
+---
+
+# ISSUE TEMPLATE
 
 Esta plantilla te ayudará a **reportar errores, sugerencias o nuevas aplicaciones** para analizar de forma clara y útil para la comunidad.
 
