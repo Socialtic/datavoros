@@ -39,7 +39,7 @@ Este repositorio forma parte de la infraestructura comunitaria del proyecto Dat�
 * Tablas de rastreadores, permisos críticos y observaciones técnicas.  
 * Plantillas y tutoriales para replicar análisis.
 
-# Caso de uso
+## Caso de uso
 
 **Ejemplo:** Activista digital analiza app de salud pública
 
@@ -57,7 +57,7 @@ Puede colaborar mediante:
 
 También puede escribirnos a: [**datavoros@socialtic.org**](mailto:seguridad@socialtic.org)
 
-Agradecemos también cualquier recurso adicional que pueda fortalecer la práctica forense en la sociedad civil, aún cuando sigan formatos distintos a los presentados en el marco de referencia Diátaxis.
+Agradecemos también cualquier recurso adicional que pueda fortalecer la metodología de auditoria de recolección y uso de datos de aplicaciones móviles en la sociedad civil, aún cuando sigan formatos distintos a los presentados en el marco de referencia Diátaxis.
 
 Revisa también el Código de Conducta para asegurar una colaboración ética, segura e inclusiva.
 
