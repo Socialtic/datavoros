@@ -10,11 +10,17 @@
 La aplicación AirDroid Wizard Parental Control presenta múltiples señales de alertas criticas que pueden comprometer tanto la seguridad digital como la protección de los derechos digitales de la infancia. La aplicación presenta una combinación de prácticas riesgosas, opacidad técnica y posibles intenciones maliciosas que deben ser consideradas.
 
 Entre los hallazgos más relevantes destacan:
+
 - La aplicación **no está disponible en Google Play Store** y solo puede descargarse desde un enlace externo en formato .apk, evitando los controles de seguridad estándar.
+
 - Se identificó la presencia de **al menos 19 permisos sensibles no declarados** en su política de privacidad, incluyendo acceso a notificaciones, lectura del almacenamiento interno, entre otros, lo cual representa una **violación directa a principios de transparencia y consentimiento informado**.
+
 - La app **no posee dominio asociado conocido**, dificultando su trazabilidad y fiscalización.
+
 - Su funcionalidad se limita a **reenviar datos a una app secundaria**, sin ofrecer herramientas útiles al usuario primario (infancias), lo cual **refuerza su carácter de software de control encubierto**.
+
 - La posibilidad de **ocultar tanto notificaciones como el ícono de la aplicación** evidencia intenciones de operar de forma invisible, comportamiento característico de **stalkerware o spyware**.
+
 - Se detectó además una fuerte presencia de **Tencent, empresa tecnológica china**, dentro de la arquitectura técnica de la aplicación, lo cual puede tener implicaciones en los datos, especialmente tratándose de información sensible de menores.
 
 ## Archivos analizados
@@ -60,7 +66,9 @@ AirDroid Parental Control es su herramienta definitiva para monitorear los dispo
 | [Google](https://marketingplatform.google.com/about/analytics/)             | Publicidad (Ads), analíticas (Google Analytics) |
 | [Obehosting AB](https://www.obe.net/)                                       | Servicios en la nube                            |
 
+
 - En el análisis identificamos diversos tipos de empresas que se relacionan directamente con la aplicación, entre las que destacan son empresas dedicadas a los servicios de telecomunicaciones, servicios de resguardo de información en la nube y puntos de conexión web. 
+
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 No se mencionan explícitamente otras empresas como parte del procesamiento de datos, pero se dentro de su aviso de privacidad y dentro de la página web, se hace alusión a terceros y proveedores de servicios, además de la empresa desarrolladora de la aplicación que es [Sand Studio](https://sandstudio.co/)
@@ -98,6 +106,7 @@ No se mencionan explícitamente otras empresas como parte del procesamiento de d
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
 - Tras el análisis con MobFS, se identificó que la aplicación solicita un conjunto amplio de permisos, varios de ellos se consideran sensibles desde una perspectiva de seguridad ya que solicita **permisos para la descarga e instalación de paquetes de terceros y leer el almacenamiento externo**, esto puede vulnerar la seguridad de dispositivo.
+
 ### Permisos solicitados durante el uso de la aplicación
 
 - :red_circle: Accesibilidad/Lector de pantalla
@@ -152,7 +161,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 192.36.143.130  | 10                 | Sweden        |             | Svensk Teleutveckling & Producktinnovation, STUPI AB |         |
 | 192.178.52.138  | 22                 | United States |             | GOOGLE                                               |         |
 | 193.182.111.13  | 5                  | Sweden        |             | Obehosting AB                                        |         |
+
 - La tabla de conexiones muestra los servidores remotos que se identificaron mediante el análisis de tráfico de red, se detectó que la aplicación estable conexiones constantes y de gran volumen con la empresa china Tencent alojada en Estados Unidos, además de tener algunos servidores en Suecia que operan como nodos de conexión y servicios de hosting.
+
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
 ![mapa](./mapa.png)
@@ -173,6 +184,7 @@ Al no encontrarse la aplicación en Google PlayStore, la página oficial indica 
 | Otros datos de rendimiento de la aplicación (no especificadas) | Funciones de la aplicación y estadísticas                                                                |
 | Dispositivo u otros IDs (no especificados)                     | Estadísticas                                                                                             |
 
+
 ### Prácticas de seguridad
 
 - No se pudieron encontrar recomendaciones de practicas de seguridad en la página oficial de la aplicación.
@@ -186,56 +198,80 @@ Al no encontrarse la aplicación en Google PlayStore, la página oficial indica 
 | Datos de uso: Actividad en la aplicación, eventos, funciones utilizadas.                   |
 | Datos de ubicación: GPS y señales para la ubicación de la infancia.                        |
 | Información de diagnóstico: Registro de errores y rendimiento.                             |
+
 - El análisis revela que los tipos de datos que la aplicación hace una recopilación bastante amplia del comportamiento de la persona usuaria dentro de la aplicación, esto puede contribuir a crear un perfil detallado de la persona usuaria. 
+
 ### Uso general de la información según la Política de privacidad
 
 El uso general que desde la política de privacidad se declara es:
+
 - Proveer y operar los servicios de control parental.
+
 - Monitorear la actividad de la infancia y el estado del dispositivo.
+
 - Mejorar el rendimiento, calidad y funcionalidad del producto.
+
 - Proveer soporte técnico y gestionar solicitudes de la persona usuaria.
+
 - Cumplir con obligaciones legales y regulatorias.
+
 - Detectar, prevenir y abordar incidentes de seguridad o fraude.
 
 #### Información compartida con terceros
 
 La aplicación declara que puede compartir la información de las personas usuarias con:
+
 - Proveedores de servicios como almacenamiento en la nube, análisis de datos, atención al cliente.
+
 - Autoridades legales o reguladoras, cuando es requerido por la ley.
+
 - Filiales o subsidiarias dentro del mismo grupo empresarial.
+
 - Terceros en caso de fusión, adquisición o venta de activos.
 
 ## Funciones particulares de la aplicación:
 
 Las funciones particulares que se encontraron en la aplicación tras el análisis son: 
+
 - **Supervisión de aplicaciones espía ocultas**  
     AirDroid permite a las madres, padres y personas cuidadoras visualizar todas las aplicaciones instaladas en el dispositivo del menor, incluyendo aquellas que podrían estar ocultas o disfrazadas. Esta función ayuda a identificar y eliminar posibles aplicaciones que podrían comprometer la seguridad del menor.
+
 - **Monitoreo de actividades en redes sociales sin acceso directo**  
     La aplicación ofrece la capacidad de supervisar la actividad del menor en plataformas como Instagram sin necesidad de acceder directamente a sus cuentas. Esto permite a las madres, padres y personas cuidadoras mantenerse informados sobre las interacciones sociales de sus hijos "sin invadir" su privacidad.
+
 - **Alertas instantáneas de contenido sensible**  
     AirDroid envía notificaciones en tiempo real cuando detecta palabras clave o contenidos específicos que podrían ser inapropiados o peligrosos, permitiendo a los padres, madres y personas cuidadoras actuar de manera oportuna.
+
 - **Detección de rastreo y amenazas de seguridad**  
     La aplicación incluye herramientas para identificar si en el dispositivo del menor hay intentos de acceso no autorizados, fortaleciendo así la seguridad digital de la persona usuaria.
+
 - **Historial y seguimiento de ubicación en tiempo real**  
     AirDroid proporciona un historial detallado de las ubicaciones visitadas por el menor y permite a los padres rastrear su ubicación en tiempo real, ofreciendo una capa adicional de seguridad
 
 ## Notas
 
 - Al investigar las empresas relacionadas se identifico que *Obehosting* tiene una reputación asociada con el desarrollo de herramientas fraudulentas.
+
 - Esta aplicación en especifico, **no se encuentra en la Google PlayStore**, solamente se encuentra en un enlace de descarga externo, como .apk lo cual es una práctica negativa en el desarrollo de aplicaciones.
+
 - Dentro de la aplicación, no se puede realizar nada, la aplicación solamente funciona como vinculo que envía datos a la aplicación de las personas cuidadoras.
+
 - Además, la aplicación permite ocultar las notificaciones y el icono de la misma en el dispositivo de la infancia.
 
 ## Conclusiones
 
 - **Asociación con prácticas fraudulentas :**  
     Se identificó que la empresa vinculada con la aplicación, _Obehosting_, posee una **reputación asociada con el desarrollo de herramientas fraudulentas**, lo que genera **alertas en cuanto a su confiabilidad** y posible incumplimiento de normativas legales y éticas.
+
 - **Distribución por canales no oficiales el cual representa un riesgo de seguridad:**  
     La aplicación **no se encuentra disponible en la Google Play Store**, lo cual impide cualquier tipo de verificación o revisión de seguridad por parte de plataformas oficiales. Solo es accesible a través de un **enlace externo en formato .apk**, práctica considerada riesgosa y fuera de los estándares recomendados en desarrollo de aplicaciones móviles.
+
 - **Ausencia de infraestructura identificable:**  
     Durante el análisis técnico **no se identificó ningún dominio asociado a la aplicación**, lo cual es inusual y preocupante. Esto indica una **falta de trazabilidad de su infraestructura digital**, dificultando la auditoría de sus servidores, responsables técnicos o canales de comunicación de datos.
+
 - **Funcionalidad mínima con enfoque unidireccional:**  
     La aplicación **no ofrece funcionalidades reales al usuario principal**, sino que actúa como un simple **puente de envío de datos hacia otra aplicación controlada por personas cuidadoras**. Esto plantea serias dudas sobre la finalidad legítima del software y **refuerza la hipótesis de que se trata de una herramienta de vigilancia**.
+
 - **Capacidad de operar encubiertamente:**  
     La aplicación permite **ocultar notificaciones y el propio icono en el dispositivo**, lo cual es una funcionalidad característica de aplicaciones diseñadas para operar sin el conocimiento del usuario objetivo, en este caso, las infancias. Este comportamiento **es consistente con herramientas de stalkerware o spyware**, especialmente preocupante en contextos donde el usuario es una persona menor de edad.
 ### Conclusión especifica
