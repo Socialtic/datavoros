@@ -5,10 +5,12 @@
 - **Análisis estático (mediante Exodus Privacy/MobFS):** 03 de abril 2025
 - **Análisis dinámico (mediante análisis de tráfico de red):**  04 de abril 2025
 - **Análisis Posteriores:** 
+
 ## Resumen de la aplicación
 
 La aplicación SeenLog, ha generado **numerosas quejas de usuarios** que indican que no cumple con lo prometido. 
 Entre los principales hallazgos tenemos:
+
 - Se encuentran **funciones bloqueadas**, **falta de visibilidad real del dispositivo objetivo** y constantes **requerimientos de pago** para acceder a funcionalidades adicionales. Estas quejas sugieren que la aplicación podría estar **engañando a los usuarios**, lo que la coloca en una situación de desconfianza y posibles prácticas fraudulentas.
 - Desde una perspectiva de **protección de datos**, la aplicación presenta **graves deficiencias**. Su **política de privacidad es vaga, ambigua y mal estructurada**, lo que es preocupante dado que la aplicación **monitorea ubicación en tiempo real** y otros datos sensibles. No se especifica qué tipo de **datos se recogen**, **con qué base legal se procesan**, ni qué **derechos tienen las personas usuarias**, especialmente en el caso de **menores**.
 - El **consentimiento** mencionado en la política es confuso, y no queda claro cómo se obtiene **ni si se cumple con las normativas de privacidad**, lo que podría implicar una **violación del derecho a la privacidad**, especialmente si se está monitoreando a personas sin su consentimiento explícito. Además, la aplicación **no explica cómo protege los datos** ni cuánto tiempo los retiene, ni si se implementan medidas de seguridad adecuadas, como **cifrado o anonimización**.
@@ -51,7 +53,9 @@ SeenLog analiza sus actividades en línea y le envía notificaciones instantáne
 
 [Enlace al reporte de Exodus Privacy](https://reports.exodus-privacy.eu.org/es/reports/com.app.seenlog/latest/)
 
- - El reporte de Exodus Privacy indica que la aplicación utiliza diversas herramientas de analítica, informe de fallas, ubicación y para tener un publicidad personalizada para la persona usuaria, esto la aplicación lo declara para mejorar la experiencia de uso de la persona usuaria.
+
+El reporte de Exodus Privacy indica que la aplicación utiliza diversas herramientas de analítica, informe de fallas, ubicación y para tener un publicidad personalizada para la persona usuaria, esto la aplicación lo declara para mejorar la experiencia de uso de la persona usuaria.
+
 ## Empresas relacionadas con esta aplicación:
 
 | Empresa                                                | Servicios que ofrecen                    |
@@ -59,7 +63,9 @@ SeenLog analiza sus actividades en línea y le envía notificaciones instantáne
 | [Amazon](https://aws.amazon.com/es/?nc2=h_lg)          | Publicidad, servicios en la nube (AWS)   |
 | [Facebook](https://about.meta.com/ltam/)               | Publicidad, integración de APIs sociales |
 | [Akamai International B.V.](https://www.akamai.com/es) | Servicios de la nube                     |
-- En el análisis identificamos diversos tipos de empresas que se relacionan directamente con la aplicación, destacan empresas que tratan datos personales con fines comerciales o publicitarios, además de que *Akamai International B.V.* esta enlistado como procesador de datos.
+
+En el análisis identificamos diversos tipos de empresas que se relacionan directamente con la aplicación, destacan empresas que tratan datos personales con fines comerciales o publicitarios, además de que *Akamai International B.V.* esta enlistado como procesador de datos.
+
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
 
 - **Google Analytics**: Utilizado para monitorear y analizar el uso de la aplicación.
@@ -70,6 +76,7 @@ SeenLog analiza sus actividades en línea y le envía notificaciones instantáne
 - **Facebook**: Emplea servicios de remarketing y publicidad personalizada.
 
 En el análisis de las empresas encontradas según la política de privacidad, se encuentra un modelo intensivo de recolección de datos, tanto funcionales como para marketing, las empresas que destacan son de marketing, esto indica una estrategia para la monetización de datos de la persona usuaria.
+
 ### Dominios integrados al código de la aplicación que no pertenecen directamente a los rastreadores
 
 | Dominios                                |
@@ -89,11 +96,14 @@ En el análisis de las empresas encontradas según la política de privacidad, s
 | https://docs.revenuecat.com             |
 | https://web.whatsapp.com                |
 | www.w3.org                              |
-- Los dominios encontrados nos indican que la aplicación tiene una fuerte dependencia a servicios de terceros, se destacan los **servicios de monetización, gestión de pagos y suscripciones, analítica y herramientas de desarrollo web.** Estos dominios no son declarados en la política de privacidad.
+
+Los dominios encontrados nos indican que la aplicación tiene una fuerte dependencia a servicios de terceros, se destacan los **servicios de monetización, gestión de pagos y suscripciones, analítica y herramientas de desarrollo web.** Estos dominios no son declarados en la política de privacidad.
+
 ## Permisos   
 
 - **Según Exodus Privacy/MobFS:** 15
 - **Según prueba de uso:** 0
+
 ### Permisos según Exodus Privacy
 
 - ACCESS_ADSERVICES_AD_ID
@@ -116,7 +126,8 @@ En el análisis de las empresas encontradas según la política de privacidad, s
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
-- La aplicación solicita diversos permisos que cubren funcionalidades de operación y publicidad, algunos de ellos son esenciales para le funcionamiento de la aplicación, otros son riesgosos para la privacidad de la persona usuaria como el **acceso al almacenamiento externo** de la persona usuaria, además no se encuentran declarados en la política de privacidad, ni en los términos de uso.
+La aplicación solicita diversos permisos que cubren funcionalidades de operación y publicidad, algunos de ellos son esenciales para le funcionamiento de la aplicación, otros son riesgosos para la privacidad de la persona usuaria como el **acceso al almacenamiento externo** de la persona usuaria, además no se encuentran declarados en la política de privacidad, ni en los términos de uso.
+
 ### Permisos solicitados durante el uso de la aplicación
 
 - **No solicita ningún permiso para el uso de esta aplicación**
@@ -151,7 +162,9 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 | 157.240.244.14 | 21                 | México        | Apodaca        | Facebook                   |         |
 | 157.240.244.60 | 105                | México        | Apodaca        | Facebook                   |         |
 | 184.28.41.82   | 28                 | United States | Dallas         | Akamaki International B.V. |         |
--  La tabla de conexiones muestra los servidores remotos que se identificaron mediante el análisis de tráfico de red, se detectó la presencia de servidores de *Amazon y Facebook* que indica una recolección de datos para la personalización de publicidad o el seguimiento del comportamiento de la persona usuaria. Así como proveedores de infraestructura de servicios en la nube, distribución de los mismos y gestión del trafico de red de la aplicación.
+
+La tabla de conexiones muestra los servidores remotos que se identificaron mediante el análisis de tráfico de red, se detectó la presencia de servidores de *Amazon y Facebook* que indica una recolección de datos para la personalización de publicidad o el seguimiento del comportamiento de la persona usuaria. Así como proveedores de infraestructura de servicios en la nube, distribución de los mismos y gestión del trafico de red de la aplicación.
+
 ### Mapa de conexiones realizadas durante el uso de la aplicación
 
 ![mapa](./mapa.png)
@@ -165,7 +178,9 @@ Google PlayStore indica que los datos recopilados por la aplicación son los enl
 | ------------------------------------------------------------- | ------------------------------------------------------------- |
 | Número de teléfono                                            | Funciones de la aplicación y gestión de cuenta                |
 | IDs de dispositivo o de otro tipo                             | Funciones de la aplicación, análisis y gestión de la cuenta   |
-- Los datos declarados en la Google PlayStore concuerdan con los solicitados en la aplicación al momento de su uso.
+
+Los datos declarados en la Google PlayStore concuerdan con los solicitados en la aplicación al momento de su uso.
+
 ### Datos compartidos y uso según la PlayStore
 
 ### Prácticas de seguridad
@@ -181,10 +196,12 @@ Google PlayStore indica que los datos recopilados por la aplicación son los enl
 | Datos recopilados automáticamente: Dirección IP, Tipo y versión del navegador, páginas vistadas                            |
 | Información del dispositivo: Modelo, sistema operativo, resolución de pantalla, país, idioma, zona horaria, operador móvil |
 | Información de la aplicación: nombre, versión, SDK, etc.                                                                   |
--  La aplicación recopila datos personales, técnicos y de comportamiento de la persona usuaria, así como datos del dispositivo usado, el cual puede crear un perfilamiento y, aunque es congruente con lo declarado en la Google PlayStore, la política de privacidad declara más datos.
+La aplicación recopila datos personales, técnicos y de comportamiento de la persona usuaria, así como datos del dispositivo usado, el cual puede crear un perfilamiento y, aunque es congruente con lo declarado en la Google PlayStore, la política de privacidad declara más datos.
+
 ### Uso general de la información según la Política de privacidad
 
 El uso general que desde la política de privacidad se declara es:
+
 - Operación y mantenimiento de la aplicación y sus funcionalidades.
 - Gestión de cuentas de usuario, incluyendo registro, inicio de sesión y sincronización.
 - Análisis de uso para mejorar el servicio y la experiencia del usuario.
@@ -196,6 +213,7 @@ El uso general que desde la política de privacidad se declara es:
 #### Información compartida con terceros
 
 La aplicación declara que puede compartir la información de las personas usuarias con:
+
 - Terceros contratados para facilitar el servicio, como proveedores de hosting, análisis de datos o atención al cliente.​
 - Empresas relacionadas bajo control común con AppSense Limited.​
 - Cuando sea necesario para cumplir con obligaciones legales o responder a solicitudes de autoridades competentes.​
@@ -206,12 +224,14 @@ La política también menciona que los datos pueden ser compartidos con terceros
 ## Funciones particulares de la aplicación:
 
 Las funciones particulares que se encontraron en la aplicación tras el análisis son: 
+
 - Recordatorios inteligentes: La aplicación puede enviar notificaciones personalizadas para alentar al usuario a registrar sus emociones o eventos importantes, basándose en patrones de uso y preferencias.
 - **Sincronización contextual con el estado del dispositivo**: La aplicación puede adaptarse al estado del dispositivo, como el modo silencio, para ofrecer una experiencia más personalizada y menos intrusiva.
 
 ## Notas
 
-- Los comentarios de la Google PlayStore señalan que es un tipo de estafa, ya que no pueden ver realmente lo que la aplicación dice que hará, así como requerimiento de pagos constantemente para el "funcionamiento de la aplicación"
+- Los comentarios de la Google PlayStore señalan que es un tipo de estafa, ya que no pueden ver realmente lo que la aplicación dice que hará, así como requerimiento de pagos constantemente para el "funcionamiento de la aplicación".
+
 ## Conclusiones
 
 - **Quejas de los usuarios en Google PlayStore**
@@ -227,6 +247,9 @@ Las funciones particulares que se encontraron en la aplicación tras el análisi
 	- Se menciona el consentimiento como base legal para recopilar datos, pero **no hay claridad sobre cómo se obtiene**, especialmente si hablamos de monitorear a otra persona.
 	- Si se usa para vigilar a menores u otros adultos sin consentimiento explícito, esto puede **vulnerar derechos fundamentales y representar una violación directa del derecho a la privacidad.**
 	- Esta aplicación **no especifica cómo protege estos datos**, ni cuánto tiempo los almacena, ni si hay medidas de seguridad activas como cifrado o anonimización.
-### Conclusión especifica
+
+### Conclusión final
+
 SeenLog se presenta como una aplicación de localización familiar, pero tanto su diseño como sus prácticas parecen estar más orientadas a explotar la preocupación parental para capturar datos y generar ingresos. No sólo falla en términos de usabilidad según sus propios usuarios, sino que incumple estándares básicos de privacidad, transparencia y legalidad.
-- Esta aplicación **no es recomendable bajo ningún escenario**.
+
+Esta aplicación **no es recomendable bajo ningún escenario**.
