@@ -6,6 +6,11 @@
 - **Análisis dinámico (mediante análisis de tráfico de red):** 
 - **Análisis Posteriores:** 
 
+## Resumen de la aplicación
+
+Resumen del análisis técnico de la aplicación y un listado de los hallazgos identificados, **se debe llenar una vez concluido el análisis**.
+
+
 ## Archivos analizados
 
 - [apk versión ###]()
@@ -36,24 +41,40 @@ Descripción de la PlayStore
 |---|---|
 |[A]()|información|
 
-Enlace al reporte de Exodus Privacy   
+Los rastreadores de esta aplicación (descripción del propósito de los rastreadores que se identificaron)... 
+
+[Enlace al reporte de Exodus Privacy]()
 
 ## Empresas relacionadas con esta aplicación:
+
+El análisis indica que las siguientes empresas están relacionadas con la recolección de datos de la aplicación. 
+
+Estas empresas prestan servicios variados como infraestructura y almacenamiento de datos en la nube, desarrollo de la aplicación, servicios de publicidad y marketing, etc.
+
 
 |Empresa|Servicios que ofrecen|
 |---|---| 
 |[A]()|información|
 
+
 ### Empresas identificadas a través del Aviso de Privacidad con que se comparten datos:
+
+La aplicación declara en el Aviso de Privacidad que comparte datos con la siguientes empresas para fines de soporte, infraestructura o publicidad:
+
 
 - [a]()
 - [b]()
 - [c]()
 
+*En caso de que no se revele empresas con las que se compartan datos, hacer una nota que relacionando con los datos obtenidos a través del análisis de Endpoints de Wireshark.*
+
+
 ### Dominios integrados al código de la aplicación que no pertecen directamente a los rastreadores
 
 |Dominios|
 |---|
+
+Estos dominios indican que la aplicación se conecta con múltiples plataformas externas para fines técnicos, analíticas, publicidad y soporte.
 
 ## Permisos   
 
@@ -70,6 +91,8 @@ Enlace al reporte de Exodus Privacy
 
 El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los [niveles de protección de Google](https://developer.android.com/guide/topics/permissions/overview). 
 
+*Observación respecto a la cantidad de permisos que tiene la aplicación, destacar si algun permiso es intrusivo o desproporcionado...*
+
 ### Permisos solicitados durante el uso de la aplicación
 
 - :red_circle: a
@@ -85,14 +108,15 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 
 #### Datos solicitados durante el registro
 
-- :blue_circle: Para los reportes de Asistencia ciudadana:
+- :blue_circle: 
+
     - :red_circle: a
     - :blue_circle: b
     - c
 
 ### Datos solicitados al usuario durante el uso de la aplicación
 
-- :blue_circle: Para los reportes de Asistencia ciudadana:
+- :blue_circle: 
     - :red_circle: a
     - :blue_circle: b
     - c
@@ -143,6 +167,10 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - b
 - c
 
+*Es necesario explicar las prácticas de seguridad.*
+
+*Puedes destacar en una nota si no hay información acerca del proceso de eliminación de datos de la aplicación.*
+
 ### Datos recopilados y uso según la Política de privacidad
 
 |Datos|
@@ -161,6 +189,7 @@ El icono :exclamation: indica un nivel 'Peligroso' o 'Especial' de acuerdo a los
 - c
 
 ## Funciones particulares de la aplicación:
+
 *Describir funciones inusuales en contraste con las demás aplicaciones similares*
 
 ### Función
@@ -178,5 +207,5 @@ Información
 
 ## Conclusiones
 
-### Conslusión especifica
+### Conclusión final
 
